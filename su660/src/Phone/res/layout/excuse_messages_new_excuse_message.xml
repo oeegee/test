@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText android:layout_width="fill_parent"
+		android:selectAllOnFocus="false" android:ellipsize="middle"
+		android:id="@+id/EditExMsg" android:lines="100" android:typeface="normal"
+		android:gravity="top|left" android:imeOptions="normal|actionGo|actionSend|actionDone"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:focusable="true" android:focusableInTouchMode="true">
+	</EditText>
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:isScrollContainer="true" android:orientation="horizontal">
+		<Button android:layout_gravity="left" android:id="@+id/EditExMsgSave"
+			android:focusable="false" android:layout_height="wrap_content"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:text="@string/excuse_messages_btn_save">
+		</Button>
+		<Button android:layout_gravity="right" android:id="@+id/EditExMsgCancel"
+			android:focusable="false" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/excuse_messages_btn_cancel">
+		</Button>
+	</LinearLayout>
+
+</LinearLayout>

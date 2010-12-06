@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LGE_MERGE_S -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_list">
+    
+    <Button 
+    android:id="@+id/bt_new_message_incall" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp" 
+    android:layout_marginLeft="10dp"
+    android:visibility="gone" 
+    android:text="@string/excuse_messages_new_message">
+    </Button>
+    
+  	<TextView 
+    android:id="@+id/tv_no_messages"
+    android:visibility="invisible"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:gravity="center" 
+    android:textStyle="bold" android:text="@string/str_no_messages" 
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+    
+    <TableLayout 
+    android:id="@+id/table_listview"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/tv_title"
+    android:paddingTop="80dp"  
+    android:paddingBottom="60dp" 
+    android:layout_marginLeft="4dp" 
+    android:layout_marginRight="4dp">
+    	
+    	<TableRow>
+		
+			<ListView
+			android:id="@+id/listView"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			></ListView>
+			
+			<ListView 
+			android:id="@android:id/list"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:scrollbars="vertical" 
+		    android:visibility="gone"
+		    ></ListView>
+
+			
+    	</TableRow>    	
+    </TableLayout>
+
+	<LinearLayout android:id="@+id/tl_multi_menu"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_weight="1" android:layout_gravity="center"
+		android:visibility="invisible" android:layout_alignParentBottom="true"
+		style="@android:style/ButtonBar">
+		<Button android:layout_height="wrap_content" android:id="@+id/bt_delete"
+			android:text="@string/excuse_messages_btn_delete"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:layout_gravity="center" android:textSize="18sp" />
+		<Button android:layout_height="wrap_content" android:id="@+id/bt_cancel"
+			android:text="@string/excuse_messages_btn_cancel"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:layout_gravity="center_vertical|center_horizontal|center"
+			android:textSize="18sp" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/tl_multi_menu_add"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_weight="1" android:layout_gravity="center"
+		android:layout_alignParentBottom="true" style="@android:style/ButtonBar"
+		android:visibility="visible">
+		<Button android:layout_height="wrap_content" android:id="@+id/bt_add"
+			android:text="@string/excuse_messages_new_message"
+			android:layout_width="match_parent" android:layout_weight="1"
+			android:layout_gravity="center" android:textSize="18sp" />
+	</LinearLayout>
+
+</RelativeLayout>
+<!-- LGE_MERGE_E -->

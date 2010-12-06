@@ -1,0 +1,16 @@
+[hub :: VOIP]
+양방향 ( LGE/U+ <--> 3rd Party ) 커뮤니케이션 전달 처리
+일정 및 이슈 점검
+Apk 품질 테스트
+TD 처리
+git 반영
+Phone Binary Full Buid
+
+
+[star :: VE]
+양방향 ( LGE <--> 3rd Party ) 커뮤니케이션 전달 처리
+App 설계 및 구현
+Apk 품질 테스트
+TD 처리
+git 반영
+Phone Binary Full Buid

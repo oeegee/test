@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Knappsats"</string>
+	<string name="vt_Hold">"Parkera"</string>
+	<string name="vt_Mute">"Ljud av"</string>
+	<string name="vt_Private">"Privat"</string>
+	<string name="vt_Show">"Visa"</string>
+	<string name="vt_Speaker">"Högtalare"</string>
+	<string name="vt_bad_response">"Felaktigt svar. Försök senare."</string>
+	<string name="vt_call_barred">"Samtalet är spärrat"</string>
+	<string name="vt_call_ended">"Videosamtalet avslutades"</string>
+	<string name="vt_camera_brightness_entry_high">"Hög"</string>
+	<string name="vt_camera_brightness_entry_low">"låg"</string>
+	<string name="vt_camera_brightness_entry_middle">"Medel"</string>
+	<string name="vt_camera_brightness_title">"Ljusstyrka"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Negativ"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Av"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sepia"</string>
+	<string name="vt_camera_coloureffect_title">"Färgeffekt"</string>
+	<string name="vt_camera_night_entry_off">"Av"</string>
+	<string name="vt_camera_night_entry_on">"På"</string>
+	<string name="vt_camera_night_title">"Nattläge"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Automatiskt"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Molnigt"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Lysrörsljus"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Glödlampsljus"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Solsken"</string>
+	<string name="vt_camera_whitebalance_title">"Vitbalans"</string>
+	<string name="vt_camera_zoom_title">"Zoom"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"VT-samtal kan inte användas. Anslut till röstsamtal"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"VT-samtal kan inte användas. Anslut till röstsamtal"</string>
+	<string name="vt_end">"Avsluta"</string>
+	<string name="vt_fallback">"Gå tillbaka till röst"</string>
+	<string name="vt_far_image_capture">"Använd far-end-bild"</string>
+	<string name="vt_incoming_call">"Inkommande videosamtal"</string>
+	<string name="vt_invalid_number">"Ogiltigt nummer"</string>
+	<string name="vt_mode_control">"Lägeskontroll"</string>
+	<string name="vt_near_image_capture">"Använd near-end-bild"</string>
+	<string name="vt_no_answer">"Inget svar"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Kamerainställning"</string>
+	<string name="vt_option_capture">"Ta bild"</string>
+	<string name="vt_option_use_2nd_camera">"Använd bakre kamera"</string>
+	<string name="vt_option_use_main_camera">"Använd främre kamera"</string>
+	<string name="vt_set_private_image">"Ange privat bild"</string>
+	<string name="vt_set_speaker">"Ange högtalartelefon"</string>
+	<string name="vt_settings">"Videosamtalsinställningar"</string>
+	<string name="vt_use_private_image">"Använd privat bild"</string>
+</resources>

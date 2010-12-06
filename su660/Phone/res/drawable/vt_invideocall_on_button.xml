@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- 
+ For 3 Buttons - Private/Mute/Speaker 
+====================================================
+ vt_btn_in_call_switch_off_normal/selected/pressed/focused.9.png
+ vt_btn_in_call_switch_off_disable.9.png , vt_btn_in_call_switch_off_disable_focused.9.png
+ vt_btn_in_call_switch_on_normal/selected/pressed/focused.9.png
+ vt_btn_in_call_switch_on_disable.9.png , vt_btn_in_call_switch_on_disable_focused.9.png
+ vt_btn_in_call_switch_off_diml.9.png
+ 
+====================================================
+@Since 2010/08/23
+====================================================
+--> 
+
+
+
+<!-- StateListDrawable used for buttons in the in-call onscreen touch UI. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- enable true, if focuses is true or false -->
+    <item android:state_enabled="true" android:state_focused="false" 
+        android:drawable="@drawable/vt_btn_in_call_switch_on_normal" />
+    <item android:state_enabled="true" android:state_focused="true" 
+        android:drawable="@drawable/vt_btn_in_call_switch_on_focused" />
+	
+	<!-- enable false, if focuses is true or false -->
+    <item android:state_enabled="false" android:state_focused="false" 
+        android:drawable="@drawable/vt_btn_in_call_switch_on_disable" />
+	<item android:state_enabled="false" android:state_focused="true" 
+        android:drawable="@drawable/vt_btn_in_call_switch_on_disable_focused" />
+    
+    
+    <!-- button pressed -->
+    <item android:state_pressed="true" 
+        android:drawable="@drawable/vt_btn_in_call_switch_on_pressed" />
+
+	<!-- button selected -->
+	<item android:state_selected="true"
+        android:drawable="@drawable/vt_btn_in_call_switch_on_selected" />
+
+	<!-- dim image -->
+	
+
+    <!--  normal image -->
+    <item
+        android:drawable="@drawable/vt_btn_in_call_switch_on_normal" />
+
+</selector>

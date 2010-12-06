@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.android.phone"
+        android:sharedUserId="android.uid.phone"
+        android:sharedUserLabel="@string/dialerIconLabel"
+>
+
+    <original-package android:name="com.android.phone" />
+
+    <protected-broadcast android:name="android.intent.action.SERVICE_STATE" />
+    <protected-broadcast android:name="android.intent.action.RADIO_TECHNOLOGY" />
+    <protected-broadcast android:name="android.intent.action.EMERGENCY_CALLBACK_MODE_CHANGED" />
+    <protected-broadcast android:name="android.intent.action.SIG_STR" />
+    <protected-broadcast android:name="android.intent.action.ANY_DATA_STATE" />
+    <protected-broadcast android:name="android.intent.action.DATA_CONNECTION_FAILED" />
+    <protected-broadcast android:name="android.intent.action.SIM_STATE_CHANGED" />
+    <protected-broadcast android:name="android.intent.action.NETWORK_SET_TIME" />
+    <protected-broadcast android:name="android.intent.action.NETWORK_SET_TIMEZONE" />
+    <protected-broadcast android:name="android.intent.action.ACTION_SHOW_NOTICE_ECM_BLOCK_OTHERS" />
+    <protected-broadcast android:name="android.intent.action.ACTION_MDN_STATE_CHANGED" />
+    <protected-broadcast android:name="android.provider.Telephony.SPN_STRINGS_UPDATED" />
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <uses-permission android:name="android.permission.BROADCAST_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 100901, gunwoo1.kim@lge.com, FactoryTestService [START] -->
+    <uses-permission android:name="android.permission.MASTER_CLEAR" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.FACTORY_TEST" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <!-- 100901, gunwoo1.kim@lge.com, FactoryTestService [END] -->
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <!-- LGE_STK_BASIC START -->
+    <uses-permission android:name="android.permission.stk.SEND_COMMAND" />
+    <uses-permission android:name="android.permission.stk.RECEIVE_RESPONSE" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SET_USER_ACTIVITY_WATCHER"/>
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- LGE_STK_BASIC END -->
+    
+	<!-- LGE_VT -->
+    <uses-permission android:name="android.permission.VIDEO_CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_VIDEO_CALLS" />
+    <!-- LGE_VT --> 
+    <!-- LGE_PREFERRED_NETWORKS_FEATURE START -->
+    <uses-permission android:name="android.permission.preferred_networks.READ_LIST" />
+    <uses-permission android:name="android.permission.preferred_networks.WRITE_LIST" />
+    <!-- LGE_PREFERRED_NETWORKS_FEATURE END -->
+    
+    <!-- This tells the activity manager to not delay any of our activity
+         start requests, even if they happen immediately after the user
+         presses home. -->
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+    <!-- ANDY_PORTING LGDRM [lg-drm@lge.com 100414] -->
+    <uses-permission android:name="android.permission.ACCESS_LGDRM" />
+    <!-- ANDY_END -->
+
+	<!-- jongwany.lee@lge.com START FUNCTION FOR EXCUSE MESSAGE -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+  <!-- 20101020 wonho.moon@lge.com <mailto:wonho.moon@lge.com> [LOCK] to read Lock configuratiion from PhoneMenu [START_LGE_LAB] -->
+    <uses-permission android:name="com.lge.providers.lglock.permission.READ_ONLY" />
+  <!-- 20101020 wonho.moon@lge.com <mailto:wonho.moon@lge.com> [LOCK] to read Lock configuratiion from PhoneMenu [END_LGE_LAB] -->
+
+    <application android:name="PhoneApp"
+                 android:persistent="true"
+                 android:label="@string/dialerIconLabel"
+                 android:icon="@drawable/ic_launcher_phone">
+            <provider android:name="IccProvider"
+                      android:authorities="icc"
+                      android:multiprocess="true"
+                      android:readPermission="android.permission.READ_CONTACTS"
+                      android:writePermission="android.permission.WRITE_CONTACTS" />
+
+        <!-- Dialer UI that only allows emergency calls -->
+        <activity android:name="EmergencyDialer"
+            android:label="@string/emergencyDialerIconLabel"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="com.android.phone.EmergencyDialer.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--  2010.10.20 minji.bae@lge.com Domestic - Add Emergency List [START_LGE_LAB1] -->
+        <activity android:name="EmergencyList"
+            android:label="@string/emergencyListLabel"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.NoTitleBar">
+        <intent-filter>
+            <action android:name="com.android.phone.EmergencyList.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        <!--  2010.10.20 minji.bae@lge.com Domestic - Add Emergency List [END_LGE_LAB1] -->
+
+        <activity android:name="ADNList" />
+
+        <activity android:name="SimContacts"
+            android:label="@string/simContacts_title">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/sim-contact" />
+            </intent-filter>
+        </activity>
+
+        <!-- LGE_PHONEBOOK_EXTENSION START -->
+        <activity android:name="PhoneContacts"
+            android:label="@string/phoneContacts_title">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/sim-contact" />
+            </intent-filter>
+        </activity>
+        <!-- LGE_PHONEBOOK_EXTENSION END -->
+
+        <activity android:name="FdnList" android:label="@string/fdnListLabel">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/sim-contact" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="OutgoingCallBroadcaster"
+                android:permission="android.permission.CALL_PHONE"
+                android:theme="@android:style/Theme.NoDisplay"
+                android:configChanges="orientation|keyboardHidden">
+            <!-- CALL action intent filters, for the various ways
+                 of initiating an outgoing call. -->
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+ 	       	<!-- LGE_VT START -->
+             <intent-filter>
+                <action android:name="android.intent.action.VIDEO_CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+ 	       	<!-- LGE_VT END -->
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="voicemail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/phone_v2" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+             <intent-filter>
+                <action android:name="android.intent.action.VIDEO_CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/phone_v2" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias android:name="EmergencyOutgoingCallBroadcaster"
+                android:targetActivity="OutgoingCallBroadcaster"
+                android:permission="android.permission.CALL_PRIVILEGED"
+                android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_EMERGENCY" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_EMERGENCY" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="voicemail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_EMERGENCY" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias android:name="PrivilegedOutgoingCallBroadcaster"
+                android:targetActivity="OutgoingCallBroadcaster"
+                android:theme="@android:style/Theme.NoDisplay"
+                android:permission="android.permission.CALL_PRIVILEGED">
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIDEO_CALL_PRIVILEGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="voicemail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_PRIVILEGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+		<data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIDEO_CALL_PRIVILEGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/phone_v2" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+        </activity-alias>
+
+        <receiver android:name="ProcessOutgoingCallTest" android:exported="false"
+            android:enabled="false">
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.NEW_OUTGOING_VIDEO_CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+<!-- 20101020 wonho.moon@lge.com <mailto:wonho.moon@lge.com> make PreInCallScreen activity  [START_LGE_LAB] -->
+        <activity android:name="PreInCallScreen"
+                  android:label="@string/phoneIconLabel"
+                  android:theme="@style/Theme.Translucent"
+                  android:permission="android.permission.CALL_PHONE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- category android:name="android.intent.category.LAUNCHER" / -->
+            </intent-filter>
+        </activity>
+<!-- 20101020 wonho.moon@lge.com <mailto:wonho.moon@lge.com> make PreInCallScreen activity  [END_LGE_LAB] -->
+
+        <activity android:name="InCallScreen"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/phoneIconLabel"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false">
+        </activity>
+
+        <activity android:name="InVideoCallScreen"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/phoneIconLabel"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false">
+        </activity>
+        
+        <activity android:name="InCallScreenShowActivation"
+            android:permission="android.permission.PERFORM_CDMA_PROVISIONING"
+            android:label="@string/phoneIconLabel"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.android.phone.InCallScreen.SHOW_ACTIVATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- general settings -->
+        <activity android:name="Settings" android:label="@string/settings_label">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.DATA_ROAMING_SETTINGS" />
+            </intent-filter>
+        </activity>
+
+        <!-- networks setting -->
+        <!-- service to handle network query requests sent to RIL -->
+        <service android:name="NetworkQueryService" />
+
+        <activity android:name="NetworkSetting"
+            android:label="@string/networks"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.NETWORK_OPERATOR_" />
+            </intent-filter>
+        </activity>
+
+        <!-- LGE_PREFERRED_NETWORKS_FEATURE START -->
+        <activity android:name="PreferredNetworksListActivity" android:label="@string/preferred_networks">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PreferredNetworksListEditActivity" android:label="@string/preferred_networks_edit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PreferredNetworkEditActivity" >
+
+        </activity>
+        <!-- LGE_PREFERRED_NETWORKS_FEATURE END -->
+
+        <activity android:name="GsmUmtsOptions"
+            android:label="@string/gsm_umts_options">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="CdmaOptions"
+            android:label="@string/cdma_options">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="GsmUmtsCallOptions"
+            android:label="@string/gsm_umts_options">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="CdmaCallOptions"
+            android:label="@string/cdma_options">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="GsmUmtsCallForwardOptions"
+            android:label="@string/labelCF"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="GsmUmtsAdditionalCallOptions"
+            android:label="@string/labelGSMMore"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="CellBroadcastSms"
+            android:label="@string/cell_broadcast_sms">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- fdn setting -->
+        <activity android:name="FdnSetting" android:label="@string/fdn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="EnableFdnScreen" android:label="">
+        </activity>
+
+        <!-- LGE_CALL_COSTS START -->
+        <activity android:name="CallCostSettings" android:label="@string/call_cost">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="CallCostSetLimitPreference" android:label="@string/call_cost">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="CallCostSetTariffPreference" android:label="@string/call_cost">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- LGE_CALL_COSTS END -->
+
+        <!-- 2010-03-15, Call Duration cutestar@lge.com -->
+        <!-- call duration setting -->
+        <activity android:name="CallDurationSetting" android:label="@string/call_duration_settings"
+        	android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- 2010-03-15, Call Duration cutestar@lge.com -->  
+
+        <!-- LGE_VT START -->
+        <activity android:name="com.android.phone.videophone.VTSetting" android:label="@string/vt_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- LGE_VT END -->
+        
+        <!-- 20100315 LGE EXCUSE_MESSAGES START_TELEWORKS_PARK HYUN UK -->
+               
+		<activity android:name=".ExcuseMessages" android:label="@string/excuse_messages">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+
+            <intent-filter>
+                <action android:name="com.lge.execusemsg.action.GET_EXCUSE_MSG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+		 
+		 
+		<activity android:name=".EditExMsg" android:label="@string/edit_excuse_message">
+		</activity>
+		
+		<provider android:name="com.android.phone.ExMsgProvider"
+        		  android:authorities="com.lge.provider.callsettings"/>
+         		  
+        <!-- 20100315 LGE EXCUSE_MESSAGES END_TELEWORKS_PARK HYUN UK -->
+        <!-- 20100805 jongwany.lee attached  -->
+
+        <!-- SIM PIN setting -->
+        <activity android:name="EnableIccPinScreen" android:label="@string/enable_pin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ChangeIccPinScreen" android:label="@string/change_pin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="GetPin2Screen" android:label="@string/get_pin2"
+                  android:windowSoftInputMode="stateVisible">
+        </activity>
+
+        <activity android:name="EditFdnContactScreen"
+                  android:windowSoftInputMode="stateVisible">
+        </activity>
+
+        <activity android:name="DeleteFdnContactScreen"
+        android:label="@string/delete_fdn_contact">
+        </activity>
+
+		
+        <activity android:name="DataRoamingReenable" android:label="@string/android:dialog_alert_title"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+ 		
+        <!-- Data usage and throttling setting -->
+         
+        <activity android:name="DataUsage"
+            android:label="@string/throttle_data_usage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+ 		
+        <!-- data roaming setting -->
+        
+        <activity android:name="RoamingSetting" android:label="@string/roaming">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+ 		
+        <!-- call feature setting -->
+        <activity android:name="CallFeaturesSetting" android:label="@string/call_settings"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.phone.CallFeaturesSetting.ADD_VOICEMAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- LGE_CALL_TRANSFER START -->
+<!-- LGE_CALL_DEFLECTION START -->
+		 <activity android:name=".SimpleCallDialog"
+                   android:label="@string/simple_call_dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+<!-- LGE_CALL_DEFLECTION END -->
+<!-- LGE_CALL_TRANSFER END -->
+<!-- LGE_BARRING START -->
+       <activity android:name=".SetCallBarringPass"
+                 android:label="@string/cb_set_passwd_title"
+                 android:theme="@android:style/Theme.Dialog">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+<!-- LGE_BARRING END -->>
+
+        <!-- 2010-02-23, CALL_BARRING_SWI : Call Barring  -->
+        <activity android:name="CallBarringSetting" android:label="@string/call_barring_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- END:  CALL_BARRING_SWI  -->
+
+ <!-- LGE_AUTO_REDIAL START -->
+        <!-- redial call handler, coordinates redial calls -->
+        <activity android:name="RedialCallHandler" android:label="@string/phoneIconLabel"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance">
+        </activity>
+
+        <activity android:name="BlackListSelectActivity"
+                  android:label="@string/black_list_dialog">
+        </activity>
+<!-- LGE_AUTO_REDIAL END -->
+        <!-- emergency call handler, coordinates emergency calls -->
+        <activity android:name="EmergencyCallHandler" android:label="@string/phoneIconLabel"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance">
+        </activity>
+
+        <!-- bluetooth headset service -->
+        <service android:name="BluetoothHeadsetService">
+            <intent-filter>
+                <action android:name="android.bluetooth.IBluetoothHeadset" />
+            </intent-filter>
+        </service>
+
+        <!-- Broadcast Receiver that will process BOOT Complete and launch OTA -->
+        <receiver android:name="OtaStartupReceiver" android:exported="false">
+            <intent-filter android:priority="100">
+                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- CDMA Emergency Callback Mode -->
+        <service android:name="EmergencyCallbackModeService">
+        </service>
+
+        <activity android:name="EmergencyCallbackModeExitDialog"
+            android:excludeFromRecents="true"
+            android:label="@string/ecm_exit_dialog"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.android.phone.action.ACTION_SHOW_ECM_EXIT_DIALOG" />
+                <action android:name="android.intent.action.ACTION_SHOW_NOTICE_ECM_BLOCK_OTHERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+<!-- LGE_MERGER_EXCUSE_MESSAGES_START -->
+<!-- jongwany.lee@lge.com START FUNCTION FOR EXCUSE MESSAGE -->
+
+        <activity 
+        	android:name=".ExcuseMessagesList"
+			android:label="@string/excuseMessages"
+			android:configChanges="orientation" />
+        <activity 
+			android:name=".ExcuseMessagesEdit"
+			android:label="@string/excuseMessages"
+			android:configChanges="orientation" />
+		<activity 
+			android:label="@string/excuseMessages" 
+			android:name=".ExcuseMessagesMulti"
+			android:configChanges="orientation" />
+<!--  20101027 wonho.moon@lge.com <mailto:wonho.moon@lge.com> Lock/UnLock Incoming Scenario [START_LGE_LAB] -->
+		<activity
+			android:name="InCallPasswordInput"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:label="@string/phoneIconLabel"
+			android:excludeFromRecents="true"
+			android:screenOrientation="nosensor"
+			android:configChanges="orientation|keyboardHidden"
+			android:exported="false" />
+<!--  20101027 wonho.moon@lge.com <mailto:wonho.moon@lge.com> Lock/UnLock Incoming Scenario [END_LGE_LAB] -->
+			
+		<receiver android:name=".CallEndReceiver" android:exported="true">
+           <intent-filter android:priority="200">
+               <action android:name="com.lge.phone.action.CALL_END" />
+               <category android:name="android.intent.category.DEFAULT" />
+           </intent-filter>
+<!-- sumi920.kim@lge.com VoiceCall End From HD VideoCall [START_LGE_LAB1]-->          
+           <intent-filter>
+               <action android:name="com.skt.skaf.ims.aoa.intent.action.ENDCALL_LIVESHARE" />
+           </intent-filter>
+<!-- sumi920.kim@lge.com VoiceCall End From HD VideoCall [END_LGE_LAB1]-->
+        </receiver>
+<!-- sumi920.kim@lge.com Receive HD VideoCall Enable Event From HD VideoCall [START_LGE_LAB1]-->               
+		<receiver android:name="InCallReceiver" android:exported="true">
+           <intent-filter android:priority="300">
+               <action android:name="com.skt.skaf.ims.aoa.intent.action.EVENT" />
+               <category android:name="android.intent.category.DEFAULT" />
+           </intent-filter>        
+        </receiver>           
+<!-- sumi920.kim@lge.com Receive HD VideoCall Enable Event From HD VideoCall [END_LGE_LAB1]-->
+<!-- jongwany.lee@lge.com END FUNCTION FOR EXCUSE MESSAGE -->
+<!-- LGE_MERGER_EXCUSE_MESSAGES_END -->
+
+    </application>
+    <uses-sdk android:minSdkVersion="6"/>
+</manifest>
+

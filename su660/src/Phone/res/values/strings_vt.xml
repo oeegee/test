@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!--- LGE_VT START -->
+	<string name="vt_Dialpad">"Dialpad"</string>
+	<string name="vt_Hold">"Hold"</string>
+	<string name="vt_Mute">"Mute"</string>
+	<string name="vt_Private">"Private"</string>
+	<string name="vt_Show">"Show"</string>
+	<string name="vt_Speaker">"Speaker"</string>
+	<string name="vt_bad_response">"Bad response. Try later."</string>
+	<string name="vt_call_barred">"Call Barred"</string>
+	<string name="vt_call_ended">"Video call ended"</string>
+	<string name="vt_camera_brightness_entry_high">"High"</string>
+	<string name="vt_camera_brightness_entry_low">"Low"</string>
+	<string name="vt_camera_brightness_entry_middle">"Middle"</string>
+	<string name="vt_camera_brightness_title">"Brightness"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Black&amp;White"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Negative"</string>
+	<string name="vt_camera_coloureffect_entry_off">"None"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sepia"</string>
+	<string name="vt_camera_coloureffect_title">"Color effect"</string>
+	<string name="vt_camera_night_entry_off">"Off"</string>
+	<string name="vt_camera_night_entry_on">"On"</string>
+	<string name="vt_camera_night_title">"Night mode"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Auto"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Cloudy"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Fluorescent"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Incandescent"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Sunny"</string>
+	<string name="vt_camera_whitebalance_title">"White balance"</string>
+	<string name="vt_camera_zoom_title">"Zoom"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Can not support VT call Connect to voice call"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Can not support VT call Connect to voice call"</string>
+	<string name="vt_end">"End"</string>
+	<string name="vt_fallback">"Fallback to voice"</string>
+	<string name="vt_far_image_capture">"Capture far-end image"</string>
+	<string name="vt_incoming_call">"Incoming video call"</string>
+	<string name="vt_invalid_number">"Invalid number"</string>
+	<string name="vt_mode_control">"Mode control"</string>
+	<string name="vt_near_image_capture">"Capture near-end image"</string>
+	<string name="vt_no_answer">"No answer"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Camera setting"</string>
+	<string name="vt_option_capture">"Capture"</string>
+	<string name="vt_option_use_2nd_camera">"Use back camera"</string>
+	<string name="vt_option_use_main_camera">"Use front camera"</string>
+	<string name="vt_set_private_image">"Set private image"</string>
+	<string name="vt_set_speaker">"Set speakerphone"</string>
+	<string name="vt_settings">"Video call settings"</string>
+	<string name="vt_use_private_image">"Use private image"</string>
+	<string name="vt_summary_private_path">"default.jpg"</string>
+	<string name="vt_capture_done">"Done"</string>
+	<string name="vt_capture_del">"Delete"</string>
+	<string name="vt_capture_cancel">"Cancel"</string>
+	<string name="vt_capturing">"Capturing"</string>
+	<string name="vt_success">"Capture success"</string>
+	<string name="vt_fail">"Capture fail"</string>
+	<string name="vt_memoryfull_full">"Memory full"</string>
+	<string name="vt_interSD_mount">"Mount your Internal SD Card"</string>
+	<string name="vt_set_ce_none">"Color effect is set to none"</string>
+	<string name="vt_set_wb_auto">"White balance is set to auto"</string>
+	<string name="vt_inFMC">"If there's a response,\nFMC will be ended"</string>
+	<string name="vt_unHold">"Unhold"</string>
+	<string name="vt_lowbattery">"Not available\ndue to low battery"</string>
+	<string name="vt_lowbattery_callend">"Video call ended\ndue to low battery"</string>
+	<string name="vt_not_connect_incall">"Can not make call during\nvoice call"</string>
+	<string name="vt_not_connect_invideocall">"Can not make call during\nvideo call"</string>
+<!--- LGE_VT END -->	
+</resources>

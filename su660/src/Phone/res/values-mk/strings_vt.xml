@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Копчиња за бирање"</string>
+	<string name="vt_Hold">"На чекање"</string>
+	<string name="vt_Mute">"Исклучи звук"</string>
+	<string name="vt_Private">"Приватен"</string>
+	<string name="vt_Show">"Прикажи"</string>
+	<string name="vt_Speaker">"Звучник"</string>
+	<string name="vt_bad_response">"Лош одговор. Обидете се подоцна."</string>
+	<string name="vt_call_barred">"Повикот е забранет"</string>
+	<string name="vt_call_ended">"Видео повикот е завршен"</string>
+	<string name="vt_camera_brightness_entry_high">"Високо"</string>
+	<string name="vt_camera_brightness_entry_low">"Ниско"</string>
+	<string name="vt_camera_brightness_entry_middle">"Средно"</string>
+	<string name="vt_camera_brightness_title">"Осветленост"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Негатив"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Исклучено"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Сепиа"</string>
+	<string name="vt_camera_coloureffect_title">"Ефект на боја"</string>
+	<string name="vt_camera_night_entry_off">"Исклучено"</string>
+	<string name="vt_camera_night_entry_on">"Вклучено"</string>
+	<string name="vt_camera_night_title">"Ноќен режим"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"AUTO"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Облачно"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Флуоресцентно"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Блескаво"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Сончево"</string>
+	<string name="vt_camera_whitebalance_title">"Баланс на бела боја"</string>
+	<string name="vt_camera_zoom_title">"Зумирање"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Нема поддршка за VT повик. Поврзете се на говорен повик"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Нема поддршка за VT повик. Поврзете се на говорен повик"</string>
+	<string name="vt_end">"Крај"</string>
+	<string name="vt_fallback">"Враќање на говор"</string>
+	<string name="vt_far_image_capture">"Снимање на далечна слика"</string>
+	<string name="vt_incoming_call">"Влезен видео повик"</string>
+	<string name="vt_invalid_number">"Невалиден број"</string>
+	<string name="vt_mode_control">"Контрола на режим"</string>
+	<string name="vt_near_image_capture">"Снимање на блиска слика"</string>
+	<string name="vt_no_answer">"Нема одговор"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Поставки на фотоапарат"</string>
+	<string name="vt_option_capture">"Сними"</string>
+	<string name="vt_option_use_2nd_camera">"Користи заден фотоапарат"</string>
+	<string name="vt_option_use_main_camera">"Користи преден фотоапарат"</string>
+	<string name="vt_set_private_image">"Постави приватна слика"</string>
+	<string name="vt_set_speaker">"Постави звучник"</string>
+	<string name="vt_settings">"Поставки за видео повици"</string>
+	<string name="vt_use_private_image">"Користи приватна слика"</string>
+</resources>

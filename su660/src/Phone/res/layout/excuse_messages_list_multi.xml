@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LGE_MERGE_S -->
+<RelativeLayout android:id="@+id/RelativeLayout01" 
+	android:layout_width="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="wrap_content">
+
+	<CheckBox android:id="@+id/cb_message" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical"
+	android:clickable="false"
+	android:focusable="false"
+	android:focusableInTouchMode="false"/>
+
+	
+	<TextView android:id="@+id/tv_message" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:paddingLeft="40dp" android:textSize="25dp" android:paddingTop="5dp" android:paddingBottom="5dp"/>
+ 
+
+</RelativeLayout>
+<!-- LGE_MERGE_E -->
+<!-- 20100804 jongwany.lee@lge.com attached this file EXCUSE MESSAGE -->

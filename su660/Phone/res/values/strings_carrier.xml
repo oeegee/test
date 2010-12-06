@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="carrier_select_mode">Selection mode</string>
+	<string name="carrier_list">Current Network</string>
+	<string name="manuall_select_network_failed">System can not search networks</string>
+	<string name="roaming_warning_yes">OK</string>
+	<string name="roaming_warning_no">Cancel</string>
+	
+	<!-- non display string -->
+	<string-array name="data_network_mode_values">
+        <item>"1"</item>		<!-- Enabled -->
+        <item>"65537"</item>	<!-- Enabled + ASK AT BOOT -->
+        <item>"0"</item>		<!-- DIsabled -->
+        <item>"65536"</item>	<!-- Disabled + ASK AT BOOT -->
+        </string-array>
+    
+        <string name="data_network_mode_title">"Data Network Settings"</string>
+    
+	<string-array name="data_network_mode_summary">
+        <item>"Allow connect"</item>
+        <item>"Allow connect (Ask at boot)"</item>
+        <item>"Do not allow connect"</item>
+        <item>"Do not allow connect (Ask at boot)"</item>
+        
+	</string-array>
+
+	<string name="data_mode_enabled">Data enabled</string>
+	<string name="data_mode_enabled_summary">Enable data access over Mobile network</string>
+	
+	<string name="lock_outgoingcall_summary">All/International/700/060</string>
+
+    <!-- 2010.10.20 minji.bae@lge.com Domestic - Add Emergency List [START_LGE_LAB1] -->
+    <!-- Screen title for Emergency List UI -->
+    <string name="emergencyListLabel">Emergency List</string>
+	<string name="desc_direct">Direct Input</string> 
+	<string name="desc_119">Fire station</string> 
+	<string name="desc_111">NIS</string> 
+	<string name="desc_112">Police</string> 
+	<string name="desc_113">Espionage report</string> 
+	<string name="desc_114">Customer center</string> 
+	<string name="desc_122">Cost guard</string> 
+	<string name="desc_125">Smuggling report</string> 
+	<string name="desc_127">Drug report</string> 
+	<string name="desc_911">Fire station</string> 
+	<string name="desc_119_FireStation">Fire station</string> 
+	<string name="desc_119_Ambulance">Ambulance</string> 
+	<string name="desc_15883249_MountainGuard">Mountain guard</string> 
+    <!-- 2010.10.20 minji.bae@lge.com Domestic - Add Emergency List [END_LGE_LAB1] -->
+
+	<string name="answer_select_mode">Answering Key</string>     
+	<string name="answer_select_mode_summary">Accept incoming calls by pressing the home key</string>     
+	<string name="rejectcall_edit_hint">"Max. 80 Eng char"</string>
+</resources>

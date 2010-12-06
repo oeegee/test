@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Tengiliðir"</string>
+	<string name="contactsFavoritesLabel">"Uppáhalds"</string>
+	<string name="dialerIconLabel">"Númeraval"</string>
+	<string name="emergencyDialerIconLabel">"Neyðarhringing"</string>
+	<string name="phoneIconLabel">"Sími"</string>
+	<string name="recentCallsIconLabel">"Símtalaskrá"</string>
+	<string name="fdnListLabel">"Læst skammval"</string>
+	<string name="transfer">"Opna tengiliði, tölvupóst, o.s.frv."</string>
+	<string name="incall_error_supp_service_transfer">"Mistókst að flytja símtal."</string>
+	<string name="menu_transfer">"Opna tengiliði, tölvupóst, o.s.frv."</string>
+	<string name="unknown">"Óþekkt"</string>
+	<string name="private_num">"Leyninúmer"</string>
+	<string name="payphone">"Almenningssími"</string>
+	<string name="onHold">"Í bið"</string>
+	<string name="ongoing">"Símtal í gangi"</string>
+	<string name="callFailed_userBusy">"Á tali"</string>
+	<string name="callFailed_congestion">"Kerfið er upptekið"</string>
+	<string name="callFailed_noSignal">"Ekkert samband"</string>
+	<string name="callFailed_limitExceeded">"ACM-hámarki er náð"</string>
+	<string name="callFailed_powerOff">"Slökkt á útvarpi"</string>
+	<string name="callFailed_simError">"Ekkert SIM-kort eða SIM-villa"</string>
+	<string name="callFailed_outOfService">"Utan þjónustusvæðis"</string>
+	<string name="callFailed_fdn_only">"Hringd símtöl eru takmörkuð í læstu skammvali."</string>
+	<string name="callFailed_cb_enabled">"Ekki er hægt að hringja þegar útilokun símtala er virk."</string>
+	<string name="callFailed_dsac_restricted">"Öll símtöl eru takmörkuð með aðgangsstýringu."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Neyðarsímtöl eru takmörkuð með aðgangsstýringu."</string>
+	<string name="callFailed_dsac_restricted_normal">"Venjuleg símtöl eru takmörkuð með aðgangsstýringu."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Síma læst fram að næstu ræsingu."</string>
+	<string name="callFailed_cdma_drop">"CDMA: Símtali sleppt."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: Símtal greint."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: endurraða."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: Höfnun þjónustuvalkosts."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: reyna aftur."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: Aðgangsvilla."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: Stöðvað."</string>
+	<string name="callFailed_cdma_notEmergency">"Það er aðeins hægt að hringja neyðarsímtöl."</string>
+	<string name="confCall">"Símafundur"</string>
+	<string name="call_lost">"Símtal hefur slitnað."</string>
+	<string name="retry">"Reyna aftur"</string>
+	<string name="call_lost_title">"Símtal slitið"</string>
+	<string name="mmiStarted">"MMI-kóði ræstur"</string>
+	<string name="ussdRunning">"USSD-kóði er í gangi\u2026"</string>
+	<string name="mmiCancelled">"Hætt við MMI-kóða"</string>
+	<string name="cancel">"Hætta við"</string>
+	<string name="menu_speaker">"Hátalari"</string>
+	<string name="menu_bluetooth">"Bluetooth"</string>
+	<string name="menu_mute">"Hljóð af"</string>
+	<string name="menu_hold">"Í bið"</string>
+	<string name="menu_unhold">"Úr bið"</string>
+	<string name="menu_endCall">"Leggja á"</string>
+	<string name="menu_swapCalls">"Víxla símtölum"</string>
+	<string name="menu_mergeCalls">"Sameina símtöl"</string>
+	<string name="menu_addCall">"Bæta við símtali"</string>
+	<string name="menu_manageConference">"Vinna með símafund"</string>
+	<string name="menu_showDialpad">"Sýna númeraval"</string>
+	<string name="menu_hideDialpad">"Fela númeraval"</string>
+	<string name="menu_addAccount">"Bæta við reikningi"</string>
+	<string name="menu_vocieCall">"Raddsímtal"</string>
+	<string name="menu_videoCall">"Myndsímtal"</string>
+	<string name="menu_message">"Skilaboð"</string>
+	<string name="menu_answerAndHold">"Setja í bið\nog svara"</string>
+	<string name="menu_answerAndEnd">"Leggja á\nog svara"</string>
+	<string name="ok">"Í lagi"</string>
+	<string name="menuButtonHint">"Ýttu á Valmynd til opna valkosti símtala."</string>
+	<string name="menuButtonKeyboardDialHint">"Ýttu á Valmynd fyrir valkosti símtala  \u2022  Notaðu lyklaborðið til að hringja"</string>
+	<string name="menu_answer">"Svara"</string>
+	<string name="menu_ignore">"Hundsa"</string>
+	<string name="wait_prompt_str">"Senda eftirfarandi tóna?\n"</string>
+	<string name="pause_prompt_str">"Sendi tóna\n"</string>
+	<string name="send_button">"Senda"</string>
+	<string name="pause_prompt_yes">"Já"</string>
+	<string name="pause_prompt_no">"Nei"</string>
+	<string name="wild_prompt_str">"Skipta staðgengilstákninu út fyrir"</string>
+	<string name="no_vm_number">"Talhólfsnúmer vantar"</string>
+	<string name="no_vm_number_msg">"Það er ekkert talhólfsnúmer vistað á SIM-kortinu."</string>
+	<string name="add_vm_number_str">"Bæta við númeri"</string>
+	<string name="dialer_emptyListWorking">"Verið er að hlaða"</string>
+	<string name="enterPin">"Sláðu inn PIN-númer til að opna SIM-kortið."</string>
+	<string name="pinUnlocked">"SIM-kort er opið"</string>
+	<string name="enterNewPin">"Nýtt PIN-númer SIM-korts"</string>
+	<string name="verifyNewPin">"Sláðu aftur inn nýtt PIN-númer SIM-korts til að staðfesta"</string>
+	<string name="verifyFailed">"PIN-númer fyrir SIM-kortið passa ekki saman. Reyndu aftur."</string>
+	<string name="enterPuk">"Sláðu inn PUK-númer til að opna SIM-kortið"</string>
+	<string name="badPuk">"Rangt PUK-númer."</string>
+	<string name="buttonTxtContinue">"Halda áfram"</string>
+	<string name="puk_unlocked">"SIM-kortið þitt hefur verið losað. Síminn þinn er að aflæsast..."</string>
+	<string name="label_ndp">"PIN-númer fyrir opnun SIM-kerfis"</string>
+	<string name="sim_ndp_unlock_text">"Opna"</string>
+	<string name="sim_ndp_dismiss_text">"Hafna"</string>
+	<string name="requesting_unlock">"Bið um opnun á kerfi\u2026"</string>
+	<string name="unlock_failed">"Beiðni um opnun kerfis mistókst."</string>
+	<string name="unlock_success">"Kerfið er opið."</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"GSM símtalastillingar"</string>
+	<string name="labelCDMAMore">"CDMA-hringistillingar"</string>
+	<string name="apn_settings">"Heiti aðgangsstaða"</string>
+	<string name="settings_label">"Símkerfisstillingar"</string>
+	<string name="voicemail">"Talhólf"</string>
+	<string name="voicemail_abbreviated">"Talhólf:"</string>
+	<string name="networks">"Símafyrirtæki"</string>
+	<string name="call_settings">"Símtalsstillingar"</string>
+	<string name="additional_gsm_call_settings">"Viðbótarstillingar"</string>
+	<string name="sum_gsm_call_settings">"Fleiri símtalsstillingar"</string>
+	<string name="additional_cdma_call_settings">"Fleiri CDMA-símtalsstillingar"</string>
+	<string name="sum_cdma_call_settings">"Fleiri CDMA-símtalsstillingar"</string>
+	<string name="labelNwService">"Stillingar sérþjónustu"</string>
+	<string name="labelCallerId">"Númerabirting"</string>
+	<string name="sum_hide_caller_id">"Númerið er falið þegar hringt er úr símanum"</string>
+	<string name="sum_show_caller_id">"Númerið birtist þegar hringt er úr símanum"</string>
+	<string name="sum_default_caller_id">"Nota sjálfgefnar stillingar símafyrirtækis fyrir birtingu númersins míns"</string>
+	<string name="labelCW">"Símtal í bið"</string>
+	<string name="sum_cw_enabled">"Tilkynna móttekin símtöl meðan á símtölum stendur"</string>
+	<string name="sum_cw_disabled">"Tilkynna móttekin símtöl meðan á símtölum stendur"</string>
+	<string name="call_forwarding_settings">"Stillingar framsendingar"</string>
+	<string name="labelCF">"Símtalsflutningur"</string>
+	<string name="labelCFU">"Framsenda alltaf"</string>
+	<string name="messageCFU">"Nota alltaf þetta númer"</string>
+	<string name="sum_cfu_enabled_indicator">"Framsendi öll símtöl"</string>
+	<string name="sum_cfu_enabled">"Framsendi öll símtöl til {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Tala er ekki tiltæk"</string>
+	<string name="sum_cfu_disabled">"Slökkt"</string>
+	<string name="labelCFB">"Framsenda ef á tali"</string>
+	<string name="messageCFB">"Númer ef á tali"</string>
+	<string name="sum_cfb_enabled">"Framsendi á {0}"</string>
+	<string name="sum_cfb_disabled">"Slökkt"</string>
+	<string name="disable_cfb_forbidden">"Flutningsaðilinn þinn styður ekki afvirkjun framsendingar símtals þegar síminn þinn er upptekinn."</string>
+	<string name="labelCFNRy">"Framsenda þegar ekki er svarað"</string>
+	<string name="messageCFNRy">"Númer ef ekki er svarað"</string>
+	<string name="sum_cfnry_enabled">"Framsendi á {0}"</string>
+	<string name="sum_cfnry_disabled">"Slökkt"</string>
+	<string name="disable_cfnry_forbidden">"Flutningsaðilinn þinn styður ekki afvirkjun framsendingar símtals þegar síminn þinn svarar ekki."</string>
+	<string name="labelCFNRc">"Framsenda þegar ekki næst í mig"</string>
+	<string name="messageCFNRc">"Númer þegar ekki næst í"</string>
+	<string name="sum_cfnrc_enabled">"Framsendi á {0}"</string>
+	<string name="sum_cfnrc_disabled">"Slökkt"</string>
+	<string name="labelCB">"Útilokun símtala"</string>
+	<string name="labelCBPWD">"Breyta aðgangsorði"</string>
+	<string name="sum_cb_enabled">"Kveikt"</string>
+	<string name="sum_cb_disabled">"Slökkt"</string>
+	<string name="messageCallBarring">"Lykilorð"</string>
+	<string name="newCBPwdLabel">"Nýtt lykilorð"</string>
+	<string name="disable_cfnrc_forbidden">"Flutningsaðilinn þinn styður ekki afvirkjun framsendingar símtals þegar ekki næst í símann þinn."</string>
+	<string name="updating_title">"Símtalsstillingar"</string>
+	<string name="error_updating_title">"Villa í símtalsstillingum"</string>
+	<string name="reading_settings">"Les stillingar\u2026"</string>
+	<string name="updating_settings">"Uppfæri stillingar\u2026"</string>
+	<string name="reverting_settings">"Sný við stillingum\u2026"</string>
+	<string name="response_error">"Óvænt svar frá kerfi."</string>
+	<string name="exception_error">"Símkerfis- eða SIM-kortsvilla."</string>
+	<string name="radio_off_error">"Kveiktu á útvarpinu áður en þú skoðar þessar stillingar."</string>
+	<string name="close_dialog">"Í lagi"</string>
+	<string name="enable">"Virkja"</string>
+	<string name="disable">"Slökkva"</string>
+	<string name="change_num">"Uppfæra"</string>
+	<string-array name="clir_display_values">
+		<item>"Valið af símkerfi"</item>
+		<item>"Fela númer"</item>
+		<item>"Birta númer"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>Sjálfgefið</xliff:g>"</item>
+		<item>"<xliff:g>Fela</xliff:g>"</item>
+		<item>"<xliff:g>SHOW</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Vista talhólfsnúmer"</string>
+	<string name="vm_changed">"Talhólfsnúmeri var breytt."</string>
+	<string name="vm_change_failed">"Númerabreyting talhólfs tókst ekki.\nVinsamlegast hafðu samband við flutningsaðilann þinn ef þetta vandamál helst."</string>
+	<string name="fw_change_failed">"Framsending númerabreytingar tókst ekki.\nVinsamlegast hafðu samband við flutningsaðilann þinn ef þetta vandamál helst."</string>
+	<string name="fw_get_in_vm_failed">"Mistókst að sækja og vista stillingar núverandi framsendingarnúmers.\nViltu samt skipta yfir í nýja veitandann?"</string>
+	<string name="no_change">"Engar breytingar voru gerðar."</string>
+	<string name="sum_voicemail_choose_provider">"Veldu talhólfsþjónustu"</string>
+	<string name="voicemail_default">"Flutningsaðilinn minn"</string>
+	<string name="mobile_networks">"Stillingar farsímakerfis"</string>
+	<string name="label_available">"Tiltæk kerfi"</string>
+	<string name="load_networks_progress">"Leita\u2026"</string>
+	<string name="empty_networks_list">"Engin kerfi fundust."</string>
+	<string name="search_networks">"Leita að kerfum"</string>
+	<string name="network_query_error">"Villa kom upp við leit að kerfum."</string>
+	<string name="register_on_network">"Skrái á <xliff:g id="network">%s</xliff:g>\u2026"</string>
+	<string name="not_allowed">"SIM-kortið leyfir ekki tengingu við þetta kerfi."</string>
+	<string name="connect_later">"Get ekki tengst þessu netkerfi núna. Vinsamlegast reyndu aftur seinna."</string>
+	<string name="registration_done">"Skráð á kerfi."</string>
+	<string name="sum_carrier_select">"Velja símafyrirtæki"</string>
+	<string name="sum_search_networks">"Leita að öllum tiltækum kerfum"</string>
+	<string name="select_automatically">"Velja sjálfkrafa"</string>
+	<string name="sum_select_automatically">"Velja forgangskerfi sjálfkrafa"</string>
+	<string name="register_automatically">"Sjálfvirk skráning..."</string>
+	<string name="preferred_network_mode_title">"Kerfi"</string>
+	<string name="preferred_network_mode_summary">"Breyta kerfisstillingum"</string>
+	<string name="preferred_network_mode_dialogtitle">"Forgangskerfi"</string>
+	<string name="menu_search_networks">"Leita að kerfum"</string>
+	<string name="menu_select_automatically">"Velja sjálfkrafa"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Heild"</item>
+		<item>"Aðeins EvDo"</item>
+		<item>"CDMA/EvDo"</item>
+		<item>"CDMA / EvDo auto"</item>
+		<item>"Sjálfvirkt í GSM/WCDMA"</item>
+		<item>"Aðeins WCDMA"</item>
+		<item>"Aðeins GSM"</item>
+		<item>"GSM / WCDMA óskað"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Gögn virkjuð"</string>
+	<string name="data_enable_summary">"Virkja gagnaaðgang yfir farsímanetkerfi"</string>
+	<string name="roaming">"Gagnareiki"</string>
+	<string name="roaming_enable">"Tengjast gagnaþjónustum í reiki"</string>
+	<string name="roaming_disable">"Tengjast gagnaþjónustum í reiki"</string>
+	<string name="roaming_reenable_message">"Gagnatengingin rofnaði vegna þess að það er slökkt á gagnareiki."</string>
+	<string name="roaming_warning">"Leyfa reikigögn? Slíkt getur haft í för með sér verulegan reikikostnað."</string>
+	<string name="data_mode_ok">"Já"</string>
+	<string name="data_mode_cancel">"Nei"</string>
+	<string name="gsm_umts_options">"Valkostir GSM/UMTS"</string>
+	<string name="cdma_options">"CDMA-valkostir"</string>
+	<string name="throttle_data_usage">"Gagnanotkun"</string>
+	<string name="throttle_settings_title">"Gagnareglur flutningsaðila"</string>
+	<string name="throttle_current_usage">"Gögn notuð á núverandi tímabili"</string>
+	<string name="throttle_time_frame">"Tímabil gagnanotkunar"</string>
+	<string name="throttle_rate">"Gagnahraðareglur"</string>
+	<string name="throttle_help">"Fræðast meira"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) af <xliff:g id="used">%3$s</xliff:g> hámarki tímabils\nNæsta tímabil hefst eftir <xliff:g id="used">%4$d</xliff:g> daga (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) af <xliff:g id="used">%3$s</xliff:g> hámarki tímabils"</string>
+	<string name="throttle_data_rate_reduced_subtext">"Komið umfram <xliff:g id="used">%1$s</xliff:g> hámarkið\n*Gagnahraði lækkaður í <xliff:g id="used">%2$d</xliff:g> Kb/s"</string>
+	<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>% liðið af hringrásinni\nNæsta tímabil hefst eftir <xliff:g id="used">%2$d</xliff:g> daga (<xliff:g id="used">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Gagnahraði lækkaður í <xliff:g id="used">%1$d</xliff:g> Kb/s ef farið er umfram takmörk gagnanotkunar"</string>
+	<string name="throttle_help_subtext">"Frekari upplýsingar um gagnanotkunarreglur flutningsaðila farsímanetkerfis þíns."</string>
+	<string name="cdma_cell_broadcast_sms">"SMS-endurvarpi"</string>
+	<string name="cell_broadcast_sms">"SMS-endurvarpi"</string>
+	<string name="enable_disable_cell_bc_sms">"SMS-endurvarpi"</string>
+	<string name="cell_bc_sms_enable">"SMS-endurvarpi virkur"</string>
+	<string name="cell_bc_sms_disable">"SMS-endurvarpi óvirkur"</string>
+	<string name="cb_sms_settings">"Stillingar SMS-endurvarpa"</string>
+	<string name="enable_disable_emergency_broadcast">"Neyðarútsending"</string>
+	<string name="emergency_broadcast_enable">"Kveikt á neyðarútsendingu"</string>
+	<string name="emergency_broadcast_disable">"Slökkt á neyðarútsendingu"</string>
+	<string name="enable_disable_administrative">"Stjórnun"</string>
+	<string name="administrative_enable">"Kveikt á stjórnun"</string>
+	<string name="administrative_disable">"Slökkt á stjórnun"</string>
+	<string name="enable_disable_maintenance">"Viðhald"</string>
+	<string name="maintenance_enable">"Viðhald er virkt"</string>
+	<string name="maintenance_disable">"Viðhald er óvirkt"</string>
+	<string name="general_news_settings">"Almennar fréttir"</string>
+	<string name="bf_news_settings">"Viðskipta- og fjármálafréttir"</string>
+	<string name="sports_news_settings">"Íþróttafréttir"</string>
+	<string name="entertainment_news_settings">"Fréttir af skemmtanaiðnaðinum"</string>
+	<string name="enable_disable_local">"Staðbundið"</string>
+	<string name="local_enable">"Staðbundnar fréttir eru virkar"</string>
+	<string name="local_disable">"Staðbundnar fréttir eru óvirkar"</string>
+	<string name="enable_disable_regional">"Svæðisbundið"</string>
+	<string name="regional_enable">"Kveikt á svæðisfréttum"</string>
+	<string name="regional_disable">"Slökkt á svæðisfréttum"</string>
+	<string name="enable_disable_national">"Innlent"</string>
+	<string name="national_enable">"Innlendar fréttir eru virkar"</string>
+	<string name="national_disable">"Innlendar fréttir eru óvirkar"</string>
+	<string name="enable_disable_international">"Alþjóðlegt"</string>
+	<string name="international_enable">"Alþjóðlegar fréttir eru virkar"</string>
+	<string name="international_disable">"Alþjóðlegar fréttir eru óvirkar"</string>
+	<string name="list_language_title">"Tungumál"</string>
+	<string name="list_language_summary">"Velja tungumál frétta"</string>
+	<string-array name="list_language_entries">
+		<item>"English"</item>
+		<item>"Franska"</item>
+		<item>"Spænska"</item>
+		<item>"Japanska"</item>
+		<item>"Kóreska"</item>
+		<item>"Kínverska"</item>
+		<item>"Hebreska"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Tungumál"</string>
+	<string name="enable_disable_local_weather">"Staðbundnar veðurfréttir"</string>
+	<string name="local_weather_enable">"Staðbundnar veðurfréttir eru virkar"</string>
+	<string name="local_weather_disable">"Staðbundnar veðurfréttir eru óvirkar"</string>
+	<string name="enable_disable_atr">"Umferðarupplýsingar"</string>
+	<string name="atr_enable">"Umferðarupplýsingar eru virkar"</string>
+	<string name="atr_disable">"Umferðarupplýsingar eru óvirkar"</string>
+	<string name="enable_disable_lafs">"Flugáætlanir á staðbundnum flugvöllum"</string>
+	<string name="lafs_enable">"Flugáætlanir á staðbundnum flugvöllum eru virkar"</string>
+	<string name="lafs_disable">"Flugáætlanir á staðbundnum flugvöllum eru óvirkar"</string>
+	<string name="enable_disable_restaurants">"Veitingastaðir"</string>
+	<string name="restaurants_enable">"Veitingastaðir eru virkir"</string>
+	<string name="restaurants_disable">"Veitingastaðir eru óvirkir"</string>
+	<string name="enable_disable_lodgings">"Gisting"</string>
+	<string name="lodgings_enable">"Gisting er virk"</string>
+	<string name="lodgings_disable">"Gisting er óvirk"</string>
+	<string name="enable_disable_retail_directory">"Skrá yfir söluaðila"</string>
+	<string name="retail_directory_enable">"Skrá yfir söluaðila er virk"</string>
+	<string name="retail_directory_disable">"Skrá yfir söluaðila er óvirk"</string>
+	<string name="enable_disable_advertisements">"Auglýsingar"</string>
+	<string name="advertisements_enable">"Kveikt á auglýsingum"</string>
+	<string name="advertisements_disable">"Slökkt á auglýsingum"</string>
+	<string name="enable_disable_stock_quotes">"Hlutabréf"</string>
+	<string name="stock_quotes_enable">"Hlutabréf eru virk"</string>
+	<string name="stock_quotes_disable">"Hlutabréf eru óvirk"</string>
+	<string name="enable_disable_eo">"Starfstækifæri"</string>
+	<string name="eo_enable">"Starfstækifæri eru virk"</string>
+	<string name="eo_disable">"Starfstækifæri eru óvirk"</string>
+	<string name="enable_disable_mhh">"Heilsugæsla, heilsa og sjúkrahús"</string>
+	<string name="mhh_enable">"Heilsugæsla, heilsa og sjúkrahús er virkt"</string>
+	<string name="mhh_disable">"Heilsugæsla, heilsa og sjúkrahús er óvirkt"</string>
+	<string name="enable_disable_technology_news">"Tæknifréttir"</string>
+	<string name="technology_news_enable">"Tæknifréttir eru virkar"</string>
+	<string name="technology_news_disable">"Tæknifréttir eru óvirkar"</string>
+	<string name="enable_disable_multi_category">"Fjölflokkur"</string>
+	<string name="multi_category_enable">"Fjölflokkur virkjaður"</string>
+	<string name="multi_category_disable">"Fjölflokkur afvirkjaður"</string>
+	<string name="gsm_umts_network_preferences_title">"Kjörstillingar GSM/UMTS-kerfis"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Ekki enn innleitt."</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"Kjörstillingar GSM/UMTS-kerfis"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"3G með forgang"</item>
+		<item>"Aðeins WCDMA"</item>
+		<item>"Aðeins GSM"</item>
+		<item>"GSM/WCDA (WCDMA fremur kosið)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Nota aðeins 2G-kerfi"</string>
+	<string name="prefer_2g_summary">"Sparar rafhlöðu"</string>
+	<string name="cdma_system_select_title">"Kerfisval"</string>
+	<string name="cdma_system_select_summary">"Breyta cdma-reikistillingunni"</string>
+	<string name="cdma_system_select_dialogtitle">"Kerfisval"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Aðeins heima"</item>
+		<item>"Sjálfvirkt"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA-reikistilling"</string>
+	<string name="cdma_roaming_mode_summary">"Breyta cdma-reikistillingunni"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA-reikistilling"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Aðeins heimanet"</item>
+		<item>"Tengd kerfi"</item>
+		<item>"Öll kerfi"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"Kjörstillingar CDMA-nets"</string>
+	<string name="cdma_network_preferneces_summary">"Ekki enn innleitt."</string>
+	<string name="cdma_network_preferences_dialogtitle">"Kjörstillingar CDMA-nets"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Aðeins CDMA"</item>
+		<item>"Aðeins EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"CDMA-áskrift"</string>
+	<string name="subscription_summary">"Skipta á milli RUIM/SIM og NV"</string>
+	<string name="subscription_dialogtitle">"Áskrift"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Læst skammval"</string>
+	<string name="manage_fdn_list">"Læst skammval"</string>
+	<string name="fdn_activation">"Virkjun skammvals"</string>
+	<string name="fdn_enabled">"Það er opið fyrir númer í læstu skammvali"</string>
+	<string name="fdn_disabled">"Það er lokað fyrir númer í læstu skammvali"</string>
+	<string name="enable_fdn">"Opna fyrir læst skammval"</string>
+	<string name="disable_fdn">"Slökkva á læstu skammvali"</string>
+	<string name="change_pin2">"Breyta PIN2-númeri"</string>
+	<string name="enable_fdn_ok">"Slökkva á læstu skammvali"</string>
+	<string name="disable_fdn_ok">"Opna fyrir læst skammval"</string>
+	<string name="sum_fdn">"Vinna með númer í læstu skammvali"</string>
+	<string name="sum_fdn_change_pin">"Breyta PIN-númeri fyrir aðgang að læstu skammvali"</string>
+	<string name="sum_fdn_manage_list">"Vinna með símanúmeralista"</string>
+	<string name="voice_privacy">"Raddlæsing"</string>
+	<string name="voice_privacy_summary">"Nota öryggisstillingu"</string>
+	<string name="tty_mode_title">"Stilling fyrir textasíma"</string>
+	<string name="tty_mode_summary">"Virkja textasíma"</string>
+	<string name="tty_mode_option_title">"Stilling fyrir textasíma"</string>
+	<string name="tty_mode_option_summary">"Velja stillingu fyrir textasíma"</string>
+	<string name="auto_retry_mode_title">"Reyna aftur sjálfkrafa"</string>
+	<string name="auto_retry_mode_summary">"Virkja haminn Reyna aftur sjálfkrafa"</string>
+	<string name="menu_add">"Bæta við tengilið"</string>
+	<string name="menu_edit">"Breyta tengilið"</string>
+	<string name="menu_delete">"Eyða tengilið"</string>
+	<string name="get_pin2">"Slá inn PIN2-númer"</string>
+	<string name="name">"Heiti"</string>
+	<string name="number">"Númer"</string>
+	<string name="save">"Vista"</string>
+	<string name="add_fdn_contact">"Bæta við númeri með fastri hringingu"</string>
+	<string name="adding_fdn_contact">"Bæti við númeri með fastri hringingu\u2026"</string>
+	<string name="fdn_contact_added">"Bætt við númeri með fastri hringingu."</string>
+	<string name="edit_fdn_contact">"Breyta númeri með fastri hringingu"</string>
+	<string name="updating_fdn_contact">"Uppfæri númer með fastri hringingu\u2026"</string>
+	<string name="fdn_contact_updated">"Númer með fastri hringingu uppfært."</string>
+	<string name="delete_fdn_contact">"Eyða númeri með fastri hringingu"</string>
+	<string name="deleting_fdn_contact">"Eyði númeri með fastri hringingu\u2026"</string>
+	<string name="fdn_contact_deleted">"Númeri með fastri hringingu eytt."</string>
+	<string name="pin2_invalid">"FDN ekki uppfært: þú færðir inn rangt PIN-númer."</string>
+	<string name="fdn_invalid_number">"FDN ekki uppfært: númer getur ekki verið meira en 20 tölur."</string>
+	<string name="simContacts_emptyLoading">"Les af SIM-korti\u2026"</string>
+	<string name="simContacts_empty">"Það eru engir tengiliðir á SIM-kortinu."</string>
+	<string name="simContacts_title">"Velja tengiliði til innflutnings"</string>
+	<string name="enable_pin">"Virkja/óvirkja PIN-númer SIM-korts"</string>
+	<string name="change_pin">"Breyta PIN-númeri SIM-korts"</string>
+	<string name="enter_pin_text">"PIN-númer SIM-korts:"</string>
+	<string name="oldPinLabel">"Eldra PIN-númer"</string>
+	<string name="newPinLabel">"Nýtt PIN-númer"</string>
+	<string name="confirmPinLabel">"Staðfesta nýtt PIN"</string>
+	<string name="badPin">"Þú slóst inn rangt eldra PIN-númer. Reyndu aftur."</string>
+	<string name="mismatchPin">"PIN-númerin passa ekki saman. Reyndu aftur."</string>
+	<string name="invalidPin">"Sláðu inn 4 til 8 tölustafa PIN-númer."</string>
+	<string name="disable_sim_pin">"Óvirkja PIN-númer SIM-korts"</string>
+	<string name="enable_sim_pin">"Gera PIN-númer SIM-korts virkt"</string>
+	<string name="enable_in_progress">"Vinsamlegast bíddu\u2026"</string>
+	<string name="enable_pin_ok">"PIN-númer fyrir SIM-kort er virkt"</string>
+	<string name="disable_pin_ok">"PIN-númer SIM-korts er óvirkt"</string>
+	<string name="pin_failed">"Rangt PIN-númer"</string>
+	<string name="pin_changed">"PIN-númeri SIM-korts var breytt"</string>
+	<string name="puk_requested">"Aðgangsorð rangt, SIM-kort læst! Beðið um PUK2-númer."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Eldra PIN2-númer"</string>
+	<string name="newPin2Label">"Nýtt PIN2-númer"</string>
+	<string name="confirmPin2Label">"Staðfesta nýtt PIN2"</string>
+	<string name="badPuk2">"Þú slóst inn rangt PUK2-númer. Reyndu aftur."</string>
+	<string name="badPin2">"Þú slóst inn rangt eldra PIN2-númer. Reyndu aftur."</string>
+	<string name="mismatchPin2">"PIN2-númerin passa ekki saman. Reyndu aftur."</string>
+	<string name="invalidPin2">"Sláðu inn 4 til 8 talna PIN2-númer."</string>
+	<string name="invalidPuk2">"Ritaðu PUK2-númer sem er 8 tölur."</string>
+	<string name="pin2_changed">"PIN2-númerinu var breytt"</string>
+	<string name="label_puk2_code">"Sláðu inn PUK2-númer"</string>
+	<string name="fdn_enable_puk2_requested">"Aðgangsorð rangt, vinsamlegast breyttu PIN2-númeri og reyndu aftur!"</string>
+	<string name="puk2_requested">"Aðgangsorð rangt, SIM-kort læst! Beðið um PUK2-númer."</string>
+	<string name="doneButton">"Done"</string>
+	<string name="caller_manage_header">"Símafundur <xliff:g id="conf_call_time">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Aftur í símtal"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Númer móttekinna símtala"</string>
+	<string name="fake_phone_activity_placeCall_text">"Fölsk innhringing"</string>
+	<string name="sim_missing_continueView_text">"Halda áfram án SIM-korts"</string>
+	<string name="sim_missing_msg_text">"Ekkert SIM-kort fannst. Settu SIM-kort í símann."</string>
+	<string name="sim_unlock_dismiss_text">"Hafna"</string>
+	<string name="sim_unlock_unlock_text">"Opna"</string>
+	<string name="sim_unlock_status_text">"PIN-sannvottun\u2026"</string>
+	<string name="voicemail_settings_number_label">"Talhólfsnúmer"</string>
+	<string name="card_title_dialing">"Hringi"</string>
+	<string name="card_title_redialing">"Reyni aftur"</string>
+	<string name="card_title_in_progress">"Símtal í gangi"</string>
+	<string name="card_title_conf_call">"Símafundur"</string>
+	<string name="card_title_incoming_call">"Móttekið símtal"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA-símtal í bið"</string>
+	<string name="card_title_call_ended">"Símtali lokið"</string>
+	<string name="card_title_on_hold">"Í bið"</string>
+	<string name="card_title_hanging_up">"Legg á"</string>
+	<string name="card_title_in_call">"Í símtali"</string>
+	<string name="card_title_mo_3">"Símtal í bið"</string>
+	<string name="card_title_mo_5">"Símtal útilokað"</string>
+	<string name="card_title_mo_6">"Símtal útilokað"</string>
+	<string name="redial_radio_dialog_wait">"Augnablik"</string>
+	<string name="notification_missedCallTitle">"Ósvarað símtal"</string>
+	<string name="notification_missedCallsTitle">"Ósvöruð símtöl"</string>
+	<string name="notification_missedCallsMsg">"<xliff:g id="num_missed_calls">%s</xliff:g> ósvöruð símtöl"</string>
+	<string name="notification_missedCallTicker">"Ósvarað símtal frá <xliff:g id="missed_call_from">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Símtal í gangi (<xliff:g id="duration">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"Í bið"</string>
+	<string name="notification_voicemail_title">"Ný talskilaboð"</string>
+	<string name="notification_voicemail_title_count">"Ný talskilaboð (<xliff:g id="count">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"Hringja í <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+	<string name="notification_voicemail_no_vm_number">"Óþekkt talhólfsnúmer"</string>
+	<string name="notification_network_selection_title">"Engin þjónusta"</string>
+	<string name="notification_network_selection_text">"Valið netkerfi (<xliff:g id="operator_name">%s</xliff:g>) ekki tiltækt"</string>
+	<string name="incall_error_power_off">"Slökktu á flugstillingunni til að hringja."</string>
+	<string name="incall_error_emergency_only">"Ekki skráð á kerfi."</string>
+	<string name="incall_error_out_of_service">"Farsímanetkerfi ekki tiltækt."</string>
+	<string name="incall_error_no_phone_number_supplied">"Það þarf slá inn gilt númer til að hringja."</string>
+	<string name="incall_error_call_failed">"Ekki var hringt."</string>
+	<string name="incall_status_dialed_mmi">"Ræsi MMI-röð\u2026"</string>
+	<string name="incall_status_dialed_fc">"Ræsi kóðaröð aðgerðar\u2026"</string>
+	<string name="incall_error_supp_service_unknown">"Óstudd þjónusta."</string>
+	<string name="incall_error_supp_service_switch">"Mistókst að skipta á milli símtala."</string>
+	<string name="incall_error_supp_service_separate">"Mistókst að aðskilja símtal."</string>
+	<string name="incall_error_supp_service_conference">"Ófær um ráðstefnusímtöl."</string>
+	<string name="incall_error_supp_service_reject">"Mistókst að hafna símtali."</string>
+	<string name="incall_error_supp_service_hangup">"Mistókst að leggja á."</string>
+	<string name="emergency_enable_radio_dialog_title">"Neyðarsímtal"</string>
+	<string name="emergency_enable_radio_dialog_message">"Kveiki á útvarpi\u2026"</string>
+	<string name="emergency_enable_radio_dialog_retry">"Utan þjónustusvæðis, reyni aftur\u2026"</string>
+	<string name="dial_emergency_error">"Ekki var hringt, <xliff:g id="non_emergency_number">%s</xliff:g> er ekki neyðarnúmer."</string>
+	<string name="dial_emergency_empty_error">"Ekki var hringt. Hringdu í neyðarnúmer."</string>
+	<string name="dialerKeyboardHintText">"Nota takkaborðið til að hringja"</string>
+	<string name="dtmfDialpadHintText">"Takkaborð með snertitónum"</string>
+	<string name="dtmfDialpadHandleLabel">"Takkaborð"</string>
+	<string name="touchLockText">"Tvíbankaðu\ntil að aflæsa"</string>
+	<string name="onscreenAnswerText">"Tvíbankaðu\ntil að svara"</string>
+	<string name="onscreenRejectText">"Tvíbankaðu\ntil að hafna"</string>
+	<string name="onscreenHoldText">"Í bið"</string>
+	<string name="onscreenUnholdText">"Úr bið"</string>
+	<string name="onscreenSendCallText">"Senda"</string>
+	<string name="onscreenEndCallText">"Ljúka"</string>
+	<string name="onscreenShowDialpadText">"Takkaborð"</string>
+	<string name="onscreenHideDialpadText">"Fela"</string>
+	<string name="onscreenSpeakerText">"Hátalari"</string>
+	<string name="onscreenMuteText">"Hljóð af"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Bæta við símtali"</string>
+	<string name="onscreenMergeCallsText">"Sameina símtöl"</string>
+	<string name="onscreenSwapCallsText">"Víxla"</string>
+	<string name="onscreenManageCallsText">"Stjórna símt."</string>
+	<string name="onscreenManageConferenceText">"Stjórna"</string>
+	<string name="importSimEntry">"Flytja inn"</string>
+	<string name="importAllSimEntries">"Flytja inn alla"</string>
+	<string name="default_group">"Sjálfvalið"</string>
+	<string name="selectAllSimEntries">"Velja allt"</string>
+	<string name="attention">"Athugið"</string>
+	<string name="importingSimContacts">"Flyt inn SIM-tengiliði"</string>
+	<string name="importToFDNfromContacts">"Flytja inn úr tengiliðum"</string>
+	<string name="hac_mode_title">"Heyrnartæki"</string>
+	<string name="hac_mode_summary">"Kveiktu á samhæfni við heyrnartæki"</string>
+	<string-array name="tty_mode_entries">
+		<item>"Textasími af"</item>
+		<item>"Textasími - allt"</item>
+		<item>"Textasími - HCO"</item>
+		<item>"Textasími - VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"ERI-texti"</string>
+	<string name="dtmf_tones_title">"DTMF-tónar"</string>
+	<string name="dtmf_tones_summary">"Stilla lengd DTMF-tóna"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Venjulegur"</item>
+		<item>"Langt"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Kerfisskilaboð"</string>
+	<string name="ota_touch_activate">"Hringja verður sérstakt símtal til að virkja símaþjónustuna þína.\n\nEftir að hafa ýtt á „Virkja“ skaltu hlusta á leiðbeiningarnar sem gefnar eru til að virkja símann þinn."</string>
+	<string name="ota_touch_activate_new">"Snertu \u201CVirkja\u201D til að hringja sérstaka símtalið sem virkjar símann þinn á farsímanetkerfi flutningsaðilans, svo þú getir hringt og tengst gagnakerfum farsíma."</string>
+	<string name="ota_skip_activation_dialog_title">"Sleppa virkjun\\?"</string>
+	<string name="ota_skip_activation_dialog_message">"Ef þú sleppir virkjun getur þú ekki hringt símtöl eða tengst gagnanetkerfum farsíma (þó að þú getir tengst Wi-Fi-netkerfum). Þangað til þú virkjar símann þinn verður þú beðin(n) um að virkja hann í hvert sinn sem þú kveikir á honum.."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Sleppa"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Virkja"</string>
+	<string name="ota_activate">"Virkja"</string>
+	<string name="ota_title_activate_success">"Sími er virkjaður!"</string>
+	<string name="ota_title_problem_with_activation">"Vandamál við virkjun"</string>
+	<string name="ota_listen">"Fylgdu tölu leiðbeiningunum þar til þú heyrir að virkjun sé lokið."</string>
+	<string name="ota_dialpad">"Takkaborð"</string>
+	<string name="ota_speaker">"Hátalari"</string>
+	<string name="ota_progress">"Vinsamlegast bíddu á meðan síminn þinn er forritaður."</string>
+	<string name="ota_failure">"Forritun tókst ekki"</string>
+	<string name="ota_successful">"Síminn þinn er nú virkjaður. Það kann að taka allt að 15 mínútur fyrir þjónustuna að fara í gang."</string>
+	<string name="ota_unsuccessful">"Síminn þinn var ekki virkjaður.\nÞú gætir þurft að finna svæði með betri móttöku (nálægt glugga eða utandyra).\n\nReyndu aftur eða hringdu í viðskiptavinaþjónustu til að fá fleiri valkosti."</string>
+	<string name="ota_spc_failure">"EXCESS SPC FAILURES"</string>
+	<string name="ota_call_end">"Bakka"</string>
+	<string name="ota_try_again">"Reyndu aftur"</string>
+	<string name="ota_next">"Næsta"</string>
+	<string name="ota_back">"Bakka"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Fara í haminn Hringja aftur í neyð"</string>
+	<string name="phone_in_ecm_notification_title">"Hamurinn Hringja aftur í neyð"</string>
+	<string name="phone_in_ecm_call_notification_text">"Gagnatenging afvirkjuð"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Engin gagnatenging í <xliff:g id="count">%s</xliff:g> mínútu"</item>
+		<item quantity="other">"Engin gagnatenging í <xliff:g id="count">%s</xliff:g> mínútur"</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"Síminn verður í neyðarhringingarham í <xliff:g id="count">%s</xliff:g> mínútu. Í þessum ham er ekki hægt að nota nein forrit sem nota gagnatengingu. Viltu hætta núna?"</item>
+		<item quantity="other">"Síminn verður í neyðarhringingarham í <xliff:g id="count">%s</xliff:g> mínútur. Í þessum ham er ekki hægt að nota nein forrit sem nota gagnatengingu. Viltu hætta núna?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"Valin aðgerð er ekki tiltæk þegar síminn er í neyðarhringingarham. Síminn verður í þessum ham í <xliff:g id="count">%s</xliff:g> mínútu. Viltu hætta núna?"</item>
+		<item quantity="other">"Valin aðgerð er ekki tiltæk þegar síminn er í neyðarhringingarham. Síminn verður í þessum ham í <xliff:g id="count">%s</xliff:g> mínútur. Viltu hætta núna?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"Valin aðgerð er ekki tiltæk í neyðarhringingarham"</string>
+	<string name="progress_dialog_exiting_ecm">"Hætti í haminum Hringja aftur í neyð"</string>
+	<string name="alert_dialog_yes">"Já"</string>
+	<string name="alert_dialog_no">"Nei"</string>
+	<string name="alert_dialog_dismiss">"Hafna"</string>
+	<string name="absent_num">"ABSENT-NUMBER"</string>
+	<string name="voicemail_settings">"Stillingar talhólfs"</string>
+	<string name="voicemail_number_not_set">"&lt;Ekki valið&gt;"</string>
+	<string name="network_preference">"Kerfi"</string>
+	<string name="menu_preferred_network_edit">"Breyta"</string>
+	<string name="menu_preferred_network_delete">"Heim"</string>
+	<string name="label_cb">"Útilokun símtala"</string>
+	<string name="label_cb_incom">"Innhringingar"</string>
+	<string name="pass_dialog_title">"Lykilorð"</string>
+	<string name="summ_cb_enable">"Virkja"</string>
+	<string name="summ_cb_disable">"Slökkva"</string>
+	<string name="confirm_button">"Staðfesta"</string>
+	<string name="cancel_button">"Hætta við"</string>
+	<string name="call_cost_settings">"Stillingar"</string>
+	<string name="call_cost_activation_settings">"Ótakmarkaður"</string>
+	<string name="call_cost_pin2_err">"Aðgangsorð rangt, vinsamlegast breyttu PIN2-númeri og reyndu aftur!"</string>
+	<string name="call_cost_unit">"Unit"</string>
+	<string name="call_cost_set_limit_off">"Slökkt"</string>
+	<string name="call_cost_set_call_cost_empty">"Tómt"</string>
+	<string name="revertButton">"Revert"</string>
+	<string name="call_cost_reset_msg">"Núllstilla"</string>
+	<string name="cb_set_passwd_title">"Stilla lykilorð"</string>
+	<string name="cb_set_passwd_dialog_title">"Stilla lykilorð"</string>
+	<string name="cb_old_password">"Núverandi lykilorð:"</string>
+	<string name="cb_new_password">"Nýtt lykilorð:"</string>
+	<string name="cb_confirm_password">"Staðfesta nýtt aðgangsorð"</string>
+	<string name="cb_password_error">"Sláðu inn rétt lykilorð."</string>
+	<string name="cb_passwords_error">"Lykilorðin passa ekki saman."</string>
+	<string name="cb_passwords_empty_error">"Þú verður að slá inn og staðfesta lykilorð."</string>
+	<string name="cb_password_empty_error">"Sláðu inn lykilorðið."</string>
+	<string name="barring_pass_cancel">"Hætta við"</string>
+	<string name="barring_pass_ok">"Í lagi"</string>
+	<string name="voicemail_provider">"Talhólfsþjónusta"</string>
+	<string name="voicemail_settings_for">"Stillingar fyrir <xliff:g id="provider_name">%s</xliff:g>"</string>
+	<string name="other_settings">"Aðrar símtalastillingar"</string>
+	<string name="dial_button_label">"hringja"</string>
+	<string name="calling_via_template">"Hringi gegnum ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Dragðu til hægri til að svara"</string>
+	<string name="slide_to_silence">"Dragðu til vinstri til að þagga niður í hringjara"</string>
+	<string name="slide_to_decline">"Dragðu til vinstri til að hafna"</string>
+	<string name="slide_to_answer_and_hold">"Dragðu til hægri til að svara og\nsetja virkt símtal í bið"</string>
+	<string name="slide_to_answer_and_end_active">"Dragðu til hægri til að svara og\nljúka virku símtali"</string>
+	<string name="slide_to_answer_and_end_onhold">"Dragðu til hægri til að svara og\nljúka virku símtali í bið"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"Í lagi"</string>
+	<string name="messageCancel">"Hætta við"</string>
+	<string name="slide_to_answer_hint">"Svara"</string>
+	<string name="slide_to_decline_hint">"Hafna"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Ritaðu PUK-númer"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Rangt PUK-númer!\nEftirstandandi : <xliff:g id="NUMBER_0">%d</xliff:g> skipti"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Nýtt PIN-númer"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Staðfesta nýtt PIN"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"PIN-númerin sem þú slóst inn passa ekki saman."</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Eftirstandandi : "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"PUK-númer lokað"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Rangt PIN-númer!\nEftirstandandi : <xliff:g id="NUMBER_0">%d</xliff:g> skipti"</string>
+	<string name="unlock_accept">"Samþykkja"</string>
+	<string name="unlock_send_sms">"Senda SMS"</string>
+	<string name="silent_silent">"Án hljóðs"</string>
+	<string name="str_save">"Vista"</string>
+	<string name="str_delete">"Heim"</string>
+	<string name="str_cancel">"Hætta við"</string>
+	<string name="str_no_messages">"Engin skilaboð"</string>
+	<string name="str_new_message">"Ný skilaboð"</string>
+	<string name="send_sms">"Senda SMS"</string>
+	<string name="str_send">"Senda"</string>
+	<string name="menu_item1">"Ný skilaboð"</string>
+	<string name="menu_item2">"Fjölval"</string>
+	<string name="menu_item3">"Eyða öllu"</string>
+	<string name="str_delete_q">"Heim?"</string>
+	<string name="excuse_messages_select_all">"Velja allt"</string>
+	<string name="excuse_messages_deselect_all">"Afvelja allt"</string>
+	<string name="excuse_messages_btn_delete">"Heim"</string>
+	<string name="excuse_messages_multi_select">"Fjölval"</string>
+	<string name="excuse_messages_delete_all">"Eyða öllu"</string>
+	<string name="excuse_messages_new_message">"Ný skilaboð"</string>
+	<string name="excuse_messages_btn_cancel">"Hætta við"</string>
+	<string name="excuse_messages_delete_question">"Heim?"</string>
+	<string name="excuse_messages_saved">"Vistað"</string>
+	<string name="excuse_messages_delete">"Heim"</string>
+	<string name="excuse_messages_len_btn">"Staðfesta"</string>
+	<string name="yes">"Já"</string>
+	<string name="no">"Nei"</string>
+	<string name="call_barring_title">"Útilokun símtala"</string>
+	<string name="camera_bright_key">"Birtustig"</string>
+	<string name="camera_zoom_key">"Súma"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Tengiliðir"</string>
+	<string name="incallmenu_memo">"Minnismiði"</string>
+	<string name="incallmenu_Sms">"Skilaboð"</string>
+	<string name="CALLSTR_CALLREJECTING">"Án hljóðs"</string>
+	<string name="CALLSTR_CALLERID">"Númerabirting"</string>
+	<string name="CALLSTR_INCOMCALL">"Móttekið símtal"</string>
+	<string name="CALLSTR_CALLTO">"Til"</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Skrifa skilaboð"</string>
+	<string name="CALLSTR_REJECT_SEND">"Senda"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Breyta"</string>
+	<string name="custom_roaming_button">"Í lagi"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Heiti"</string>
+	<string name="label_ve">"Merking"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>

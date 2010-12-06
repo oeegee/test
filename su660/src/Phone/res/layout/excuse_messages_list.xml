@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LGE_MERGE_S -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_list">
+    
+  	
+    
+    
+    <Button 
+    android:id="@+id/bt_new_message_incall" 
+    android:layout_below="@+id/tv_title" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp" 
+    android:layout_marginLeft="10dp"
+    android:visibility="gone" 
+    android:text="@string/str_new_message">
+    </Button>
+    
+  	<TextView 
+    android:id="@+id/tv_no_messages"
+    android:visibility="invisible"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:gravity="center" 
+    android:textStyle="bold" android:text="@string/str_no_messages"/>
+    
+    <TableLayout 
+    android:id="@+id/table_listview"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/tv_title"
+    android:paddingTop="80dp"  
+    android:paddingBottom="60dp" 
+    android:layout_marginLeft="4dp" 
+    android:layout_marginRight="4dp">
+    	
+    	<TableRow>
+		
+			<ListView
+			android:id="@+id/listView"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			></ListView>
+			
+			<ListView 
+			android:id="@android:id/list"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:scrollbars="vertical" 
+		    android:visibility="gone"
+		    ></ListView>
+
+			
+    	</TableRow>    	
+    </TableLayout>
+    
+    <TableLayout 
+    android:id="@+id/tl_multi_menu"
+    android:layout_below="@id/et_message" 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:background="#696969"
+    android:layout_alignParentBottom="true" 
+    android:visibility="invisible">
+		<TableRow android:id="@+id/TableRow01" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bt_delete" android:text="@string/str_delete" android:paddingLeft="30dp" android:paddingRight="30dp"/>
+			<TextView android:id="@+id/TextView01" android:layout_width="50dp" android:layout_height="wrap_content"/>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bt_cancel" android:text="@string/str_cancel" android:paddingLeft="30dp" android:paddingRight="30dp"/>
+		</TableRow>
+	</TableLayout>
+
+</RelativeLayout>
+<!-- LGE_MERGE_E -->
+<!-- 20100804 jongwany.lee@lge.com attached this file EXCUSE MESSAGE -->

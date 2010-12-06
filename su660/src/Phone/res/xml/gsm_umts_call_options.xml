@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/labelGSMMore">
+
+    <PreferenceScreen
+        android:key="button_cf_expand_key"
+        android:title="@string/labelCF"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.GsmUmtsCallForwardOptions"/>
+    </PreferenceScreen>
+<!-- LGE_AUTO_REDIAL START -->
+    <CheckBoxPreference
+        android:key="button_ar_key"
+        android:title="@string/labelAR"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ar_enabled"
+        android:summaryOff="@string/sum_ar_disabled"/>
+<!-- LGE_AUTO_REDIAL END -->
+<!-- LGE_BARRING START -->
+    <PreferenceScreen
+        android:title="@string/label_cb"
+        android:key="button_cb_expand_key"
+        android:persistent="false">
+
+        <PreferenceCategory
+            android:title="@string/call_barring_settings">
+        </PreferenceCategory>
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/label_cb_all"
+            android:key="button_cba_key"
+            android:summary="@string/summ_cb_disable">
+        </Preference>
+
+        <ListPreference
+             android:entries="@array/cb_incom_items"
+             android:key="button_cbi_key"
+             android:title="@string/label_cb_incom"
+             android:persistent="false"
+             android:dialogTitle="@string/label_cb_incom"
+             android:entryValues="@array/cb_incom_values">
+        </ListPreference>
+
+        <ListPreference
+        android:entries="@array/cb_out_items"
+        android:key="button_cbo_key"
+        android:title="@string/label_cb_out"
+        android:persistent="false"
+        android:dialogTitle="@string/label_cb_out"
+        android:entryValues="@array/cb_out_values">
+        </ListPreference>
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/label_cb_off"
+            android:key="button_cb_off_key"
+            android:summary="@string/summ_cb_enable">
+        </Preference>
+
+    </PreferenceScreen>
+<!-- LGE_BARRING END -->
+    <PreferenceScreen
+        android:key="button_more_expand_key"
+        android:title="@string/additional_gsm_call_settings"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions"/>
+    </PreferenceScreen>
+</PreferenceScreen>

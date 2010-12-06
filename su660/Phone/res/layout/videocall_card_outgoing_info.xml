@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		Copyright (C) 2008 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+
+	<!--
+		XML resource file for the "person info" area of the main CallCard of
+		the in-call UI, which includes the photo and name/number TextViews.
+	-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/videocallCardOutgoingInfo" android:orientation="vertical"
+	android:gravity="center_horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_marginTop="15dp">
+
+
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+		<ImageView android:background="@drawable/vt_ic_incall_photo_border_med"
+			android:id="@+id/remoteBackground" android:layout_marginTop="1dp"
+			android:layout_width="267dp" android:layout_marginLeft="27dp"
+			android:layout_marginRight="27dp" android:layout_height="218dp" />
+		<TextView android:id="@+id/elapsedTime" android:textColor="@color/text_color_white"
+			android:textSize="24sp" android:typeface="sans" android:textStyle="bold"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_below="@+id/remoteBackground"
+			android:layout_marginLeft="20dp" android:layout_width="130dp"
+			android:singleLine="true" android:layout_height="27dp"
+			android:layout_marginTop="28dp" />
+		<TextView android:id="@+id/name" android:layout_height="wrap_content"
+			android:typeface="sans" android:textStyle="bold" android:textSize="19sp"
+			android:textColor="@color/text_color_white" android:layout_below="@+id/elapsedTime"
+			android:layout_marginLeft="5dp" android:gravity="center_horizontal"
+			android:ellipsize="end" android:layout_marginTop="5dp"
+			android:focusable="true" android:focusableInTouchMode="true"
+			android:layout_width="160dp" android:singleLine="true" />
+		<TextView android:id="@+id/phoneNumber"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_marginLeft="5dp" android:gravity="center_horizontal"
+			android:typeface="sans" android:textSize="16sp" android:layout_below="@+id/name"
+			android:textColor="@color/text_color_phonenumber" android:ellipsize="marquee"
+			android:marqueeRepeatLimit="marquee_forever" android:focusable="true"
+			android:focusableInTouchMode="true" android:layout_width="160dp"
+			android:singleLine="true" android:layout_marginTop="5dp" />
+		<ImageView android:background="@drawable/vt_ic_incall_photo_border_med"
+			android:id="@+id/cameraBackground" android:layout_width="121dp"
+			android:layout_below="@+id/remoteBackground"
+			android:layout_marginTop="15dp" android:layout_marginLeft="172dp"
+			android:layout_height="99dp" />
+
+		<LinearLayout android:id="@+id/remoteLayout"
+			android:layout_marginLeft="29dp" android:layout_marginRight="29dp"
+			android:layout_width="263dp" android:layout_height="322px"
+			android:layout_marginTop="5px">
+			<ViewStub android:layout_height="match_parent"
+				android:layout_width="match_parent" android:id="@+id/remote_stub"
+				android:inflatedId="@+id/remote_stub_container" android:layout="@layout/vt_remote_surfaceview">
+			</ViewStub>
+		</LinearLayout>
+		<LinearLayout android:layout_width="117dp" android:id="@+id/cameraLayout"
+			android:layout_marginLeft="174dp" android:layout_marginTop="355px"
+			android:layout_height="95dp">
+			<ViewStub android:layout_height="match_parent"
+				android:layout_width="match_parent" android:id="@+id/camera_stub"
+				android:inflatedId="@+id/camera_stub_container" android:layout="@layout/vt_camera_surfaceview">
+			</ViewStub>
+		</LinearLayout>
+		<ImageView android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true" android:id="@+id/subsimage_large"
+			android:layout_width="263dp" android:visibility="visible"
+			android:layout_marginLeft="29dp" android:layout_marginRight="29dp"
+			android:layout_marginTop="4px" android:layout_height="216dp" />
+		<ImageView android:layout_width="117dp"
+			android:layout_alignTop="@+id/cameraBackground" android:id="@+id/subsimage_small"
+			android:visibility="visible" android:layout_marginTop="3px"
+			android:layout_height="95dp" android:layout_marginLeft="261px" />
+
+		<ViewStub android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true" android:id="@+id/readyProgress"
+			android:visibility="gone" android:layout="@layout/vt_ready_progressbar"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true" android:layout_marginLeft="144dp"
+			android:layout_marginRight="144dp" android:layout_marginTop="89dp">
+		</ViewStub>
+
+
+	</RelativeLayout>
+
+
+	<!-- Photo, with elapsed time widget off to the side. -->
+
+
+
+	<!-- Social status -->
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:id="@+id/controlContainer" android:layout_height="fill_parent"
+		android:layout_marginTop="21dp">
+		<Button android:id="@+id/private_button" android:background="@drawable/vt_invideocall_button"
+			android:text="@string/vt_Private" android:textColor="@color/vt_bottom_button_color"
+			android:layout_width="89dp" android:layout_height="57dp"
+			android:layout_marginLeft="12dp" android:typeface="sans"
+			android:gravity="center_vertical|center_horizontal" android:textSize="16sp" />
+		<Button android:id="@+id/end_button" android:layout_toRightOf="@+id/private_button"
+			android:text="@string/vt_end" android:textColor="@color/vt_bottom_red_button_color"
+			android:layout_height="57dp" android:layout_width="89dp"
+			android:layout_marginLeft="15dp" android:gravity="center_vertical|center_horizontal|center"
+			android:typeface="sans" android:background="@drawable/vt_invideocall_end_button"
+			android:textSize="16sp" />
+		<Button android:id="@+id/dialpad_button"
+			android:layout_toRightOf="@+id/end_button"
+			android:layout_marginRight="13dp" android:text="@string/vt_Dialpad"
+			android:textColor="@color/vt_bottom_button_color"
+			android:layout_width="89dp" android:layout_height="57dp"
+			android:layout_marginLeft="15dp"
+			android:background="@drawable/vt_invideocall_dialpad_hold_button"
+			android:gravity="center_vertical|center_horizontal" android:typeface="sans"
+			android:textSize="16sp" />
+		<Button android:layout_below="@+id/private_button"
+			android:textColor="@color/vt_bottom_button_color" android:id="@+id/hold_button"
+			android:text="@string/vt_Hold" android:layout_height="57dp"
+			android:layout_width="89dp" android:layout_marginLeft="12dp"
+			android:layout_marginTop="8dp"
+			android:background="@drawable/vt_invideocall_dialpad_hold_button"
+			android:typeface="sans" android:gravity="center_vertical|center_horizontal"
+			android:textSize="16sp" />
+		<Button android:id="@+id/mute_button" android:layout_below="@+id/dialpad_button"
+			android:background="@drawable/vt_invideocall_button" android:text="@string/vt_Mute"
+			android:textColor="@color/vt_bottom_button_color"
+			android:layout_toRightOf="@+id/hold_button" android:layout_width="89dp"
+			android:layout_height="57dp" android:layout_marginLeft="15dp"
+			android:layout_marginTop="8dp" android:gravity="center_vertical|center_horizontal"
+			android:typeface="sans" android:textSize="16sp" />
+		<Button android:id="@+id/speaker_button"
+			android:layout_toRightOf="@+id/mute_button" android:layout_below="@+id/dialpad_button"
+			android:layout_marginRight="13dp" android:background="@drawable/vt_invideocall_button"
+			android:text="@string/vt_Speaker" android:textColor="@color/vt_bottom_button_color"
+			android:layout_width="89dp" android:layout_height="57dp"
+			android:layout_marginLeft="15dp" android:layout_marginTop="8dp"
+			android:typeface="sans" android:gravity="center_vertical|center_horizontal"
+			android:textSize="16sp" />
+	</RelativeLayout>
+
+
+
+
+	<ViewStub android:id="@+id/capture_button"
+		android:layout_height="fill_parent" android:layout_marginTop="30dp"
+		android:layout_width="fill_parent" android:layout="@layout/videocall_card_capturebutton"></ViewStub>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="roaming_warning_yes">허용</string>
+	<string name="roaming_warning_no">차단</string>
+
+	<string name="carrier_select_mode">시스템 선택</string>
+	<string name="select_automatically">자동 선택</string>
+	<string name="sum_select_automatically" msgid="8460954604521755275">기본 설정 네트워크 자동으로 선택</string>
+	<string name="search_networks">수동 선택</string>
+	<string name="sum_search_networks" msgid="2921092249873272715">사용 가능한 모든 네트워크 검색</string>
+	<string name="carrier_list">현재 네트워크 운영자</string>
+	<string name="manuall_select_network_failed">"시스템 사정으로 검색이 불가 합니다."</string>
+
+
+	<string name="data_network_mode_title">"데이터네트워크 설정"</string>
+	    
+	<string-array name="data_network_mode_summary">
+        <item>"접속 허용"</item>
+        <item>"접속 허용 (부팅 시 접속여부 물어보기) "</item>
+        <item>"허용하지 않음"</item>
+        <item>"허용하지 않음 (부팅 시 접속여부 물어보기)"</item>
+	</string-array>
+
+	<string name="data_mode_enabled">데이터 사용</string>
+	<string name="data_mode_enabled_summary">모바일 네트워크에서 데이터 액세스 사용</string>
+
+	
+	
+	<string name="lock_outgoingcall_summary">"모든전화/국제전화/700/060 발신제한"</string>	
+
+    <!-- 2010.10.20 minji.bae@lge.com Domestic - Add Emergency List [START_LGE_LAB1] -->
+    <!-- Screen title for Emergency List UI -->
+	<string name="emergencyListLabel">"긴급 통화 리스트"</string> 
+	<string name="desc_direct">"직접 입력"</string> 
+	<string name="desc_119">소방서</string> 
+	<string name="desc_111">국가정보원</string> 
+	<string name="desc_112">경찰서</string> 
+	<string name="desc_113">간첩신고</string> 
+	<string name="desc_114">고객센터</string> 
+	<string name="desc_122">해양경찰청</string> 
+	<string name="desc_125">밀수신고</string> 
+	<string name="desc_127">마약사범신고</string> 
+	<string name="desc_911">소방서</string> 
+	<string name="desc_119_FireStation">소방서</string> 
+	<string name="desc_119_Ambulance">구급차</string> 
+	<string name="desc_15883249_MountainGuard">산악구조대</string> 
+    <!-- 2010.10.20 minji.bae@lge.com Domestic - Add Emergency List [END_LGE_LAB1] -->
+
+	<string name="answer_select_mode">홈 키로 전화 수신</string>     
+	<string name="answer_select_mode_summary">전화 수신 시,홈 키로 전화 받기</string>
+	<string name="rejectcall_edit_hint">"최대 한글 40자"</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#C0C0C0" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+
+
+		<EditText android:id="@+id/et_message" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:maxLines="7"
+			android:minLines="4"
+			android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+			android:imeOptions="actionDone|flagNoEnterAction" android:gravity="top|left"
+			android:visibility="visible" android:scrollbars="vertical"
+			android:maxLength="1000" android:layout_weight="1"/>
+
+		<LinearLayout android:id="@+id/tl_multi_menu"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:layout_gravity="center"
+			android:background="#696969" android:layout_alignParentBottom="true" android:visibility="visible">
+			<Button android:layout_height="wrap_content" android:id="@+id/bt_save"
+				android:text="@string/str_save"
+				android:layout_width="match_parent" android:layout_weight="1"
+				android:layout_gravity="center" android:layout_marginTop="3dip" />
+			<Button android:layout_height="wrap_content" android:id="@+id/bt_cancel"
+				android:text="@string/str_cancel"
+				android:layout_width="match_parent" android:layout_weight="1"
+				android:layout_marginTop="3dip" android:layout_gravity="center_vertical|center_horizontal|center" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
+

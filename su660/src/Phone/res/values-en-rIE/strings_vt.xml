@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Dialpad"</string>
+	<string name="vt_Hold">"Hold"</string>
+	<string name="vt_Mute">"Mute"</string>
+	<string name="vt_Speaker">"Speaker"</string>
+	<string name="vt_camera_brightness_entry_high">"High"</string>
+	<string name="vt_camera_brightness_entry_low">"Low"</string>
+	<string name="vt_camera_brightness_title">"Brightness"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Negative"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Off"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sepia"</string>
+	<string name="vt_camera_coloureffect_title">"Colour effect"</string>
+	<string name="vt_camera_night_entry_off">"Off"</string>
+	<string name="vt_camera_night_entry_on">"On"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Auto"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Cloudy"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Fluorescent"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Incandescent"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Sunny"</string>
+	<string name="vt_camera_whitebalance_title">"White balance"</string>
+	<string name="vt_camera_zoom_title">"Zoom"</string>
+	<string name="vt_end">"End"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+</resources>

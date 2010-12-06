@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Контакти"</string>
+	<string name="contactsFavoritesLabel">"Омилени"</string>
+	<string name="dialerIconLabel">"Бирач"</string>
+	<string name="emergencyDialerIconLabel">"Бирање на итни повици"</string>
+	<string name="phoneIconLabel">"Телефон"</string>
+	<string name="recentCallsIconLabel">"Евиденција на повици"</string>
+	<string name="fdnListLabel">"FDN листа"</string>
+	<string name="transfer">"Пренос"</string>
+	<string name="incall_error_supp_service_transfer">"Повикот не може да се пренесе."</string>
+	<string name="menu_transfer">"Пренос"</string>
+	<string name="unknown">"Непознато"</string>
+	<string name="private_num">"Приватен број"</string>
+	<string name="payphone">"Јавен телефон"</string>
+	<string name="onHold">"На чекање"</string>
+	<string name="ongoing">"Тековен повик"</string>
+	<string name="callFailed_userBusy">"Линијата е зафатена"</string>
+	<string name="callFailed_congestion">"Мрежата е зафатена"</string>
+	<string name="callFailed_noSignal">"Нема сигнал"</string>
+	<string name="callFailed_limitExceeded">"ACM ограничувањето е надминато"</string>
+	<string name="callFailed_powerOff">"Радио исклучено"</string>
+	<string name="callFailed_simError">"Нема SIM картичка, или грешка на SIM картичка"</string>
+	<string name="callFailed_outOfService">"Надвор од областа на услугата"</string>
+	<string name="callFailed_fdn_only">"Излезните повици се ограничени од FDN."</string>
+	<string name="callFailed_cb_enabled">"Не може да се вршат излезни повици доколку е вклучена забраната на повици."</string>
+	<string name="callFailed_dsac_restricted">"Сите повици се ограничени со контролата на пристап."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Итните повици се ограничени со контролата на пристап."</string>
+	<string name="callFailed_dsac_restricted_normal">"Вообичаените повици се ограничени со контрола на пристап."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Phone locked until power cycle."</string>
+	<string name="callFailed_cdma_drop">"CDMA: Call dropped."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: Call intercepted."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: reorder."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: Service Option Reject."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: retry order."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: Access failure."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: Preempted."</string>
+	<string name="callFailed_cdma_notEmergency">"Можни се само итни повици."</string>
+	<string name="confCall">"Конференциски повик"</string>
+	<string name="call_lost">"Повикот е прекинат."</string>
+	<string name="retry">"Повторен обид"</string>
+	<string name="call_lost_title">"Прекинат повик"</string>
+	<string name="mmiStarted">"MMI кодот е активиран"</string>
+	<string name="ussdRunning">"USSD код кој се извршува\u2026"</string>
+	<string name="mmiCancelled">"MMI кодот е откажан"</string>
+	<string name="cancel">"Откажи"</string>
+	<string name="menu_speaker">"Звучник"</string>
+	<string name="menu_bluetooth">"Bluetooth"</string>
+	<string name="menu_mute">"Исклучи звук"</string>
+	<string name="menu_hold">"Задржи"</string>
+	<string name="menu_unhold">"Прек.чек."</string>
+	<string name="menu_endCall">"Заврши повик"</string>
+	<string name="menu_swapCalls">"Замена на повици"</string>
+	<string name="menu_mergeCalls">"Спојување повици"</string>
+	<string name="menu_addCall">"Додади повик"</string>
+	<string name="menu_manageConference">"Управување со конференциски повик"</string>
+	<string name="menu_showDialpad">"Приказ на копчиња за бирање"</string>
+	<string name="menu_hideDialpad">"Скриј копчиња за бирање"</string>
+	<string name="menu_addAccount">"Додади профил"</string>
+	<string name="menu_vocieCall">"Говорни повици"</string>
+	<string name="menu_videoCall">"ВИДЕО ПОВИК"</string>
+	<string name="menu_message">"Порака"</string>
+	<string name="menu_answerAndHold">"Задржи тековен повик\nи одговори"</string>
+	<string name="menu_answerAndEnd">"Заврши го тековниот повик\nи одговори"</string>
+	<string name="ok">"OK"</string>
+	<string name="menuButtonHint">"Притиснете Мени за опции на повици."</string>
+	<string name="menuButtonKeyboardDialHint">"Притиснете Мени за опции на повици \u2022 Користете тастатура за бирање"</string>
+	<string name="menu_answer">"Одговор"</string>
+	<string name="menu_ignore">"Игнорирај"</string>
+	<string name="wait_prompt_str">"Испрати ги следните тонови?\n"</string>
+	<string name="pause_prompt_str">"Испраќање тонови\n"</string>
+	<string name="send_button">"Испрати"</string>
+	<string name="pause_prompt_yes">"Да"</string>
+	<string name="pause_prompt_no">"Не"</string>
+	<string name="wild_prompt_str">"Замена на универзалниот знак (ѕвездичка) со"</string>
+	<string name="no_vm_number">"Бројот на говорната пошта недостасува"</string>
+	<string name="no_vm_number_msg">"На SIM картичката нема зачувано број на говорна пошта."</string>
+	<string name="add_vm_number_str">"Додади број"</string>
+	<string name="dialer_emptyListWorking">"Вчитување\\n2026"</string>
+	<string name="enterPin">"Внесете PIN код за отклучување на SIM картичката."</string>
+	<string name="pinUnlocked">"SIM отклучен"</string>
+	<string name="enterNewPin">"Нов SIM PIN код"</string>
+	<string name="verifyNewPin">"За да потврдите повторно внесете го SIM PIN кодот"</string>
+	<string name="verifyFailed">"SIM PIN-овите кои ги внесовте не се совпаѓаат. Обидете се повторно."</string>
+	<string name="enterPuk">"Внесете PUK код за отклучување на SIM картичката"</string>
+	<string name="badPuk">"Неточен PUK код!"</string>
+	<string name="buttonTxtContinue">"Продолжи"</string>
+	<string name="puk_unlocked">"SIM картичката е деблокирана. Телефонот се отклучува\u2026"</string>
+	<string name="label_ndp">"SIM PIN за отклучување мрежа"</string>
+	<string name="sim_ndp_unlock_text">"отклучување"</string>
+	<string name="sim_ndp_dismiss_text">"Разрешува"</string>
+	<string name="requesting_unlock">"Барање за отклучување на мрежа\u2026"</string>
+	<string name="unlock_failed">"Барањето за отклучување на мрежа е неуспешно."</string>
+	<string name="unlock_success">"Отклучувањето на мрежа е успешно."</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"Поставки за GSM повици"</string>
+	<string name="labelCDMAMore">"CDMA Поставки за повици"</string>
+	<string name="apn_settings">"Имиња на пристапни точки"</string>
+	<string name="settings_label">"Мрежни поставки"</string>
+	<string name="voicemail">"говорна пошта"</string>
+	<string name="voicemail_abbreviated">"VM:"</string>
+	<string name="networks">"Немате омилени контакти.\n\nЗа да додадете контакт на вашата листа на омилени:\n<li>Допрете на картичката <b>Контакти</b>\n</li>\n<li>Допрете на контактот кој сакате да го додадете во омилени\n</li>\n<li>Допрете ја ѕвездата до името на контактот\n</li>"</string>
+	<string name="call_settings">"Поставки за повици"</string>
+	<string name="additional_gsm_call_settings">"Дополнителни поставки за повици"</string>
+	<string name="sum_gsm_call_settings">"Дополнителни поставки само за GSM повици"</string>
+	<string name="additional_cdma_call_settings">"Дополнителни поставки за CDMA повици"</string>
+	<string name="sum_cdma_call_settings">"Дополнителни поставки само за CDMA повици"</string>
+	<string name="labelNwService">"Поставки за мрежни услуги"</string>
+	<string name="labelCallerId">"ID на повикувач"</string>
+	<string name="sum_hide_caller_id">"Број скриен во излезни повици"</string>
+	<string name="sum_show_caller_id">"Број прикажан во излезни повици"</string>
+	<string name="sum_default_caller_id">"Користи ги зададените поставки на операторот за приказ на мојот број во излезните повици"</string>
+	<string name="labelCW">"Повик на чекање"</string>
+	<string name="sum_cw_enabled">"За време на повик, извести ме за влезните повици"</string>
+	<string name="sum_cw_disabled">"За време на повик, извести ме за влезните повици"</string>
+	<string name="call_forwarding_settings">"Поставки за проследување на повици"</string>
+	<string name="labelCF">"Проследување на повици"</string>
+	<string name="labelCFU">"Секогаш проследи"</string>
+	<string name="messageCFU">"Секогаш користи го овој број"</string>
+	<string name="sum_cfu_enabled_indicator">"Проследување на сите повици"</string>
+	<string name="sum_cfu_enabled">"Проследување на сите повици на {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Бројот е недостапен"</string>
+	<string name="sum_cfu_disabled">"Оневозможено"</string>
+	<string name="labelCFB">"Проследи кога е зафатено"</string>
+	<string name="messageCFB">"Број кога е зафатено"</string>
+	<string name="sum_cfb_enabled">"Проследување на {0}"</string>
+	<string name="sum_cfb_disabled">"Оневозможено"</string>
+	<string name="disable_cfb_forbidden">"Вашиот оператор не поддржува оневозможување на проследувањето на повици кога вашиот телефон е зафатен."</string>
+	<string name="labelCFNRy">"Проследи кога нема одговор"</string>
+	<string name="messageCFNRy">"Број кога нема одговор"</string>
+	<string name="sum_cfnry_enabled">"Проследување на {0}"</string>
+	<string name="sum_cfnry_disabled">"Оневозможено"</string>
+	<string name="disable_cfnry_forbidden">"Вашиот оператор не поддржува оневозможување на проследувањето на повици кога вашиот телефон не одговара."</string>
+	<string name="labelCFNRc">"Проследи кога не е достапно"</string>
+	<string name="messageCFNRc">"Број кога не е достапно"</string>
+	<string name="sum_cfnrc_enabled">"Проследување на {0}"</string>
+	<string name="sum_cfnrc_disabled">"Оневозможено"</string>
+	<string name="labelCB">"Забрана на повици"</string>
+	<string name="labelCBPWD">"Промена на лозинка"</string>
+	<string name="sum_cb_enabled">"Овозможено"</string>
+	<string name="sum_cb_disabled">"Оневозможено"</string>
+	<string name="messageCallBarring">"Лозинка"</string>
+	<string name="newCBPwdLabel">"Нова лозинка"</string>
+	<string name="disable_cfnrc_forbidden">"Вашиот оператор не поддржува оневозможување на проследувањето на повици кога вашиот телефон е недостапен."</string>
+	<string name="updating_title">"Поставки за повици"</string>
+	<string name="error_updating_title">"Грешка во поставките за повици"</string>
+	<string name="reading_settings">"Читање на поставки\u2026"</string>
+	<string name="updating_settings">"Ажурирање поставки\u2026"</string>
+	<string name="reverting_settings">"Враќање на поставките\u2026"</string>
+	<string name="response_error">"Неочекуван одговор од мрежата."</string>
+	<string name="exception_error">"Грешка на мрежата или SIM картичката."</string>
+	<string name="radio_off_error">"Пред прегледувањето на овие поставки вклучете го радиото."</string>
+	<string name="close_dialog">"OK"</string>
+	<string name="enable">"Овозможи"</string>
+	<string name="disable">"Оневозможи"</string>
+	<string name="change_num">"Ажурирање"</string>
+	<string-array name="clir_display_values">
+		<item>"Зададена мрежна вредност"</item>
+		<item>"Скриј број"</item>
+		<item>"Прикажи број"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>Зададено\n</xliff:g>"</item>
+		<item>"<xliff:g>HIDE</xliff:g>"</item>
+		<item>"<xliff:g>Прикажи</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Пребарување на сите достапни мрежи"</string>
+	<string name="vm_changed">"Бројот на говорната пошта е променет."</string>
+	<string name="vm_change_failed">"Промената на бројот на говорна пошта е неуспешна.\nОбратете се до вашиот оператор ако проблемот продолжи."</string>
+	<string name="fw_change_failed">"Неуспешна промена на број за проследување.\nОбратете се до вашиот оператор ако проблемот продолжи."</string>
+	<string name="fw_get_in_vm_failed">"Неуспешно преземање и зачувување на тековните поставки за број за проследување.\nДали и покрај тоа сакате да се префрлите на новиот оператор?"</string>
+	<string name="no_change">"Не се извршени промени."</string>
+	<string name="sum_voicemail_choose_provider">"Изберете услуга на говорна пошта"</string>
+	<string name="voicemail_default">"Мој оператор"</string>
+	<string name="mobile_networks">"Поставки на мобилна мрежа"</string>
+	<string name="label_available">"Достапни мрежи"</string>
+	<string name="load_networks_progress">"Пребарување\u2026"</string>
+	<string name="empty_networks_list">"Не се најдени мрежи."</string>
+	<string name="search_networks">"Пребарај мрежи"</string>
+	<string name="network_query_error">"Грешка при пребарување на мрежи."</string>
+	<string name="register_on_network">"Регистрирање на <xliff:g id="network">%s</xliff:g>\u2026"</string>
+	<string name="not_allowed">"SIM картичката не дозволува поврзување на оваа мрежа."</string>
+	<string name="connect_later">"Не е можно поврзување со оваа мрежа во моментов. Обидете се подоцна."</string>
+	<string name="registration_done">"Регистрирано на мрежа."</string>
+	<string name="sum_carrier_select">"Избери мрежен оператор"</string>
+	<string name="sum_search_networks">"Пребарување на сите достапни мрежи"</string>
+	<string name="select_automatically">"Автоматско избирање"</string>
+	<string name="sum_select_automatically">"Автоматски избери претпочитана мрежа"</string>
+	<string name="register_automatically">"Автоматско регистрирање..."</string>
+	<string name="preferred_network_mode_title">"Режим на мрежа"</string>
+	<string name="preferred_network_mode_summary">"e"</string>
+	<string name="preferred_network_mode_dialogtitle">"Приоритетен мрежен режим"</string>
+	<string name="menu_search_networks">"Пребарај мрежи"</string>
+	<string name="menu_select_automatically">"Автоматско избирање"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Глобално"</item>
+		<item>"Само EvDo"</item>
+		<item>"CDMA / EvDo автоматски"</item>
+		<item>"CDMA/EvDo auto"</item>
+		<item>"GSM / WCDMA автоматски"</item>
+		<item>"Само WCDMA"</item>
+		<item>"Само GSM"</item>
+		<item>"Приоритетен GSM / WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Пристапот до податоци е овозможен"</string>
+	<string name="data_enable_summary">"Овозможи податочен пристап преку мобилна мрежа"</string>
+	<string name="roaming">"Пренос на податоци при roaming"</string>
+	<string name="roaming_enable">"Поврзување со податочните услуги при roaming"</string>
+	<string name="roaming_disable">"Поврзување со податочните услуги при roaming"</string>
+	<string name="roaming_reenable_message">"Ја изгубивте податочната врска бидејќи го напуштивте подрачјето на својата матична мрежа, а податочниот roaming е исклучен."</string>
+	<string name="roaming_warning">"Дозволи пренос на податоци при roaming? Може да дојде до значителни трошоци за roaming!"</string>
+	<string name="data_mode_ok">"Да"</string>
+	<string name="data_mode_cancel">"Не"</string>
+	<string name="gsm_umts_options">"GSM/UMTS опции"</string>
+	<string name="cdma_options">"CDMA Options"</string>
+	<string name="throttle_data_usage">"Користење на податоци"</string>
+	<string name="throttle_settings_title">"Податочна политика на оператор"</string>
+	<string name="throttle_current_usage">"Искористени податоци во тековниот период"</string>
+	<string name="throttle_time_frame">"Период за користење на податоци"</string>
+	<string name="throttle_rate">"Политика за податочна стапка"</string>
+	<string name="throttle_help">"Дознајте повеќе"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) of <xliff:g id="used">%3$s</xliff:g> максимален период\nНаредниот период започнува за <xliff:g id="used">%4$d</xliff:g> денови (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) of <xliff:g id="used">%3$s</xliff:g> максимален период\nНаредниот период започнува за <xliff:g id="used">%4$d</xliff:g> денови (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_rate_reduced_subtext">"Максимумот од <xliff:g id="used">%1$s</xliff:g> е надминат\nПодаточната стапка е намалена на <xliff:g id="used">%2$d</xliff:g> Kb/s"</string>
+	<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>% од циклусот се истечени\nНаредниот период започнува за <xliff:g id="used">%2$d</xliff:g> денови (<xliff:g id="used">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Податочната стапка ќе се намали на <xliff:g id="used">%1$d</xliff:g> Kb/s доколку се надмине ограничувањето за користење на податоци"</string>
+	<string name="throttle_help_subtext">"Повеќе информации околу политиката на операторот за користење податоци преку мобилната мрежа"</string>
+	<string name="cdma_cell_broadcast_sms">"SMS ќелиско емитување"</string>
+	<string name="cell_broadcast_sms">"SMS ќелиско емитување"</string>
+	<string name="enable_disable_cell_bc_sms">"SMS ќелиско емитување"</string>
+	<string name="cell_bc_sms_enable">"SMS ќелиско емитување - овозможено"</string>
+	<string name="cell_bc_sms_disable">"SMS ќелиско емитување - оневозможено"</string>
+	<string name="cb_sms_settings">"SMS поставки за ќелиско емитување"</string>
+	<string name="enable_disable_emergency_broadcast">"Емитувања за итни случаи"</string>
+	<string name="emergency_broadcast_enable">"Емитувања за итни случаи - овозможено"</string>
+	<string name="emergency_broadcast_disable">"Емитувања за итни случаи - оневозможено"</string>
+	<string name="enable_disable_administrative">"Административно"</string>
+	<string name="administrative_enable">"Административно - овозможено"</string>
+	<string name="administrative_disable">"Административно - оневозможено"</string>
+	<string name="enable_disable_maintenance">"Одржување"</string>
+	<string name="maintenance_enable">"Одржување - овозможено"</string>
+	<string name="maintenance_disable">"Одржување - оневозможено"</string>
+	<string name="general_news_settings">"Општи новости"</string>
+	<string name="bf_news_settings">"Деловни и финансиски новости"</string>
+	<string name="sports_news_settings">"Спортски новости"</string>
+	<string name="entertainment_news_settings">"Забавни новости"</string>
+	<string name="enable_disable_local">"Локално"</string>
+	<string name="local_enable">"Локални новости - овозможено"</string>
+	<string name="local_disable">"Локални новости - оневозможено"</string>
+	<string name="enable_disable_regional">"Регионално"</string>
+	<string name="regional_enable">"Регионални новости - овозможено"</string>
+	<string name="regional_disable">"Регионални новости - оневозможено"</string>
+	<string name="enable_disable_national">"Национално"</string>
+	<string name="national_enable">"Нема контакти."</string>
+	<string name="national_disable">"Прекар"</string>
+	<string name="enable_disable_international">"Меѓународни"</string>
+	<string name="international_enable">"Меѓународни новости - овозможено"</string>
+	<string name="international_disable">"Меѓународни новости - оневозможено"</string>
+	<string name="list_language_title">"Јазик"</string>
+	<string name="list_language_summary">"Избери јазик за новости"</string>
+	<string-array name="list_language_entries">
+		<item>"Француски"</item>
+		<item>"Шпански"</item>
+		<item>"Јапонски"</item>
+		<item>"Корејски"</item>
+		<item>"Кинески"</item>
+		<item>"Еврејски"</item>
+		<item>"Еврејски"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Јазици"</string>
+	<string name="enable_disable_local_weather">"Локално време"</string>
+	<string name="local_weather_enable">"Локално време - овозможено"</string>
+	<string name="local_weather_disable">"Локално време - оневозможено"</string>
+	<string name="enable_disable_atr">"Извештаи за сообраќај во област"</string>
+	<string name="atr_enable">"Извештаи за сообраќај во област - овозможено"</string>
+	<string name="atr_disable">"Извештаи за сообраќај во област - оневозможено"</string>
+	<string name="enable_disable_lafs">"Локален распоред на авионски летови"</string>
+	<string name="lafs_enable">"Локален распоред на авионски летови - овозможено"</string>
+	<string name="lafs_disable">"Локален распоред на авионски летови - оневозможено"</string>
+	<string name="enable_disable_restaurants">"Ресторани"</string>
+	<string name="restaurants_enable">"Ресторани - овозможено"</string>
+	<string name="restaurants_disable">"Ресторани - оневозможено"</string>
+	<string name="enable_disable_lodgings">"Сместување"</string>
+	<string name="lodgings_enable">"Сместување - овозможено"</string>
+	<string name="lodgings_disable">"Сместување - оневозможено"</string>
+	<string name="enable_disable_retail_directory">"Директориум за продажба"</string>
+	<string name="retail_directory_enable">"Директориум за продажба - овозможено"</string>
+	<string name="retail_directory_disable">"Директориум за продажба - оневозможено"</string>
+	<string name="enable_disable_advertisements">"Реклами"</string>
+	<string name="advertisements_enable">"Рекламите се овозможени"</string>
+	<string name="advertisements_disable">"Рекламите се оневозможени"</string>
+	<string name="enable_disable_stock_quotes">"Цени на акции"</string>
+	<string name="stock_quotes_enable">"Цени на акции - овозможено"</string>
+	<string name="stock_quotes_disable">"Цени на акции - оневозможено"</string>
+	<string name="enable_disable_eo">"Можности за вработување"</string>
+	<string name="eo_enable">"Можности за вработување - овозможено"</string>
+	<string name="eo_disable">"Можности за вработување - оневозможено"</string>
+	<string name="enable_disable_mhh">"Медицина, здравје и болници"</string>
+	<string name="mhh_enable">"Медицина, здравје и болници - овозможено"</string>
+	<string name="mhh_disable">"Медицина, здравје и болници - оневозможено"</string>
+	<string name="enable_disable_technology_news">"Новости од технологија"</string>
+	<string name="technology_news_enable">"Новости од технологија - овозможено"</string>
+	<string name="technology_news_disable">"Новости од технологија - оневозможено"</string>
+	<string name="enable_disable_multi_category">"Од повеќе категории"</string>
+	<string name="multi_category_enable">"Од повеќе категории - овозможено"</string>
+	<string name="multi_category_disable">"Од повеќе категории - оневозможено"</string>
+	<string name="gsm_umts_network_preferences_title">"GSM/UMTS мрежни поставки"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Сè уште не е реализирано!"</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"GSM/UMTS мрежни поставки"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"GSM/WCDMA (автоматски режим)"</item>
+		<item>"Само WCDMA"</item>
+		<item>"Само GSM"</item>
+		<item>"GSM/WCDA (приоритетен WCDMA)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Користи само 2G мрежи"</string>
+	<string name="prefer_2g_summary">"Штеди батерија"</string>
+	<string name="cdma_system_select_title">"Избор на систем"</string>
+	<string name="cdma_system_select_summary">"Промена на cdma roaming режим"</string>
+	<string name="cdma_system_select_dialogtitle">"Избор на систем"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Само домашна мрежа"</item>
+		<item>"Автоматски"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA Roaming Mode"</string>
+	<string name="cdma_roaming_mode_summary">"Промена на cdma roaming режим"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA roaming mode"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Само домашни мрежи"</item>
+		<item>"Придружни мрежи"</item>
+		<item>"Која било мрежа"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"CDMA Network Preferences"</string>
+	<string name="cdma_network_preferneces_summary">"Сè уште не е реализирано!"</string>
+	<string name="cdma_network_preferences_dialogtitle">"CDMA network preferences"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Само CDMA"</item>
+		<item>"Само EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"CDMA претплата - ТЕСТ"</string>
+	<string name="subscription_summary">"Промени помеѓу RUIM и NV"</string>
+	<string name="subscription_dialogtitle">"Претплата"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Броеви за фиксно бирање"</string>
+	<string name="manage_fdn_list">"FDN листа"</string>
+	<string name="fdn_activation">"FDN активирање"</string>
+	<string name="fdn_enabled">"Броевите за фиксно бирање се овозможени"</string>
+	<string name="fdn_disabled">"Броевите за фиксно бирање се оневозможени"</string>
+	<string name="enable_fdn">"Овозможи FDN"</string>
+	<string name="disable_fdn">"Оневозможи FDN"</string>
+	<string name="change_pin2">"Промени PIN2"</string>
+	<string name="enable_fdn_ok">"Оневозможи FDN"</string>
+	<string name="disable_fdn_ok">"Овозможи FDN"</string>
+	<string name="sum_fdn">"Управување со броеви за фиксно бирање"</string>
+	<string name="sum_fdn_change_pin">"Промени PIN за FDN пристап"</string>
+	<string name="sum_fdn_manage_list">"Управување со листа на телефонски броеви"</string>
+	<string name="voice_privacy">"Приватност на говор"</string>
+	<string name="voice_privacy_summary">"Овозможи напреден режим за приватност"</string>
+	<string name="tty_mode_title">"TTY режим"</string>
+	<string name="tty_mode_summary">"Овозможи TTY режим"</string>
+	<string name="tty_mode_option_title">"TTY режим"</string>
+	<string name="tty_mode_option_summary">"Постави TTY режим"</string>
+	<string name="auto_retry_mode_title">"Автоматски повторен обид"</string>
+	<string name="auto_retry_mode_summary">"Овозможи режим на автоматски повторен обид"</string>
+	<string name="menu_add">"Додади контакт"</string>
+	<string name="menu_edit">"Уреди контакт"</string>
+	<string name="menu_delete">"Избриши контакт"</string>
+	<string name="get_pin2">"Внесете PIN2"</string>
+	<string name="name">"Име"</string>
+	<string name="number">"Број"</string>
+	<string name="save">"Зачувај"</string>
+	<string name="add_fdn_contact">"Додади контакт за фиксно бирање"</string>
+	<string name="adding_fdn_contact">"Додавање број за фиксно бирање…"</string>
+	<string name="fdn_contact_added">"Додаден е број за фиксно бирање."</string>
+	<string name="edit_fdn_contact">"Уредување на број за фиксно бирање"</string>
+	<string name="updating_fdn_contact">"Ажурирање број за фиксно бирање…"</string>
+	<string name="fdn_contact_updated">"Ажуриран е број за фиксно бирање."</string>
+	<string name="delete_fdn_contact">"Избриши број за фиксно бирање"</string>
+	<string name="deleting_fdn_contact">"Бришење број за фиксно бирање…"</string>
+	<string name="fdn_contact_deleted">"Избришан е број за фиксно бирање."</string>
+	<string name="pin2_invalid">"FDN не е ажурирано: внесовте неточен PIN."</string>
+	<string name="fdn_invalid_number">"FDN не е ажурирано: бројот не може да надмине 20 цифри."</string>
+	<string name="simContacts_emptyLoading">"Читање од SIM картичка\u2026"</string>
+	<string name="simContacts_empty">"На SIM картичката нема контакти."</string>
+	<string name="simContacts_title">"Избор на контакти за увезување"</string>
+	<string name="enable_pin">"Овозможи/оневозможи SIM PIN"</string>
+	<string name="change_pin">"Промени SIM PIN"</string>
+	<string name="enter_pin_text">"SIM PIN:"</string>
+	<string name="oldPinLabel">"Стар PIN"</string>
+	<string name="newPinLabel">"Нов PIN"</string>
+	<string name="confirmPinLabel">"Потврди нов PIN"</string>
+	<string name="badPin">"Стариот PIN кој го внесовте не е исправен. Обидете се повторно."</string>
+	<string name="mismatchPin">"PIN-овите кои ги внесовте не се совпаѓаат. Обидете се повторно."</string>
+	<string name="invalidPin">"Внесете PIN кој има 4 до 8 цифри."</string>
+	<string name="disable_sim_pin">"Оневозможи SIM PIN"</string>
+	<string name="enable_sim_pin">"Овозможи SIM PIN"</string>
+	<string name="enable_in_progress">"Ве молиме почекајте\u2026"</string>
+	<string name="enable_pin_ok">"SIM PIN овозможен"</string>
+	<string name="disable_pin_ok">"SIM PIN оневозможен"</string>
+	<string name="pin_failed">"PIN-от кој го внесовте не е исправен"</string>
+	<string name="pin_changed">"SIM PIN успешно променет"</string>
+	<string name="puk_requested">"Лозинката не е точна, SIM е заклучен! Побаран е PUK2."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Стар PIN2"</string>
+	<string name="newPin2Label">"Нов PIN2"</string>
+	<string name="confirmPin2Label">"Потврди нов PIN2"</string>
+	<string name="badPuk2">"PUK2 кодот кој го внесовте не е исправен. Обидете се повторно."</string>
+	<string name="badPin2">"Стариот PIN2 кој го внесовте не е исправен. Обидете се повторно."</string>
+	<string name="mismatchPin2">"PIN2 кодовите кои ги внесовте не се совпаѓаат. Обидете се повторно."</string>
+	<string name="invalidPin2">"Внесете PIN2 кој има 4 до 8 цифри."</string>
+	<string name="invalidPuk2">"Внесете PUK2 кој има 8 цифри."</string>
+	<string name="pin2_changed">"PIN2 успешно променет"</string>
+	<string name="label_puk2_code">"Внесете PUK2 код"</string>
+	<string name="fdn_enable_puk2_requested">"Лозинката не е точна, променете го PIN2 и обидете се повторно!"</string>
+	<string name="puk2_requested">"Лозинката не е точна, SIM е заклучен! Побаран е PUK2."</string>
+	<string name="doneButton">"Извршено"</string>
+	<string name="caller_manage_header">"Конференциски повик <xliff:g id="conf_call_time">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Назад на повикот"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Број на влезниот повик "</string>
+	<string name="fake_phone_activity_placeCall_text">"Лажен влезен повик "</string>
+	<string name="sim_missing_continueView_text">"Продолжи без SIM картичка"</string>
+	<string name="sim_missing_msg_text">"Нема SIM картичка, или грешка на SIM картичка"</string>
+	<string name="sim_unlock_dismiss_text">"Разрешува"</string>
+	<string name="sim_unlock_unlock_text">"отклучување"</string>
+	<string name="sim_unlock_status_text">"Автентификација на PIN\u2026"</string>
+	<string name="voicemail_settings_number_label">"Број на говорна пошта"</string>
+	<string name="card_title_dialing">"Бирање"</string>
+	<string name="card_title_redialing">"Се врши повторен обид"</string>
+	<string name="card_title_in_progress">"Тековен повик"</string>
+	<string name="card_title_conf_call">"Конференциски повик"</string>
+	<string name="card_title_incoming_call">"Влезен повик"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA Повик на чекање"</string>
+	<string name="card_title_call_ended">"Повикот е завршен"</string>
+	<string name="card_title_on_hold">"На чекање"</string>
+	<string name="card_title_hanging_up">"Прекинување на врската"</string>
+	<string name="card_title_in_call">"Во тек на повик"</string>
+	<string name="card_title_mo_3">"Повик на чекање"</string>
+	<string name="card_title_mo_5">"Повикот е забранет"</string>
+	<string name="card_title_mo_6">"Повикот е забранет"</string>
+	<string name="redial_radio_dialog_wait">"Причекајте"</string>
+	<string name="notification_missedCallTitle">"Пропуштен повик"</string>
+	<string name="notification_missedCallsTitle">"Пропуштени повици"</string>
+	<string name="notification_missedCallsMsg">"<xliff:g id="num_missed_calls">%s</xliff:g> пропуштени повици"</string>
+	<string name="notification_missedCallTicker">"Пропуштен повик од <xliff:g id="missed_call_from">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Тековен повик (<xliff:g id="duration">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"На чекање"</string>
+	<string name="notification_voicemail_title">"Нова говорна порака"</string>
+	<string name="notification_voicemail_title_count">"Нова говорна порака  (<xliff:g id="count">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"Бирај <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+	<string name="notification_voicemail_no_vm_number">"Непознат број на говорна пошта "</string>
+	<string name="notification_network_selection_title">"Нема услуга"</string>
+	<string name="notification_network_selection_text">"Избраната мрежа (<xliff:g id="operator_name">%s</xliff:g>) е недостапна"</string>
+	<string name="incall_error_power_off">"За започнување повик, прво исклучете го режимот на работа во авион."</string>
+	<string name="incall_error_emergency_only">"Не е регистрирано на мрежа."</string>
+	<string name="incall_error_out_of_service">"Мобилната мрежа не е достапна."</string>
+	<string name="incall_error_no_phone_number_supplied">"Повикот не е испратен, не е внесен валиден број."</string>
+	<string name="incall_error_call_failed">"Повикот не е испратен."</string>
+	<string name="incall_status_dialed_mmi">"Започнување MMI секвенца\u2026"</string>
+	<string name="incall_status_dialed_fc">"Започнување на секвенца за код на функција\u2026"</string>
+	<string name="incall_error_supp_service_unknown">"Услугата не е поддржана."</string>
+	<string name="incall_error_supp_service_switch">"Префрлувањето на повици не е можно."</string>
+	<string name="incall_error_supp_service_separate">"Повикот не може да се одвои."</string>
+	<string name="incall_error_supp_service_conference">"Не е можно да се воспостави конференциски повик."</string>
+	<string name="incall_error_supp_service_reject">"Повикот не може да се одбие."</string>
+	<string name="incall_error_supp_service_hangup">"Повиците не може да се ослободат."</string>
+	<string name="emergency_enable_radio_dialog_title">"Итен повик"</string>
+	<string name="emergency_enable_radio_dialog_message">"Вклучување на радио\u2026"</string>
+	<string name="emergency_enable_radio_dialog_retry">"Надвор од областа на услугата, повторен обид\u2026"</string>
+	<string name="dial_emergency_error">"Повикот не е упатен, <xliff:g id="non_emergency_number">%s</xliff:g> не е број за итни повици!"</string>
+	<string name="dial_emergency_empty_error">"Повикот не е упатен, ве молиме бирајте број за итни повици!"</string>
+	<string name="dialerKeyboardHintText">"Користи тастатура за бирање"</string>
+	<string name="dtmfDialpadHintText">"Тастатура со тон на допир"</string>
+	<string name="dtmfDialpadHandleLabel">"Копчиња за бирање"</string>
+	<string name="touchLockText">"Допрете двапати\nза отклучување"</string>
+	<string name="onscreenAnswerText">"Притиснете двапати\nза одговор"</string>
+	<string name="onscreenRejectText">"Допрете двапати\nза одбивање"</string>
+	<string name="onscreenHoldText">"На чекање"</string>
+	<string name="onscreenUnholdText">"Прек.чек."</string>
+	<string name="onscreenSendCallText">"Испрати"</string>
+	<string name="onscreenEndCallText">"Крај"</string>
+	<string name="onscreenShowDialpadText">"Копчиња за бирање"</string>
+	<string name="onscreenHideDialpadText">"Скриј"</string>
+	<string name="onscreenSpeakerText">"Звучник"</string>
+	<string name="onscreenMuteText">"Исклучи звук"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Додади повик"</string>
+	<string name="onscreenMergeCallsText">"Спојување повици"</string>
+	<string name="onscreenSwapCallsText">"Замени"</string>
+	<string name="onscreenManageCallsText">"Управување со повици"</string>
+	<string name="onscreenManageConferenceText">"Управување"</string>
+	<string name="importSimEntry">"Увези"</string>
+	<string name="importAllSimEntries">"Увези сè"</string>
+	<string name="default_group">"Зададено"</string>
+	<string name="selectAllSimEntries">"Избери сè"</string>
+	<string name="attention">"Внимание"</string>
+	<string name="importingSimContacts">"Увезување контакти од SIM картичка"</string>
+	<string name="importToFDNfromContacts">"Увези од контакти"</string>
+	<string name="hac_mode_title">"Помош за лица со оштетен слух"</string>
+	<string name="hac_mode_summary">"Вклучување на компатибилност за помош за лица со оштетен слух"</string>
+	<string-array name="tty_mode_entries">
+		<item>"TTY исклучен"</item>
+		<item>"TTY полн"</item>
+		<item>"TTY HCO"</item>
+		<item>"TTY VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"ERI текст"</string>
+	<string name="dtmf_tones_title">"DTMF тонови"</string>
+	<string name="dtmf_tones_summary">"Поставување должина на DTMF тонови"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Нормален"</item>
+		<item>"Долго"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Мрежна порака"</string>
+	<string name="ota_title_activate">"Активирање на вашиот телефон"</string>
+	<string name="ota_touch_activate">"Потребно е да се направи посебен повик за да ја активирате телефонската услуга.\n\nПо притиснување на \u201Cактивирајте\u201D и следете ги понудените инструкции за активирање на вашиот телефон."</string>
+	<string name="ota_touch_activate_new">"Допрете “Активирај” за започнување на специјален повик со кој се активира вашиот телефон на мобилната мрежа на операторот, по што ќе можете да започнувате повици и да се поврзувате на мобилни податочни мрежи."</string>
+	<string name="ota_skip_activation_dialog_title">"Прескокни активирање?"</string>
+	<string name="ota_skip_activation_dialog_message">"Ако го прескокнете активирањето, нема да може да започнувате повици или да се поврзувате на мобилни податочни мрежи (ќе можете да се поврзувате на Wi-Fi мрежи). Додека не го активирате вашиот телефон, ќе бидете запрашани за активирање при секое вклучување."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Прескокни"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Активирај"</string>
+	<string name="ota_activate">"Активирај"</string>
+	<string name="ota_title_activate_success">"Телефонот е активиран!"</string>
+	<string name="ota_title_problem_with_activation">"Проблем со активирање"</string>
+	<string name="ota_listen">"Следете ги говорните инструкции додека не слушнете дека активирањето е завршено."</string>
+	<string name="ota_dialpad">"Тастатура"</string>
+	<string name="ota_speaker">"Звучник"</string>
+	<string name="ota_progress">"Почекајте додека вашиот телефон се програмира."</string>
+	<string name="ota_failure">"Програмирањето е неуспешно"</string>
+	<string name="ota_successful">"Вашиот телефон сега е активиран. Може да бидат потребни до 15 минути за да се активира услугата."</string>
+	<string name="ota_unsuccessful">"Телефонот не се активираше.\nМожеби треба да најдете подрачје со подобра покриеност (блиску до прозорец или надвор).\n\nОбидете се повторно или повикајте го одделот за корисници за повеќе опции."</string>
+	<string name="ota_spc_failure">"ГРЕШКИ - SPC НАДМИНУВАЊЕ"</string>
+	<string name="ota_call_end">"Задна страна"</string>
+	<string name="ota_try_again">"Обидете се повторно"</string>
+	<string name="ota_next">"Следно"</string>
+	<string name="ota_back">"Задна страна"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Активен е режим на возвраќање на итни повици"</string>
+	<string name="phone_in_ecm_notification_title">"Режим на возвраќање на итни повици"</string>
+	<string name="phone_in_ecm_call_notification_text">"Податочна врска е оневозможена"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Нема податочна врска <xliff:g id="count">%s</xliff:g> минута"</item>
+		<item quantity="other">"Нема податочна врска <xliff:g id="count">%s</xliff:g> минути"</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"Телефонот ќе биде во режим на возвраќање итни повици <xliff:g id="count">%s</xliff:g> минута. За време на овој режим не можете да употребувате апликации кои користат податочна врска. Дали сакате да излезете сега?"</item>
+		<item quantity="other">"Телефонот ќе биде во режим на возвраќање итни повици <xliff:g id="count">%s</xliff:g> минути. За време на овој режим не можете да употребувате апликации кои користат податочна врска. Дали сакате да излезете сега?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"Избраното дејство не е достапно во режим на возвраќање итни повици. Телефонот ќе биде во овој режим <xliff:g id="count">%s</xliff:g> минута. Дали сакате да излезете сега?"</item>
+		<item quantity="other">"Избраното дејство не е достапно во режим на возвраќање итни повици. Телефонот ќе биде во овој режим <xliff:g id="count">%s</xliff:g> минути. Дали сакате да излезете сега?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"Избраното дејство не е достапно во режим на итни повици"</string>
+	<string name="progress_dialog_exiting_ecm">"Излез од режим на возвраќање на итни повици"</string>
+	<string name="alert_dialog_yes">"Да"</string>
+	<string name="alert_dialog_no">"Не"</string>
+	<string name="alert_dialog_dismiss">"Разрешува"</string>
+	<string name="absent_num">"ОТСУСТВО НА БРОЈ"</string>
+	<string name="voicemail_settings">"Поставки на говорна пошта"</string>
+	<string name="voicemail_number_not_set">"&lt;не е поставено&gt;"</string>
+	<string name="network_preference">"Режим на мрежа"</string>
+	<string name="menu_preferred_network_edit">"Уреди"</string>
+	<string name="menu_preferred_network_delete">"Избриши"</string>
+	<string name="label_cb">"Забрана на повици"</string>
+	<string name="label_cb_incom">"Влезни повици"</string>
+	<string name="pass_dialog_title">"Лозинка"</string>
+	<string name="summ_cb_enable">"Овозможи"</string>
+	<string name="summ_cb_disable">"Оневозможи"</string>
+	<string name="confirm_button">"Потврди"</string>
+	<string name="cancel_button">"Откажи"</string>
+	<string name="call_cost_settings">"Поставки"</string>
+	<string name="call_cost_activation_settings">"Неограничено"</string>
+	<string name="call_cost_pin2_err">"Лозинката не е точна, променете го PIN2 и обидете се повторно!"</string>
+	<string name="call_cost_unit">"Единица"</string>
+	<string name="call_cost_set_limit_off">"Исклучено"</string>
+	<string name="call_cost_set_call_cost_empty">"Празно"</string>
+	<string name="revertButton">"Врати претходно"</string>
+	<string name="call_cost_reset_msg">"Ресетирај"</string>
+	<string name="cb_set_passwd_title">"Постави лозинка"</string>
+	<string name="cb_set_passwd_dialog_title">"Постави лозинка"</string>
+	<string name="cb_old_password">"Тековна лозинка:"</string>
+	<string name="cb_new_password">"Нова лозинка"</string>
+	<string name="cb_confirm_password">"Потврди нова лозинка:"</string>
+	<string name="cb_password_error">"Внесете ја точната лозинка."</string>
+	<string name="cb_passwords_error">"Лозинките не се совпаѓаат."</string>
+	<string name="cb_passwords_empty_error">"Мора да внесете лозинка и да ја потврдите."</string>
+	<string name="cb_password_empty_error">"Ве молиме внесете ја лозинката."</string>
+	<string name="barring_pass_cancel">"Откажи"</string>
+	<string name="barring_pass_ok">"OK"</string>
+	<string name="voicemail_provider">"Услуга на говорна пошта"</string>
+	<string name="voicemail_settings_for">"Поставки за <xliff:g id="provider_name">%s</xliff:g>"</string>
+	<string name="other_settings">"Други поставки за повици"</string>
+	<string name="dial_button_label">"Бирање"</string>
+	<string name="calling_via_template">"Повикување преку ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Повлечи надесно за одговор"</string>
+	<string name="slide_to_silence">"Повлечи налево за искл. ѕвоно"</string>
+	<string name="slide_to_decline">"Повлечи налево за одбивање"</string>
+	<string name="slide_to_answer_and_hold">"Повлечи надесно за одговор и\nзадржување на активен повик"</string>
+	<string name="slide_to_answer_and_end_active">"Повлечи надесно за одговор и завршување на активен повик"</string>
+	<string name="slide_to_answer_and_end_onhold">"Повлечи надесно за одговор и завршување повик на чекање"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"OK"</string>
+	<string name="messageCancel">"Откажи"</string>
+	<string name="slide_to_answer_hint">"Одговор"</string>
+	<string name="slide_to_decline_hint">"Одбиј"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Внесете PUK код"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Неправилен PUK код!\nПреостануваат: <xliff:g id="NUMBER_0">%d</xliff:g> обид(и)"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Нов PIN"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Потврди нов PIN"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"PIN-овите кои ги внесовте не одговараат."</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Преостанува: "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"PUK е блокиран"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Неправилен PIN код!\nПреостануваат: <xliff:g id="NUMBER_0">%d</xliff:g> обид(и)"</string>
+	<string name="unlock_accept">"Прифати"</string>
+	<string name="unlock_send_sms">"Испрати SMS"</string>
+	<string name="silent_silent">"Бесчујно"</string>
+	<string name="str_save">"Зачувај"</string>
+	<string name="str_delete">"Избриши"</string>
+	<string name="str_cancel">"Откажи"</string>
+	<string name="str_no_messages">"Нема пораки"</string>
+	<string name="str_new_message">"Нова порака"</string>
+	<string name="send_sms">"Испрати SMS"</string>
+	<string name="str_send">"Испрати"</string>
+	<string name="menu_item1">"Нова порака"</string>
+	<string name="menu_item2">"Повеќ. селект."</string>
+	<string name="menu_item3">"Избриши сè"</string>
+	<string name="str_delete_q">"Избриши?"</string>
+	<string name="excuse_messages_select_all">"Избери сè"</string>
+	<string name="excuse_messages_deselect_all">"Поништи сè што е избрано"</string>
+	<string name="excuse_messages_btn_delete">"Избриши"</string>
+	<string name="excuse_messages_multi_select">"Повеќ. селект."</string>
+	<string name="excuse_messages_delete_all">"Избриши сè"</string>
+	<string name="excuse_messages_new_message">"Нова порака"</string>
+	<string name="excuse_messages_btn_cancel">"Откажи"</string>
+	<string name="excuse_messages_delete_question">"Избриши?"</string>
+	<string name="excuse_messages_saved">"Зачувано"</string>
+	<string name="excuse_messages_delete">"Избриши"</string>
+	<string name="excuse_messages_len_btn">"Потврди"</string>
+	<string name="yes">"Да"</string>
+	<string name="no">"Не"</string>
+	<string name="call_barring_title">"Забрана на повици"</string>
+	<string name="camera_bright_key">"Осветленост"</string>
+	<string name="camera_zoom_key">"Зумирање"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Контакти"</string>
+	<string name="incallmenu_memo">"Белешки"</string>
+	<string name="incallmenu_Sms">"Порака"</string>
+	<string name="CALLSTR_CALLREJECTING">"Бесчујно"</string>
+	<string name="CALLSTR_CALLERID">"ID на повикувач"</string>
+	<string name="CALLSTR_INCOMCALL">"Влезен повик"</string>
+	<string name="CALLSTR_CALLTO">"До"</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Состави порака"</string>
+	<string name="CALLSTR_REJECT_SEND">"Испрати"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Уреди"</string>
+	<string name="custom_roaming_button">"OK"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Име"</string>
+	<string name="label_ve">"Ознака"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>

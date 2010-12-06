@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Toetsenblok"</string>
+	<string name="vt_Hold">"In de wacht"</string>
+	<string name="vt_Mute">"Dempen"</string>
+	<string name="vt_Private">"Privé"</string>
+	<string name="vt_Show">"Tonen"</string>
+	<string name="vt_Speaker">"Luidspreker"</string>
+	<string name="vt_bad_response">"Ongeldige reactie. Probeer het later opnieuw."</string>
+	<string name="vt_call_barred">"Oproepen geblokkeerd"</string>
+	<string name="vt_call_ended">"Video-oproep beëindigd"</string>
+	<string name="vt_camera_brightness_entry_high">"Hoog"</string>
+	<string name="vt_camera_brightness_entry_low">"Laag"</string>
+	<string name="vt_camera_brightness_entry_middle">"Midden"</string>
+	<string name="vt_camera_brightness_title">"Helderheid"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Negatief"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Uit"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sepia"</string>
+	<string name="vt_camera_coloureffect_title">"Kleureffect"</string>
+	<string name="vt_camera_night_entry_off">"Uit"</string>
+	<string name="vt_camera_night_entry_on">"Aan"</string>
+	<string name="vt_camera_night_title">"Nachtmodus"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Automatisch"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Bewolkt"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Fluorescerend"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Lichtgevend"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Zonnig"</string>
+	<string name="vt_camera_whitebalance_title">"Witbalans"</string>
+	<string name="vt_camera_zoom_title">"Zoomen"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Kan VT-oproep niet ondersteunen. Maak verbinding met spraakoproep"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Kan VT-oproep niet ondersteunen. Maak verbinding met spraakoproep"</string>
+	<string name="vt_end">"Beëindigen"</string>
+	<string name="vt_fallback">"Fallback naar spraak"</string>
+	<string name="vt_far_image_capture">"Onderwerp veraf vastleggen"</string>
+	<string name="vt_incoming_call">"Inkomende video-oproep"</string>
+	<string name="vt_invalid_number">"Ongeldig nummer"</string>
+	<string name="vt_mode_control">"Modusbeheer"</string>
+	<string name="vt_near_image_capture">"Onderwerp dichtbij vastleggen"</string>
+	<string name="vt_no_answer">"Geen antwoord"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Camera-instelling"</string>
+	<string name="vt_option_capture">"Vastleggen"</string>
+	<string name="vt_option_use_2nd_camera">"Camera aan achterkant gebruiken"</string>
+	<string name="vt_option_use_main_camera">"Camera aan voorkant gebruiken"</string>
+	<string name="vt_set_private_image">"Privéafbeelding instellen"</string>
+	<string name="vt_set_speaker">"Luidspreker instellen"</string>
+	<string name="vt_settings">"Inst. videogesprek"</string>
+	<string name="vt_use_private_image">"Privéafbeelding gebruiken"</string>
+</resources>

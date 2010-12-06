@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical"
+	android:gravity="center_horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+  
+  		<!-- AMF 컨텐츠가 돌아가는 VRBT LinearLayout -->
+		<com.mtelo.visualexpression.AMF_Viewer
+				android:background="@drawable/application_background_static"
+				android:id="@+id/Amf_Viewer"
+				android:layout_marginTop="-10px"
+				android:layout_width="320px"
+				android:layout_height="240px"  
+				android:layout_gravity="center"  
+				android:visibility="gone">
+				</com.mtelo.visualexpression.AMF_Viewer>
+				
+				
+		<!-- skm 컨텐츠를 출력 하기 위한 VideoView -->		
+		<VideoView 
+				android:layout_marginTop="-10px"
+				android:layout_width="320px"
+				android:layout_height="240px"
+				android:layout_gravity="center" 
+				android:id="@+id/Video_Viewer"
+				android:visibility="gone">
+				</VideoView>
+  
+</LinearLayout>

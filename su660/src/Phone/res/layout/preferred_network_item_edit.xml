@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LGE_PREFERRED_NETWORKS_FEATURE START -->
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network_lable"/>
+        
+   <LinearLayout
+   		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label">   
+
+    <EditText
+        android:id="@+id/network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLength="6"
+        android:numeric="integer"
+        android:hint="Enter six-unit ID"
+        android:background="@android:drawable/editbox_background"/>
+        
+    <Button
+        android:id="@+id/browse" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_toRightOf="@id/network"
+        android:text="@string/browse_button" />
+        
+   </LinearLayout>     
+    <TextView
+        android:id="@+id/alphalong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/network"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+            
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/alphalong">                
+    <CheckBox
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/rat_umts"
+        android:id="@+id/rat_umts"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <CheckBox
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+    	android:text="@string/rat_gsm"
+        android:id="@+id/rat_gsm"        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </LinearLayout>
+        
+	<LinearLayout
+   		android:orientation="horizontal"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">   
+	
+    <Button
+        android:id="@+id/confirm" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="@string/confirm_button" />
+
+    <Button
+    	android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/confirm" 
+        android:layout_alignTop="@id/confirm" 
+        android:text="@string/cancel_button" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- LGE_PREFERRED_NETWORKS_FEATURE END -->

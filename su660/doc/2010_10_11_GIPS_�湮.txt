@@ -1,0 +1,43 @@
+1. 문의 : audio recorder 오픈시 44KHz로 열기 오류 -> 16KHz로 열림
+	MediaRecorder.AudioSource.MIC 의 채널 콘피규레이션 - 16Bit Mono일때 발생.
+	
+
+   문의 : 옵큐, 썬더 작업시 voip 모드 셋팅하는 jar 파일 제공 받았는데 허브단말에는 제공하지 않는지?
+        => 황춘하 : framework.jar 파일이 필요함. 3G Call Voice Path설정 - AudioManager.MODE_IN_CALL로 사용하면 가능.
+        => ITelephonyProxy 에서 NullPointerException 발생 함.
+        => framework.jar를 사용해도 오류가 발생하고 있음. (다른 값을 설정해서 사용할 수 있음)
+
+   //문의 : LGE 사운드 담당자에게 문의사항 - 10ms 간격으로 샘플링 데이터를 가져갈 수 있는지?
+
+   문의 : 보통 44KB 에 MinBuffer를 *2 로 셋팅하는데, *20 로 셋팅해야 buffer overflow가 발생하지 않음.
+        => 16KHz*20  ==> 12.8KB(AudioRecord.getMinBufferSize ( 16khz, 16bit, mono) * 20 )
+                                                       통상 ( 44khz, 16bit, mono) * 20 ) 
+   문의 : 칩셋에 기본 Frq 가 얼마인지?(다른 단말들은 모두 44.1khz임) 거기에 맞춰야 CPU Load 또는 delay를 줄일수 있음.
+
+2. 16KB일때 지터 사이즈 조정 후 음질 테스트
+   
+
+
+
+
+AudioManager.setMode(MODE_IN_CALL)을 사용하면 사망하고, 아래의 Logcat이 잡힙니다. 
+10-11 16:35:50.228: WARN/dalvikvm(4346): threadid=1: thread exiting with uncaught exception (group=0x4001da40)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346): FATAL EXCEPTION: main
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346): java.lang.NullPointerException: Message target must not be null
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.os.Parcel.readException(Parcel.java:1253)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.os.Parcel.readException(Parcel.java:1235)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at com.android.internal.telephony.ITelephony$Stub$Proxy.setSpeakerphoneOn(ITelephony.java:1495)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.media.AudioManager.setMode(AudioManager.java:1248)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at com.gipscorp.androidapp.GIPSAndroidApp$2.onClick(GIPSAndroidApp.java:83)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.view.View.performClick(View.java:2430)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.view.View$PerformClick.run(View.java:8854)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.os.Handler.handleCallback(Handler.java:587)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.os.Handler.dispatchMessage(Handler.java:92)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.os.Looper.loop(Looper.java:123)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at android.app.ActivityThread.main(ActivityThread.java:4627)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at java.lang.reflect.Method.invokeNative(Native Method)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at java.lang.reflect.Method.invoke(Method.java:521)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+10-11 16:35:50.228: ERROR/AndroidRuntime(4346):     at dalvik.system.NativeStart.main(Native Method)
+10-11 16:35:50.244: WARN/ActivityManager(1680):   Force finishing activity com.gipscorp.androidapp/.GIPSAndroidApp

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="not_supported_feature">"Not supported feature."</string>
+
+<!-- Dual Number -->
+	<!-- LGE_CHANGE_S [gyumin.jeong@lge.com] 2010-07-14 : add dual_number function -->
+	<string name="phone_dual_number_setting_title">Dual Number</string>
+    <string name="phone_dual_number_setting_summary">Setup Dual Number</string>
+	<string name="carrier_dualnumber_settings">Dual Number</string>
+    <string name="carrier_dualnumber_settings_title">Dual Number</string>
+    <string name="carrier_dualnumber_settings_summary">Dual Number, bell sound</string>
+    <!-- START hyejin.song@lge.com 2010. 7. 19. LAB1_UX IS-2000_1x_v2.9.8 -->
+    <string name="service_register">Service subscription</string>
+    <string name="service_servicehelp">Service guide</string>
+    <!-- END hyejin.song@lge.com 2010. 7. 19. LAB1_UX IS-2000_1x_v2.9.8 -->    
+    <string name="carrier_dualnumber_input_number_title">Input Number</string>
+    <string name="carrier_dualnumber_input_number_summary">Touch this to input number</string>
+    <string name="carrier_dualnumber_bell_title">Bell Sound</string>
+    <string name="carrier_dualnumber_bell_summary">Touch this to select bell sound</string>
+    
+    <string name="voice_call_ringtone_title">Incoming call ringtone</string>
+    <string name="voice_call_ringtone_summary">Set your default incoming call ringtone</string>
+	<!-- LGE_CHANGE_E [gyumin.jeong@lge.com] 2010-07-14 : add dual_number function -->
+	
+		<string name="lock_outgoingcall_title">Lock Outgoing Call</string>
+	
+	<!--<string name="lock_outgoingcall_summary">All/International/700/060/070</string>
+	
+
+
+--><!-- Help -->   
+    <string name="service_help">Help</string>
+    <string name="lgtservice_help_dual">\
+        A monthly subscription service that enable customer to use an extra number with one handset.
+        &lt;br /&gt;
+        &lt;br /&gt;① Press \"*77# + destination number + call\" to send using extra number.
+        &lt;br /&gt;② Input extra number in send textbox in order to send messages.
+        &lt;br /&gt;③ When receiving calls or messages in extra number # will be shown behind the call number.
+        &lt;br /&gt;④ Extra numbers can be changed by contacting customer service (114) or LGT store.
+    </string>
+
+	<string name="unknown_carrier">Unknown</string>
+	<string name="unknown_mccmnc">Operator info is not available</string>
+
+    <!-- START phjjiny.park 100729 -->
+    <string name="effile_userplmn">User PLMN</string>
+    <!-- END phjjiny.park 100729 -->    
+    
+	<string name="roaming_kt">Internation call</string>
+	<string name="roaming_kt_settings">Internation call settings</string>
+	<string name="roaming_kt_edit">Internation call edit</string>
+	<string name="roaming_kt_disable">Disable</string>
+	<string name="roaming_kt_korea">Korea</string>
+	<string name="roaming_kt_user">User</string>
+	<string name="roaming_kt_useredit">User edit</string>
+	<string name="roaming_kt_number">Input Number</string>
+	<string name="roaming_kt_number_error">Enter the number</string>
+	
+	<!--20100916 sumi920.kim@lge.com InCall-Recording [START_LGE_LAB1]   -->                 
+	<string name="onscreenRecordText">Record</string>
+	<string name="onscreenStopText">Stop</string>
+	<string name="saveRecordText">Saved to Voice Recorder</string>
+	<string name="stopRecordText">Voice Recorder Stopped</string>
+	<string name="audio_db_title_format">"<xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>"</string>
+    <string name="audio_db_playlist_name">My recordings</string>
+    <string name="audio_db_album_name">Audio recordings</string>
+    <string name="audio_db_artist_name">Your recordings</string>
+    <string name="insert_sd_card">Please insert an SD card</string>
+    <string name="storage_is_full">Storage is full</string>
+	<!--20100916 sumi920.kim@lge.com InCall-Recording [END_LGE_LAB1]   -->
+	    
+ 	<!-- START sumi920.kim@lge.com 2010. 10. 06. LAB1_CallUI handle answer of incoming call if 3Way Conv -->
+ 	<!-- LGE_CHANGE_S [shinhae.lee@lge.com] 2010-06-22 : handle answer of incoming call if 3Way Conv -->
+ 	<string name="incall_select_call_end_title">Selective end</string>
+  	<string name="incall_select_call_end_value_0">End current call and answer\n&amp;</string>
+   	<string name="incall_select_call_end_value_1">End hold call and answer\n&amp;</string>
+   	<!-- LGE_CHANGE_E [shinhae.lee@lge.com] 2010-06-22 : handle answer of incoming call if 3Way Conv -->
+   	<!-- END sumi920.kim@lge.com 2010. 10. 06. LAB1_CallUI handle answer of incoming call if 3Way Conv -->		
+   	
+<!-- 20101009 sumi920.kim@lge.com OptionMenu InCall [START_LGE_LAB1] -->
+	<string name="incallmenu_check_bluetooth">Bluetooth on</string>
+	<string name="incallmenu_uncheck_bluetooth">Blutooth off</string>
+	<string name="menu_transferCall">Transfer call</string>
+	<string name="menu_end_all_calls">End all calls</string>
+<!-- 20101009 sumi920.kim@lge.com OptionMenu InCall [END_LGE_LAB1] -->
+
+	<!-- 20101014 sumi920.kim@lge.com HD VideoCall Button [START_LGE_LAB1] -->
+	<string name="incall_button_hd_videocall">HD Video call</string>
+	<!-- 20101014 sumi920.kim@lge.com HD VideoCall Button [START_LGE_LAB1] -->
+
+	<!-- 20101107 sumi920.kim@lge.com SKT SUPPService code [START_LGE_LAB1] -->
+    <string name="supp_service_notification_onhold">Suspended</string>
+    <string name="supp_service_notification_retrieved">Resumed</string>
+    <string name="supp_service_notification_connected_ect">Transferred</string>
+    <string name="supp_service_notification_mpty_call_ind">Invited to Conf</string>
+	<!-- END youngmi.uhm@lge.com 2010. 9. 01. LAB1_CallUI KT IOT confcall toast -->    
+	<!-- LGE_CHANGE_E [shinhae.lee@lge.com] 2010-06-24 : KT Call Hold/Swap, Call Transfer Supp Service Notification -->
+	<!-- START youngmi.uhm@lge.com 2010. 8. 04. LAB1_CallUI Supp Service - Call Waiting -->  
+	<!-- LGE_CHANGE_S [shinhae.lee@lge.com] 2010-07-14 : KT_IOT : Supp Service - Call Waiting -->
+    <string name="supp_service_notification_call_waiting">Call waiting</string>
+    <!-- LGE_CHANGE_E [shinhae.lee@lge.com] 2010-07-14 : KT_IOT : Supp Service - Call Waiting -->
+	<!-- END youngmi.uhm@lge.com2010. 8. 04. LAB1_CallUI Supp Service - Call Waiting -->
+
+    <!-- 20101107 sumi920.kim@lge.com SKT SUPPService code [END_LGE_LAB1] -->
+    
+
+</resources>

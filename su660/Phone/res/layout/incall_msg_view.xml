@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@null">
+  
+  	<Button 
+		android:layout_width="fill_parent"
+		android:layout_height="60dip"
+		android:id="@+id/flickBtn" 
+		android:gravity="center"
+		android:text="@string/unlock_send_sms"
+		android:textColor="#DFDFDF"
+		android:shadowColor="#FFFFFF"
+		android:shadowDx="-1" 
+		android:shadowDy="-1"
+		android:background="@drawable/sms_handle_up"/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="35dip"
+		android:layout_marginTop="60dip"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:text="@string/excuse_messages"
+		android:background="#666666"/>
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="95dip"
+		android:background="#666666"
+		android:padding="0dip"
+		>
+		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginBottom="55dip"
+			android:background="#000000"
+			android:padding="5dip">
+			
+			<ListView
+			android:id="@+id/listView"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:cacheColorHint="@null"/>
+			
+		</RelativeLayout>
+	
+		<Button 
+	    android:id="@+id/bt_new_message_incall" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="50dip"
+	    android:layout_alignParentBottom="true"
+	    android:gravity="center" 
+	    android:visibility="visible" 
+		android:singleLine="true" 
+		android:textSize="20sp"
+	    android:text="@string/str_new_message">
+	    </Button>
+
+	</RelativeLayout>
+	
+	<TextView 
+	    android:id="@+id/tv_no_messages"
+	    android:visibility="invisible"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:gravity="center" 
+	    android:textStyle="bold" android:text="@string/str_no_messages"/>
+</RelativeLayout>
+<!-- 20100804 jongwany.lee@lge.com attached this file EXCUSE MESSAGE -->

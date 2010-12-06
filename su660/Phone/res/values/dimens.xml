@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions for OTA Call Card -->
+    <dimen name="otabase_layout_marginTop">30dip</dimen>
+    <dimen name="otabase_minHeight">270dip</dimen>
+    <dimen name="otaactivate_layout_marginTop">10dip</dimen>
+    <dimen name="otalistenprogress_layout_marginTop">5dip</dimen>
+    <dimen name="otasuccessfail_layout_marginTop">10dip</dimen>
+    <dimen name="incallmessageview_statusheight">80dip</dimen>
+<!-- VT dialpad button font size add it. -->    
+    <dimen name="vt_dialpad_en_font_size">16sp</dimen>
+    <dimen name="vt_dialpad_ko_font_size">13sp</dimen>
+    <dimen name="vt_dialpad_dialing_size">20sp</dimen>
+    <dimen name="vt_dialpad_elapsedtime_size">24sp</dimen>
+<!-- VT dialpad button font size add it. -->    
+</resources>

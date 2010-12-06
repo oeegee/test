@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Kláves."</string>
+	<string name="vt_Hold">"Podržaný"</string>
+	<string name="vt_Mute">"Stlmiť"</string>
+	<string name="vt_Private">"Súkromné"</string>
+	<string name="vt_Show">"Zobraziť"</string>
+	<string name="vt_Speaker">"Reproduktor"</string>
+	<string name="vt_bad_response">"Obsadené. Skúste to znova."</string>
+	<string name="vt_call_barred">"Hovor blokovaný"</string>
+	<string name="vt_call_ended">"Videohovor ukončený"</string>
+	<string name="vt_camera_brightness_entry_high">"Vysoká"</string>
+	<string name="vt_camera_brightness_entry_low">"Nízka"</string>
+	<string name="vt_camera_brightness_entry_middle">"Stred"</string>
+	<string name="vt_camera_brightness_title">"Jas"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Negatív"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Vyp."</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sépiovo hnedá"</string>
+	<string name="vt_camera_coloureffect_title">"Farebný efekt"</string>
+	<string name="vt_camera_night_entry_off">"Vyp."</string>
+	<string name="vt_camera_night_entry_on">"Zap."</string>
+	<string name="vt_camera_night_title">"Nočný režim"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"AUTO"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Oblačno"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Žiarivka"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Žiarovka"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Slnečno"</string>
+	<string name="vt_camera_whitebalance_title">"Vyváženie bielej"</string>
+	<string name="vt_camera_zoom_title">"Priblíženie"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Nepodporuje VT hovor. Prepojiť na hlasový hovor"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Nepodporuje VT hovor. Prepojiť na hlasový hovor"</string>
+	<string name="vt_end">"Koniec"</string>
+	<string name="vt_fallback">"Návrat na hlas"</string>
+	<string name="vt_far_image_capture">"Zachytiť obraz zo vzdialeného konca"</string>
+	<string name="vt_incoming_call">"Prichádzajúci video hovor"</string>
+	<string name="vt_invalid_number">"Neplatné číslo"</string>
+	<string name="vt_mode_control">"Ovládanie režimov"</string>
+	<string name="vt_near_image_capture">"Zachytiť obraz z blízkeho konca"</string>
+	<string name="vt_no_answer">"Žiadna odpoveď"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Nastavenie fotoaparátu"</string>
+	<string name="vt_option_capture">"Snímať"</string>
+	<string name="vt_option_use_2nd_camera">"Použiť zadný fotoaparát"</string>
+	<string name="vt_option_use_main_camera">"Použiť predný fotoaparát"</string>
+	<string name="vt_set_private_image">"Nastaviť súkromný obrázok"</string>
+	<string name="vt_set_speaker">"Nastaviť hlasitý odposluch"</string>
+	<string name="vt_settings">"Nastavenia videohovoru"</string>
+	<string name="vt_use_private_image">"Použiť súkromný obrázok"</string>
+</resources>

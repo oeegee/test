@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LGE Create
+     [shinhae.lee@lge.com] 2010-07-15 : KT_IOT - Send Button of InCallScreen DialPad
+-->
+<!--//20101004 yusei.koh@lge.com <mailto:yusei.koh@lge.com> call ui : send/delete btn on InCallScreen dialpad-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/btn_in_call_delete_selected" />
+    <item
+        android:drawable="@drawable/btn_in_call_delete_normal" />
+</selector>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Panel numeryczny"</string>
+	<string name="vt_Hold">"Wstrzymaj"</string>
+	<string name="vt_Mute">"Wycisz"</string>
+	<string name="vt_Private">"Prywatny"</string>
+	<string name="vt_Show">"Pokaż"</string>
+	<string name="vt_Speaker">"Głośnik"</string>
+	<string name="vt_bad_response">"Zła odpowiedź. Spróbuj później."</string>
+	<string name="vt_call_barred">"Połączenie zablokowane"</string>
+	<string name="vt_call_ended">"Wideorozmowa zakończona"</string>
+	<string name="vt_camera_brightness_entry_high">"Wysoki"</string>
+	<string name="vt_camera_brightness_entry_low">"Niski"</string>
+	<string name="vt_camera_brightness_entry_middle">"Środek"</string>
+	<string name="vt_camera_brightness_title">"Jasność ekranu"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Negatyw"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Wył."</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sepia"</string>
+	<string name="vt_camera_coloureffect_title">"Tonacja barwna"</string>
+	<string name="vt_camera_night_entry_off">"Wył."</string>
+	<string name="vt_camera_night_entry_on">"Wł."</string>
+	<string name="vt_camera_night_title">"Tryb nocny"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Automatycznie"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Pochmurny dzień"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Oświetl. jarzeniowe"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Oświetlenie żarowe"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Słoneczny dzień"</string>
+	<string name="vt_camera_whitebalance_title">"Balans bieli"</string>
+	<string name="vt_camera_zoom_title">"Powiększenie"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Wideorozmowa nieobsługiwana. Połącz za pomocą połączenia głosowego"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Wideorozmowa nieobsługiwana. Połącz za pomocą połączenia głosowego"</string>
+	<string name="vt_end">"Zakończ"</string>
+	<string name="vt_fallback">"Wróć do głosowego"</string>
+	<string name="vt_far_image_capture">"Zarejestruj obraz z dalszej krawędzi"</string>
+	<string name="vt_incoming_call">"Przychodząca wideorozmowa"</string>
+	<string name="vt_invalid_number">"Nieprawidłowy numer"</string>
+	<string name="vt_mode_control">"Kontrola trybu"</string>
+	<string name="vt_near_image_capture">"Zarejestruj obraz z bliższej krawędzi"</string>
+	<string name="vt_no_answer">"Brak odpowiedzi"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Ustawienie kamery"</string>
+	<string name="vt_option_capture">"Zarejestruj"</string>
+	<string name="vt_option_use_2nd_camera">"Użyj tylnej kamery"</string>
+	<string name="vt_option_use_main_camera">"Użyj przedniej kamery"</string>
+	<string name="vt_set_private_image">"Ustaw obraz prywatny"</string>
+	<string name="vt_set_speaker">"Ustaw głośnik"</string>
+	<string name="vt_settings">"Ustawienia wideorozmowy"</string>
+	<string name="vt_use_private_image">"Użyj obrazu prywatnego"</string>
+</resources>

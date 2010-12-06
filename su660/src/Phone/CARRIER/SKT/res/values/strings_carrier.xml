@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="roaming_warning">Allow data roaming? You may incur significant roaming charges!</string>
+	<string name="carrier_select_mode">Selection mode</string>
+	<string name="select_automatically">Select automatically</string>
+	<string name="sum_select_automatically">Automatically select preferred network</string>
+	<string name="search_networks">Search networks</string>
+	<string name="sum_search_networks">Search for all available networks</string>
+	<string name="carrier_list">Current Network</string>
+	<string name="manuall_select_network_failed">System can not search networks</string>
+</resources>

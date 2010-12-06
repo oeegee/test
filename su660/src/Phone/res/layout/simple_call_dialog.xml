@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LGE_CALL_DEFLECTION START -->
+<!-- Copyright (C) 2009 The Android Open Source Project
+ 
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+ 
+          http://www.apache.org/licenses/LICENSE-2.0
+ 
+	 Unless required by applicable law or agreed to in writing, software
+	 distributed under the License is distributed on an "AS IS" BASIS,
+	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 See the License for the specific language governing permissions and
+	 limitations under the License.
+ 
+     
+      
+-->
+<!-- Layout used as the dialog's content View for CallDeflectionDialog. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:orientation="vertical">
+    
+    <TextView android:id="@+id/message"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"/>
+        
+         <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:textColor="#FFF"
+              />
+        
+   <LinearLayout
+        android:id="@+id/number_field"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:addStatesFromChildren="true"
+        android:gravity="center_vertical"
+        android:baselineAligned="false"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <!-- The EditText field in the dialog is now created programmatically.
+             We're replacing the field in this layout with a container to 
+             attach the EditText field. -->
+        <LinearLayout android:id="@+id/edit_container"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:layout_height="wrap_content"/>
+ 
+
+
+        <ImageButton android:id="@+id/select_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:src="@drawable/ic_button_contacts" />
+            
+
+    </LinearLayout>
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">  
+ <!-- LGE_CALL_TRANSFER START -->       
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_container"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:text="@string/ok" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ok_button"
+        android:layout_alignTop="@id/ok_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="@string/cancel" />
+ <!-- LGE_CALL_TRANSFER END -->          
+       
+</RelativeLayout >
+
+
+</LinearLayout>
+<!-- LGE_CALL_DEFLECTION END -->

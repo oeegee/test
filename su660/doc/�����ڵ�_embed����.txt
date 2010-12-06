@@ -1,0 +1,20 @@
+CallCard.java
+person_info.xml
+
+
+#sound path 연결 모드
+AudioManager audioManager =
+                    (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+audioManager.setMode(mode);
+
+
+    private static String audioModeToString(int mode) {
+        switch (mode) {
+            case AudioManager.MODE_INVALID: return "MODE_INVALID";
+            case AudioManager.MODE_CURRENT: return "MODE_CURRENT";
+            case AudioManager.MODE_NORMAL: return "MODE_NORMAL";
+            case AudioManager.MODE_RINGTONE: return "MODE_RINGTONE";
+            case AudioManager.MODE_IN_CALL: return "MODE_IN_CALL";
+            default: return String.valueOf(mode);
+        }
+    }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="roaming_warning" msgid="7820963598559553967">"데이터로밍 이용 시 국내 요금제가 적용되지 않고, 로밍요금이 부과됩니다. 데이터로밍을 설정하시겠습니까?"</string>
+	<string name="carrier_select_mode">"네트워크검색"</string>
+	<string name="select_automatically" msgid="8615980695510888796">"자동 검색"</string>
+	<string name="sum_select_automatically" msgid="8460954604521755275">"우선순위에 따른 네트워크를 자동으로 검색하여 처리합니다."</string>
+	<string name="search_networks" msgid="1601136049300882441">"수동 검색"</string>
+	<string name="sum_search_networks" msgid="2921092249873272715">"자동선택 모드에서 사용가능한 네트워크를 검색하지 못했을 경우 본 모드를 선택하여 주십시오."</string>
+	<string name="carrier_list">"현재 네트워크 운영자"</string>
+	<string name="manuall_select_network_failed">"시스템 사정으로 검색이 불가 합니다."</string>
+</resources>

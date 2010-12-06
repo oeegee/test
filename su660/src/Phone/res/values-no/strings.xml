@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Navn"</string>
+	<string name="contactsFavoritesLabel">"Favoritter"</string>
+	<string name="dialerIconLabel">"Dialer"</string>
+	<string name="emergencyDialerIconLabel">"Nødoppkall"</string>
+	<string name="phoneIconLabel">"Telefon"</string>
+	<string name="recentCallsIconLabel">"Samtalelogg"</string>
+	<string name="fdnListLabel">"FDN-liste"</string>
+	<string name="transfer">"Transfer"</string>
+	<string name="incall_error_supp_service_transfer">"Kan ikke videstille samtale."</string>
+	<string name="menu_transfer">"Transfer"</string>
+	<string name="unknown">"Ukjent"</string>
+	<string name="private_num">"Privat nummer"</string>
+	<string name="payphone">"Betal telefon"</string>
+	<string name="onHold">"På vent"</string>
+	<string name="ongoing">"Igangværende samtale"</string>
+	<string name="callFailed_userBusy">"Linjen er opptatt"</string>
+	<string name="callFailed_congestion">"Nettverket er opptatt"</string>
+	<string name="callFailed_noSignal">"Intet signal"</string>
+	<string name="callFailed_limitExceeded">"ACM-grense overskredet"</string>
+	<string name="callFailed_powerOff">"Radio av"</string>
+	<string name="callFailed_simError">"Intet SIM-kort, eller SIM-kortfeil"</string>
+	<string name="callFailed_outOfService">"Utenfor området til tjenesten"</string>
+	<string name="callFailed_fdn_only">"Utgående samtaler er begrenset av FDN."</string>
+	<string name="callFailed_cb_enabled">"Du kan ikke foreta oppkall når oppkallssperren er på."</string>
+	<string name="callFailed_dsac_restricted">"Alle samtaler er begrenset av adgangskontroll."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Nødsamtaler er begrenset av adgangskontroll."</string>
+	<string name="callFailed_dsac_restricted_normal">"Normale samtaler er begrenset av adgangskontroll."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Phone locked until power cycle."</string>
+	<string name="callFailed_cdma_drop">"CDMA: Call dropped."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: Call intercepted."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: reorder."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: Service Option Reject."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: retry order."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: Access failure."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: Preempted."</string>
+	<string name="callFailed_cdma_notEmergency">"Bare nødsamtaler er mulige."</string>
+	<string name="confCall">"Konferansesamtale"</string>
+	<string name="call_lost">"Anropet er tapt."</string>
+	<string name="retry">"Forsøk igjen"</string>
+	<string name="call_lost_title">"Anrop tapt"</string>
+	<string name="mmiStarted">"MMI-kode startet"</string>
+	<string name="ussdRunning">"USSD-kode kjører\u2026"</string>
+	<string name="mmiCancelled">"MMI-kode annullert"</string>
+	<string name="cancel">"Avbryt"</string>
+	<string name="menu_speaker">"Høyttaler"</string>
+	<string name="menu_bluetooth">"Bluetooth"</string>
+	<string name="menu_mute">"Lydløs"</string>
+	<string name="menu_hold">"Vent"</string>
+	<string name="menu_unhold">"Hent parkert"</string>
+	<string name="menu_endCall">"Avslutt samtale"</string>
+	<string name="menu_swapCalls">"Swap calls xxx"</string>
+	<string name="menu_mergeCalls">"Flett samtaler"</string>
+	<string name="menu_addCall">"Legg til oppkall"</string>
+	<string name="menu_manageConference">"Ordne konferansesamtale"</string>
+	<string name="menu_showDialpad">"Vis dialpad xxx"</string>
+	<string name="menu_hideDialpad">"Skjul dialpad xxx"</string>
+	<string name="menu_addAccount">"Legg til profil"</string>
+	<string name="menu_vocieCall">"Taleanrop"</string>
+	<string name="menu_videoCall">"VIDEOSAMTALE"</string>
+	<string name="menu_message">"Melding"</string>
+	<string name="menu_answerAndHold">"Sett igangværende samtale på vent\nog svar"</string>
+	<string name="menu_answerAndEnd">"Avslutt igangværende samtale\nog svar"</string>
+	<string name="ok">"OK"</string>
+	<string name="menuButtonHint">"Trykk på Meny for samtalevalg."</string>
+	<string name="menuButtonKeyboardDialHint">"Trykk på Meny for samtalevalg  \u2022  Bruk tastaturet til å ringe"</string>
+	<string name="menu_answer">"Svar"</string>
+	<string name="menu_ignore">"Ignorer"</string>
+	<string name="wait_prompt_str">"Send følgende ringetones?\n"</string>
+	<string name="pause_prompt_str">"Sender toner\n"</string>
+	<string name="send_button">"Send"</string>
+	<string name="pause_prompt_yes">"JA"</string>
+	<string name="pause_prompt_no">"NEI"</string>
+	<string name="wild_prompt_str">"Erstatt wild characterxxx med"</string>
+	<string name="no_vm_number">"Mangler nummer til mobilsvar"</string>
+	<string name="no_vm_number_msg">"Det er ikke lagret noe nummer til mobilsvar på SIM-kortet."</string>
+	<string name="add_vm_number_str">"Legg til nummer"</string>
+	<string name="dialer_emptyListWorking">"Henter\u2026"</string>
+	<string name="enterPin">"Tast inn PIN-kode for å låse opp SIM-kort."</string>
+	<string name="pinUnlocked">"SIM låst opp"</string>
+	<string name="enterNewPin">"Ny PIN-kode på SIM-kort"</string>
+	<string name="verifyNewPin">"Skriv ny SIM-kort PIN-kode på nytt for å bekrefte"</string>
+	<string name="verifyFailed">"SIM-kort PIN-koden du skrev inn stemmer ikke. Vennligst prøv igjen."</string>
+	<string name="enterPuk">"Tast inn PUK-kode for å låse opp SIM-kort."</string>
+	<string name="badPuk">"Feil PUK-kode!"</string>
+	<string name="buttonTxtContinue">"Fortsett"</string>
+	<string name="puk_unlocked">"SIM-kortet er nå låst opp. Telefonen låser seg opp\u2026"</string>
+	<string name="label_ndp">"SIM-nettverk lås opp PIN"</string>
+	<string name="sim_ndp_unlock_text">"Lås opp"</string>
+	<string name="sim_ndp_dismiss_text">"Avbryt"</string>
+	<string name="requesting_unlock">"Ber om deaktivering av nettverkslås\u2026"</string>
+	<string name="unlock_failed">"Opplåsing av nettverk vellykket."</string>
+	<string name="unlock_success">"Nettverkopplåsing vellykket."</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"Anropsinnstillinger for GSM"</string>
+	<string name="labelCDMAMore">"CDMA Innstillinger for samtale"</string>
+	<string name="apn_settings">"Access Point Names xxx"</string>
+	<string name="settings_label">"Nettverksinnstillinger"</string>
+	<string name="voicemail">"talepost"</string>
+	<string name="voicemail_abbreviated">"VM:"</string>
+	<string name="networks">"Du har ingen favoritter.\n\nSlik legger du til en kontakt i listen over favoritter:\n<li>Berør <b>Kontakter</b>-fanen\n</li>\n<li>Berør kontakten du vil legge til i favorittene\n</li>\n<li>Berør stjernen ved siden av kontaktens navn\n</li>"</string>
+	<string name="call_settings">"Innstillinger for samtale"</string>
+	<string name="additional_gsm_call_settings">"Ekstra anropsinnstillinger"</string>
+	<string name="sum_gsm_call_settings">"Ekstra anropsinnstillinger bare for GSM"</string>
+	<string name="additional_cdma_call_settings">"Ekstra CDMA-anropsinnstillinger"</string>
+	<string name="sum_cdma_call_settings">"Ekstra anropsinnstillinger bare for CDMA"</string>
+	<string name="labelNwService">"Innstillinger for nettverkstjenester"</string>
+	<string name="labelCallerId">"ID på ringer"</string>
+	<string name="sum_hide_caller_id">"Skjul nummer ved utgående samtaler"</string>
+	<string name="sum_show_caller_id">"Vis nummer ved utgående samtaler"</string>
+	<string name="sum_default_caller_id">"Bruk foretrukne operatørinnstillinger for å vise mitt nummer ved utgående samtaler"</string>
+	<string name="labelCW">"Samtale venter"</string>
+	<string name="sum_cw_enabled">"Varsle meg om innkomende samtaler under en samtale"</string>
+	<string name="sum_cw_disabled">"Varsle meg om innkomende samtaler under en samtale"</string>
+	<string name="call_forwarding_settings">"Innstillinger for viderekobling"</string>
+	<string name="labelCF">"Viderekoble samtale"</string>
+	<string name="labelCFU">"Alltid viderekoble"</string>
+	<string name="messageCFU">"Bruk alltid dette nummeret"</string>
+	<string name="sum_cfu_enabled_indicator">"Viderekoble alle anrop"</string>
+	<string name="sum_cfu_enabled">"Viderekobler alle anrop til {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Nummeret er utilgjengelig"</string>
+	<string name="sum_cfu_disabled">"Deaktivert"</string>
+	<string name="labelCFB">"Viderekoble når opptatt"</string>
+	<string name="messageCFB">"Nummer når opptatt"</string>
+	<string name="sum_cfb_enabled">"Viderekobler til {0}"</string>
+	<string name="sum_cfb_disabled">"Frakoblet"</string>
+	<string name="disable_cfb_forbidden">"Leverandøren støtter ikke deaktivering av viderekobling av anrop når telefonen er opptatt."</string>
+	<string name="labelCFNRy">"viderekoble når ubesvart"</string>
+	<string name="messageCFNRy">"Nummer når ubesvart"</string>
+	<string name="sum_cfnry_enabled">"Viderekobler til {0}"</string>
+	<string name="sum_cfnry_disabled">"Frakoblet"</string>
+	<string name="disable_cfnry_forbidden">"Leverandøren støtter ikke deaktivering av viderekobling av anrop når du ikke svarer."</string>
+	<string name="labelCFNRc">"Viderekoble når utilgjengelig"</string>
+	<string name="messageCFNRc">"Nummer når utilgjengelig"</string>
+	<string name="sum_cfnrc_enabled">"Viderekobler til {0}"</string>
+	<string name="sum_cfnrc_disabled">"Frakoblet"</string>
+	<string name="labelCB">"Samtalesperre"</string>
+	<string name="labelCBPWD">"Endre passord"</string>
+	<string name="sum_cb_enabled">"Tilkoblet"</string>
+	<string name="sum_cb_disabled">"Frakoblet"</string>
+	<string name="messageCallBarring">"Passord"</string>
+	<string name="newCBPwdLabel">"Nytt passord"</string>
+	<string name="disable_cfnrc_forbidden">"Leverandøren støtter ikke deaktivering av viderekobling av anrop når telefonen er uten dekning."</string>
+	<string name="updating_title">"Innstillinger for samtale"</string>
+	<string name="error_updating_title">"Feil i samtaleinnstillinger"</string>
+	<string name="reading_settings">"Leser innstilinger\u2026"</string>
+	<string name="updating_settings">"Oppdaterer instillinger\u2026"</string>
+	<string name="reverting_settings">"Tilbakestiller innstillinger\u2026"</string>
+	<string name="response_error">"Uventet respons fra nettverk."</string>
+	<string name="exception_error">"Netverks- eller SIM-kortfeil."</string>
+	<string name="radio_off_error">"Vennligst slå av radioen før du ser på disse innstillingene."</string>
+	<string name="close_dialog">"OK"</string>
+	<string name="enable">"Tilføy"</string>
+	<string name="disable">"Slå av"</string>
+	<string name="change_num">"Oppdater"</string>
+	<string-array name="clir_display_values">
+		<item>"Foretrukket nettverk"</item>
+		<item>"Skjul nummer"</item>
+		<item>"Vis nummer"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>Foretrukken</xliff:g>"</item>
+		<item>"<xliff:g id="SKJUL">%s</xliff:g>"</item>
+		<item>"<xliff:g>Vis</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Søk etter alle tilgjengelige nettverk"</string>
+	<string name="vm_changed">"Mobilsvarnummeret endret."</string>
+	<string name="vm_change_failed">"Endring av talepostnummer mislyktes.\nKontakt operatøren hvis problemet vedvarer."</string>
+	<string name="fw_change_failed">"Endring av viderekoblingsnummer mislyktes.\nKontakt operatøren hvis problemet vedvarer."</string>
+	<string name="fw_get_in_vm_failed">"Kan ikke hente og lagre gjeldende innstillinger for viderekoblingsnummer.\nVil du likevel bytte til den nye leverandøren?"</string>
+	<string name="no_change">"Ingen endringer ble foretatt."</string>
+	<string name="sum_voicemail_choose_provider">"Velg taleposttjeneste"</string>
+	<string name="voicemail_default">"Min operatør"</string>
+	<string name="mobile_networks">"Innstillinger for mobilt nettverk"</string>
+	<string name="label_available">"Tilgjengelige nettverk"</string>
+	<string name="load_networks_progress">"Søker\u2026"</string>
+	<string name="empty_networks_list">"Ingen nettverk funnet."</string>
+	<string name="search_networks">"Søk etter nettverk"</string>
+	<string name="network_query_error">"Feil under nettverkssøk."</string>
+	<string name="register_on_network">"Registerer på <xliff:g id="nettverk">%s</xliff:g>\u2026"</string>
+	<string name="not_allowed">"SIM-kortet tillater ikke å koble til dette nettverket."</string>
+	<string name="connect_later">"Kan ikke koble til nettverket. Prøv igjen senere."</string>
+	<string name="registration_done">"Registrert på nettverk."</string>
+	<string name="sum_carrier_select">"Velg nettverksoperatør"</string>
+	<string name="sum_search_networks">"Søk etter alle tilgjengelige nettverk"</string>
+	<string name="select_automatically">"Automatisk valg"</string>
+	<string name="sum_select_automatically">"Velg automatisk foretrukket nettverk"</string>
+	<string name="register_automatically">"Automatisk registrering..."</string>
+	<string name="preferred_network_mode_title">"Nettverksmodus"</string>
+	<string name="preferred_network_mode_summary">"Endre modus for nettverksdrift"</string>
+	<string name="preferred_network_mode_dialogtitle">"Foretrukket nettverksmodus"</string>
+	<string name="menu_search_networks">"Søk etter nettverk"</string>
+	<string name="menu_select_automatically">"Automatisk valg"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Global"</item>
+		<item>"Kun EvDo"</item>
+		<item>"Automatisk CDMA/EvDo"</item>
+		<item>"CDMA/EvDo auto"</item>
+		<item>"Automatisk GSM/WCDMA"</item>
+		<item>"Bare WCDMA"</item>
+		<item>"Bare GSM"</item>
+		<item>"Foretrukket GSM/WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Data aktivert"</string>
+	<string name="data_enable_summary">"Aktiver datatilgang via mobilnettverk"</string>
+	<string name="roaming">"Data roaming"</string>
+	<string name="roaming_enable">"Koble til datatjenester ved roaming"</string>
+	<string name="roaming_disable">"Koble til datatjenester ved roaming"</string>
+	<string name="roaming_reenable_message">"Du har mistet datatilkobling fordi du forlot hjemmenettverket med data-roaming avslått."</string>
+	<string name="roaming_warning">"Tillat data-roaming? Du kan bli påført betydelige roaming-gebyr!"</string>
+	<string name="data_mode_ok">"JA"</string>
+	<string name="data_mode_cancel">"NEI"</string>
+	<string name="gsm_umts_options">"Alternativer for GSM/UMTS"</string>
+	<string name="cdma_options">"CDMA Options"</string>
+	<string name="throttle_data_usage">"Databruk"</string>
+	<string name="throttle_settings_title">"Leverandørens retningslinjer for data"</string>
+	<string name="throttle_current_usage">"Data brukt i gjeldende tidsrom"</string>
+	<string name="throttle_time_frame">"Tidsrom for databruk"</string>
+	<string name="throttle_rate">"Datahastighet"</string>
+	<string name="throttle_help">"Finn ut mer"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) av <xliff:g id="used">%3$s</xliff:g> maks. for tidsrom\nNeste tidsrom begynner om <xliff:g id="used">%4$d</xliff:g> dager (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) av <xliff:g id="used">%3$s</xliff:g> maks. for tidsrom\nNeste tidsrom begynner om <xliff:g id="used">%4$d</xliff:g> dager (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_rate_reduced_subtext">"<xliff:g id="used">%1$s</xliff:g> maksimum overskredet\nDatahastighet redusert til <xliff:g id="used">%2$d</xliff:g> kB/s"</string>
+	<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>% av syklus gått\nNeste tidsrom begynner om <xliff:g id="used">%2$d</xliff:g> dager (<xliff:g id="used">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Datahastighet redusert til <xliff:g id="used">%1$d</xliff:g> kB/s hvis grensen for databruk overskrides"</string>
+	<string name="throttle_help_subtext">"Mer informasjon om leverandørens retningslinjer for bruk av data i mobilnettverk"</string>
+	<string name="cdma_cell_broadcast_sms">"Mobilsending-SMS"</string>
+	<string name="cell_broadcast_sms">"Mobilsending-SMS"</string>
+	<string name="enable_disable_cell_bc_sms">"Mobilsending-SMS"</string>
+	<string name="cell_bc_sms_enable">"Mobilsending-SMS aktivert"</string>
+	<string name="cell_bc_sms_disable">"Mobilsending-SMS deaktivert"</string>
+	<string name="cb_sms_settings">"Innstillinger for mobilsending-SMS"</string>
+	<string name="enable_disable_emergency_broadcast">"Nødsending"</string>
+	<string name="emergency_broadcast_enable">"Nødsending aktivert"</string>
+	<string name="emergency_broadcast_disable">"Nødsending deaktivert"</string>
+	<string name="enable_disable_administrative">"Administrasjon"</string>
+	<string name="administrative_enable">"Administrasjon aktivert"</string>
+	<string name="administrative_disable">"Administrasjon deaktivert"</string>
+	<string name="enable_disable_maintenance">"Vedlikehold"</string>
+	<string name="maintenance_enable">"Vedlikehold aktivert"</string>
+	<string name="maintenance_disable">"Vedlikehold deaktivert"</string>
+	<string name="general_news_settings">"Generelle nyheter"</string>
+	<string name="bf_news_settings">"Økonominyheter"</string>
+	<string name="sports_news_settings">"Sportsnyheter"</string>
+	<string name="entertainment_news_settings">"Underholdningsnyheter"</string>
+	<string name="enable_disable_local">"Lokal"</string>
+	<string name="local_enable">"Lokalnyheter aktivert"</string>
+	<string name="local_disable">"Lokalnyheter deaktivert"</string>
+	<string name="enable_disable_regional">"Regionalt"</string>
+	<string name="regional_enable">"Regionale nyheter aktivert"</string>
+	<string name="regional_disable">"Regionale nyheter deaktivert"</string>
+	<string name="enable_disable_national">"Nasjonalt"</string>
+	<string name="national_enable">"Ingen kontakter."</string>
+	<string name="national_disable">"Kallenavn"</string>
+	<string name="enable_disable_international">"Internasjonalt"</string>
+	<string name="international_enable">"Internasjonale nyheter aktivert"</string>
+	<string name="international_disable">"Internasjonale nyheter deaktivert"</string>
+	<string name="list_language_title">"Språk"</string>
+	<string name="list_language_summary">"Velg nyhetsspråk"</string>
+	<string-array name="list_language_entries">
+		<item>"Engelsk"</item>
+		<item>"Fransk"</item>
+		<item>"Spansk"</item>
+		<item>"Japansk"</item>
+		<item>"Koreansk"</item>
+		<item>"Kinesisk"</item>
+		<item>"Hebraisk"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Språk"</string>
+	<string name="enable_disable_local_weather">"Lokal værmelding"</string>
+	<string name="local_weather_enable">"Lokal værmelding aktivert"</string>
+	<string name="local_weather_disable">"Lokal værmelding deaktivert"</string>
+	<string name="enable_disable_atr">"Rapporter om lokal trafikk"</string>
+	<string name="atr_enable">"Rapporter om lokal trafikk aktivert"</string>
+	<string name="atr_disable">"Rapporter om lokal trafikk deaktivert"</string>
+	<string name="enable_disable_lafs">"Flytider for lokal flyplass"</string>
+	<string name="lafs_enable">"Flytider for lokal flyplass aktivert"</string>
+	<string name="lafs_disable">"Flytider for lokal flyplass deaktivert"</string>
+	<string name="enable_disable_restaurants">"Restauranter"</string>
+	<string name="restaurants_enable">"Restauranter aktivert"</string>
+	<string name="restaurants_disable">"Restauranter deaktivert"</string>
+	<string name="enable_disable_lodgings">"Overnattingssteder"</string>
+	<string name="lodgings_enable">"Overnattingssteder aktivert"</string>
+	<string name="lodgings_disable">"Overnattingssteder deaktivert"</string>
+	<string name="enable_disable_retail_directory">"Butikkatalog"</string>
+	<string name="retail_directory_enable">"Butikkatalog aktivert"</string>
+	<string name="retail_directory_disable">"Butikkatalog deaktivert"</string>
+	<string name="enable_disable_advertisements">"Reklame"</string>
+	<string name="advertisements_enable">"Annonser aktivert"</string>
+	<string name="advertisements_disable">"Annonser deaktivert"</string>
+	<string name="enable_disable_stock_quotes">"Aksjekurser"</string>
+	<string name="stock_quotes_enable">"Aksjekurser aktivert"</string>
+	<string name="stock_quotes_disable">"Aksjekurser deaktivert"</string>
+	<string name="enable_disable_eo">"Ledige stillinger"</string>
+	<string name="eo_enable">"Ledige stillinger aktivert"</string>
+	<string name="eo_disable">"Ledige stillinger deaktivert"</string>
+	<string name="enable_disable_mhh">"Medisin, helse og sykehus"</string>
+	<string name="mhh_enable">"Medisin, helse og sykehus aktivert"</string>
+	<string name="mhh_disable">"Medisin, helse og sykehus deaktivert"</string>
+	<string name="enable_disable_technology_news">"Teknologinyheter"</string>
+	<string name="technology_news_enable">"Teknologinyheter aktivert"</string>
+	<string name="technology_news_disable">"Teknologinyheter deaktivert"</string>
+	<string name="enable_disable_multi_category">"Multikategori"</string>
+	<string name="multi_category_enable">"Multikategori aktivert"</string>
+	<string name="multi_category_disable">"Multikategori deaktivert"</string>
+	<string name="gsm_umts_network_preferences_title">"Nettverkspreferanser for GSM/UMTS"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Ikke implementert ennå."</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"Nettverkspreferanser for GSM/UMTS"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"GSM/WCDMA (automodus)"</item>
+		<item>"Bare WCDMA"</item>
+		<item>"Bare GSM"</item>
+		<item>"GSM/WCDA (WCDMA foretrekkes)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Bruk kun 2G-nettverk"</string>
+	<string name="prefer_2g_summary">"Sparer batteri"</string>
+	<string name="cdma_system_select_title">"Systemvalg"</string>
+	<string name="cdma_system_select_summary">"Endre modus for CDMA-roaming"</string>
+	<string name="cdma_system_select_dialogtitle">"Systemvalg"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Kun hjemme"</item>
+		<item>"Automatisk"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA Roaming Mode"</string>
+	<string name="cdma_roaming_mode_summary">"Endre modus for CDMA-roaming"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA roaming mode"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Kun hjemmenettverk"</item>
+		<item>"Tilknyttede nettverk"</item>
+		<item>"Hvilket som helst nettverk"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"CDMA Network Preferences"</string>
+	<string name="cdma_network_preferneces_summary">"Ikke implementert ennå."</string>
+	<string name="cdma_network_preferences_dialogtitle">"CDMA network preferences"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Bare CDMA"</item>
+		<item>"Kun EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"Test av CDMA-abonnement"</string>
+	<string name="subscription_summary">"Bytt mellom RUIM og NV"</string>
+	<string name="subscription_dialogtitle">"abonnement"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Faste oppkallsnumre"</string>
+	<string name="manage_fdn_list">"FDN-liste"</string>
+	<string name="fdn_activation">"FDN-aktivering"</string>
+	<string name="fdn_enabled">"Faste oppkallsnumre er slått på"</string>
+	<string name="fdn_disabled">"Faste oppkallsnumre er slått av"</string>
+	<string name="enable_fdn">"Slå på FDN"</string>
+	<string name="disable_fdn">"Slå av FDN"</string>
+	<string name="change_pin2">"Endre PIN2"</string>
+	<string name="enable_fdn_ok">"Slå av FDN"</string>
+	<string name="disable_fdn_ok">"Slå på FDN"</string>
+	<string name="sum_fdn">"Ordne faste oppkallsnumre"</string>
+	<string name="sum_fdn_change_pin">"Endre PIN-kode for FDN-adgang"</string>
+	<string name="sum_fdn_manage_list">"Ordne telefonliste"</string>
+	<string name="voice_privacy">"Personvern for tale"</string>
+	<string name="voice_privacy_summary">"Aktiver modus for sterkere personvern"</string>
+	<string name="tty_mode_title">"TTY-modus"</string>
+	<string name="tty_mode_summary">"Aktiver TTY-modus"</string>
+	<string name="tty_mode_option_title">"TTY-modus"</string>
+	<string name="tty_mode_option_summary">"Angi TTY-modus"</string>
+	<string name="auto_retry_mode_title">"Prøve igjen automatisk"</string>
+	<string name="auto_retry_mode_summary">"Aktiver prøv igjen automatisk-modus"</string>
+	<string name="menu_add">"Legg til kontakt"</string>
+	<string name="menu_edit">"Rediger kontakt"</string>
+	<string name="menu_delete">"Slett kontakt"</string>
+	<string name="get_pin2">"Skriv inn PIN2"</string>
+	<string name="name">"Navn"</string>
+	<string name="number">"Nummer"</string>
+	<string name="save">"Lagre"</string>
+	<string name="add_fdn_contact">"Legg til fast oppkallskontakt"</string>
+	<string name="adding_fdn_contact">"Legger til fast nummer"</string>
+	<string name="fdn_contact_added">"Fast nummer lagt til."</string>
+	<string name="edit_fdn_contact">"Rediger fast nummer"</string>
+	<string name="updating_fdn_contact">"Oppdaterer fast nummer..."</string>
+	<string name="fdn_contact_updated">"Fast nummer oppdatert."</string>
+	<string name="delete_fdn_contact">"Slett fast nummer"</string>
+	<string name="deleting_fdn_contact">"Sletter fast nummer..."</string>
+	<string name="fdn_contact_deleted">"Fast nummer slettet."</string>
+	<string name="pin2_invalid">"Fast nummer ikke oppdatert: Du har angitt feil PIN-kode."</string>
+	<string name="fdn_invalid_number">"Fast nummer ikke oppdatert: nummeret kan ikke inneholde mer enn 20 sifre."</string>
+	<string name="simContacts_emptyLoading">"Leser fra SIM-kort\u2026"</string>
+	<string name="simContacts_empty">"Ingen kontakter på SIM-kortet."</string>
+	<string name="simContacts_title">"Velg de kontaktene du vil importere"</string>
+	<string name="enable_pin">"Slå på/av PIN-kode på SIM-kort"</string>
+	<string name="change_pin">"Endre pinkode på SIM-kort"</string>
+	<string name="enter_pin_text">"Pinkode på SIM-kort:"</string>
+	<string name="oldPinLabel">"Gammel PIN"</string>
+	<string name="newPinLabel">"Ny pinkode"</string>
+	<string name="confirmPinLabel">"Bekreft ny PIN"</string>
+	<string name="badPin">"Den gamle pinkoden du tastet inn er ikke korrekt. Vennligst prøv igjen."</string>
+	<string name="mismatchPin">"PIN-koden du skrev inn stemmer ikke. Vennligst prøv igjen."</string>
+	<string name="invalidPin">"Skriv et PIN-kode på mellom 4 og 8 tall."</string>
+	<string name="disable_sim_pin">"Slå av pinkode på SIM-kort"</string>
+	<string name="enable_sim_pin">"Slå på pinkode på SIM-kort"</string>
+	<string name="enable_in_progress">"Vennligst vent\u2026"</string>
+	<string name="enable_pin_ok">"Pinkode på SIM-kort er slått på"</string>
+	<string name="disable_pin_ok">"SIM-kort pinkode slått av"</string>
+	<string name="pin_failed">"PIN-koden du tastet var feil"</string>
+	<string name="pin_changed">"SIM PIN-kodeendring vellykket"</string>
+	<string name="puk_requested">"Passordet er feil, SIM-kort er låst! Forespørsel om PUK2-kode."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Gammel PIN2"</string>
+	<string name="newPin2Label">"Ny PIN2"</string>
+	<string name="confirmPin2Label">"Bekreft ny PIN2"</string>
+	<string name="badPuk2">"PUK-2-koden du tastet inn er ikke korrekt. Vennligst prøv igjen."</string>
+	<string name="badPin2">"Den gamle PIN2-koden du skrev inn, er ikke riktig. Prøv igjen."</string>
+	<string name="mismatchPin2">"PIN2-koden du skrev inn stemmer ikke. Vennligst prøv igjen."</string>
+	<string name="invalidPin2">"Skriv et PIN2-kode på mellom 4 og 8 tall."</string>
+	<string name="invalidPuk2">"Skriv en PUK2 på 8 tall."</string>
+	<string name="pin2_changed">"Endring av PIN2 vellykket"</string>
+	<string name="label_puk2_code">"Skriv PUK2-kode"</string>
+	<string name="fdn_enable_puk2_requested">"Feil passord, vennligst endre PIN2 og prøv på nytt!"</string>
+	<string name="puk2_requested">"Passordet er feil, SIM-kort er låst! Forespørsel om PUK2-kode."</string>
+	<string name="doneButton">"Ferdig"</string>
+	<string name="caller_manage_header">"Konferansesamtale <xliff:g id="konf_samtale_tid">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Tilbake til samtale"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Innkommende telefonnummer"</string>
+	<string name="fake_phone_activity_placeCall_text">"Falsk innkommende samtale"</string>
+	<string name="sim_missing_continueView_text">"Fortsett uten SIM-kort"</string>
+	<string name="sim_missing_msg_text">"Intet SIM-kort, eller SIM-kortfeil"</string>
+	<string name="sim_unlock_dismiss_text">"Avbryt"</string>
+	<string name="sim_unlock_unlock_text">"Lås opp"</string>
+	<string name="sim_unlock_status_text">"Verifiserer PIN\u2026"</string>
+	<string name="voicemail_settings_number_label">"Mobilsvarnummer"</string>
+	<string name="card_title_dialing">"Ringer"</string>
+	<string name="card_title_redialing">"Prøver igjen"</string>
+	<string name="card_title_in_progress">"Igangværende samtale"</string>
+	<string name="card_title_conf_call">"Konferansesamtale"</string>
+	<string name="card_title_incoming_call">"Anrop"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA Samtale venter"</string>
+	<string name="card_title_call_ended">"Samtale avsluttet"</string>
+	<string name="card_title_on_hold">"På vent"</string>
+	<string name="card_title_hanging_up">"Legger på"</string>
+	<string name="card_title_in_call">"I samtale"</string>
+	<string name="card_title_mo_3">"Samtale venter"</string>
+	<string name="card_title_mo_5">"Anrop sperret"</string>
+	<string name="card_title_mo_6">"Anrop sperret"</string>
+	<string name="redial_radio_dialog_wait">"Vent"</string>
+	<string name="notification_missedCallTitle">"Tapt anrop "</string>
+	<string name="notification_missedCallsTitle">"Tapte anrop "</string>
+	<string name="notification_missedCallsMsg">"<xliff:g id="num_missed_calls">%s</xliff:g> tapte anrop"</string>
+	<string name="notification_missedCallTicker">"Tapte anrop fra <xliff:g id="tapte_anrop_fra">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Igangværende samtale (<xliff:g id="varighet">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"På vent"</string>
+	<string name="notification_voicemail_title">"Ny mobilsvarmelding"</string>
+	<string name="notification_voicemail_title_count">"Ny talepost (<xliff:g id="count">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"Ring <xliff:g id="mobilsvar_nummer">%s</xliff:g>"</string>
+	<string name="notification_voicemail_no_vm_number">"Nummeret til mobilsvar er ukjent"</string>
+	<string name="notification_network_selection_title">"Ingen tjeneste"</string>
+	<string name="notification_network_selection_text">"Det valgte nettverket (<xliff:g id="operator_name">%s</xliff:g>) er utilgjengelig"</string>
+	<string name="incall_error_power_off">"Du må slå av flymodus før du kan foreta et anrop."</string>
+	<string name="incall_error_emergency_only">"Ikke registrert på nettverket."</string>
+	<string name="incall_error_out_of_service">"Mobilnettverk ikke tilgjengelig"</string>
+	<string name="incall_error_no_phone_number_supplied">"Samtale ikke sendt, et gyldig nummer er ikke angitt."</string>
+	<string name="incall_error_call_failed">"Samtale ikke sendt."</string>
+	<string name="incall_status_dialed_mmi">"Starter MMI-sekvens\u2026"</string>
+	<string name="incall_status_dialed_fc">"Starter funksjonskodesekvens\u2026"</string>
+	<string name="incall_error_supp_service_unknown">"Tjenesten støttes ikke."</string>
+	<string name="incall_error_supp_service_switch">"Kan ikke skifte mellom samtaler."</string>
+	<string name="incall_error_supp_service_separate">"Kan ikke separere samtale."</string>
+	<string name="incall_error_supp_service_conference">"Kan ikke opprette konferansesamtaler."</string>
+	<string name="incall_error_supp_service_reject">"Kan ikke avvise samtale."</string>
+	<string name="incall_error_supp_service_hangup">"Kan ikke frigjøre samtale(r)."</string>
+	<string name="emergency_enable_radio_dialog_title">"Nødoppkall"</string>
+	<string name="emergency_enable_radio_dialog_message">"Slår på radio\u2026"</string>
+	<string name="emergency_enable_radio_dialog_retry">"Utenfor området til tjenesten, prøver på nytt\u2026"</string>
+	<string name="dial_emergency_error">"Anrop ikke sendt, <xliff:g id="ikke_nødnummer">%s</xliff:g> er ikke et nødnummer!"</string>
+	<string name="dial_emergency_empty_error">"Anrop ikke sendt, vennligst ring et nødnummer!"</string>
+	<string name="dialerKeyboardHintText">"Bruk tastene til å slå et nummer"</string>
+	<string name="dtmfDialpadHintText">"Touch tone keypad xxx"</string>
+	<string name="dtmfDialpadHandleLabel">"Dialpad xxx"</string>
+	<string name="touchLockText">"Trykk to ganger på\nfor å låse opp"</string>
+	<string name="onscreenAnswerText">"Trykk to ganger\nfor å svare"</string>
+	<string name="onscreenRejectText">"Trykk to ganger på\nfor å avvise"</string>
+	<string name="onscreenHoldText">"På vent"</string>
+	<string name="onscreenUnholdText">"Hent parkert"</string>
+	<string name="onscreenSendCallText">"Lähetä"</string>
+	<string name="onscreenEndCallText">"Slutt"</string>
+	<string name="onscreenShowDialpadText">"Dialpad xxx"</string>
+	<string name="onscreenHideDialpadText">"Skjul"</string>
+	<string name="onscreenSpeakerText">"Høyttaler"</string>
+	<string name="onscreenMuteText">"Lydløs"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Legg til oppkall"</string>
+	<string name="onscreenMergeCallsText">"Flett samtaler"</string>
+	<string name="onscreenSwapCallsText">"Skift"</string>
+	<string name="onscreenManageCallsText">"Behandle anrop"</string>
+	<string name="onscreenManageConferenceText">"Administrer"</string>
+	<string name="importSimEntry">"Importer"</string>
+	<string name="importAllSimEntries">"Importer alle"</string>
+	<string name="default_group">"Foretrukken"</string>
+	<string name="selectAllSimEntries">"Velg alle"</string>
+	<string name="attention">"Forsiktig"</string>
+	<string name="importingSimContacts">"Importerer SIM-kontakter"</string>
+	<string name="importToFDNfromContacts">"Importer fra kontakter"</string>
+	<string name="hac_mode_title">"Høreapparater"</string>
+	<string name="hac_mode_summary">"Slå på kompatibilitet for høreapparat"</string>
+	<string-array name="tty_mode_entries">
+		<item>"TTY av"</item>
+		<item>"TTY full"</item>
+		<item>"TTY HCO"</item>
+		<item>"TTY VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"ERI-tekst"</string>
+	<string name="dtmf_tones_title">"DTMF-toner"</string>
+	<string name="dtmf_tones_summary">"Angi lengden for DTMF-toner"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Normal"</item>
+		<item>"Lang"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Nettverksmelding"</string>
+	<string name="ota_title_activate">"Aktiver telefonen"</string>
+	<string name="ota_touch_activate">"Du må ringe et spesialnummer for å aktivere telefontjenesten.\n\nTrykk på \u201CAktiver\u201D, og lytt til anvisningene for å aktivere telefonen."</string>
+	<string name="ota_touch_activate_new">"Trykk på \"Aktiver\" for å foreta et anrop som aktiverer telefonen i leverandørens mobilnettverk, slik at du kan foreta anrop og koble til mobildatanettverk."</string>
+	<string name="ota_skip_activation_dialog_title">"Hoppe over aktivering?"</string>
+	<string name="ota_skip_activation_dialog_message">"Hvis du hopper over aktivering, kan du ikke foreta anrop eller koble til mobildatanettverk (men du kan koble til Wi-Fi-nettverk). Til du aktiverer telefonen vil du bli bedt om å aktivere den hver gang du slår den på."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Hopp over"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Aktiver"</string>
+	<string name="ota_activate">"Aktiver"</string>
+	<string name="ota_title_activate_success">"Telefonen er aktivert."</string>
+	<string name="ota_title_problem_with_activation">"Problem med aktiveringen"</string>
+	<string name="ota_listen">"Følg instruksjonene til du hører at aktiveringen er fullført."</string>
+	<string name="ota_dialpad">"Tastatur"</string>
+	<string name="ota_speaker">"Høyttaler"</string>
+	<string name="ota_progress">"Vent mens telefonen programmeres."</string>
+	<string name="ota_failure">"Programmeringen mislyktes"</string>
+	<string name="ota_successful">"Telefonen er nå aktivert. Det kan ta opptil 15 minutter før tjenesten starter."</string>
+	<string name="ota_unsuccessful">"Telefonen ble ikke aktivert.\nDu må kanskje finne et område med bedre dekning (nær et vindu eller utendørs).\n\nPrøv igjen eller ring kundeservice for flere alternativer."</string>
+	<string name="ota_spc_failure">"EXCESS SPC FAILURES"</string>
+	<string name="ota_call_end">"Tilbake"</string>
+	<string name="ota_try_again">"Prøv igjen"</string>
+	<string name="ota_next">"Neste"</string>
+	<string name="ota_back">"Tilbake"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Tilbakeringingsmodus for nødanrop er aktivert"</string>
+	<string name="phone_in_ecm_notification_title">"Tilbakeringingsmodus for nødanrop"</string>
+	<string name="phone_in_ecm_call_notification_text">"Datatilkobling deaktivert"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Ingen datatilkobling i <xliff:g id="count">%s</xliff:g> minutt"</item>
+		<item quantity="other">"Ingen datatilkobling i <xliff:g id="count">%s</xliff:g> minutter"</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"Telefonen vil være i tilbakeringingsmodus for nødanrop i <xliff:g id="count">%s</xliff:g> minutt. Ingen programmer som bruker datatilkobling kan brukes mens telefonen er i denne modusen. Vil du avslutte nå?"</item>
+		<item quantity="other">"Telefonen vil være i tilbakeringingsmodus for nødanrop i <xliff:g id="count">%s</xliff:g> minutter. Ingen programmer som bruker datatilkobling kan brukes mens telefonen er i denne modusen. Vil du avslutte nå?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"Den valgte handlingen er ikke tilgjengelig mens telefonen er i tilbakeringingsmodus for nødanrop. Telefonen vil være i denne modusen i <xliff:g id="count">%s</xliff:g> minutt. Vil du avslutte nå?"</item>
+		<item quantity="other">"Den valgte handlingen er ikke tilgjengelig mens telefonen er i tilbakeringingsmodus for nødanrop. Telefonen vil være i denne modusen i <xliff:g id="count">%s</xliff:g> minutter. Vil du avslutte nå?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"Den valgte handlingen er ikke tilgjengelig under nødanrop"</string>
+	<string name="progress_dialog_exiting_ecm">"Tilbakeringingsmodus for nødanrop avsluttes"</string>
+	<string name="alert_dialog_yes">"JA"</string>
+	<string name="alert_dialog_no">"NEI"</string>
+	<string name="alert_dialog_dismiss">"Avbryt"</string>
+	<string name="absent_num">"FRAVÆRENDE NUMMER"</string>
+	<string name="voicemail_settings">"Talepostinnstillinger"</string>
+	<string name="voicemail_number_not_set">"&lt;ikke angitt&gt;"</string>
+	<string name="network_preference">"Nettverksmodus"</string>
+	<string name="menu_preferred_network_edit">"Rediger"</string>
+	<string name="menu_preferred_network_delete">"Slett"</string>
+	<string name="label_cb">"Samtalesperre"</string>
+	<string name="label_cb_incom">"Anrop"</string>
+	<string name="pass_dialog_title">"Passord"</string>
+	<string name="summ_cb_enable">"Tilføy"</string>
+	<string name="summ_cb_disable">"Slå av"</string>
+	<string name="confirm_button">"Bekreft"</string>
+	<string name="cancel_button">"Avbryt"</string>
+	<string name="call_cost_settings">"Innstillinger"</string>
+	<string name="call_cost_activation_settings">"Ubegrenset"</string>
+	<string name="call_cost_pin2_err">"Feil passord, vennligst endre PIN2 og prøv på nytt!"</string>
+	<string name="call_cost_unit">"Unit"</string>
+	<string name="call_cost_set_limit_off">"Av"</string>
+	<string name="call_cost_set_call_cost_empty">"Tom"</string>
+	<string name="revertButton">"Gå tilbake"</string>
+	<string name="call_cost_reset_msg">"Tilbakestill"</string>
+	<string name="cb_set_passwd_title">"Angi passord"</string>
+	<string name="cb_set_passwd_dialog_title">"Angi passord"</string>
+	<string name="cb_old_password">"Gjeldende passord:"</string>
+	<string name="cb_new_password">"Nytt passord:"</string>
+	<string name="cb_confirm_password">"Bekreft nytt passord:"</string>
+	<string name="cb_password_error">"Angi det riktige passordet."</string>
+	<string name="cb_passwords_error">"Passordene samsvarer ikke."</string>
+	<string name="cb_passwords_empty_error">"Du må angi og bekrefte et passord."</string>
+	<string name="cb_password_empty_error">"Angi passordet."</string>
+	<string name="barring_pass_cancel">"Avbryt"</string>
+	<string name="barring_pass_ok">"OK"</string>
+	<string name="voicemail_provider">"Taleposttjeneste"</string>
+	<string name="voicemail_settings_for">"Innstillinger for <xliff:g id="provider_name">%s</xliff:g>"</string>
+	<string name="other_settings">"Andre anropsinnstillinger"</string>
+	<string name="dial_button_label">"Ring"</string>
+	<string name="calling_via_template">"Ringer via ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Dra mot høyre for å svare"</string>
+	<string name="slide_to_silence">"Dra mot venstre for å dempe"</string>
+	<string name="slide_to_decline">"Dra mot venstre for å avvise"</string>
+	<string name="slide_to_answer_and_hold">"Dra mot høyre for å svare og\nparkere aktiv samtale"</string>
+	<string name="slide_to_answer_and_end_active">"Dra mot høyre for å svare og avslutte aktiv samtale"</string>
+	<string name="slide_to_answer_and_end_onhold">"Dra mot høyre for å svare og avslutte parkert samtale"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"OK"</string>
+	<string name="messageCancel">"Avbryt"</string>
+	<string name="slide_to_answer_hint">"Svar"</string>
+	<string name="slide_to_decline_hint">"Avvis"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Angi PUK-kode"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Feil PUK-kode!\nGjenstår: <xliff:g id="NUMBER_0">%d</xliff:g> gang(er)"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Ny pinkode"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Bekreft ny PIN"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"PIN-kodene du skrev inn stemmer ikke."</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Gjenstår: "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"PUK-koden er sperret"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Feil PIN-kode!\nGjenstår: <xliff:g id="NUMBER_0">%d</xliff:g> gang(er)"</string>
+	<string name="unlock_accept">"Godta"</string>
+	<string name="unlock_send_sms">"Send SMS"</string>
+	<string name="silent_silent">"Silent"</string>
+	<string name="str_save">"Lagre"</string>
+	<string name="str_delete">"Slett"</string>
+	<string name="str_cancel">"Avbryt"</string>
+	<string name="str_no_messages">"Ingen meldinger"</string>
+	<string name="str_new_message">"Uusi viesti"</string>
+	<string name="send_sms">"Send SMS"</string>
+	<string name="str_send">"Lähetä"</string>
+	<string name="menu_item1">"Uusi viesti"</string>
+	<string name="menu_item2">"Velg flere"</string>
+	<string name="menu_item3">"Slett alle"</string>
+	<string name="str_delete_q">"Slett?"</string>
+	<string name="excuse_messages_select_all">"Velg alle"</string>
+	<string name="excuse_messages_deselect_all">"Fjern all merking"</string>
+	<string name="excuse_messages_btn_delete">"Slett"</string>
+	<string name="excuse_messages_multi_select">"Velg flere"</string>
+	<string name="excuse_messages_delete_all">"Slett alle"</string>
+	<string name="excuse_messages_new_message">"Uusi viesti"</string>
+	<string name="excuse_messages_btn_cancel">"Avbryt"</string>
+	<string name="excuse_messages_delete_question">"Slett?"</string>
+	<string name="excuse_messages_saved">"Lagret"</string>
+	<string name="excuse_messages_delete">"Slett"</string>
+	<string name="excuse_messages_len_btn">"Bekreft"</string>
+	<string name="yes">"JA"</string>
+	<string name="no">"NEI"</string>
+	<string name="call_barring_title">"Samtalesperre"</string>
+	<string name="camera_bright_key">"Lysstyrke"</string>
+	<string name="camera_zoom_key">"Zoom"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Kontakter "</string>
+	<string name="incallmenu_memo">"Memo"</string>
+	<string name="incallmenu_Sms">"Melding"</string>
+	<string name="CALLSTR_CALLREJECTING">"Silent"</string>
+	<string name="CALLSTR_CALLERID">"ID på ringer"</string>
+	<string name="CALLSTR_INCOMCALL">"Anrop"</string>
+	<string name="CALLSTR_CALLTO">"Til"</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Skriv melding"</string>
+	<string name="CALLSTR_REJECT_SEND">"Lähetä"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Rediger"</string>
+	<string name="custom_roaming_button">"OK"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Navn"</string>
+	<string name="label_ve">"Merke"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>

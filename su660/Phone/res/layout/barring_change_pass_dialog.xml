@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LGE_BARRING START -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dip">
+
+
+        <TextView android:id="@+id/cb_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:text="@string/cb_password_empty_error" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cb_old_password_block"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cb_old_password" />
+            <EditText android:id="@+id/cb_old_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:password="True"
+                    android:singleLine="True"
+                    android:inputType = "phone"
+                    android:maxLength="4"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_new_password" />
+        <EditText android:id="@+id/cb_new_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="True"
+                android:singleLine="True"
+                android:inputType = "phone"
+                android:maxLength="4" />
+
+        <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_confirm_password" />
+        <EditText android:id="@+id/cb_confirm_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="True"
+                android:singleLine="True"
+                android:inputType = "phone"
+                android:maxLength="4"/>
+       <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+               <Button
+                  android:text="@string/barring_pass_ok"
+                  android:id="@+id/barring_pass_ok"
+                  android:layout_weight="1"
+                  android:layout_height="fill_parent"
+                  android:layout_width="fill_parent"
+                  android:layout_gravity="left">
+               </Button>
+               <Button
+                  android:text="@string/barring_pass_cancel"
+                  android:id="@+id/barring_pass_cancel"
+                  android:layout_weight="1"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_gravity="right">
+               </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+<!-- LGE_BARRING END -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="button_last_key"
+        android:title="@string/titleLastCall"
+        android:persistent="false"
+        android:summary="@string/summaryCallDuration"
+    />
+    <Preference
+        android:key="button_all_key"
+        android:title="@string/titleAllCall"
+        android:persistent="false"
+        android:summary="@string/summaryCallDuration"
+    />
+    <Preference
+        android:key="button_mo_key"
+        android:title="@string/titleMOCall"
+        android:persistent="false"
+        android:summary="@string/summaryCallDuration"
+    />
+    <Preference
+        android:key="button_mt_key"
+        android:title="@string/titleMTCall"
+        android:persistent="false"
+        android:summary="@string/summaryCallDuration"
+    />
+    
+</PreferenceScreen>

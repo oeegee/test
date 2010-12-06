@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- LGE_MERGE_S -->
+<RelativeLayout android:id="@+id/RelativeLayout01" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:background="#C0C0C0"
+	android:layout_width="match_parent"  
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+		
+		<EditText android:id="@+id/et_message" 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:maxLines="4"
+		android:minLines="4"
+		android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+		android:imeOptions="actionDone|flagNoEnterAction"
+		android:gravity="top|left" 
+		android:visibility="visible" 
+		android:scrollbars="vertical"
+		android:maxLength="1000"/>
+	
+		<TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="match_parent" android:stretchColumns="*">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal">
+				<!-- withwind.park 20100616 change button ui start -->
+				<Button android:layout_width="130dip" android:layout_height="wrap_content" android:id="@+id/bt_save" android:text="@string/str_save" android:layout_marginLeft="10dip" android:layout_marginRight="5dip"/>
+				<Button android:layout_width="130dip" android:layout_height="wrap_content" android:id="@+id/bt_cancel" android:text="@string/str_cancel" android:layout_marginLeft="5dip" android:layout_marginRight="10dip"/>
+				<!-- withwind.park 20100616 change button ui end -->
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</RelativeLayout>
+<!-- LGE_MERGE_E -->
+<!-- 20100804 jongwany.lee@lge.com attached this file EXCUSE MESSAGE -->

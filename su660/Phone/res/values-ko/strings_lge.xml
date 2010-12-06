@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="not_supported_feature">"지원되지 않는 기능입니다."</string>
+
+<!-- Dual Number -->	
+	<!-- LGE_CHANGE_S [gyumin.jeong@lge.com] 2010-07-14 : add dual_number function -->
+	    <string name="phone_dual_number_setting_title">듀얼넘버</string>
+    <string name="phone_dual_number_setting_summary">듀얼넘버 설정</string>
+        <string name="carrier_dualnumber_settings">듀얼넘버</string>
+    <string name="carrier_dualnumber_settings_title">듀얼넘버</string>
+    <string name="carrier_dualnumber_settings_summary">듀얼넘버, 벨소리</string>
+    <!-- START hyejin.song@lge.com 2010. 7. 19. LAB1_UX IS-2000_1x_v2.9.8 -->
+    <string name="service_register">서비스 가입</string>
+    <string name="service_servicehelp">서비스 안내</string>
+    <!-- END hyejin.song@lge.com 2010. 7. 19. LAB1_UX IS-2000_1x_v2.9.8 -->    
+    <string name="carrier_dualnumber_input_number_title">번호입력</string>
+    <string name="carrier_dualnumber_input_number_summary">번호를 입력하려면 터치하세요</string>
+    <string name="carrier_dualnumber_bell_title">벨소리</string>
+    <string name="carrier_dualnumber_bell_summary">벨소리를 선택하려면 터치하세요</string>
+    
+    <string name="voice_call_ringtone_title">통화 벨소리</string>
+    <string name="voice_call_ringtone_summary">전화 수신 시 벨소리 종류 선택</string>
+	<!-- LGE_CHANGE_E [gyumin.jeong@lge.com] 2010-07-14 : add dual_number function -->
+	
+	    <string name="lock_outgoingcall_title">"전화발신 제한"</string>
+	    
+	    <!--Carrier Dependent -->
+	    <!--<string name="lock_outgoingcall_summary">"모든전화/국제전화/700/060/070 발신제한"</string>-->
+	    
+<!-- Help -->   
+   <string name="service_help">도움말</string>	
+   <string name="lgtservice_help_dual">\
+       하나의 휴대폰에 원래의 번호 이외에 별도의 전화번호를 추가하여 사용자가 자신의 용도에 따라 2개의 번호를 활용할 수 있도록 하는 서비스입니다.
+       &lt;br /&gt;
+       &lt;br /&gt;&lt;font color="#FF0000"&gt;유료이며 서비스 가입이 필요합니다.&lt;/font&gt;
+       &lt;br /&gt;
+       &lt;br /&gt;&lt;u&gt;[이용안내]&lt;/u&gt;
+       &lt;br /&gt;① 추가 번호로 발신하려면 ‘*77# + 상대방 전화번호 + 통화’ 를 누르시면 됩니다.
+       &lt;br /&gt;② 추가 번호로 문자메시지를 보내려면 발신번호에 추가번호를 직접 입력 하여야 합니다.
+       &lt;br /&gt;③ 추가 번호로 전화나 메시지 수신 시 상대방 전화번호 뒤에 ‘#’ 이 붙어 구분 가능합니다. (문자메시지의 경우 일부 단말 한)
+       &lt;br /&gt;④ 추가 번호 변경은 고객센터(114)나 대리점을 통해 가능합니다.
+   </string>
+
+	<string name="unknown_carrier">"알수없음"</string>
+	<string name="unknown_mccmnc">"네트워크 운영자 정보가 없습니다"</string>
+   
+    <!-- START phjjiny.park 100729 -->
+    <string name="effile_userplmn">사용자 PLMN 설정</string>    
+    <!-- END phjjiny.park 100729 -->    
+
+	<!--20100916 sumi920.kim@lge.com InCall-Recording [START_LGE_LAB1]   -->                         
+	<string name="onscreenRecordText">녹음</string>
+	<string name="onscreenStopText">멈춤</string>
+	<string name="saveRecordText">음성녹음에 저장되었습니다</string>
+	<string name="stopRecordText">녹음이 중지되었습니다 </string>
+	<string name="audio_db_title_format">"<xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g>"</string>
+	<string name="audio_db_playlist_name">"내 녹음"</string>
+	<string name="audio_db_artist_name">"녹음"</string>	
+	<string name="audio_db_album_name">"오디오 녹음"</string> 
+    <string name="insert_sd_card">SD 카드가 없습니다</string>
+    <string name="storage_is_full">메모리가 가득찼습니다.</string>
+
+	<!--20100916 sumi920.kim@lge.com InCall-Recording [END_LGE_LAB1]   -->                         
+	<!-- START sumi920.kim@lge.com 2010. 10. 06. LAB1_CallUI handle answer of incoming call if 3Way Conv -->
+	<!-- LGE_CHANGE_S [shinhae.lee@lge.com] 2010-06-22 : handle answer of incoming call if 3Way Conv -->
+    <string name="incall_select_call_end_title">"선택통화종료"</string>
+    <string name="incall_select_call_end_value_0">"현재 통화를 끊고 전화받기"\n</string>
+    <string name="incall_select_call_end_value_1">"대기 통화를 끊고 전화받기"\n</string>
+	<!-- LGE_CHANGE_E [shinhae.lee@lge.com] 2010-06-22 : handle answer of incoming call if 3Way Conv -->
+	<!-- END sumi920.kim@lge.com 2010. 10. 06. LAB1_CallUI handle answer of incoming call if 3Way Conv -->
+
+<!-- 20101009 sumi920.kim@lge.com OptionMenu InCall [START_LGE_LAB1] -->
+	<string name="incallmenu_check_bluetooth">블루투스 켜기</string>
+	<string name="incallmenu_uncheck_bluetooth">블루투스 끄기</string>
+	<string name="menu_transferCall">"통화 전달"</string> 
+    <string name="menu_end_all_calls">"모든통화종료"</string>
+<!-- 20101009 sumi920.kim@lge.com OptionMenu InCall [END_LGE_LAB1] -->
+   
+    <!-- 20101014 sumi920.kim@lge.com HD VideoCall Button [START_LGE_LAB1] -->
+	<string name="incall_button_hd_videocall">HD영상통화</string>
+
+	<!-- 20101107 sumi920.kim@lge.com SKT SUPPService code [START_LGE_LAB1] -->
+	<string name="supp_service_notification_onhold">"상대방이 통화를 중지합니다"</string>
+	<string name="supp_service_notification_retrieved">"상대방이 통화중지를 해제합니다"</string>
+	<string name="supp_service_notification_connected_ect">"상대방이 호전달 중입니다"</string>
+	<!-- START youngmi.uhm@lge.com 2010. 9. 01. LAB1_CallUI KT IOT confcall toast -->    
+	<string name="supp_service_notification_mpty_call_ind">"회의통화 연결중입니다"</string>
+	 <!-- END youngmi.uhm@lge.com 2010. 9. 01. LAB1_CallUI KT IOT confcall toast -->
+	 <!-- LGE_CHANGE_E [shinhae.lee@lge.com] 2010-06-24 : KT Call Hold/Swap, Call Transfer Supp Service Notification -->
+	 <!-- START youngmi.uhm@lge.com 2010. 8. 04. LAB1_CallUI Supp Service - Call Waiting -->
+	 <!-- LGE_CHANGE_S [shinhae.lee@lge.com] 2010-07-14 : KT_IOT : Supp Service - Call Waiting -->
+	 <string name="supp_service_notification_call_waiting">"상대방이 통화중입니다."</string>
+	 <!-- LGE_CHANGE_E [shinhae.lee@lge.com] 2010-07-14 : KT_IOT : Supp Service - Call Waiting --><!--  -->
+	 <!-- END youngmi.uhm@lge.com2010. 8. 04. LAB1_CallUI Supp Service - Call Waiting -->
+	 <!-- 20101107 sumi920.kim@lge.com SKT SUPPService code [END_LGE_LAB1] -->
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Clavier"</string>
+	<string name="vt_Hold">"En attente"</string>
+	<string name="vt_Mute">"Silencieux"</string>
+	<string name="vt_Private">"Privé"</string>
+	<string name="vt_Show">"Afficher"</string>
+	<string name="vt_Speaker">"Ht. parleur"</string>
+	<string name="vt_bad_response">"Mauvaise réponse. Essayez ultérieurement."</string>
+	<string name="vt_call_barred">"Appel interdit"</string>
+	<string name="vt_call_ended">"Appel vidéo terminé"</string>
+	<string name="vt_camera_brightness_entry_high">"Élevée"</string>
+	<string name="vt_camera_brightness_entry_low">"Faible"</string>
+	<string name="vt_camera_brightness_entry_middle">"Milieu"</string>
+	<string name="vt_camera_brightness_title">"Luminosité"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Mono"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Négatif"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Désactivé"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Sépia"</string>
+	<string name="vt_camera_coloureffect_title">"Colorisation"</string>
+	<string name="vt_camera_night_entry_off">"Désactivé"</string>
+	<string name="vt_camera_night_entry_on">"Activé"</string>
+	<string name="vt_camera_night_title">"Mode nuit"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Automatique"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Nuageux"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Fluorescent"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Incandescent"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Ensoleillé"</string>
+	<string name="vt_camera_whitebalance_title">"Niveau du blanc"</string>
+	<string name="vt_camera_zoom_title">"Zoom"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Appel VT non pris en charge. Connectez-vous à l\'appel vocal"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Appel VT non pris en charge. Connectez-vous à l\'appel vocal"</string>
+	<string name="vt_end">"Raccrocher"</string>
+	<string name="vt_fallback">"Basculement vers l\'appel vocal"</string>
+	<string name="vt_far_image_capture">"Prendre en photo une image d\'arrière-plan"</string>
+	<string name="vt_incoming_call">"Appel visio entrant"</string>
+	<string name="vt_invalid_number">"Numéro non valide"</string>
+	<string name="vt_mode_control">"Contrôle du mode"</string>
+	<string name="vt_near_image_capture">"Prendre en photo une image de premier plan"</string>
+	<string name="vt_no_answer">"Aucune réponse"</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Paramètre appareil photo"</string>
+	<string name="vt_option_capture">"Capturer"</string>
+	<string name="vt_option_use_2nd_camera">"Utiliser l\'appareil photo de la façade arrière"</string>
+	<string name="vt_option_use_main_camera">"Utiliser l\'appareil photo de la façade avant"</string>
+	<string name="vt_set_private_image">"Définir une image personnelle"</string>
+	<string name="vt_set_speaker">"Régler le haut-parleur"</string>
+	<string name="vt_settings">"Paramètres appels vidéo"</string>
+	<string name="vt_use_private_image">"Utiliser image privée"</string>
+</resources>

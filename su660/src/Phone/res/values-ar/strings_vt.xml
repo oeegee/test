@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"لوحة طلب"</string>
+	<string name="vt_Hold">"تعليق"</string>
+	<string name="vt_Mute">"ﻛﺘﻢ ﺍﻟﺼﻮﺕ"</string>
+	<string name="vt_Private">"خاصة"</string>
+	<string name="vt_Show">"إظهار"</string>
+	<string name="vt_Speaker">"Динамик"</string>
+	<string name="vt_bad_response">"رد غير صالح. حاول لاحقاً."</string>
+	<string name="vt_call_barred">"تم حظر المكالمة"</string>
+	<string name="vt_call_ended">"انتهاء مكالمة الفيديو"</string>
+	<string name="vt_camera_brightness_entry_high">"عالي"</string>
+	<string name="vt_camera_brightness_entry_low">"منخفض"</string>
+	<string name="vt_camera_brightness_entry_middle">"وسط"</string>
+	<string name="vt_camera_brightness_title">"السطوع"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"أحادي"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"سالب"</string>
+	<string name="vt_camera_coloureffect_entry_off">"إيقاف"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"بني داكن"</string>
+	<string name="vt_camera_coloureffect_title">"تأثير الألوان"</string>
+	<string name="vt_camera_night_entry_off">"إيقاف"</string>
+	<string name="vt_camera_night_entry_on">"تشغيل"</string>
+	<string name="vt_camera_night_title">"وضع الليل"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"السيارات"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"غائم"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"فلورسنت"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"متوهج"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"مشمس"</string>
+	<string name="vt_camera_whitebalance_title">"توازن اللون الأبيض"</string>
+	<string name="vt_camera_zoom_title">"التكبير"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"يتعذّر اعتماد مكالمة VT. قم بتوصيل المكالمة الصوتية"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"يتعذّر اعتماد مكالمة VT. قم بتوصيل المكالمة الصوتية"</string>
+	<string name="vt_end">"إنهاء"</string>
+	<string name="vt_fallback">"تردّي الصوت"</string>
+	<string name="vt_far_image_capture">"التقاط صورة بعيدة جداً"</string>
+	<string name="vt_incoming_call">"مكالمة فيديو واردة"</string>
+	<string name="vt_invalid_number">"رقم غير صالح"</string>
+	<string name="vt_mode_control">"التحكم بالوضع"</string>
+	<string name="vt_near_image_capture">"التقاط صورة قريبة جداً"</string>
+	<string name="vt_no_answer">"لا ردّ"</string>
+	<string name="vt_option_bluetooth">"بلوتوث"</string>
+	<string name="vt_option_camera_setting">"إعداد الكاميرا"</string>
+	<string name="vt_option_capture">"التصوير"</string>
+	<string name="vt_option_use_2nd_camera">"استخدام الكاميرا الخلفية"</string>
+	<string name="vt_option_use_main_camera">"استخدام الكاميرا الأمامية"</string>
+	<string name="vt_set_private_image">"تعيين صورة خاصة"</string>
+	<string name="vt_set_speaker">"تعيين مكبر الصوت"</string>
+	<string name="vt_settings">"ضوابط مكالمة الفيديو"</string>
+	<string name="vt_use_private_image">"استخدام الصورة الخاصة"</string>
+</resources>

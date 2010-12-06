@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="roaming_warning" msgid="7820963598559553967">"데이터 로밍시 국내요금제 적용불가! 과다한 요금이 청구 될 수 있습니다(동영상등 대용량 서비스 사용시 분당 2만원 이상의 통화료가 부과될 수 있습니다.) 데이터 로밍을 설정하시겠습니까?"</string>
+	<string name="carrier_select_mode">"시스템 선택"</string>
+	<string name="select_automatically" msgid="8615980695510888796">"자동 선택"</string>
+	<string name="sum_select_automatically" msgid="8460954604521755275">"기본 설정 네트워크를 자동으로 선택"</string>
+	<string name="search_networks" msgid="1601136049300882441">"수동 선택"</string>
+	<string name="sum_search_networks" msgid="2921092249873272715">"사용 가능한 모든 네트워크 검색"</string>
+	<string name="carrier_list">"현재 네트워크 운영자"</string>
+	<string name="manuall_select_network_failed">"시스템 사정으로 검색이 불가 합니다."</string>
+</resources>

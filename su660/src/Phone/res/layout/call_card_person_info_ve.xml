@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/callCardPersonInfo_ve" 
+	android:orientation="vertical"
+	android:gravity="center_horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:visibility="gone">
+
+	<!-- Photo, with elapsed time widget off to the side. -->
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="172dp">
+						
+			<include layout="@layout/amf_viewer_ve"/>
+						
+	</RelativeLayout>
+
+	<!-- Name (or the phone number, if we don't have a name to display). -->
+	<TextView android:id="@+id/name_ve" 
+		android:gravity="center_horizontal"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="28sp" 
+		android:singleLine="true"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="-22dip" 
+		android:paddingLeft="4dip"
+		android:paddingRight="4dip" 
+		android:paddingBottom="4dip" 
+		android:text="@string/name_ve"/>
+
+	<!--
+	Label (like "Mobile" or "Work", if present) and phone number, side by
+	side
+	-->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" 
+		android:layout_marginTop="-6dip">
+			
+		<!-- 2010.10.26 레이블의 용도는 집,휴대폰 등의 정보를 표시 함 -->	
+        <TextView android:id="@+id/label_ve"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textSize="18sp"
+                  android:textColor="?android:attr/textColorSecondary"
+                  android:singleLine="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingRight="6dip"
+                  />
+                  
+		<TextView android:id="@+id/phoneNumber_ve"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textSize="18sp" 
+			android:textColor="?android:attr/textColorSecondary"
+			android:singleLine="true" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/phone_number_ve" />
+	</LinearLayout>
+
+</LinearLayout>

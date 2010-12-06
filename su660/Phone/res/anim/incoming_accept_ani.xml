@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+	<item android:drawable="@drawable/call_ani_green_01" android:duration="200" />
+	<item android:drawable="@drawable/call_ani_green_02" android:duration="200" />
+	<item android:drawable="@drawable/call_ani_green_03" android:duration="200" />
+	<item android:drawable="@drawable/call_ani_green_04" android:duration="200" />
+	<item android:drawable="@drawable/call_ani_green_05" android:duration="200" />
+	<item android:drawable="@drawable/call_ani_green_06" android:duration="200" />
+</animation-list>
+
+<!-- 20100804 jongwany.lee@lge.com attached this file CALL UI -->

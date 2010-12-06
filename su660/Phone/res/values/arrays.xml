@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- LGE_MOBILE_NETWORK_TYPE START -->
+<string-array name="network_preference_items">
+<!--
+<item>2G only</item>
+<item>3G only</item>
+<item>2G preferred</item> 
+<item>3G preferred</item>
+-->
+<item>GSM/WCDMA auto</item>
+<item>WCDMA only</item>
+<item>GSM only</item>
+</string-array>
+<string-array name="network_preference_values">
+<item>3</item>
+<item>2</item>
+<item>1</item>
+<!-- <item>3</item> -->
+</string-array>
+<!-- LGE_MOBILE_NETWORK_TYPE END -->
+<!-- LGE_PDP_MODE START -->
+<string-array name="pdp_mode_items">
+<item>Always on</item>
+<item>When needed</item>
+<item>Always off</item>
+</string-array>
+<string-array name="pdp_mode_values">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+</string-array>
+<!-- LGE_PDP_MODE END -->
+<!-- LGE_BARRING START -->
+<string-array name="cb_out_items">
+<item>International Calls</item>
+<item>All except Home</item>
+<item>All Calls</item>
+<item>Off</item>
+</string-array>
+<string-array name="cb_out_values">
+<item>OI</item>
+<item>OX</item>
+<item>AO</item>
+<item>AG</item>
+</string-array>
+<string-array name="cb_incom_items">
+<item>When Roaming</item>
+<item>All Calls</item>
+<item>Off</item>
+</string-array>
+<string-array name="cb_incom_values">
+<item>IR</item>
+<item>AI</item>
+<item>AC</item>
+</string-array>
+<!-- LGE_BARRING END -->
+<!-- LGE_TWO_LINE_SERVICE START -->
+    <string-array name="select_line_dialog_items">
+        <item>@string/line_1</item>
+        <item>@string/line_2</item>
+    </string-array>
+<!-- LGE_TWO_LINE_SERVICE END -->
+
+<!-- VT 2depth Menu -->
+ 	<!-- Brightness -->
+	<string-array name="pref_camera_brightness_entries" translatable="false">
+        <item>@string/vt_camera_brightness_entry_high</item>
+        <item>@string/vt_camera_brightness_entry_middle</item>
+        <item>@string/vt_camera_brightness_entry_low</item>
+    </string-array>
+    
+    <string-array name="pref_camera_brightness_entryvalues" translatable="false">
+        <item>185</item>
+        <item>125</item>
+        <item>50</item>
+    </string-array>
+    
+	<!-- White Balance -->
+	<string-array name="pref_camera_whitebalance_entries" translatable="false">
+        <item>@string/vt_camera_whitebalance_entry_auto</item>
+        <item>@string/vt_camera_whitebalance_entry_incandescent</item>
+        <item>@string/vt_camera_whitebalance_entry_sunny</item>
+        <item>@string/vt_camera_whitebalance_entry_fluorescent</item>
+        <item>@string/vt_camera_whitebalance_entry_cloudy</item>
+    </string-array>
+    
+    <string-array name="pref_camera_whitebalance_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>incandescent</item>
+        <item>daylight</item>
+        <item>fluorescent</item>
+        <item>cloudy</item>        
+    </string-array>
+
+	<!-- Colour Effect -->
+	<string-array name="pref_camera_coloureffect_entries" translatable="false">
+        <item>@string/vt_camera_coloureffect_entry_off</item>
+        <item>@string/vt_camera_coloureffect_entry_sepia</item>
+        <item>@string/vt_camera_coloureffect_entry_mono</item>
+        <item>@string/vt_camera_coloureffect_entry_negative</item>
+    </string-array>
+    
+    <string-array name="pref_camera_coloureffect_entryvalues" translatable="false">
+        <item>none</item>
+        <item>sepia</item>
+        <item>mono</item>
+        <item>negative</item>
+    </string-array>
+		
+	<!-- Zoom -->
+	<string-array name="pref_camera_zoom_entries" translatable="false">
+        <item>@string/pref_camera_zoom_entry_1x</item>
+        <item>@string/pref_camera_zoom_entry_2x</item>        
+    </string-array>
+    
+    <string-array name="pref_camera_zoom_entryvalues" translatable="false">
+        <item>0</item>
+        <item>4</item>
+    </string-array>	
+	<!-- Night mode -->
+	<string-array name="pref_camera_night_entries" translatable="false">
+        <item>@string/vt_camera_night_entry_on</item>
+        <item>@string/vt_camera_night_entry_off</item>        
+    </string-array>
+    
+    <string-array name="pref_camera_night_entryvalues" translatable="false">
+        <item>night</item>
+        <item>auto</item>
+    </string-array>
+    
+<!--20100926 sh80.choi@lge.com  Add SKT CallWaiting Sound/Vibrate Setting [START_LGE_LAB1]-->
+    <string-array name="call_waiting_sv_mode">
+        <item>Sound</item>
+        <item>Vibration</item>
+    </string-array>
+
+    <string-array name="call_waiting_sv_mode_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<!--20100926 sh80.choi@lge.com  Add SKT CallWaiting Sound/Vibrate Setting [END_LGE_LAB1]-->   
+</resources>

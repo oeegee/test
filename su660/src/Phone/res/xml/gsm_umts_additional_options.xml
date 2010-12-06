@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/additional_gsm_call_settings">
+
+    <com.android.phone.CLIRListPreference
+        android:key="button_clir_key"
+        android:title="@string/labelCallerId"
+        android:persistent="false"
+        android:defaultValue="DEFAULT"
+        android:entries="@array/clir_display_values"
+        android:entryValues="@array/clir_values"
+        android:dialogTitle="@string/labelCallerId"/>
+
+    <com.android.phone.CallWaitingCheckBoxPreference
+        android:key="button_cw_key"
+        android:title="@string/labelCW"
+        android:persistent="false"
+        android:summaryOn="@string/sum_cw_enabled"
+        android:summaryOff="@string/sum_cw_disabled"/>
+<!--20100926 sh80.choi@lge.com  Add SKT CallWaiting Sound/Vibrate Setting [START_LGE_LAB1]-->
+	<ListPreference
+    	android:key = "button_sv_key"
+    	android:title = "@string/title_call_waiting_vib"
+    	android:summary="@string/summary_call_waiting_vib"
+    	android:persistent="false"
+    	android:entries = "@array/call_waiting_sv_mode"
+    	android:entryValues = "@array/call_waiting_sv_mode_value"
+    	android:dependency="button_cw_key" />
+<!--20100926 sh80.choi@lge.com  Add SKT CallWaiting Sound/Vibrate Setting [END_LGE_LAB1]-->
+
+<!-- LGE_TWO_LINE_SERVICE START -->
+	<com.android.phone.TwoLineServicePreference
+        android:key="@string/select_line_preference_key"
+        android:title="@string/labelSL"
+        android:persistent="false"
+        android:defaultValue="Line 1"
+        android:entries="@array/select_line_dialog_items"
+        android:entryValues="@array/select_line_dialog_items"
+        android:dialogTitle="@string/labelSL" />
+<!-- LGE_TWO_LINE_SERVICE END -->
+</PreferenceScreen>

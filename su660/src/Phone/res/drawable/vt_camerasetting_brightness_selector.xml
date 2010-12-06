@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- StateListDrawable used for buttons in the in-call onscreen touch UI. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <!-- button pressed -->
+    <item android:state_pressed="true" 
+        android:drawable="@drawable/vt_ic_camera_setting_brightness_pressed" />
+
+	<!-- button selected -->
+	<item android:state_selected="true"
+        android:drawable="@drawable/vt_ic_camera_setting_brightness_pressed" />
+
+	<item android:state_enabled="false" android:state_window_focused="false" 
+	android:drawable="@drawable/vt_ic_camera_setting_brightness_pressed" />
+	/>
+	
+
+    <!--  normal image -->
+    <item
+        android:drawable="@drawable/vt_ic_camera_setting_brightness" />
+
+</selector>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"Πληκτρολόγιο κλήσης"</string>
+	<string name="vt_Hold">"Αναμονή"</string>
+	<string name="vt_Mute">"Σίγαση"</string>
+	<string name="vt_Private">"Προσωπική"</string>
+	<string name="vt_Show">"Προβολή"</string>
+	<string name="vt_Speaker">"Ηχείο"</string>
+	<string name="vt_bad_response">"Κακή απόκριση. Δοκιμάστε αργότερα."</string>
+	<string name="vt_call_barred">"Φραγή κλήσης"</string>
+	<string name="vt_call_ended">"Τερματισμός βιντεοκλήσης"</string>
+	<string name="vt_camera_brightness_entry_high">"Υψηλή"</string>
+	<string name="vt_camera_brightness_entry_low">"Χαμηλή"</string>
+	<string name="vt_camera_brightness_entry_middle">"Μέση"</string>
+	<string name="vt_camera_brightness_title">"Φωτεινότητα"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"Μονόχρωμο"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"Αρνητικό"</string>
+	<string name="vt_camera_coloureffect_entry_off">"Απενεργοπ."</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"Σέπια"</string>
+	<string name="vt_camera_coloureffect_title">"Χρωματικό εφέ"</string>
+	<string name="vt_camera_night_entry_off">"Απενεργοπ."</string>
+	<string name="vt_camera_night_entry_on">"Ενεργοπ."</string>
+	<string name="vt_camera_night_title">"Νυχτερινή λειτουργία"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"Αυτόματο"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"Συννεφιά"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"Φθορισμού"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"Πυρακτώσεως"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"Λιακάδα"</string>
+	<string name="vt_camera_whitebalance_title">"Ισορροπία λευκού"</string>
+	<string name="vt_camera_zoom_title">"Ζουμ"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"Δεν είναι δυνατή η υποστήριξη κλήσης VT. Συνδεθείτε σε φωνητική κλήση"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"Δεν είναι δυνατή η υποστήριξη κλήσης VT. Συνδεθείτε σε φωνητική κλήση"</string>
+	<string name="vt_end">"Τέλος"</string>
+	<string name="vt_fallback">"Εναλλακτική φωνητική κλήση"</string>
+	<string name="vt_far_image_capture">"Λήψη εικόνας συνομιλητή"</string>
+	<string name="vt_incoming_call">"Εισερχόμενη βιντεοκλήση"</string>
+	<string name="vt_invalid_number">"Μη έγκυρος αριθμός"</string>
+	<string name="vt_mode_control">"Έλεγχος λειτουργίας"</string>
+	<string name="vt_near_image_capture">"Λήψη προσωπικής εικόνας"</string>
+	<string name="vt_no_answer">"Χωρίς απάντ."</string>
+	<string name="vt_option_bluetooth">"Bluetooth"</string>
+	<string name="vt_option_camera_setting">"Ρύθμιση κάμερας"</string>
+	<string name="vt_option_capture">"Λήψη"</string>
+	<string name="vt_option_use_2nd_camera">"Χρήση πίσω κάμερας"</string>
+	<string name="vt_option_use_main_camera">"Χρήση μπροστινής κάμερας"</string>
+	<string name="vt_set_private_image">"Ορισμός προσωπικής εικόνας"</string>
+	<string name="vt_set_speaker">"Ορισμός ηχείου"</string>
+	<string name="vt_settings">"Ρυθμίσεις βιντεοκλήσης"</string>
+	<string name="vt_use_private_image">"Χρήση προσωπικής εικόνας"</string>
+</resources>

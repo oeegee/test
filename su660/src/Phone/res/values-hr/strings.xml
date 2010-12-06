@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Kontakti"</string>
+	<string name="contactsFavoritesLabel">"Favoriti"</string>
+	<string name="dialerIconLabel">"Dialer"</string>
+	<string name="emergencyDialerIconLabel">"Biranje u nuždi"</string>
+	<string name="phoneIconLabel">"Telefon"</string>
+	<string name="recentCallsIconLabel">"Pozivi"</string>
+	<string name="fdnListLabel">"FDNpopis"</string>
+	<string name="transfer">"Prijenos"</string>
+	<string name="incall_error_supp_service_transfer">"Nemoguće prespojiti poziv"</string>
+	<string name="menu_transfer">"Prijenos"</string>
+	<string name="unknown">"Nepoznato"</string>
+	<string name="private_num">"Privatni broj"</string>
+	<string name="payphone">"Javni telefon"</string>
+	<string name="onHold">"Na čekanju"</string>
+	<string name="ongoing">"Trenutni poziv"</string>
+	<string name="callFailed_userBusy">"Linija zauzeta"</string>
+	<string name="callFailed_congestion">"Mreža zauzeta"</string>
+	<string name="callFailed_noSignal">"Nema signala"</string>
+	<string name="callFailed_limitExceeded">"ACM limit prekoračen"</string>
+	<string name="callFailed_powerOff">"Radio isklj"</string>
+	<string name="callFailed_simError">"Nema SIM, ili greška na SIM "</string>
+	<string name="callFailed_outOfService">"Izvan područja usluge"</string>
+	<string name="callFailed_fdn_only">"Odlazni pozivi su ograničeni s FDN."</string>
+	<string name="callFailed_cb_enabled">"Ne možete birati pozive dok je zabrana poziva aktivna."</string>
+	<string name="callFailed_dsac_restricted">"Svi pozivi su ograničeni kontrolom pristupa."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Pozivi u nuždi su ograničeni ulaznom kontrolom."</string>
+	<string name="callFailed_dsac_restricted_normal">"Obični pozivi su ograničeni ulaznom kontrolom."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Phone locked until power cycle."</string>
+	<string name="callFailed_cdma_drop">"CDMA: Call dropped."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: Call intercepted."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: reorder."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: Service Option Reject."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: retry order."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: Access failure."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: Preempted."</string>
+	<string name="callFailed_cdma_notEmergency">"Mogući su samo pozivi hitnim službama."</string>
+	<string name="confCall">"Konferencijski poziv"</string>
+	<string name="call_lost">"Poziv je izgubljen."</string>
+	<string name="retry">"Ponovi"</string>
+	<string name="call_lost_title">"Poziv izgubljen"</string>
+	<string name="mmiStarted">"Pokrenut MMI kod"</string>
+	<string name="ussdRunning">"USSD šifra pokretanja\u2026"</string>
+	<string name="mmiCancelled">"Izbrisan MMI kod"</string>
+	<string name="cancel">"Otkaži"</string>
+	<string name="menu_speaker">"Zvučnik"</string>
+	<string name="menu_bluetooth">"Bluetooth"</string>
+	<string name="menu_mute">"Utišan"</string>
+	<string name="menu_hold">"Čekanje"</string>
+	<string name="menu_unhold">"Prekid"</string>
+	<string name="menu_endCall">"Završi poziv"</string>
+	<string name="menu_swapCalls">"Zamjena poziva"</string>
+	<string name="menu_mergeCalls">"Spoji pozive"</string>
+	<string name="menu_addCall">"Dodaj poziv"</string>
+	<string name="menu_manageConference">"Organiziraj konferenc.pozive"</string>
+	<string name="menu_showDialpad">"Prikaz brojki"</string>
+	<string name="menu_hideDialpad">"Sakrij tipkovnicu"</string>
+	<string name="menu_addAccount">"Dodaj profil"</string>
+	<string name="menu_vocieCall">"Glasovni pozivi"</string>
+	<string name="menu_videoCall">"VIDEO POZIV"</string>
+	<string name="menu_message">"Poruka"</string>
+	<string name="menu_answerAndHold">"Stavi poziv na čekanje i odgovori"</string>
+	<string name="menu_answerAndEnd">"Završiti trenutni poziv i odgovoriti\n"</string>
+	<string name="ok">"U redu"</string>
+	<string name="menuButtonHint">"Pritisnite Izbornik za opcije poziva."</string>
+	<string name="menuButtonKeyboardDialHint">"Pritisnite Izbornik za opcije poziva  \u2022  Koristite tipkovnicu za biranje"</string>
+	<string name="menu_answer">"Odgovori"</string>
+	<string name="menu_ignore">"Zanemariti"</string>
+	<string name="wait_prompt_str">"Poslati ove tonove?"</string>
+	<string name="pause_prompt_str">"Slanje melodija\n"</string>
+	<string name="send_button">"Šalji"</string>
+	<string name="pause_prompt_yes">"Da"</string>
+	<string name="pause_prompt_no">"Ne"</string>
+	<string name="wild_prompt_str">"Zamijeniti neobičan znak s"</string>
+	<string name="no_vm_number">"Nema broja govorne pošte"</string>
+	<string name="no_vm_number_msg">"Nema brojeva govorne pošte spremljenih na SIM kartici."</string>
+	<string name="add_vm_number_str">"Dodaj broj"</string>
+	<string name="dialer_emptyListWorking">"Učitavam\u2026"</string>
+	<string name="enterPin">"Upiši PIN kod za otključavanje SIM kartice."</string>
+	<string name="pinUnlocked">"SIM otključana"</string>
+	<string name="enterNewPin">"Novi SIM PIN kod"</string>
+	<string name="verifyNewPin">"Upiši ponovno novi SIM PIN kod za potvrdu"</string>
+	<string name="verifyFailed">"Uneseni SIM PINovi se ne podudaraju. Pokušajte ponovno."</string>
+	<string name="enterPuk">"Upiši PIN kod za otključavanje SIM kartice."</string>
+	<string name="badPuk">"Pogrešan PUK!"</string>
+	<string name="buttonTxtContinue">"Nastavi"</string>
+	<string name="puk_unlocked">"Vaša SIM kartica je odblokirana. Vaš telefon se otključava\u2026"</string>
+	<string name="label_ndp">"PIN za SIM mrežu"</string>
+	<string name="sim_ndp_unlock_text">"Otključaj"</string>
+	<string name="sim_ndp_dismiss_text">"Odbaciti"</string>
+	<string name="requesting_unlock">"Zahtjev za otključavanje mreže\u2026"</string>
+	<string name="unlock_failed">"zahtjev za otključavanje mreže neuspio."</string>
+	<string name="unlock_success">"Neuspjelo otključavanje mreže."</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"Postavke GSM poziva"</string>
+	<string name="labelCDMAMore">"CDMA Postavke poziva"</string>
+	<string name="apn_settings">"Pristup Imenima"</string>
+	<string name="settings_label">"Postavke mreže"</string>
+	<string name="voicemail">"glasovna pošta"</string>
+	<string name="voicemail_abbreviated">"VM:"</string>
+	<string name="networks">"Nemate favorita.\n\nZa dodavanje kontakta na popis favorita:\n<li>Dodirnite karticu <b>Kontakti</b>\n</li>\n<li>Dodirnite kontakt koji želite dodati favoritima\n</li>\n<li>Dodirnite zvjezdicu uz ime kontakta\n</li>"</string>
+	<string name="call_settings">"Postavke poziva"</string>
+	<string name="additional_gsm_call_settings">"Dodatne postavke poziva"</string>
+	<string name="sum_gsm_call_settings">"Dodatne postavke samo za GSM pozive"</string>
+	<string name="additional_cdma_call_settings">"Dodatne postavke CDMA poziva"</string>
+	<string name="sum_cdma_call_settings">"Dodatne postavke samo CDMA poziva"</string>
+	<string name="labelNwService">"Postavke mrežne usluge"</string>
+	<string name="labelCallerId">"ID pozivatelja"</string>
+	<string name="sum_hide_caller_id">"Broj skriven kod izlaznih poziva"</string>
+	<string name="sum_show_caller_id">"Broj prikazan kod izlaznih poziva"</string>
+	<string name="sum_default_caller_id">"Koristi postavke zadanog operatera za prikaz svog broja u odlaznim pozivima"</string>
+	<string name="labelCW">"Poziv na čekanju"</string>
+	<string name="sum_cw_enabled">"Za vrijeme poziva, obavijesti o dolaznim pozivima"</string>
+	<string name="sum_cw_disabled">"Za vrijeme poziva, obavijesti o dolaznim pozivima"</string>
+	<string name="call_forwarding_settings">"Postavke prosljeđivanja"</string>
+	<string name="labelCF">"Proslijedi poziv"</string>
+	<string name="labelCFU">"Uvijek proslijediti"</string>
+	<string name="messageCFU">"Uvijek koristiti ovaj broj"</string>
+	<string name="sum_cfu_enabled_indicator">"Prosljeđivanje svih poziva"</string>
+	<string name="sum_cfu_enabled">"Prosljeđivanje svih poziva na broj {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Broj nije dostupan"</string>
+	<string name="sum_cfu_disabled">"Onemogućeno"</string>
+	<string name="labelCFB">"Proslijedi kad zauzeto"</string>
+	<string name="messageCFB">"Broj kod zauzeća"</string>
+	<string name="sum_cfb_enabled">"Prosljeđivanje na broj {0}"</string>
+	<string name="sum_cfb_disabled">"Isključen"</string>
+	<string name="disable_cfb_forbidden">"Vaš davatelj usluga ne podržava onemogućavanje prosljeđivanja poziva kada je linija zauzeta."</string>
+	<string name="labelCFNRy">"Proslijedi kad neodgovoreno"</string>
+	<string name="messageCFNRy">"Broj kod neodgovoreno"</string>
+	<string name="sum_cfnry_enabled">"Prosljeđivanje na broj {0}"</string>
+	<string name="sum_cfnry_disabled">"Isključen"</string>
+	<string name="disable_cfnry_forbidden">"Vaš davatelj usluga ne podržava onemogućavanje prosljeđivanja poziva kada nema odgovora."</string>
+	<string name="labelCFNRc">"Proslijedi kad nedostupno"</string>
+	<string name="messageCFNRc">"Broj kod nedostupno"</string>
+	<string name="sum_cfnrc_enabled">"Prosljeđivanje na broj {0}"</string>
+	<string name="sum_cfnrc_disabled">"Isključen"</string>
+	<string name="labelCB">"Zabrana poziva"</string>
+	<string name="labelCBPWD">"Promijeni lozinku"</string>
+	<string name="sum_cb_enabled">"Uključeno"</string>
+	<string name="sum_cb_disabled">"Isključen"</string>
+	<string name="messageCallBarring">"Lozinka"</string>
+	<string name="newCBPwdLabel">"Nova lozinka"</string>
+	<string name="disable_cfnrc_forbidden">"Vaš davatelj usluga ne podržava onemogućavanje prosljeđivanja poziva kada niste dostupni."</string>
+	<string name="updating_title">"Postavke poziva"</string>
+	<string name="error_updating_title">"Postavke poziva greška"</string>
+	<string name="reading_settings">"Postavke čitanja\u2026"</string>
+	<string name="updating_settings">"Postavke ažuriranja\u2026"</string>
+	<string name="reverting_settings">"Vraćanje postavki\u2026"</string>
+	<string name="response_error">"Neočekivan odgovor mreže."</string>
+	<string name="exception_error">"Greška na mreži ili SIM."</string>
+	<string name="radio_off_error">"Uključite radio prije pregledavanja ovih postavki."</string>
+	<string name="close_dialog">"OK"</string>
+	<string name="enable">"Uključi"</string>
+	<string name="disable">"Deaktivirati"</string>
+	<string name="change_num">"Ažuriraj"</string>
+	<string-array name="clir_display_values">
+		<item>"Zadana mreža"</item>
+		<item>"Skrij ikone"</item>
+		<item>"Prikaži broj"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>Zadano</xliff:g>"</item>
+		<item>"<xliff:g>Sakrij</xliff:g>"</item>
+		<item>"<xliff:g>Prikaz</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Traži sve dostupne mreže"</string>
+	<string name="vm_changed">"Broj govorne pošte nepoznat"</string>
+	<string name="vm_change_failed">"Neuspjela promjena broja za glasovnu poštu\nAko se problem nastavi, obratite se davatelju usluga."</string>
+	<string name="fw_change_failed">"Neuspjela promjena broja za preusmjeravanje.\nAko se problem nastavi, obratite se davatelju usluga."</string>
+	<string name="fw_get_in_vm_failed">"Dohvat i spremanje trenutnih postavki broja za preusmjerivanje nije uspjelo.\nŽelite li se svejedno prebaciti na novog davatelja usluga?"</string>
+	<string name="no_change">"Nema promjena."</string>
+	<string name="sum_voicemail_choose_provider">"Odabir usluge glasovne pošte"</string>
+	<string name="voicemail_default">"Moj davatelj usluga"</string>
+	<string name="mobile_networks">"Postavke mobilne mreže"</string>
+	<string name="label_available">"Dostupne mreže"</string>
+	<string name="load_networks_progress">"Traženje\u2026"</string>
+	<string name="empty_networks_list">"Mreže nisu pronađene"</string>
+	<string name="search_networks">"Traži mreže"</string>
+	<string name="network_query_error">"Greška u traženju mreža."</string>
+	<string name="register_on_network">"Registriranje na <xliff:g id="network">%s</xliff:g>\u2026"</string>
+	<string name="not_allowed">"Vaša SIM kartica ne dozvoljava spajanje na ovu mrežu."</string>
+	<string name="connect_later">"Veza s mrežom trenutno se ne može uspostaviti. Pokušajte ponovo kasnije."</string>
+	<string name="registration_done">"Registrirano na mreži"</string>
+	<string name="sum_carrier_select">"Odaberi mrežnog operatora"</string>
+	<string name="sum_search_networks">"Traži sve dostupne mreže"</string>
+	<string name="select_automatically">"Odaberi automatski"</string>
+	<string name="sum_select_automatically">"Automatski odabrati željenu mrežu"</string>
+	<string name="register_automatically">"Automatska registracija..."</string>
+	<string name="preferred_network_mode_title">"Način rada mreže"</string>
+	<string name="preferred_network_mode_summary">"Promijeni način rada mreže"</string>
+	<string name="preferred_network_mode_dialogtitle">"Preferirani način rada mreže"</string>
+	<string name="menu_search_networks">"Traži mreže"</string>
+	<string name="menu_select_automatically">"Odaberi automatski"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Globalno"</item>
+		<item>"Samo EvDo"</item>
+		<item>"CDMA / EvDo automatski"</item>
+		<item>"CDMA/EvDo auto"</item>
+		<item>"GSM / WCDMA automatski"</item>
+		<item>"Samo WCDMA"</item>
+		<item>"Samo GSM"</item>
+		<item>"GSM / WCDMA preferirano"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Podaci omogućeni"</string>
+	<string name="data_enable_summary">"Omogući pristup podacima u mobilnoj mreži"</string>
+	<string name="roaming">"RoamingPodaci"</string>
+	<string name="roaming_enable">"Spoji na podatkovne usluge kod roaminga"</string>
+	<string name="roaming_disable">"Spoji na podatkovne usluge kod roaminga"</string>
+	<string name="roaming_reenable_message">"Izgubili ste podatkovnu vezu jer ste napustili svoju baznu mrežu s ugašenim roamingom podataka."</string>
+	<string name="roaming_warning">"Dopustiti roaming podataka? Mogu Vam biti zaračunati veliki troškovi!"</string>
+	<string name="data_mode_ok">"Da"</string>
+	<string name="data_mode_cancel">"Ne"</string>
+	<string name="gsm_umts_options">"GSM/UMTS opcije"</string>
+	<string name="cdma_options">"CDMA Options"</string>
+	<string name="throttle_data_usage">"Korištenje podataka"</string>
+	<string name="throttle_settings_title">"Pravila davatelja usluga o podacima"</string>
+	<string name="throttle_current_usage">"Podaci korišteni u trenutnom razdoblju"</string>
+	<string name="throttle_time_frame">"Razdoblje korištenja podataka"</string>
+	<string name="throttle_rate">"Pravilo podatkovne stope"</string>
+	<string name="throttle_help">"Više"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) od <xliff:g id="used">%3$s</xliff:g> maks. za razdoblje\nSljedeće razdoblje počinje za <xliff:g id="used">%4$d</xliff:g> dana (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) od <xliff:g id="used">%3$s</xliff:g> maks. za razdoblje\nSljedeće razdoblje počinje za <xliff:g id="used">%4$d</xliff:g> dana (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_rate_reduced_subtext">"<xliff:g id="used">%1$s</xliff:g> maks. prekoračen\nPodatkovna stopa smanjena na <xliff:g id="used">%2$d</xliff:g> Kb/s"</string>
+	<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>% ciklusa isteklo\nSljedeće razdoblje počinje za <xliff:g id="used">%2$d</xliff:g> dana (<xliff:g id="used">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Podatkovna stopa smanjuje se na <xliff:g id="used">%1$d</xliff:g> Kb/s ako se prekorači ograničenje za korištenje podataka"</string>
+	<string name="throttle_help_subtext">"Dodatne informacije o pravilima korištenja podataka na mobilnoj mreži vašeg davatelja usluga"</string>
+	<string name="cdma_cell_broadcast_sms">"SMS za CB"</string>
+	<string name="cell_broadcast_sms">"SMS za CB"</string>
+	<string name="enable_disable_cell_bc_sms">"SMS za CB"</string>
+	<string name="cell_bc_sms_enable">"SMS za CB omogućen"</string>
+	<string name="cell_bc_sms_disable">"SMS za CB onemogućen"</string>
+	<string name="cb_sms_settings">"SMS postavke za CB"</string>
+	<string name="enable_disable_emergency_broadcast">"Hitno emitiranje"</string>
+	<string name="emergency_broadcast_enable">"Hitno emitiranje omogućeno"</string>
+	<string name="emergency_broadcast_disable">"Hitno emitiranje onemogućeno"</string>
+	<string name="enable_disable_administrative">"Administracija"</string>
+	<string name="administrative_enable">"Administracija omogućena"</string>
+	<string name="administrative_disable">"Administracija onemogućena"</string>
+	<string name="enable_disable_maintenance">"Održavanje"</string>
+	<string name="maintenance_enable">"Održavanje omogućeno"</string>
+	<string name="maintenance_disable">"Održavanje onemogućeno"</string>
+	<string name="general_news_settings">"Opće novosti"</string>
+	<string name="bf_news_settings">"Poslovne i financijske novosti"</string>
+	<string name="sports_news_settings">"Sportske vijesti"</string>
+	<string name="entertainment_news_settings">"Novosti iz svijeta zabave"</string>
+	<string name="enable_disable_local">"Lokalno"</string>
+	<string name="local_enable">"Lokalne novosti omogućene"</string>
+	<string name="local_disable">"Lokalne novosti onemogućene"</string>
+	<string name="enable_disable_regional">"Regionalno"</string>
+	<string name="regional_enable">"Regionalne novosti omogućene"</string>
+	<string name="regional_disable">"Regionalne novosti onemogućene"</string>
+	<string name="enable_disable_national">"Zemlja"</string>
+	<string name="national_enable">"Nema kontakata."</string>
+	<string name="national_disable">"Nadimak"</string>
+	<string name="enable_disable_international">"Vijesti iz svijeta"</string>
+	<string name="international_enable">"Vijesti iz svijeta omogućene"</string>
+	<string name="international_disable">"Vijesti iz svijeta onemogućene"</string>
+	<string name="list_language_title">"Jezik"</string>
+	<string name="list_language_summary">"Odabir jezika za novosti"</string>
+	<string-array name="list_language_entries">
+		<item>"Francuski"</item>
+		<item>"Španjolski"</item>
+		<item>"Japanski"</item>
+		<item>"Korejski"</item>
+		<item>"Kineski"</item>
+		<item>"Hebrejski"</item>
+		<item>"Hebrejski"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Jezici"</string>
+	<string name="enable_disable_local_weather">"Lokalna vremenska prognoza"</string>
+	<string name="local_weather_enable">"Lokalna vremenska prognoza omogućena"</string>
+	<string name="local_weather_disable">"Lokalna vremenska prognoza onemogućena"</string>
+	<string name="enable_disable_atr">"Izvješća o prometu"</string>
+	<string name="atr_enable">"Izvješća o prometu omogućena"</string>
+	<string name="atr_disable">"Izvješća o prometu onemogućena"</string>
+	<string name="enable_disable_lafs">"Red letenja za lokalnu zračnu luku"</string>
+	<string name="lafs_enable">"Red letenja za lokalnu zračnu luku omogućen"</string>
+	<string name="lafs_disable">"Red letenja za lokalnu zračnu luku onemogućen"</string>
+	<string name="enable_disable_restaurants">"Restorani"</string>
+	<string name="restaurants_enable">"Restorani omogućeni"</string>
+	<string name="restaurants_disable">"Restorani onemogućeni"</string>
+	<string name="enable_disable_lodgings">"Smještaj"</string>
+	<string name="lodgings_enable">"Smještaj omogućen"</string>
+	<string name="lodgings_disable">"Smještaj onemogućen"</string>
+	<string name="enable_disable_retail_directory">"Maloprodajni imenik"</string>
+	<string name="retail_directory_enable">"Maloprodajni imenik omogućen"</string>
+	<string name="retail_directory_disable">"Maloprodajni imenik onemogućen"</string>
+	<string name="enable_disable_advertisements">"Oglasi"</string>
+	<string name="advertisements_enable">"Oglasi omogućeni"</string>
+	<string name="advertisements_disable">"Oglasi onemogućeni"</string>
+	<string name="enable_disable_stock_quotes">"Burzovno izvješće"</string>
+	<string name="stock_quotes_enable">"Burzovno izvješće omogućeno"</string>
+	<string name="stock_quotes_disable">"Burzovno izvješće onemogućeno"</string>
+	<string name="enable_disable_eo">"Zapošljavanje"</string>
+	<string name="eo_enable">"Zapošljavanje omogućeno"</string>
+	<string name="eo_disable">"Zapošljavanje onemogućeno"</string>
+	<string name="enable_disable_mhh">"Medicina, zdravlje i bolnice"</string>
+	<string name="mhh_enable">"Medicina, zdravlje i bolnice omogućeno"</string>
+	<string name="mhh_disable">"Medicina, zdravlje i bolnice onemogućeno"</string>
+	<string name="enable_disable_technology_news">"Novosti o tehnologiji"</string>
+	<string name="technology_news_enable">"Tehnološke novosti omogućene"</string>
+	<string name="technology_news_disable">"Tehnološke novosti onemogućene"</string>
+	<string name="enable_disable_multi_category">"Razno"</string>
+	<string name="multi_category_enable">"Razno omogućeno"</string>
+	<string name="multi_category_disable">"Razno onemogućeno"</string>
+	<string name="gsm_umts_network_preferences_title">"GSM/UMTS mrežne preference"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Nije još implementirano!"</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"GSM/UMTS mrežne preference"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"GSM/WCDMA (automatski način rada)"</item>
+		<item>"Samo WCDMA"</item>
+		<item>"Samo GSM"</item>
+		<item>"GSM/WCDA (WCDMA preferirano)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Koristi samo 2G mreže"</string>
+	<string name="prefer_2g_summary">"Štedi bateriju"</string>
+	<string name="cdma_system_select_title">"Odabir sustava"</string>
+	<string name="cdma_system_select_summary">"Promijeni način cdma roaminga"</string>
+	<string name="cdma_system_select_dialogtitle">"Odabir sustava"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Samo matična"</item>
+		<item>"Automatski"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA Roaming Mode"</string>
+	<string name="cdma_roaming_mode_summary">"Promijeni način cdma roaminga"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA roaming mode"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Samo matične mreže"</item>
+		<item>"Partnerske mreže"</item>
+		<item>"Bilo koja mreža"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"CDMA Network Preferences"</string>
+	<string name="cdma_network_preferneces_summary">"Nije još implementirano!"</string>
+	<string name="cdma_network_preferences_dialogtitle">"CDMA network preferences"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Samo CDMA"</item>
+		<item>"Samo EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"TEST za CDMA pretplatu"</string>
+	<string name="subscription_summary">"Prebaci između RUIM i NV"</string>
+	<string name="subscription_dialogtitle">"Pretplata"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Fiksni brojevi"</string>
+	<string name="manage_fdn_list">"FDNpopis"</string>
+	<string name="fdn_activation">"Aktivacija FDN "</string>
+	<string name="fdn_enabled">"Biranje fiksnih br. omogućeno"</string>
+	<string name="fdn_disabled">"Biranje fiksnih br. onemogućeno"</string>
+	<string name="enable_fdn">"Uključi FDN"</string>
+	<string name="disable_fdn">"Isključi FDN"</string>
+	<string name="change_pin2">"Promijeni PIN2"</string>
+	<string name="enable_fdn_ok">"Isključi FDN"</string>
+	<string name="disable_fdn_ok">"Uključi FDN"</string>
+	<string name="sum_fdn">"Organiziraj fiksne brojeve"</string>
+	<string name="sum_fdn_change_pin">"Promijeni PIN za FDN pristup"</string>
+	<string name="sum_fdn_manage_list">"Organiziraj popis brojeva"</string>
+	<string name="voice_privacy">"Privatnost glasovnih poziva"</string>
+	<string name="voice_privacy_summary">"Omogući napredni privatni način rada"</string>
+	<string name="tty_mode_title">"TTY način rada"</string>
+	<string name="tty_mode_summary">"Omogući TTY način rada"</string>
+	<string name="tty_mode_option_title">"TTY način rada"</string>
+	<string name="tty_mode_option_summary">"Postavi TTY način rada"</string>
+	<string name="auto_retry_mode_title">"Automatski ponovi"</string>
+	<string name="auto_retry_mode_summary">"Omogući način automatskog ponavljanja"</string>
+	<string name="menu_add">"Dodaj kontakt"</string>
+	<string name="menu_edit">"Uredi kontakt"</string>
+	<string name="menu_delete">"Brisati kontakt"</string>
+	<string name="get_pin2">"Unesi PIN2"</string>
+	<string name="name">"Ime"</string>
+	<string name="number">"Broj"</string>
+	<string name="save">"Spremi"</string>
+	<string name="add_fdn_contact">"Dodaj fiksni broj kontakta"</string>
+	<string name="adding_fdn_contact">"Dodavanje fiksnog broja za biranje…"</string>
+	<string name="fdn_contact_added">"Dodan fiksni broj za biranje."</string>
+	<string name="edit_fdn_contact">"Uredi fiksni broj za biranje"</string>
+	<string name="updating_fdn_contact">"Ažuriranje fiksnog broja za biranje…"</string>
+	<string name="fdn_contact_updated">"Ažuriran fiksni broj za biranje."</string>
+	<string name="delete_fdn_contact">"Izbriši fiksni broj za biranje"</string>
+	<string name="deleting_fdn_contact">"Brisanje fiksnog broja za biranje…"</string>
+	<string name="fdn_contact_deleted">"Izbrisan fiksni broj za biranje."</string>
+	<string name="pin2_invalid">"FDN nije ažuriran: uneseni PIN nije ispravan."</string>
+	<string name="fdn_invalid_number">"FDN nije ažuriran: broj ne može biti dulji od 20 znamenki."</string>
+	<string name="simContacts_emptyLoading">"Čitanje sa SIM kartice\u2026"</string>
+	<string name="simContacts_empty">"Nema kontakata na SIM kartici."</string>
+	<string name="simContacts_title">"Odaberi kontakte za unos"</string>
+	<string name="enable_pin">"Uključi/Isključi SIM PIN"</string>
+	<string name="change_pin">"Promijeni SIM PIN"</string>
+	<string name="enter_pin_text">"SIM PIN:"</string>
+	<string name="oldPinLabel">"Stari PIN"</string>
+	<string name="newPinLabel">"Novi PIN"</string>
+	<string name="confirmPinLabel">"Potvrdi novi PIN"</string>
+	<string name="badPin">"Uneseni stari PIN nije točan. Pokušajte ponovno."</string>
+	<string name="mismatchPin">"PINovi koji ste unijeli ne odgovaraju. Pokušajte ponovno."</string>
+	<string name="invalidPin">"Upiši PIN od 4 do 8 znamenki."</string>
+	<string name="disable_sim_pin">"Isključi SIM PIN"</string>
+	<string name="enable_sim_pin">"Aktiviraj SIM PIN"</string>
+	<string name="enable_in_progress">"Molimo pričekajte\u2026"</string>
+	<string name="enable_pin_ok">"SIM PIN aktiviran"</string>
+	<string name="disable_pin_ok">"SIM PIN deaktiviran"</string>
+	<string name="pin_failed">"Unijeli ste pogrešan PIN"</string>
+	<string name="pin_changed">"SIM PIN promijenjen"</string>
+	<string name="puk_requested">"Pogrešna lozinka, SIM je zaključan! Potreban PUK2."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Stari PIN2"</string>
+	<string name="newPin2Label">"Novi PIN2"</string>
+	<string name="confirmPin2Label">"Potvrdi novi PIN2"</string>
+	<string name="badPuk2">"Uneseni PUK2 je netočan. Pokušajte ponovno."</string>
+	<string name="badPin2">"Stari PIN2 koji ste unijeli nije ispravan. Pokušajte ponovo."</string>
+	<string name="mismatchPin2">"PIN2s koji ste unijeli ne odgovara. Pokušajte ponovno."</string>
+	<string name="invalidPin2">"Upiši PIN2 od 4 do 8 znamenki."</string>
+	<string name="invalidPuk2">"Upiši PUK2 od 8 znamenki."</string>
+	<string name="pin2_changed">"PIN2 uspješno promijenjen"</string>
+	<string name="label_puk2_code">"Upiši PUK2 kod"</string>
+	<string name="fdn_enable_puk2_requested">"Pogrešna lozinka, promijenite PIN2 i pokušajte ponovno!"</string>
+	<string name="puk2_requested">"Pogrešna lozinka, SIM je zaključan! Potreban PUK2."</string>
+	<string name="doneButton">"Gotovo"</string>
+	<string name="caller_manage_header">"Konferencijski poziv <xliff:g id="conf_call_time">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Natrag na poziv"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Broj dolaznog poziva"</string>
+	<string name="fake_phone_activity_placeCall_text">"Lažni dolazni poziv"</string>
+	<string name="sim_missing_continueView_text">"Nastavi bez SIM kartice"</string>
+	<string name="sim_missing_msg_text">"Nema SIM, ili greška na SIM "</string>
+	<string name="sim_unlock_dismiss_text">"Odbaciti"</string>
+	<string name="sim_unlock_unlock_text">"Otključaj"</string>
+	<string name="sim_unlock_status_text">"Autorizirajući PIN\u2026"</string>
+	<string name="voicemail_settings_number_label">"Broj govorne pošte"</string>
+	<string name="card_title_dialing">"Zovem"</string>
+	<string name="card_title_redialing">"Ponovni pokušaj"</string>
+	<string name="card_title_in_progress">"Trenutni poziv"</string>
+	<string name="card_title_conf_call">"Konferencijski poziv"</string>
+	<string name="card_title_incoming_call">"Dolazni poziv"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA Poziv na čekanju"</string>
+	<string name="card_title_call_ended">"Kraj poziva"</string>
+	<string name="card_title_on_hold">"Na čekanju"</string>
+	<string name="card_title_hanging_up">"Spuštanje slušalice"</string>
+	<string name="card_title_in_call">"U pozivu"</string>
+	<string name="card_title_mo_3">"Poziv na čekanju"</string>
+	<string name="card_title_mo_5">"Poziv zabranjen"</string>
+	<string name="card_title_mo_6">"Poziv zabranjen"</string>
+	<string name="redial_radio_dialog_wait">"Čekaj"</string>
+	<string name="notification_missedCallTitle">"Propušteni poziv"</string>
+	<string name="notification_missedCallsTitle">"Propušteni pozivi"</string>
+	<string name="notification_missedCallsMsg">"Broj propuštenih poziva: <xliff:g id="num_missed_calls">%s</xliff:g>"</string>
+	<string name="notification_missedCallTicker">"Propušten poziv od <xliff:g id="missed_call_from">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Trenutni poziv (<xliff:g id="duration">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"Na čekanju"</string>
+	<string name="notification_voicemail_title">"Nova govorna pošta"</string>
+	<string name="notification_voicemail_title_count">"Nova govorna pošta  (<xliff:g id="count">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"Biraj <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+	<string name="notification_voicemail_no_vm_number">"Broj govorne pošte promijenjen"</string>
+	<string name="notification_network_selection_title">"Nema usluge"</string>
+	<string name="notification_network_selection_text">"Odabrana mreža (<xliff:g id="operator_name">%s</xliff:g>) nije dostupna"</string>
+	<string name="incall_error_power_off">"Za pozivanje, prvo isključite Let mod."</string>
+	<string name="incall_error_emergency_only">"Nije registrirano na mreži"</string>
+	<string name="incall_error_out_of_service">"Mobilna mreža nije dostupna."</string>
+	<string name="incall_error_no_phone_number_supplied">"nije pozvan, nije unesen ispravan broj."</string>
+	<string name="incall_error_call_failed">"Nije pozvan."</string>
+	<string name="incall_status_dialed_mmi">"Počinje MMI slijed\u2026"</string>
+	<string name="incall_status_dialed_fc">"Početni niz koda značajke\u2026"</string>
+	<string name="incall_error_supp_service_unknown">"Nepodržana usluga."</string>
+	<string name="incall_error_supp_service_switch">"Nemoguće izmjenjivanje poziva"</string>
+	<string name="incall_error_supp_service_separate">"Nemoguće razdvojiti poziv"</string>
+	<string name="incall_error_supp_service_conference">"Nemogući konferencijski pozivi."</string>
+	<string name="incall_error_supp_service_reject">"Nemoguće odbiti poziv."</string>
+	<string name="incall_error_supp_service_hangup">"Nemoguće završiti poziv(e)."</string>
+	<string name="emergency_enable_radio_dialog_title">"Poziv u nuždi"</string>
+	<string name="emergency_enable_radio_dialog_message">"Uključenje radija\u2026"</string>
+	<string name="emergency_enable_radio_dialog_retry">"Izvan područja usluge, ponovljeni pokušaj\u2026"</string>
+	<string name="dial_emergency_error">"Nije pozvan, <xliff:g id="non_emergency_number">%s</xliff:g> nije hitan broj!"</string>
+	<string name="dial_emergency_empty_error">"Nije pozvan, birajte broj hitne službe!"</string>
+	<string name="dialerKeyboardHintText">"Koristi tipkovnicu za poziv"</string>
+	<string name="dtmfDialpadHintText">"Ton tipkovnice"</string>
+	<string name="dtmfDialpadHandleLabel">"Tipkovnica"</string>
+	<string name="touchLockText">"Dvaput pritisnite\nza otključavanje"</string>
+	<string name="onscreenAnswerText">"Dvaput dodirnite\nza odgovor"</string>
+	<string name="onscreenRejectText">"Dvaput pritisnite\nza odbijanje"</string>
+	<string name="onscreenHoldText">"Na čekanju"</string>
+	<string name="onscreenUnholdText">"Prekid"</string>
+	<string name="onscreenSendCallText">"Šalji"</string>
+	<string name="onscreenEndCallText">"Kraj"</string>
+	<string name="onscreenShowDialpadText">"Tipkovnica"</string>
+	<string name="onscreenHideDialpadText">"Sakrij"</string>
+	<string name="onscreenSpeakerText">"Zvučnik"</string>
+	<string name="onscreenMuteText">"Utišan"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Dodaj poziv"</string>
+	<string name="onscreenMergeCallsText">"Spoji pozive"</string>
+	<string name="onscreenSwapCallsText">"Zamijeni"</string>
+	<string name="onscreenManageCallsText">"Upr. pozivima"</string>
+	<string name="onscreenManageConferenceText">"Upravljaj"</string>
+	<string name="importSimEntry">"Unos"</string>
+	<string name="importAllSimEntries">"Unos svega"</string>
+	<string name="default_group">"Zadan"</string>
+	<string name="selectAllSimEntries">"Odaberi sve"</string>
+	<string name="attention">"Pažnja"</string>
+	<string name="importingSimContacts">"Unos SIM kontakata u tijeku"</string>
+	<string name="importToFDNfromContacts">"Unos iz kontakata"</string>
+	<string name="hac_mode_title">"Slušna pomagala"</string>
+	<string name="hac_mode_summary">"Uključi kompatibilnost sa slušnim pomagalom"</string>
+	<string-array name="tty_mode_entries">
+		<item>"TTY isključen"</item>
+		<item>"TTY kart. je puna"</item>
+		<item>"TTY HCO"</item>
+		<item>"TTY VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"ERI tekst"</string>
+	<string name="dtmf_tones_title">"DTMF tonovi"</string>
+	<string name="dtmf_tones_summary">"Postavi duljinu DTMF tonova"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Normalno"</item>
+		<item>"Dugačko"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Mrežna poruka"</string>
+	<string name="ota_title_activate">"Aktivacija telefona"</string>
+	<string name="ota_touch_activate">"Za aktivaciju telefonske usluge potreban je poseban poziv.\n\nPritisnite \u201CAktiviraj\u201D i poslušajte upute za aktivaciju telefona."</string>
+	<string name="ota_touch_activate_new">"Dodirnite \"Aktiviraj\" kako biste uputili poseban poziv koji će vaš telefon aktivirati na mreži vašeg davatelja usluga te ćete moći upućivati pozive i povezivati se s mobilnim podatkovnim mrežama."</string>
+	<string name="ota_skip_activation_dialog_title">"Preskočiti aktivaciju?"</string>
+	<string name="ota_skip_activation_dialog_message">"Ako preskočite aktivaciju, nećete moći upućivati pozive niti se povezati s mobilnim podatkovnim mrežama (moći ćete se, međutim, povezati s Wi-Fi mrežama). Poruka o aktivaciji prikazivat će se sve dok ne aktivirate telefon."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Preskoči"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Aktivirati"</string>
+	<string name="ota_activate">"Aktivirati"</string>
+	<string name="ota_title_activate_success">"Telefon je aktiviran!"</string>
+	<string name="ota_title_problem_with_activation">"Problem pri aktivaciji"</string>
+	<string name="ota_listen">"Pratite glasovne upute dok ne čujete da je aktivacija dovršena."</string>
+	<string name="ota_dialpad">"Tipkovnica"</string>
+	<string name="ota_speaker">"Zvučnik"</string>
+	<string name="ota_progress">"Pričekajte dok se vaš telefon ne programira."</string>
+	<string name="ota_failure">"Neuspjelo programiranje"</string>
+	<string name="ota_successful">"Vaš je telefon aktiviran. Možda će trebati do 15 minuta da se usluga pokrene."</string>
+	<string name="ota_unsuccessful">"Telefon se nije aktivirao.\nMožda ćete morati pronaći područje s boljom pokrivenosti (blizu prozora ili vani).\n\nPokušajte ponovo ili za informacije o drugim mogućnostima nazovite korisničku podršku."</string>
+	<string name="ota_spc_failure">"PREVIŠE SPC NEUSPJEHA"</string>
+	<string name="ota_call_end">"Natrag"</string>
+	<string name="ota_try_again">"Pokušaj ponovno"</string>
+	<string name="ota_next">"Dalje"</string>
+	<string name="ota_back">"Natrag"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Aktiviran način povratnog poziva u nuždi"</string>
+	<string name="phone_in_ecm_notification_title">"Način povratnog poziva u nuždi"</string>
+	<string name="phone_in_ecm_call_notification_text">"Podatkovna veza onemogućena"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Podatkovne veze nema <xliff:g id="count">%s</xliff:g> minute"</item>
+		<item quantity="other">"Podatkovne veze nema <xliff:g id="count">%s</xliff:g> minuta"</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"Telefon će biti u načinu povratnog poziva u nuždi <xliff:g id="count">%s</xliff:g> minutu. U tom načinu rada ne može se koristiti nijedna aplikacija koja koristi podatkovnu vezu. Želite li zatvoriti ovaj način rada?"</item>
+		<item quantity="other">"Telefon će biti u načinu povratnog poziva u nuždi <xliff:g id="count">%s</xliff:g> min. U tom načinu rada ne može se koristiti nijedna aplikacija koja koristi podatkovnu vezu. Želite li zatvoriti ovaj način rada?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"Odabrana akcija nije dostupna u načinu rada za povratni poziv u nuždi. Telefon će u tom načinu rada biti <xliff:g id="count">%s</xliff:g> minutu. Želite li zatvoriti ovaj način rada?"</item>
+		<item quantity="other">"Odabrana akcija nije dostupna u načinu rada za povratni poziv u nuždi. Telefon će u tom načinu rada biti <xliff:g id="count">%s</xliff:g> min. Želite li zatvoriti ovaj način rada?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"Odabrana akcija nije dostupna tijekom hitnog poziva"</string>
+	<string name="progress_dialog_exiting_ecm">"Izlaz iz načina povratnog poziva u nuždi"</string>
+	<string name="alert_dialog_yes">"Da"</string>
+	<string name="alert_dialog_no">"Ne"</string>
+	<string name="alert_dialog_dismiss">"Odbaciti"</string>
+	<string name="absent_num">"NEPOZNAT BROJ"</string>
+	<string name="voicemail_settings">"Postavke glasovne pošte"</string>
+	<string name="voicemail_number_not_set">"&lt;nije postavljeno&gt;"</string>
+	<string name="network_preference">"Način rada mreže"</string>
+	<string name="menu_preferred_network_edit">"Uredi"</string>
+	<string name="menu_preferred_network_delete">"Izbriši"</string>
+	<string name="label_cb">"Zabrana poziva"</string>
+	<string name="label_cb_incom">"Dolazni pozivi"</string>
+	<string name="pass_dialog_title">"Lozinka"</string>
+	<string name="summ_cb_enable">"Omogući"</string>
+	<string name="summ_cb_disable">"Deaktivirati"</string>
+	<string name="confirm_button">"Potvrdi"</string>
+	<string name="cancel_button">"Otkaži"</string>
+	<string name="call_cost_settings">"Postavke"</string>
+	<string name="call_cost_activation_settings">"Neograničen"</string>
+	<string name="call_cost_pin2_err">"Pogrešna lozinka, promijenite PIN2 i pokušajte ponovno!"</string>
+	<string name="call_cost_unit">"Jedinica"</string>
+	<string name="call_cost_set_limit_off">"isklj"</string>
+	<string name="call_cost_set_call_cost_empty">"Prazno"</string>
+	<string name="revertButton">"Promijeni"</string>
+	<string name="call_cost_reset_msg">"Resetiraj"</string>
+	<string name="cb_set_passwd_title">"Postavi lozinku"</string>
+	<string name="cb_set_passwd_dialog_title">"Postavi lozinku"</string>
+	<string name="cb_old_password">"Trenutna lozinka:"</string>
+	<string name="cb_new_password">"Nova lozinka"</string>
+	<string name="cb_confirm_password">"Potvrdite novu lozinku:"</string>
+	<string name="cb_password_error">"Unesite ispravnu lozinku."</string>
+	<string name="cb_passwords_error">"Lozinke nisu iste."</string>
+	<string name="cb_passwords_empty_error">"Morate unijeti i potvrditi lozinku."</string>
+	<string name="cb_password_empty_error">"Unesite lozinku."</string>
+	<string name="barring_pass_cancel">"Otkaži"</string>
+	<string name="barring_pass_ok">"U redu"</string>
+	<string name="voicemail_provider">"Usluga glasovne pošte"</string>
+	<string name="voicemail_settings_for">"Postavke za <xliff:g id="provider_name">%s</xliff:g>"</string>
+	<string name="other_settings">"Ostale postavke poziva"</string>
+	<string name="dial_button_label">"Zovi"</string>
+	<string name="calling_via_template">"Poziv preko ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Za odgovor povucite udesno"</string>
+	<string name="slide_to_silence">"Za utišavanje povucite ulijevo"</string>
+	<string name="slide_to_decline">"Za odbijanje povucite ulijevo"</string>
+	<string name="slide_to_answer_and_hold">"Povucite desno za odgovor\ni stavljanje aktivnog poziva na čekanje"</string>
+	<string name="slide_to_answer_and_end_active">"Povucite desno za odgovor i prekid aktivnog poziva"</string>
+	<string name="slide_to_answer_and_end_onhold">"Povucite desno za odgovor i prekid poziva na čekanju"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"U redu"</string>
+	<string name="messageCancel">"Otkaži"</string>
+	<string name="slide_to_answer_hint">"Odgovori"</string>
+	<string name="slide_to_decline_hint">"Odbij"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Unesite PUK"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Neispravan PUK!\nPreostali pokušaji: <xliff:g id="NUMBER_0">%d</xliff:g>"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Novi PIN"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Potvrdi novi PIN"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"PINovi se ne podudaraju. "</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Preostali pokušaji: "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"PUK blokiran"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Neispravan PIN!\nPreostali pokušaji: <xliff:g id="NUMBER_0">%d</xliff:g>"</string>
+	<string name="unlock_accept">"Prihvati"</string>
+	<string name="unlock_send_sms">"Pošalji SMS"</string>
+	<string name="silent_silent">"Nečujno"</string>
+	<string name="str_save">"Spremi"</string>
+	<string name="str_delete">"Izbriši"</string>
+	<string name="str_cancel">"Otkaži"</string>
+	<string name="str_no_messages">"Nema poruka"</string>
+	<string name="str_new_message">"Nova poruka"</string>
+	<string name="send_sms">"Pošalji SMS"</string>
+	<string name="str_send">"Šalji"</string>
+	<string name="menu_item1">"Nova poruka"</string>
+	<string name="menu_item2">"Višestr. odabir"</string>
+	<string name="menu_item3">"Brisati sve"</string>
+	<string name="str_delete_q">"Izbriši?"</string>
+	<string name="excuse_messages_select_all">"Odaberi sve"</string>
+	<string name="excuse_messages_deselect_all">"Poništi sve odabire"</string>
+	<string name="excuse_messages_btn_delete">"Izbriši"</string>
+	<string name="excuse_messages_multi_select">"Višestr. odabir"</string>
+	<string name="excuse_messages_delete_all">"Brisati sve"</string>
+	<string name="excuse_messages_new_message">"Nova poruka"</string>
+	<string name="excuse_messages_btn_cancel">"Otkaži"</string>
+	<string name="excuse_messages_delete_question">"Izbriši?"</string>
+	<string name="excuse_messages_saved">"Spremljeno"</string>
+	<string name="excuse_messages_delete">"Izbriši"</string>
+	<string name="excuse_messages_len_btn">"Potvrdi"</string>
+	<string name="yes">"Da"</string>
+	<string name="no">"Ne"</string>
+	<string name="call_barring_title">"Zabrana poziva"</string>
+	<string name="camera_bright_key">"Svjetlina"</string>
+	<string name="camera_zoom_key">"Zumiranje"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Kontakti"</string>
+	<string name="incallmenu_memo">"Podsjetnik"</string>
+	<string name="incallmenu_Sms">"Poruka"</string>
+	<string name="CALLSTR_CALLREJECTING">"Nečujno"</string>
+	<string name="CALLSTR_CALLERID">"ID pozivatelja"</string>
+	<string name="CALLSTR_INCOMCALL">"Dolazni poziv"</string>
+	<string name="CALLSTR_CALLTO">"Za"</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Napiši poruku"</string>
+	<string name="CALLSTR_REJECT_SEND">"Šalji"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Uredi"</string>
+	<string name="custom_roaming_button">"U redu"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Ime"</string>
+	<string name="label_ve">"Etiketa"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>

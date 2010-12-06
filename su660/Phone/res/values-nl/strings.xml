@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Contacten"</string>
+	<string name="contactsFavoritesLabel">"Favoriet"</string>
+	<string name="dialerIconLabel">"Kiezer"</string>
+	<string name="emergencyDialerIconLabel">"Kiezer noodoproep"</string>
+	<string name="phoneIconLabel">"Telefoon"</string>
+	<string name="recentCallsIconLabel">"Oproeplogboek"</string>
+	<string name="fdnListLabel">"FDN-lijst"</string>
+	<string name="transfer">"Overdracht"</string>
+	<string name="incall_error_supp_service_transfer">"Kan oproep niet doorschakelen."</string>
+	<string name="menu_transfer">"Overdracht"</string>
+	<string name="unknown">"Onbekend"</string>
+	<string name="private_num">"Privénummer"</string>
+	<string name="payphone">"Betaaltelefoon"</string>
+	<string name="onHold">"In de wacht"</string>
+	<string name="ongoing">"Huidige oproep"</string>
+	<string name="callFailed_userBusy">"Lijn is bezet"</string>
+	<string name="callFailed_congestion">"Netwerk bezet"</string>
+	<string name="callFailed_noSignal">"Geen kiestoon"</string>
+	<string name="callFailed_limitExceeded">"ACM-limiet overschreden"</string>
+	<string name="callFailed_powerOff">"Radio uit"</string>
+	<string name="callFailed_simError">"Geen SIM-kaart of fout met SIM-kaart"</string>
+	<string name="callFailed_outOfService">"Buiten servicegebied"</string>
+	<string name="callFailed_fdn_only">"Uitgaande oproepen worden beperkt door FDN."</string>
+	<string name="callFailed_cb_enabled">"Uitgaande oproepen zijn niet mogelijk als de functie voor oproepen blokkeren is ingeschakeld."</string>
+	<string name="callFailed_dsac_restricted">"Alle oproepen worden beperkt door toegangsbeheer."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Noodoproepen worden beperkt door toegangsbeheer."</string>
+	<string name="callFailed_dsac_restricted_normal">"Normale oproepen worden beperkt door toegangsbeheer."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: telefoon vergrendeld tot opstartcyclus."</string>
+	<string name="callFailed_cdma_drop">"CDMA: oproep afgebroken."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: oproep onderschept."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: nieuwe opdracht."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: serviceoptie geweigerd."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: opdracht opnieuw proberen."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: toegangsfout."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: preëmptief gemaakt."</string>
+	<string name="callFailed_cdma_notEmergency">"Alleen noodoproepen zijn mogelijk."</string>
+	<string name="confCall">"Telefonische vergadering"</string>
+	<string name="call_lost">"De verbinding is verbroken."</string>
+	<string name="retry">"Opnieuw proberen"</string>
+	<string name="call_lost_title">"Verbinding verbroken"</string>
+	<string name="mmiStarted">"MMI-code gestart"</string>
+	<string name="ussdRunning">"USSD-code uitvoeren..."</string>
+	<string name="mmiCancelled">"MMI-code geannuleerd"</string>
+	<string name="cancel">"Terug"</string>
+	<string name="menu_speaker">"Luidspreker"</string>
+	<string name="menu_bluetooth">"Bluetooth"</string>
+	<string name="menu_mute">"Dempen"</string>
+	<string name="menu_hold">"In de wacht"</string>
+	<string name="menu_unhold">"Uit de wacht halen"</string>
+	<string name="menu_endCall">"Beëindigen"</string>
+	<string name="menu_swapCalls">"Wisselen"</string>
+	<string name="menu_mergeCalls">"Samenvoegen"</string>
+	<string name="menu_addCall">"Toevoegen"</string>
+	<string name="menu_manageConference">"Telefonische vergadering beheren"</string>
+	<string name="menu_showDialpad">"Toetsenblok weergeven"</string>
+	<string name="menu_hideDialpad">"Toetsenblok verbergen"</string>
+	<string name="menu_addAccount">"Profiel toevoegen"</string>
+	<string name="menu_vocieCall">"Spraakoproepen"</string>
+	<string name="menu_videoCall">"Video-oproep"</string>
+	<string name="menu_message">"Bericht"</string>
+	<string name="menu_answerAndHold">"Hdg. opr. in wacht\nen opnemen"</string>
+	<string name="menu_answerAndEnd">"Hdg. opr. beëindigen\nen opnemen"</string>
+	<string name="ok">"OK"</string>
+	<string name="menuButtonHint">"Druk op \'Menu\' voor oproep-opties."</string>
+	<string name="menuButtonKeyboardDialHint">"Druk op \'Menu\' voor oproep-opties • Toetsen gebruiken om te bellen"</string>
+	<string name="menu_answer">"Antwoord"</string>
+	<string name="menu_ignore">"Negeren"</string>
+	<string name="wait_prompt_str">"De volgende tonen verzenden?\n"</string>
+	<string name="pause_prompt_str">"Nummers verzenden\n"</string>
+	<string name="send_button">"Verzenden"</string>
+	<string name="pause_prompt_yes">"Ja"</string>
+	<string name="pause_prompt_no">"Nee"</string>
+	<string name="wild_prompt_str">"Het jokerteken vervangen door"</string>
+	<string name="no_vm_number">"Voicemailnummer ontbreekt"</string>
+	<string name="no_vm_number_msg">"Er is geen voicemailnummer op de SIM-kaart opgeslagen."</string>
+	<string name="add_vm_number_str">"Nummer toevoegen"</string>
+	<string name="dialer_emptyListWorking">"Laden..."</string>
+	<string name="enterPin">"Voer de PIN-code in om de SIM-kaart te ontgrendelen."</string>
+	<string name="pinUnlocked">"SIM-kaart ontgrendeld"</string>
+	<string name="enterNewPin">"Nieuwe SIM PIN-code"</string>
+	<string name="verifyNewPin">"Voer de nieuwe SIM PIN-code nogmaals in ter bevestiging"</string>
+	<string name="verifyFailed">"De SIM PIN-codes die u heeft ingevoerd, komen niet overeen. Probeer het opnieuw."</string>
+	<string name="enterPuk">"Voer de PUK-code in om de SIM-kaart te ontgrendelen"</string>
+	<string name="badPuk">"Onjuiste PUK-code!"</string>
+	<string name="buttonTxtContinue">"Doorgaan"</string>
+	<string name="puk_unlocked">"Uw SIM-kaart is gedeblokkeerd. Uw telefoon wordt ontgrendeld..."</string>
+	<string name="label_ndp">"PIN-code voor ontgrendelen SIM-netwerk"</string>
+	<string name="sim_ndp_unlock_text">"Ontgrendelen"</string>
+	<string name="sim_ndp_dismiss_text">"Negeren"</string>
+	<string name="requesting_unlock">"Verzoek om ontgrendelen netwerk..."</string>
+	<string name="unlock_failed">"Verzoek voor ontgrendelen netwerk mislukt."</string>
+	<string name="unlock_success">"Het netwerk is ontgrendeld."</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"GSM-oproepinstellingen"</string>
+	<string name="labelCDMAMore">"CDMA-oproepinstellingen"</string>
+	<string name="apn_settings">"Namen toegangspunten"</string>
+	<string name="settings_label">"Netwerkinstellingen"</string>
+	<string name="voicemail">"voicemail"</string>
+	<string name="voicemail_abbreviated">"VM:"</string>
+	<string name="networks">"U heeft geen favorieten.\n\nU kunt als volgt een contact toevoegen aan uw lijst met favorieten:\n\n        <li>Raak het tabblad \'<b>Contacten</b>\' aan.\n</li> \n<li>Raak het contact aan dat u wilt toevoegen aan uw favorieten.\n</li> \n<li>Raak de ster aan die wordt weergegeven naast de naam van het contact.\n</li>"</string>
+	<string name="call_settings">"Oproepinstellingen"</string>
+	<string name="additional_gsm_call_settings">"Aanvullende instellingen"</string>
+	<string name="sum_gsm_call_settings">"Aanvullende oproepinstellingen voor alleen GSM"</string>
+	<string name="additional_cdma_call_settings">"Aanvullende CDMA-oproepinstellingen"</string>
+	<string name="sum_cdma_call_settings">"Aanvullende oproepinstellingen voor alleen CDMA"</string>
+	<string name="labelNwService">"Instellingen voor netwerkservice"</string>
+	<string name="labelCallerId">"Beller-id"</string>
+	<string name="sum_hide_caller_id">"Nummer verborgen bij uitgaande oproepen"</string>
+	<string name="sum_show_caller_id">"Nummer weergegeven bij uitgaande oproepen"</string>
+	<string name="sum_default_caller_id">"Gebruik de standaard operatorinstellingen om mijn nummer bij uitgaande oproepen weer te geven"</string>
+	<string name="labelCW">"Wisselgesprek"</string>
+	<string name="sum_cw_enabled">"Inkomende oproepen melden als ik aan het bellen ben"</string>
+	<string name="sum_cw_disabled">"Inkomende oproepen melden als ik aan het bellen ben"</string>
+	<string name="call_forwarding_settings">"Instellingen voor doorschakelen van oproepen"</string>
+	<string name="labelCF">"Oproep doorschakelen"</string>
+	<string name="labelCFU">"Altijd doorschakelen"</string>
+	<string name="messageCFU">"Altijd dit nummer gebruiken"</string>
+	<string name="sum_cfu_enabled_indicator">"Alle oproepen doorschakelen"</string>
+	<string name="sum_cfu_enabled">"Alle oproepen doorschakelen naar {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Het telefoonnummer is niet beschikbaar"</string>
+	<string name="sum_cfu_disabled">"Uitgeschakeld"</string>
+	<string name="labelCFB">"Doorsch. bij in gesprek"</string>
+	<string name="messageCFB">"Nummer indien in gesprek"</string>
+	<string name="sum_cfb_enabled">"Doorschakelen naar {0}"</string>
+	<string name="sum_cfb_disabled">"Uitgeschakeld"</string>
+	<string name="disable_cfb_forbidden">"Uw provider biedt geen ondersteuning voor het uitschakelen van oproepdoorschakelingen wanneer uw telefoon bezet is."</string>
+	<string name="labelCFNRy">"Doorsch. bij onbeantwoord"</string>
+	<string name="messageCFNRy">"Nummer indien onbeantwoord"</string>
+	<string name="sum_cfnry_enabled">"Doorschakelen naar {0}"</string>
+	<string name="sum_cfnry_disabled">"Uitgeschakeld"</string>
+	<string name="disable_cfnry_forbidden">"Uw provider biedt geen ondersteuning voor het uitschakelen van oproepdoorschakelingen wanneer uw telefoon niet wordt opgenomen."</string>
+	<string name="labelCFNRc">"Doorsch. bij onbereikbaar"</string>
+	<string name="messageCFNRc">"Nummer indien onbereikbaar"</string>
+	<string name="sum_cfnrc_enabled">"Doorschakelen naar {0}"</string>
+	<string name="sum_cfnrc_disabled">"Uitgeschakeld"</string>
+	<string name="labelCB">"Oproep blokkeren"</string>
+	<string name="labelCBPWD">"Wachtwoord wijzigen"</string>
+	<string name="sum_cb_enabled">"Ingeschakeld"</string>
+	<string name="sum_cb_disabled">"Uitgeschakeld"</string>
+	<string name="messageCallBarring">"Wachtwoord"</string>
+	<string name="newCBPwdLabel">"Nieuw wachtwoord"</string>
+	<string name="disable_cfnrc_forbidden">"Uw provider biedt geen ondersteuning voor het uitschakelen van oproepdoorschakelingen wanneer uw telefoon niet bereikbaar is."</string>
+	<string name="updating_title">"Oproepinstellingen"</string>
+	<string name="error_updating_title">"Fout met oproepinstellingen"</string>
+	<string name="reading_settings">"Instellingen lezen..."</string>
+	<string name="updating_settings">"Instellingen bijwerken..."</string>
+	<string name="reverting_settings">"Instellingen terugzetten..."</string>
+	<string name="response_error">"Onverwachte reactie van netwerk."</string>
+	<string name="exception_error">"Netwerk- of SIM-kaartfout."</string>
+	<string name="radio_off_error">"Schakel de radio in voordat u deze instellingen bekijkt."</string>
+	<string name="close_dialog">"OK"</string>
+	<string name="enable">"Inschakelen"</string>
+	<string name="disable">"Uitschakelen"</string>
+	<string name="change_num">"Bijwerken"</string>
+	<string-array name="clir_display_values">
+		<item>"Netwerkstandaard"</item>
+		<item>"Nummer verbergen"</item>
+		<item>"Nummer weergeven"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>Standaard</xliff:g>"</item>
+		<item>"<xliff:g>Verbergen</xliff:g>"</item>
+		<item>"<xliff:g>Tonen</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Voicemailnummer opslaan"</string>
+	<string name="vm_changed">"Voicemailnummer gewijzigd."</string>
+	<string name="vm_change_failed">"Het wijzigen van het voicemailnummer is mislukt.\nNeem contact op met uw provider als dit probleem zich blijft voordoen."</string>
+	<string name="fw_change_failed">"Het wijzigen van het doorschakelnummer is mislukt.\nNeem contact op met uw provider als dit probleem zich blijft voordoen."</string>
+	<string name="fw_get_in_vm_failed">"Kan huidige instellingen voor doorschakelnummer niet ophalen en opslaan.\nWilt u toch overgaan naar de nieuwe provider?"</string>
+	<string name="no_change">"Er zijn geen wijzigingen aangebracht."</string>
+	<string name="sum_voicemail_choose_provider">"Service voor voicemail selecteren"</string>
+	<string name="voicemail_default">"Mijn provider"</string>
+	<string name="mobile_networks">"Instellingen mobiel netwerk"</string>
+	<string name="label_available">"Beschikbare netwerken"</string>
+	<string name="load_networks_progress">"Zoeken..."</string>
+	<string name="empty_networks_list">"Geen netwerken gevonden."</string>
+	<string name="search_networks">"Netwerken zoeken"</string>
+	<string name="network_query_error">"Fout tijdens zoeken naar netwerken"</string>
+	<string name="register_on_network">"Registreren op <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+	<string name="not_allowed">"Uw SIM-kaart staat geen verbinding met dit netwerk toe."</string>
+	<string name="connect_later">"Kan momenteel geen verbinding maken met dit netwerk. Probeer het later opnieuw."</string>
+	<string name="registration_done">"Geregistreerd op netwerk."</string>
+	<string name="sum_carrier_select">"Een mobiele provider selecteren"</string>
+	<string name="sum_search_networks">"Alle beschikbare netwerken zoeken"</string>
+	<string name="select_automatically">"Automatisch selecteren"</string>
+	<string name="sum_select_automatically">"Voorkeursnetwerk automatisch selecteren"</string>
+	<string name="register_automatically">"Automatische registratie..."</string>
+	<string name="preferred_network_mode_title">"Netwerkmodus"</string>
+	<string name="preferred_network_mode_summary">"De netwerkgebruiksmodus wijzigen"</string>
+	<string name="preferred_network_mode_dialogtitle">"Voorkeursnetwerkmodus"</string>
+	<string name="menu_search_networks">"Netwerken zoeken"</string>
+	<string name="menu_select_automatically">"Automatisch selecteren"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Globaal"</item>
+		<item>"Alleen EvDo"</item>
+		<item>"CDMA zonder EvDo"</item>
+		<item>"CDMA/EvDo automatisch"</item>
+		<item>"GSM/WCDMA automatisch"</item>
+		<item>"Alleen WCDMA"</item>
+		<item>"Alleen GSM"</item>
+		<item>"Voorkeur voor GSM/WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Gegevenstoegang aan"</string>
+	<string name="data_enable_summary">"Gegevenstoegang via mobiel netwerk inschakelen"</string>
+	<string name="roaming">"Gegevensroaming"</string>
+	<string name="roaming_enable">"Verbinding maken met gegevensservices tijdens roaming"</string>
+	<string name="roaming_disable">"Verbinding maken met gegevensservices tijdens roaming"</string>
+	<string name="roaming_reenable_message">"De gegevensverbinding is verbroken, omdat u uw thuisnetwerk heeft verlaten terwijl gegevensroaming was uitgeschakeld."</string>
+	<string name="roaming_warning">"Gegevensroaming toestaan? Er kunnen hoge roamingkosten in rekening worden gebracht."</string>
+	<string name="data_mode_ok">"Ja"</string>
+	<string name="data_mode_cancel">"Nee"</string>
+	<string name="gsm_umts_options">"GSM-/UMTS-opties"</string>
+	<string name="cdma_options">"CDMA-opties"</string>
+	<string name="throttle_data_usage">"Gegevensgebruik"</string>
+	<string name="throttle_settings_title">"Gegevensbeleid van provider"</string>
+	<string name="throttle_current_usage">"Gegevensgebruik in huidige periode"</string>
+	<string name="throttle_time_frame">"Periode voor gegevensgebruik"</string>
+	<string name="throttle_rate">"Beleid voor gegevenssnelheid"</string>
+	<string name="throttle_help">"Meer informatie"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) van periodemaximum van <xliff:g id="USED_2">%3$s</xliff:g>\nDe volgende periode start over<xliff:g id="USED_3">%4$d</xliff:g> dagen (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) van periodemaximum van <xliff:g id="USED_2">%3$s</xliff:g>"</string>
+	<string name="throttle_data_rate_reduced_subtext">"Maximum van <xliff:g id="USED_0">%1$s</xliff:g> overschreden\nGegevenssnelheid verlaagd tot <xliff:g id="USED_1">%2$d</xliff:g> kB/s"</string>
+	<string name="throttle_time_frame_subtext">" ٪<xliff:g id="USED_0">%1$d</xliff:g>van cyclus verstreken\nDe volgende periode start over <xliff:g id="USED_1">%2$d</xliff:g> dagen (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Gegevenssnelheid wordt verlaagd tot <xliff:g id="USED">%1$d</xliff:g> kB/s als de limiet voor gegevensgebruik wordt overschreden"</string>
+	<string name="throttle_help_subtext">"Meer informatie over het beleid voor gegevensgebruik van uw mobiele provider"</string>
+	<string name="cdma_cell_broadcast_sms">"Infodienstbericht"</string>
+	<string name="cell_broadcast_sms">"Infodienstbericht"</string>
+	<string name="enable_disable_cell_bc_sms">"SMS Infodienstbericht"</string>
+	<string name="cell_bc_sms_enable">"SMS Infodienstbericht ingeschakeld"</string>
+	<string name="cell_bc_sms_disable">"Infodienstbericht uitgeschakeld"</string>
+	<string name="cb_sms_settings">"Instellingen voor SMS infodienstberichten"</string>
+	<string name="enable_disable_emergency_broadcast">"Bericht bij noodsituatie"</string>
+	<string name="emergency_broadcast_enable">"Bericht bij noodsituatie ingeschakeld"</string>
+	<string name="emergency_broadcast_disable">"Bericht bij noodsituatie uitgeschakeld"</string>
+	<string name="enable_disable_administrative">"Beheer"</string>
+	<string name="administrative_enable">"Beheer ingeschakeld"</string>
+	<string name="administrative_disable">"Beheer uitgeschakeld"</string>
+	<string name="enable_disable_maintenance">"Onderhoud"</string>
+	<string name="maintenance_enable">"Onderhoud ingeschakeld"</string>
+	<string name="maintenance_disable">"Onderhoud uitgeschakeld"</string>
+	<string name="general_news_settings">"Algemeen nieuws"</string>
+	<string name="bf_news_settings">"Zakelijk en financieel nieuws"</string>
+	<string name="sports_news_settings">"Sportnieuws"</string>
+	<string name="entertainment_news_settings">"Amusementsnieuws"</string>
+	<string name="enable_disable_local">"Lokaal"</string>
+	<string name="local_enable">"Lokaal nieuws ingeschakeld"</string>
+	<string name="local_disable">"Lokaal nieuws uitgeschakeld"</string>
+	<string name="enable_disable_regional">"Regionaal"</string>
+	<string name="regional_enable">"Regionaal nieuws ingeschakeld"</string>
+	<string name="regional_disable">"Regionaal nieuws uitgeschakeld"</string>
+	<string name="enable_disable_national">"Binnenlands"</string>
+	<string name="national_enable">"Geen contacten."</string>
+	<string name="national_disable">"Bijnaam"</string>
+	<string name="enable_disable_international">"Buitenlands"</string>
+	<string name="international_enable">"Buitenlands nieuws ingeschakeld"</string>
+	<string name="international_disable">"Buitenlands nieuws uitgeschakeld"</string>
+	<string name="list_language_title">"Taal"</string>
+	<string name="list_language_summary">"De taal voor het nieuws selecteren"</string>
+	<string-array name="list_language_entries">
+		<item>"Engels"</item>
+		<item>"Frans"</item>
+		<item>"Spaans"</item>
+		<item>"Japans"</item>
+		<item>"Koreaans"</item>
+		<item>"Chinees"</item>
+		<item>"Hebreeuws"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Talen"</string>
+	<string name="enable_disable_local_weather">"Lokaal weerbericht"</string>
+	<string name="local_weather_enable">"Lokaal weerbericht ingeschakeld"</string>
+	<string name="local_weather_disable">"Lokaal weerbericht uitgeschakeld"</string>
+	<string name="enable_disable_atr">"Verkeersberichten"</string>
+	<string name="atr_enable">"Verkeersberichten ingeschakeld"</string>
+	<string name="atr_disable">"Verkeersberichten uitgeschakeld"</string>
+	<string name="enable_disable_lafs">"Vluchttijden voor lokaal vliegveld"</string>
+	<string name="lafs_enable">"Vluchttijden voor lokaal vliegveld ingeschakeld"</string>
+	<string name="lafs_disable">"Vluchttijden voor lokaal vliegveld uitgeschakeld"</string>
+	<string name="enable_disable_restaurants">"Restaurants"</string>
+	<string name="restaurants_enable">"Restaurants ingeschakeld"</string>
+	<string name="restaurants_disable">"Restaurants uitgeschakeld"</string>
+	<string name="enable_disable_lodgings">"Overnachtingen"</string>
+	<string name="lodgings_enable">"Overnachtingen ingeschakeld"</string>
+	<string name="lodgings_disable">"Overnachtingen uitgeschakeld"</string>
+	<string name="enable_disable_retail_directory">"Winkeloverzicht"</string>
+	<string name="retail_directory_enable">"Winkeloverzicht ingeschakeld"</string>
+	<string name="retail_directory_disable">"Winkeloverzicht uitgeschakeld"</string>
+	<string name="enable_disable_advertisements">"Advertenties"</string>
+	<string name="advertisements_enable">"Advertenties ingeschakeld"</string>
+	<string name="advertisements_disable">"Advertenties uitgeschakeld"</string>
+	<string name="enable_disable_stock_quotes">"Aandelenkoersen"</string>
+	<string name="stock_quotes_enable">"Aandelenkoersen ingeschakeld"</string>
+	<string name="stock_quotes_disable">"Aandelenkoersen uitgeschakeld"</string>
+	<string name="enable_disable_eo">"Vacatures"</string>
+	<string name="eo_enable">"Vacatures ingeschakeld"</string>
+	<string name="eo_disable">"Vacatures uitgeschakeld"</string>
+	<string name="enable_disable_mhh">"Medisch, gezondheid en ziekenhuis"</string>
+	<string name="mhh_enable">"Medisch, gezondheid en ziekenhuis ingeschakeld"</string>
+	<string name="mhh_disable">"Medisch, gezondheid en ziekenhuis uitgeschakeld"</string>
+	<string name="enable_disable_technology_news">"Technologienieuws"</string>
+	<string name="technology_news_enable">"Technologienieuws ingeschakeld"</string>
+	<string name="technology_news_disable">"Technologienieuws uitgeschakeld"</string>
+	<string name="enable_disable_multi_category">"Meerdere categorieën"</string>
+	<string name="multi_category_enable">"Meerdere categorieën ingeschakeld"</string>
+	<string name="multi_category_disable">"Meerdere categorieën uitgeschakeld"</string>
+	<string name="gsm_umts_network_preferences_title">"GSM-/UMTS-netwerkvoorkeuren"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Nog niet geïmplementeerd."</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"GSM-/UMTS-netwerkvoorkeuren"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"GSM/WCDMA (automatische modus)"</item>
+		<item>"Alleen WCDMA"</item>
+		<item>"Alleen GSM"</item>
+		<item>"GSM/WCDA (voorkeur voor WCDMA)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Alleen 2G-netwerken"</string>
+	<string name="prefer_2g_summary">"Energiespaarstand"</string>
+	<string name="cdma_system_select_title">"Systeem selecteren"</string>
+	<string name="cdma_system_select_summary">"De CDMA-roamingmodus wijzigen"</string>
+	<string name="cdma_system_select_dialogtitle">"Systeem selecteren"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Alleen thuis"</item>
+		<item>"Automatisch"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA-roamingmodus"</string>
+	<string name="cdma_roaming_mode_summary">"De CDMA-roamingmodus wijzigen"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA-roamingmodus"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Alleen thuisnetwerken"</item>
+		<item>"Partnernetwerken"</item>
+		<item>"Elk netwerk"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"CDMA-netwerkvoorkeuren"</string>
+	<string name="cdma_network_preferneces_summary">"Nog niet geïmplementeerd."</string>
+	<string name="cdma_network_preferences_dialogtitle">"CDMA-netwerkvoorkeuren"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Alleen CDMA"</item>
+		<item>"Alleen EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"TEST CDMA-abonnement"</string>
+	<string name="subscription_summary">"Schakelen tussen RUIM/SIM en NV"</string>
+	<string name="subscription_dialogtitle">"abonnement"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Vaste nummers"</string>
+	<string name="manage_fdn_list">"FDN-lijst"</string>
+	<string name="fdn_activation">"FDN-activering"</string>
+	<string name="fdn_enabled">"Vaste nummers zijn ingeschakeld"</string>
+	<string name="fdn_disabled">"Vaste nummers zijn uitgeschakeld"</string>
+	<string name="enable_fdn">"FDN inschakelen"</string>
+	<string name="disable_fdn">"FDN uitschakelen"</string>
+	<string name="change_pin2">"PIN2-code wijzigen"</string>
+	<string name="enable_fdn_ok">"FDN uitschakelen"</string>
+	<string name="disable_fdn_ok">"FDN inschakelen"</string>
+	<string name="sum_fdn">"Vaste nummers beheren"</string>
+	<string name="sum_fdn_change_pin">"PIN-code voor FDN-toegang wijzigen"</string>
+	<string name="sum_fdn_manage_list">"Lijst met telefoonnummers beheren"</string>
+	<string name="voice_privacy">"Spraakprivacy"</string>
+	<string name="voice_privacy_summary">"Geavanceerde privacymodus inschakelen"</string>
+	<string name="tty_mode_title">"TTY-modus"</string>
+	<string name="tty_mode_summary">"TTY-modus inschakelen"</string>
+	<string name="tty_mode_option_title">"TTY-modus"</string>
+	<string name="tty_mode_option_summary">"TTY-modus instellen"</string>
+	<string name="auto_retry_mode_title">"Automatisch opnieuw proberen"</string>
+	<string name="auto_retry_mode_summary">"Modus voor automatisch opnieuw proberen inschakelen"</string>
+	<string name="menu_add">"Contact toevoegen"</string>
+	<string name="menu_edit">"Contact bewerken"</string>
+	<string name="menu_delete">"Contact wissen"</string>
+	<string name="get_pin2">"PIN2-code invoeren"</string>
+	<string name="name">"Naam"</string>
+	<string name="number">"Nummer"</string>
+	<string name="save">"Opslaan"</string>
+	<string name="add_fdn_contact">"Vast nummer toevoegen"</string>
+	<string name="adding_fdn_contact">"Vast nummer toevoegen..."</string>
+	<string name="fdn_contact_added">"Vast nummer toegevoegd."</string>
+	<string name="edit_fdn_contact">"Vast nummer bewerken"</string>
+	<string name="updating_fdn_contact">"Vast nummer bijwerken..."</string>
+	<string name="fdn_contact_updated">"Vast nummer bijgewerkt."</string>
+	<string name="delete_fdn_contact">"Vast nummer verwijderen"</string>
+	<string name="deleting_fdn_contact">"Vast nummer verwijderen..."</string>
+	<string name="fdn_contact_deleted">"Vast nummer verwijderd."</string>
+	<string name="pin2_invalid">"FDN niet bijgewerkt: u heeft een onjuiste PIN-code ingevoerd."</string>
+	<string name="fdn_invalid_number">"FDN niet bijgewerkt: nummer mag niet langer zijn dan 20 cijfers."</string>
+	<string name="simContacts_emptyLoading">"Lezen vanaf SIM-kaart..."</string>
+	<string name="simContacts_empty">"Geen contacten op uw SIM-kaart."</string>
+	<string name="simContacts_title">"Contacten selecteren om te importeren"</string>
+	<string name="enable_pin">"SIM PIN-code in-/uitschakelen"</string>
+	<string name="change_pin">"SIM PIN-code wijzigen"</string>
+	<string name="enter_pin_text">"SIM PIN-code:"</string>
+	<string name="oldPinLabel">"Oude PIN-code"</string>
+	<string name="newPinLabel">"Nieuwe PIN-code"</string>
+	<string name="confirmPinLabel">"Nieuwe PIN-code bevestigen"</string>
+	<string name="badPin">"De oude PIN-code die u heeft ingevoerd, is onjuist. Probeer het opnieuw."</string>
+	<string name="mismatchPin">"De PIN-codes die u heeft ingevoerd, komen niet overeen. Probeer het opnieuw."</string>
+	<string name="invalidPin">"Voer een PIN-code van 4 tot 8 cijfers in."</string>
+	<string name="disable_sim_pin">"SIM PIN-code uitschakelen"</string>
+	<string name="enable_sim_pin">"SIM PIN-code inschakelen"</string>
+	<string name="enable_in_progress">"Een ogenblik geduld..."</string>
+	<string name="enable_pin_ok">"SIM PIN-code ingeschakeld"</string>
+	<string name="disable_pin_ok">"SIM PIN-code uitgeschakeld"</string>
+	<string name="pin_failed">"De PIN-code die u heeft ingevoerd, is onjuist"</string>
+	<string name="pin_changed">"SIM PIN-code gewijzigd"</string>
+	<string name="puk_requested">"Wachtwoord onjuist, SIM-kaart is vergrendeld! PUK2-code vereist."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Oude PIN2-code"</string>
+	<string name="newPin2Label">"Nieuwe PIN2-code"</string>
+	<string name="confirmPin2Label">"Nieuwe PIN2-code bevestigen"</string>
+	<string name="badPuk2">"De PUK2-code die u heeft ingevoerd, is onjuist. Probeer het opnieuw."</string>
+	<string name="badPin2">"De oude PIN2-code die u heeft ingevoerd, is onjuist. Probeer het opnieuw."</string>
+	<string name="mismatchPin2">"De PIN2-codes die u heeft ingevoerd, komen niet overeen. Probeer het opnieuw."</string>
+	<string name="invalidPin2">"Voer een PIN2-code van 4 tot 8 cijfers in."</string>
+	<string name="invalidPuk2">"Voer een PUK2-code van 8 cijfers in."</string>
+	<string name="pin2_changed">"PIN2-code gewijzigd"</string>
+	<string name="label_puk2_code">"PUK2-code invoeren"</string>
+	<string name="fdn_enable_puk2_requested">"Wachtwoord onjuist, wijzig PIN2-code en probeer het opnieuw!"</string>
+	<string name="puk2_requested">"Wachtwoord onjuist, SIM-kaart is vergrendeld! PUK2-code vereist."</string>
+	<string name="doneButton">"Gereed"</string>
+	<string name="caller_manage_header">"Telefonische vergadering <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Terug naar oproep"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Nummer inkomende oproep"</string>
+	<string name="fake_phone_activity_placeCall_text">"Inkomende nepoproep"</string>
+	<string name="sim_missing_continueView_text">"Doorgaan zonder SIM-kaart"</string>
+	<string name="sim_missing_msg_text">"Geen SIM-kaart gevonden. Plaats een SIM-kaart in de telefoon."</string>
+	<string name="sim_unlock_dismiss_text">"Negeren"</string>
+	<string name="sim_unlock_unlock_text">"Ontgrendelen"</string>
+	<string name="sim_unlock_status_text">"PIN-code verifiëren..."</string>
+	<string name="voicemail_settings_number_label">"Voicemailnummer"</string>
+	<string name="card_title_dialing">"Kiezen"</string>
+	<string name="card_title_redialing">"Opnieuw proberen"</string>
+	<string name="card_title_in_progress">"Huidige oproep"</string>
+	<string name="card_title_conf_call">"Telefonische vergadering"</string>
+	<string name="card_title_incoming_call">"Inkomende oproep"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA-oproep in wacht"</string>
+	<string name="card_title_call_ended">"Oproep beëindigd"</string>
+	<string name="card_title_on_hold">"In de wacht"</string>
+	<string name="card_title_hanging_up">"Ophangen"</string>
+	<string name="card_title_in_call">"Actieve oproep"</string>
+	<string name="card_title_mo_3">"Wisselgesprek"</string>
+	<string name="card_title_mo_5">"Oproepen geblokkeerd"</string>
+	<string name="card_title_mo_6">"Oproepen geblokkeerd"</string>
+	<string name="redial_radio_dialog_wait">"Wachten"</string>
+	<string name="notification_missedCallTitle">"Gemiste oproep"</string>
+	<string name="notification_missedCallsTitle">"Gemiste oproepen"</string>
+	<string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> gemiste oproepen"</string>
+	<string name="notification_missedCallTicker">"Gemiste oproep van <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Huidige oproep (<xliff:g id="DURATION">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"In de wacht"</string>
+	<string name="notification_voicemail_title">"Nieuwe voicemail"</string>
+	<string name="notification_voicemail_title_count">"Nieuwe voicemail (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"<xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g> bellen"</string>
+	<string name="notification_voicemail_no_vm_number">"Voicemailnummer onbekend"</string>
+	<string name="notification_network_selection_title">"Geen service"</string>
+	<string name="notification_network_selection_text">"Geselecteerd netwerk (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) niet beschikbaar"</string>
+	<string name="incall_error_power_off">"Als u wilt bellen, moet u eerst de Vliegmodus uitschakelen."</string>
+	<string name="incall_error_emergency_only">"Niet geregistreerd op netwerk."</string>
+	<string name="incall_error_out_of_service">"Mobiel netwerk niet beschikbaar."</string>
+	<string name="incall_error_no_phone_number_supplied">"Oproep niet verzonden, geen geldig nummer ingevoerd."</string>
+	<string name="incall_error_call_failed">"Oproep niet verzonden."</string>
+	<string name="incall_status_dialed_mmi">"MMI-reeks starten..."</string>
+	<string name="incall_status_dialed_fc">"Functiecodereeks starten…"</string>
+	<string name="incall_error_supp_service_unknown">"Niet-ondersteunde service."</string>
+	<string name="incall_error_supp_service_switch">"Kan niet overschakelen tussen oproepen."</string>
+	<string name="incall_error_supp_service_separate">"Kan oproep niet scheiden."</string>
+	<string name="incall_error_supp_service_conference">"Telefonische vergaderingen niet mogelijk."</string>
+	<string name="incall_error_supp_service_reject">"Kan oproep niet weigeren."</string>
+	<string name="incall_error_supp_service_hangup">"Kan oproepen niet vrijgeven."</string>
+	<string name="emergency_enable_radio_dialog_title">"Noodoproep"</string>
+	<string name="emergency_enable_radio_dialog_message">"Radio aanzetten..."</string>
+	<string name="emergency_enable_radio_dialog_retry">"Buiten servicegebied, nieuwe poging..."</string>
+	<string name="dial_emergency_error">"Oproep niet verzonden, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> is geen alarmnummer!"</string>
+	<string name="dial_emergency_empty_error">"Oproep niet verzonden, kies een alarmnummer!"</string>
+	<string name="dialerKeyboardHintText">"Toetsen gebruiken om te bellen"</string>
+	<string name="dtmfDialpadHintText">"Toetsenblok voor toetsgeluid"</string>
+	<string name="dtmfDialpadHandleLabel">"Toetsenblok"</string>
+	<string name="touchLockText">"Tik twee keer\nom te ontgrendelen"</string>
+	<string name="onscreenAnswerText">"Tik tweemaal\nom te beantwoorden"</string>
+	<string name="onscreenRejectText">"Tik tweemaal\nom te weigeren"</string>
+	<string name="onscreenHoldText">"In de wacht"</string>
+	<string name="onscreenUnholdText">"Uit de wacht halen"</string>
+	<string name="onscreenSendCallText">"Zenden"</string>
+	<string name="onscreenEndCallText">"Beëindigen"</string>
+	<string name="onscreenShowDialpadText">"Toetsenblok"</string>
+	<string name="onscreenHideDialpadText">"Verbergen"</string>
+	<string name="onscreenSpeakerText">"Luidspreker"</string>
+	<string name="onscreenMuteText">"Dempen"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Oproep toevoegen"</string>
+	<string name="onscreenMergeCallsText">"Oproepen samenvoegen"</string>
+	<string name="onscreenSwapCallsText">"Wisselen"</string>
+	<string name="onscreenManageCallsText">"Gesprekken beheren"</string>
+	<string name="onscreenManageConferenceText">"Beheren"</string>
+	<string name="importSimEntry">"Importeren"</string>
+	<string name="importAllSimEntries">"Alles importeren"</string>
+	<string name="default_group">"Standaard"</string>
+	<string name="selectAllSimEntries">"Kies alle"</string>
+	<string name="attention">"Opgelet"</string>
+	<string name="importingSimContacts">"SIM-contacten importeren"</string>
+	<string name="importToFDNfromContacts">"Importeren uit contacten"</string>
+	<string name="hac_mode_title">"Gehoorapparaten"</string>
+	<string name="hac_mode_summary">"Compatibiliteit voor gehoorapparaat inschakelen"</string>
+	<string-array name="tty_mode_entries">
+		<item>"TTY uit"</item>
+		<item>"TTY vol"</item>
+		<item>"TTY HCO"</item>
+		<item>"TTY VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"ERI-tekst"</string>
+	<string name="dtmf_tones_title">"DTMF-tonen"</string>
+	<string name="dtmf_tones_summary">"De lengte van DTMF-tonen instellen"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Normaal"</item>
+		<item>"Lang"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Netwerkbericht"</string>
+	<string name="ota_title_activate">"Uw telefoon activeren"</string>
+	<string name="ota_touch_activate">"U moet een speciale oproep uitvoeren om uw telefoonservice te activeren. \n\nNadat u op \'Activeren\' heeft gedrukt, luistert u naar de instructies om uw telefoon te activeren."</string>
+	<string name="ota_touch_activate_new">"Raak \'Activeren\' aan om een speciale oproep te plaatsen waarmee uw telefoon wordt geactiveerd op het mobiele netwerk van uw provider, zodat u kunt bellen en verbinding kunt maken met mobiele gegevensnetwerken."</string>
+	<string name="ota_skip_activation_dialog_title">"Activering overslaan?"</string>
+	<string name="ota_skip_activation_dialog_message">"Als u de activering overslaat, kunt u niet bellen of verbinding maken met mobiele gegevensnetwerken (u kunt wel verbinding maken met Wi-Fi-netwerken). Tot u de telefoon activeert, wordt u gevraagd deze te activeren telkens wanneer u de telefoon inschakelt."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Overslaan"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Activeren"</string>
+	<string name="ota_activate">"Activeren"</string>
+	<string name="ota_title_activate_success">"De telefoon is geactiveerd."</string>
+	<string name="ota_title_problem_with_activation">"Probleem met activeren"</string>
+	<string name="ota_listen">"Volg de gesproken instructies tot u hoort dat de activering is voltooid."</string>
+	<string name="ota_dialpad">"Toetsenblok"</string>
+	<string name="ota_speaker">"Luidspreker"</string>
+	<string name="ota_progress">"Wacht even totdat uw telefoon is geprogrammeerd."</string>
+	<string name="ota_failure">"Programmeren mislukt"</string>
+	<string name="ota_successful">"Uw telefoon is nu geactiveerd. Het kan maximaal vijftien minuten duren voordat de service actief is."</string>
+	<string name="ota_unsuccessful">"Uw telefoon is niet geactiveerd. \nZoek een plek waar u betere dekking heeft (in de buurt van een raam of buiten). \n\nProbeer het opnieuw of bel de klantenservice voor meer opties."</string>
+	<string name="ota_spc_failure">"VEEL SPC-FOUTEN"</string>
+	<string name="ota_call_end">"Terug"</string>
+	<string name="ota_try_again">"Opnieuw proberen"</string>
+	<string name="ota_next">"Volgende"</string>
+	<string name="ota_back">"Terug"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Modus voor noodoproepen ingeschakeld"</string>
+	<string name="phone_in_ecm_notification_title">"Modus voor noodoproepen"</string>
+	<string name="phone_in_ecm_call_notification_text">"Gegevensverbinding uitgeschakeld"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Er is al <xliff:g id="COUNT">%s</xliff:g> minuut geen dataverbinding"</item>
+		<item quantity="other">"Er is al <xliff:g id="COUNT">%s</xliff:g> minuten geen dataverbinding"</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"De telefoon staat <xliff:g id="COUNT">%s</xliff:g> minuut in de modus voor noodoproepen. In deze modus kunt u geen toepassingen gebruiken die een dataverbinding vereisen. Wilt u de modus verlaten?"</item>
+		<item quantity="other">"De telefoon staat <xliff:g id="COUNT">%s</xliff:g> minuten in de modus voor noodoproepen. In deze modus kunt u geen toepassingen gebruiken die een dataverbinding vereisen. Wilt u de modus verlaten?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"De geselecteerde actie is niet beschikbaar in de modus voor noodoproepen. De telefoon staat <xliff:g id="COUNT">%s</xliff:g> minuut in deze modus. Wilt u de modus verlaten?"</item>
+		<item quantity="other">"De geselecteerde actie is niet beschikbaar in de modus voor noodoproepen. De telefoon staat <xliff:g id="COUNT">%s</xliff:g> minuten in deze modus. Wilt u de modus verlaten?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"De geselecteerde actie is niet beschikbaar tijdens noodoproepen"</string>
+	<string name="progress_dialog_exiting_ecm">"Modus voor noodoproepen verlaten"</string>
+	<string name="alert_dialog_yes">"Ja"</string>
+	<string name="alert_dialog_no">"Nee"</string>
+	<string name="alert_dialog_dismiss">"Negeren"</string>
+	<string name="absent_num">"NUMMER BIJ AFWEZIGHEID"</string>
+	<string name="voicemail_settings">"Instellingen voor voicemail"</string>
+	<string name="voicemail_number_not_set">"&lt;niet ingesteld&gt;"</string>
+	<string name="network_preference">"Netwerkmodus"</string>
+	<string name="menu_preferred_network_edit">"Bewerk"</string>
+	<string name="menu_preferred_network_delete">"Wissen"</string>
+	<string name="label_cb">"Oproep blokkeren"</string>
+	<string name="label_cb_incom">"Inkomende oproepen"</string>
+	<string name="pass_dialog_title">"Wachtwoord"</string>
+	<string name="summ_cb_enable">"Inschakelen"</string>
+	<string name="summ_cb_disable">"Uitschakelen"</string>
+	<string name="confirm_button">"Bevestigen"</string>
+	<string name="cancel_button">"Terug"</string>
+	<string name="call_cost_settings">"Instellingen"</string>
+	<string name="call_cost_activation_settings">"Onbeperkt"</string>
+	<string name="call_cost_pin2_err">"Wachtwoord onjuist, wijzig PIN2-code en probeer het opnieuw!"</string>
+	<string name="call_cost_unit">"Unit"</string>
+	<string name="call_cost_set_limit_off">"Uit"</string>
+	<string name="call_cost_set_call_cost_empty">"Leeg"</string>
+	<string name="revertButton">"Terugzetten"</string>
+	<string name="call_cost_reset_msg">"Reset"</string>
+	<string name="cb_set_passwd_title">"Wachtwoord instellen"</string>
+	<string name="cb_set_passwd_dialog_title">"Wachtwoord instellen"</string>
+	<string name="cb_old_password">"Huidig wachtwoord:"</string>
+	<string name="cb_new_password">"Nieuw wachtwoord:"</string>
+	<string name="cb_confirm_password">"Nieuw wachtwoord bevestigen:"</string>
+	<string name="cb_password_error">"Voer het juiste wachtwoord in."</string>
+	<string name="cb_passwords_error">"De wachtwoorden komen niet overeen."</string>
+	<string name="cb_passwords_empty_error">"U moet een wachtwoord invoeren en bevestigen."</string>
+	<string name="cb_password_empty_error">"Voer het wachtwoord in."</string>
+	<string name="barring_pass_cancel">"Terug"</string>
+	<string name="barring_pass_ok">"OK"</string>
+	<string name="voicemail_provider">"Service voor voicemail"</string>
+	<string name="voicemail_settings_for">"Instellingen voor <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+	<string name="other_settings">"Andere instellingen voor bellen"</string>
+	<string name="dial_button_label">"Bellen"</string>
+	<string name="calling_via_template">"Bellen via ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Sleep naar rechts om op te nemen"</string>
+	<string name="slide_to_silence">"Sleep naar links om de belsoftware uit te schakelen"</string>
+	<string name="slide_to_decline">"Sleep naar links om te weigeren"</string>
+	<string name="slide_to_answer_and_hold">"Sleep naar rechts om op te nemen en\nactieve oproep in de wacht te zetten"</string>
+	<string name="slide_to_answer_and_end_active">"Sleep naar rechts om op te nemen en\nactieve oproep te beëindigen"</string>
+	<string name="slide_to_answer_and_end_onhold">"Sleep naar rechts om op te nemen en\noproep in de wacht te beëindigen"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"OK"</string>
+	<string name="messageCancel">"Terug"</string>
+	<string name="slide_to_answer_hint">"Beantw."</string>
+	<string name="slide_to_decline_hint">"Weigeren"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Type PUK-code"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Onjuiste PUK-code!\n Resterend: <xliff:g id="NUMBER_0">%d</xliff:g> poging(en)"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Nieuwe PIN-code"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Nieuwe PIN-code bevestigen"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"De PIN-codes die u heeft ingevoerd, komen niet overeen."</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Resterend: "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"PUK geblokkeerd"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Onjuiste PIN-code!\n Resterend: <xliff:g id="NUMBER_0">%d</xliff:g> poging(en)"</string>
+	<string name="unlock_accept">"Accepteren"</string>
+	<string name="unlock_send_sms">"SMS verzenden"</string>
+	<string name="silent_silent">"Stil"</string>
+	<string name="str_save">"Opslaan"</string>
+	<string name="str_delete">"Wissen"</string>
+	<string name="str_cancel">"Terug"</string>
+	<string name="str_no_messages">"Geen berichten"</string>
+	<string name="str_new_message">"Nieuw bericht"</string>
+	<string name="send_sms">"SMS verzenden"</string>
+	<string name="str_send">"Zenden"</string>
+	<string name="menu_item1">"Nieuw bericht"</string>
+	<string name="menu_item2">"Multiselectie"</string>
+	<string name="menu_item3">"Alles verwijderen"</string>
+	<string name="str_delete_q">"Wissen?"</string>
+	<string name="excuse_messages_select_all">"Kies alle"</string>
+	<string name="excuse_messages_deselect_all">"Selectie van alles opheffen"</string>
+	<string name="excuse_messages_btn_delete">"Wissen"</string>
+	<string name="excuse_messages_multi_select">"Multiselectie"</string>
+	<string name="excuse_messages_delete_all">"Alles verwijderen"</string>
+	<string name="excuse_messages_new_message">"Nieuw bericht"</string>
+	<string name="excuse_messages_btn_cancel">"Terug"</string>
+	<string name="excuse_messages_delete_question">"Wissen?"</string>
+	<string name="excuse_messages_saved">"Opgeslagen "</string>
+	<string name="excuse_messages_delete">"Wissen"</string>
+	<string name="excuse_messages_len_btn">"Bevestigen"</string>
+	<string name="yes">"Ja"</string>
+	<string name="no">"Nee"</string>
+	<string name="call_barring_title">"Oproep blokkeren"</string>
+	<string name="camera_bright_key">"Helderheid"</string>
+	<string name="camera_zoom_key">"Zoomen"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Contacten"</string>
+	<string name="incallmenu_memo">"Memo"</string>
+	<string name="incallmenu_Sms">"Bericht"</string>
+	<string name="CALLSTR_CALLREJECTING">"Stil"</string>
+	<string name="CALLSTR_CALLERID">"Beller-id"</string>
+	<string name="CALLSTR_INCOMCALL">"Inkomende oproep"</string>
+	<string name="CALLSTR_CALLTO">"Aan "</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Bericht schrijven"</string>
+	<string name="CALLSTR_REJECT_SEND">"Zenden"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Bewerk"</string>
+	<string name="custom_roaming_button">"OK"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Naam"</string>
+	<string name="label_ve">"Label"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>

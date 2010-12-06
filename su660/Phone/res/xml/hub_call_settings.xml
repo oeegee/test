@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/labelGSMMore">
+
+    <PreferenceScreen
+        android:key="button_cf_expand_key"
+        android:title="@string/labelCF"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.GsmUmtsCallForwardOptions"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="button_more_expand_key"
+        android:title="@string/additional_gsm_call_settings"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions"/>
+    </PreferenceScreen>
+
+	<!-- LGE_BARRING START, 2010-02-23, CALL_BARRING_SWI : Call Barring -->
+    <PreferenceScreen 
+        android:key="button_cb_expand_key" 
+        android:title="@string/labelCB"
+        android:persistent="false"/>
+	<!-- LGE_BARRING END -->
+
+    <!-- LGE_CALL_COSTS START -->
+    <PreferenceScreen
+        android:key="button_call_cost_key"
+        android:title="@string/call_cost"
+        android:summary="@string/call_cost_info"
+        android:persistent="false"/>
+    <!-- LGE_CALL_COSTS END -->
+
+    <!-- LGE_CALL_DURATION START -->
+    <!-- 2010-03-15, Call Duration cutestar@lge.com -->
+    <PreferenceScreen
+        android:key="button_cd_expand_key"
+        android:title="@string/labelCD"
+        android:persistent="false"/>
+    <!-- 2010-03-15, Call Duration cutestar@lge.com -->
+    <!-- LGE_CALL_DURATION END -->
+    <PreferenceScreen
+        android:key="button_excuse_messages_key"
+        android:title="@string/excuse_messages"
+        android:summary="@string/excuse_messages_info"
+        android:persistent="false"/>
+
+
+    <!-- 20100510 cutestar@lge.com  Blocked for LGE Menu Tree. Same as Swift, Hub Model.
+    <PreferenceScreen
+        android:key="button_info_numbers_key"
+        android:title="@string/info_numbers"
+        android:summary="@string/info_numbers_info"
+        android:persistent="false"/>
+     -->
+     
+	<!-- LGE_AUTO_REDIAL START -->
+    <CheckBoxPreference
+        android:key="button_ar_key"
+        android:title="@string/labelAR"
+        android:persistent="false"
+        android:summaryOn="@string/sum_ar_enabled"
+        android:summaryOff="@string/sum_ar_disabled"/>
+	<!-- LGE_AUTO_REDIAL END -->
+
+	<!-- LGE_VT START -->
+      <PreferenceScreen
+		android:key="button_video_call_settings_key"
+		android:title="@string/vt_settings"
+		android:persistent="false"/>
+	<!-- LGE_VT END -->		
+</PreferenceScreen>

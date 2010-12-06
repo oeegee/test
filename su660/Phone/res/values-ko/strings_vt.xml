@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="vt_Dialpad">"다이얼\n패드"</string>
+	<string name="vt_Hold">"음성/영상\n차단"</string>
+	<string name="vt_Mute">"음소거"</string>
+	<string name="vt_Private">"대체영상"</string>
+	<string name="vt_Show">"카메라 영상"</string>
+	<string name="vt_Speaker">"스피커"</string>
+	<string name="vt_bad_response">"영상통화 연결이 되지 않습니다 잠시 후 사용하세요"</string>
+	<string name="vt_call_barred">"서비스중지 고객센터로 연락해주세요"</string>
+	<string name="vt_call_ended">"영상통화가 종료되었습니다."</string>
+	<string name="vt_camera_brightness_entry_high">"높게"</string>
+	<string name="vt_camera_brightness_entry_low">"낮게"</string>
+	<string name="vt_camera_brightness_entry_middle">"중간"</string>
+	<string name="vt_camera_brightness_title">"밝기"</string>
+	<string name="vt_camera_coloureffect_entry_mono">"흑백"</string>
+	<string name="vt_camera_coloureffect_entry_negative">"네거티브"</string>
+	<string name="vt_camera_coloureffect_entry_off">"없음"</string>
+	<string name="vt_camera_coloureffect_entry_sepia">"세피아"</string>
+	<string name="vt_camera_coloureffect_title">"필터"</string>
+	<string name="vt_camera_night_entry_off">"해제"</string>
+	<string name="vt_camera_night_entry_on">"설정"</string>
+	<string name="vt_camera_night_title">"야간 모드"</string>
+	<string name="vt_camera_whitebalance_entry_auto">"자동"</string>
+	<string name="vt_camera_whitebalance_entry_cloudy">"흐린날"</string>
+	<string name="vt_camera_whitebalance_entry_fluorescent">"형광등"</string>
+	<string name="vt_camera_whitebalance_entry_incandescent">"백열등"</string>
+	<string name="vt_camera_whitebalance_entry_sunny">"맑은날"</string>
+	<string name="vt_camera_whitebalance_title">"화이트 밸런스"</string>
+	<string name="vt_camera_zoom_title">"줌"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AUTH">"영상통화 미지원 지역. 음성통화 전환"</string>
+	<string name="vt_disconnect_cause_BEARER_NOT_AVAIL">"상대단말 영상통화 미지원. 음성통화 전환"</string>
+	<string name="vt_end">"종료"</string>
+	<string name="vt_fallback">"음성통화자동전환"</string>
+	<string name="vt_far_image_capture">"상대영상 캡쳐"</string>
+	<string name="vt_incoming_call">"영상통화가 왔습니다"</string>
+	<string name="vt_invalid_number">"잘못된 번호입니다"</string>
+	<string name="vt_mode_control">"모드제어"</string>
+	<string name="vt_near_image_capture">"내영상 캡쳐"</string>
+	<string name="vt_no_answer">"상대방의 응답이 없습니다"</string>
+	<string name="vt_option_bluetooth">"블루투스"</string>
+	<string name="vt_option_camera_setting">"카메라 설정"</string>
+	<string name="vt_option_capture">"캡쳐"</string>
+	<string name="vt_option_use_2nd_camera">"후면카메라"</string>
+	<string name="vt_option_use_main_camera">"전면카메라"</string>
+	<string name="vt_set_private_image">"대체영상설정"</string>
+	<string name="vt_set_speaker">"스피커폰"</string>
+	<string name="vt_settings">"영상통화 설정"</string>
+	<string name="vt_use_private_image">"대체영상"</string>
+	<string name="vt_capture_done">"확인"</string>
+	<string name="vt_capture_del">"삭제"</string>
+	<string name="vt_capture_cancel">"취소"</string>
+	<string name="vt_capturing">"캡쳐중입니다"</string>
+	<string name="vt_success">"캡쳐 성공"</string>
+	<string name="vt_fail">"캡쳐 실패"</string>
+	<string name="vt_memoryfull_full">"메모리가 꽉 찼습니다"</string>
+	<string name="vt_interSD_mount">"내장메모리를 마운트 하세요"</string>
+	<string name="vt_set_ce_none">"필터모드가 해제됩니다"</string>
+	<string name="vt_set_wb_auto">"화이트 밸런스가 자동으로 설정됩니다"</string>
+	<string name="vt_inFMC">"응답시 통화중인 모든인터넷전화는\n      		자동으로 종료됩니다"</string>
+	<string name="vt_unHold">"음성/영상\n차단 해제"</string>
+	<string name="vt_lowbattery">"배터리가 부족하여\n영상통화를 사용할 수 없습니다"</string>
+	<string name="vt_lowbattery_callend">"배터리가 부족하여\n영상통화를 종료 합니다"</string>
+	<string name="vt_not_connect_incall">"음성 통화중에는\n통화를 할 수 없습니다"</string>	
+	<string name="vt_not_connect_invideocall">"영상 통화중에는\n통화를 할 수 없습니다"</string>
+</resources>

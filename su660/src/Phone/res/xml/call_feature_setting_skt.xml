@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+        android:title="@string/call_settings">
+    <!-- LGE_CALL_DURATION START -->
+    <!-- 2010-03-15, Call Duration cutestar@lge.com -->
+    <PreferenceScreen
+        android:key="button_cd_expand_key"
+        android:title="@string/labelCD"
+        android:persistent="false"/>
+    <!-- 2010-03-15, Call Duration cutestar@lge.com -->
+    <!-- LGE_CALL_DURATION END -->
+
+        <PreferenceScreen
+    	android:title = "@string/reject_call_title"
+		android:summary="@string/rejectcall_summary">
+    	<intent android:action="com.lge.intent.action.REJECTCALL"
+            android:targetPackage="com.lge.settings"
+            android:targetClass="com.lge.settings.call.CallSettings" />
+	    </PreferenceScreen>
+	    <PreferenceScreen
+    		android:title="@string/lock_outgoingcall_title"
+    		android:summary="@string/lock_outgoingcall_summary">
+    		<intent    			
+                android:targetPackage="com.lge.settings"
+                android:targetClass="com.lge.settings.security.LockOutgoingCallSettings" />
+    	</PreferenceScreen>
+
+    <PreferenceScreen
+    	android:title = "@string/area_code_title"
+		android:key="menu_areacode_key">
+    	<intent android:action="com.lge.intent.action.AREACODE"
+            android:targetPackage="com.lge.settings"
+            android:targetClass="com.lge.settings.call.CallSettings" />
+    </PreferenceScreen>	
+    <PreferenceScreen
+        android:key="button_excuse_messages_key"
+        android:title="@string/excuse_messages"
+        android:summary="@string/excuse_messages_info"
+        android:persistent="false"/>
+
+    <CheckBoxPreference
+        android:key="answer_select_mode"
+        android:summary="@string/answer_select_mode_summary"
+        android:title="@string/answer_select_mode"
+	android:defaultValue="false" /> 
+
+    <PreferenceScreen
+        android:key="button_more_expand_key"
+        android:title="@string/labelCW"
+        android:persistent="false" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions"/>
+    </PreferenceScreen>
+
+    <com.android.phone.CLIRListPreference
+        android:key="button_clir_key"
+        android:title="@string/labelCallerId"
+        android:persistent="false"
+        android:defaultValue="DEFAULT"
+        android:entries="@array/clir_display_values"
+        android:entryValues="@array/clir_values"
+        android:dialogTitle="@string/labelCallerId"/>
+    
+	<!-- LGE_VT START -->
+      <PreferenceScreen
+		android:key="button_video_call_settings_key"
+		android:title="@string/vt_settings"
+		android:persistent="false"/>
+	<!-- LGE_VT END -->		
+
+</PreferenceScreen>

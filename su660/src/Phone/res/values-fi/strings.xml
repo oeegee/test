@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Yhteystiedot"</string>
+	<string name="contactsFavoritesLabel">"Suosikit"</string>
+	<string name="dialerIconLabel">"Valintaohjelma"</string>
+	<string name="emergencyDialerIconLabel">"Hätäpuhelun valinta"</string>
+	<string name="phoneIconLabel">"Puhelin"</string>
+	<string name="recentCallsIconLabel">"Puheluloki"</string>
+	<string name="fdnListLabel">"FDN-luettelo"</string>
+	<string name="transfer">"Siirrä"</string>
+	<string name="incall_error_supp_service_transfer">"Puhelua ei voi siirtää."</string>
+	<string name="menu_transfer">"Siirrä"</string>
+	<string name="unknown">"Tuntematon|"</string>
+	<string name="private_num">"Yksityinen numero"</string>
+	<string name="payphone">"Puhelinautomaatti"</string>
+	<string name="onHold">"Pidossa"</string>
+	<string name="ongoing">"Nykyinen puhelu"</string>
+	<string name="callFailed_userBusy">"Linja varattu"</string>
+	<string name="callFailed_congestion">"Verkko varattu"</string>
+	<string name="callFailed_noSignal">"Ei signaalia"</string>
+	<string name="callFailed_limitExceeded">"ACM-raja saavutettu"</string>
+	<string name="callFailed_powerOff">"Radio pois"</string>
+	<string name="callFailed_simError">"Ei SIM-korttia tai SIM-korttivirhe"</string>
+	<string name="callFailed_outOfService">"Ei verkkoa"</string>
+	<string name="callFailed_fdn_only">"FDN rajoittaa lähteviä puheluita."</string>
+	<string name="callFailed_cb_enabled">"Puhelua ei voi soittaa, jos esto on käytössä."</string>
+	<string name="callFailed_dsac_restricted">"Kaikkia puheluita on rajoitettu."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Hätäpuheluita on rajoitettu."</string>
+	<string name="callFailed_dsac_restricted_normal">"Tavallisia puheluita on rajoitettu."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Phone locked until power cycle."</string>
+	<string name="callFailed_cdma_drop">"CDMA: Call dropped."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: Call intercepted."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: reorder."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: Service Option Reject."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: retry order."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: Access failure."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: Preempted."</string>
+	<string name="callFailed_cdma_notEmergency">"Vain hätäpuheluita voi soittaa."</string>
+	<string name="confCall">"Neuvottelupuhelu"</string>
+	<string name="call_lost">"Puhelu on katkennut."</string>
+	<string name="retry">"Yritä uudelleen"</string>
+	<string name="call_lost_title">"Puhelu katkesi"</string>
+	<string name="mmiStarted">"MMI-koodi aloitettu"</string>
+	<string name="ussdRunning">"USSD-koodi käytössä\u2026"</string>
+	<string name="mmiCancelled">"MMI-koodi peruutettu"</string>
+	<string name="cancel">"Peruuta"</string>
+	<string name="menu_speaker">"Kaiutin"</string>
+	<string name="menu_bluetooth">"Bluetooth"</string>
+	<string name="menu_mute">"Mykistä"</string>
+	<string name="menu_hold">"Pito"</string>
+	<string name="menu_unhold">"Ei pidossa"</string>
+	<string name="menu_endCall">"Lopeta puhelu"</string>
+	<string name="menu_swapCalls">"Vaihda puhelut"</string>
+	<string name="menu_mergeCalls">"Yhdistä puhelut"</string>
+	<string name="menu_addCall">"Lisää puhelu "</string>
+	<string name="menu_manageConference">"Neuvottelupuhelun hallinta"</string>
+	<string name="menu_showDialpad">"Näytä valintalevy"</string>
+	<string name="menu_hideDialpad">"Piilota valintalevy"</string>
+	<string name="menu_addAccount">"Lisää profiili"</string>
+	<string name="menu_vocieCall">"Äänipuhelut"</string>
+	<string name="menu_videoCall">"VIDEOPUHELU"</string>
+	<string name="menu_message">"Viesti"</string>
+	<string name="menu_answerAndHold">"Nykyinen puhelu pitoon\nja vastaa"</string>
+	<string name="menu_answerAndEnd">"Katkaise nykyinen puhelu\nja vastaa"</string>
+	<string name="ok">"OK"</string>
+	<string name="menuButtonHint">"Näet puheluvaihtoehdot painamalla Menu-näppäintä."</string>
+	<string name="menuButtonKeyboardDialHint">"Näet puheluvaihtoehdot painamalla Menu-näppäintä.  \u2022  Valitse näppäimistön avulla."</string>
+	<string name="menu_answer">"Vastaus"</string>
+	<string name="menu_ignore">"Ohita"</string>
+	<string name="wait_prompt_str">"Lähetetäänkö seuraavat äänet?\n"</string>
+	<string name="pause_prompt_str">"Lähetetään ääniä\n"</string>
+	<string name="send_button">"Lähetä"</string>
+	<string name="pause_prompt_yes">"Kyllä"</string>
+	<string name="pause_prompt_no">"Ei"</string>
+	<string name="wild_prompt_str">"Korvaa yleismerkki merkillä"</string>
+	<string name="no_vm_number">"Vastaajan numero puuttuu."</string>
+	<string name="no_vm_number_msg">"SIM-korttiin ei ole tallennettu vastaajan numeroa."</string>
+	<string name="add_vm_number_str">"Lisää numero"</string>
+	<string name="dialer_emptyListWorking">"Ladataan\u2026"</string>
+	<string name="enterPin">"Poista SIM-kortin lukitus syöttämällä PIN-koodi."</string>
+	<string name="pinUnlocked">"SIM-lukitus poistettu"</string>
+	<string name="enterNewPin">"Uusi SIM-kortin PIN-koodi"</string>
+	<string name="verifyNewPin">"Vahvista SIM-kortin uusi PIN-koodi syöttämällä se uudelleen."</string>
+	<string name="verifyFailed">"Syöttämäsi SIM-kortin PIN-koodit eivät vastaa toisiaan. Yritä uudestaan."</string>
+	<string name="enterPuk">"Poista SIM-kortin lukitus syöttämällä PUK-koodi."</string>
+	<string name="badPuk">"Virheellinen PUK-koodi."</string>
+	<string name="buttonTxtContinue">"Jatka"</string>
+	<string name="puk_unlocked">"SIM-kortin lukitus on poistettu. Puhelimen lukitus on poistettu\u2026"</string>
+	<string name="label_ndp">"SIM-kortin PIN-lukituksen poisto"</string>
+	<string name="sim_ndp_unlock_text">"Poista lukitus"</string>
+	<string name="sim_ndp_dismiss_text">"Hylkää"</string>
+	<string name="requesting_unlock">"Pyydetään verkon avausta\u2026"</string>
+	<string name="unlock_failed">"Verkon avauspyyntö epäonnistui"</string>
+	<string name="unlock_success">"Verkon avauspyyntö onnistui"</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"GSM-puheluasetukset"</string>
+	<string name="labelCDMAMore">"CDMA Puheluasetukset"</string>
+	<string name="apn_settings">"Yhteyspisteiden nimet"</string>
+	<string name="settings_label">"Verkon asetukset "</string>
+	<string name="voicemail">"vastaaja"</string>
+	<string name="voicemail_abbreviated">"VM:"</string>
+	<string name="networks">"Suosikkeja ei ole.\n\nLisää yhteystieto suosikkiluetteloon:\n<li>Kosketa<b>Yhteystiedot</b>-välilehteä\n</li>\n<li>Kosketa yhteystietoa, jonka haluat lisätä suosikkeihin\n</li>\n<li>Kosketa yhteystiedon nimen vieressä olevaa tähteä\n</li>"</string>
+	<string name="call_settings">"Puheluasetukset"</string>
+	<string name="additional_gsm_call_settings">"Puheluiden lisäasetukset"</string>
+	<string name="sum_gsm_call_settings">"Vain GSM-puheluasetukset"</string>
+	<string name="additional_cdma_call_settings">"CDMA-lisäasetukset"</string>
+	<string name="sum_cdma_call_settings">"Vain CDMA-puheluasetukset"</string>
+	<string name="labelNwService">"Verkkopalveluasetukset"</string>
+	<string name="labelCallerId">"Soittajan numero"</string>
+	<string name="sum_hide_caller_id">"Numero piilotetaan puhelua soitettaessa"</string>
+	<string name="sum_show_caller_id">"Numero näytetään puhelua soitettaessa"</string>
+	<string name="sum_default_caller_id">"Näytä numeroni soitettaessa käyttämällä operaattorin oletusasetuksia"</string>
+	<string name="labelCW">"Koputus"</string>
+	<string name="sum_cw_enabled">"Ilmoita saapuvista puheluista puhelun ollessa meneillään"</string>
+	<string name="sum_cw_disabled">"Ilmoita saapuvista puheluista puhelun ollessa meneillään"</string>
+	<string name="call_forwarding_settings">"Puheluiden siirtoasetukset"</string>
+	<string name="labelCF">"Puhelunsiirto"</string>
+	<string name="labelCFU">"Siirrä kaikki puhelut"</string>
+	<string name="messageCFU">"Siirrä aina tähän numeroon"</string>
+	<string name="sum_cfu_enabled_indicator">"Siirretään kaikki puhelut"</string>
+	<string name="sum_cfu_enabled">"Siirretään kaikki puhelut numeroon {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Numero ei ole käytettävissä"</string>
+	<string name="sum_cfu_disabled">"Ei käytössä"</string>
+	<string name="labelCFB">"Siirrä puhelut, kun varattu"</string>
+	<string name="messageCFB">"Numero, johon puhelu siirretään puhelimen ollessa varattu"</string>
+	<string name="sum_cfb_enabled">"Siirretään numeroon {0}"</string>
+	<string name="sum_cfb_disabled">"Ei käytössä"</string>
+	<string name="disable_cfb_forbidden">"Operaattori ei tue puhelun välityksen käytöstäpoistoa, kun puhelin on varattu."</string>
+	<string name="labelCFNRy">"Siirrä vastaamattomat puhelut"</string>
+	<string name="messageCFNRy">"Numero, johon puhelu siirretään, kun puheluun ei vastata"</string>
+	<string name="sum_cfnry_enabled">"Siirretään numeroon {0}"</string>
+	<string name="sum_cfnry_disabled">"Ei käytössä"</string>
+	<string name="disable_cfnry_forbidden">"Operaattori ei tue puhelun välityksen käytöstäpoistoa, kun puhelin ei vastaa."</string>
+	<string name="labelCFNRc">"Siirrä puhelut, kun ei verkossa"</string>
+	<string name="messageCFNRc">"Numero, johon puhelu siirretään, kun puhelin ei ole verkossa"</string>
+	<string name="sum_cfnrc_enabled">"Siirretään numeroon {0}"</string>
+	<string name="sum_cfnrc_disabled">"Ei käytössä"</string>
+	<string name="labelCB">"Puheluesto"</string>
+	<string name="labelCBPWD">"Vaihda salasana"</string>
+	<string name="sum_cb_enabled">"Käytössä"</string>
+	<string name="sum_cb_disabled">"Ei käytössä"</string>
+	<string name="messageCallBarring">"Salasana"</string>
+	<string name="newCBPwdLabel">"Uusi salasana"</string>
+	<string name="disable_cfnrc_forbidden">"Operaattori ei tue puhelun välityksen käytöstäpoistoa, kun puhelimeen ei saada yhteyttä."</string>
+	<string name="updating_title">"Puheluasetukset"</string>
+	<string name="error_updating_title">"Puheluasetusvirhe"</string>
+	<string name="reading_settings">"Luetaan asetuksia\u2026"</string>
+	<string name="updating_settings">"Päivitetään asetuksia\u2026"</string>
+	<string name="reverting_settings">"Palautetaan asetukset\u2026"</string>
+	<string name="response_error">"Odottamaton vastaus verkosta."</string>
+	<string name="exception_error">"Verkon tai SIM-kortin virhe."</string>
+	<string name="radio_off_error">"Käynnistää radion ennen näiden asetusten tarkastelemista."</string>
+	<string name="close_dialog">"OK"</string>
+	<string name="enable">"Ota käyttöön"</string>
+	<string name="disable">"Poista käytöstä"</string>
+	<string name="change_num">"Päivitä"</string>
+	<string-array name="clir_display_values">
+		<item>"Verkkovirhe"</item>
+		<item>"Piilota numero"</item>
+		<item>"Näytä numero"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>默认</xliff:g>"</item>
+		<item>"<xliff:g>PIILOTA</xliff:g>"</item>
+		<item>"<xliff:g>Näytä</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Etsi kaikkia käytettävissä olevia verkkoja"</string>
+	<string name="vm_changed">"Vastaajan numero on vaihdettu."</string>
+	<string name="vm_change_failed">"Vastaajan numeron muutos epäonnistui.\nJos ongelma toistuu, ota yhteys operaattoriin."</string>
+	<string name="fw_change_failed">"Soitonsiirron vaihto epäonnistui.\nJos ongelma ei poistu, ota yhteys operaattoriin."</string>
+	<string name="fw_get_in_vm_failed">"Nykyisten soitonsiirtoasetusten haku ja tallennus epäonnistui.\nHaluatko silti vaihtaa uuteen palveluntarjoajaan?"</string>
+	<string name="no_change">"Muutoksia ei tehty."</string>
+	<string name="sum_voicemail_choose_provider">"Valitse vastaajapalvelu"</string>
+	<string name="voicemail_default">"Operaattorini"</string>
+	<string name="mobile_networks">"Matkapuhelinverkon asetukset"</string>
+	<string name="label_available">"Käytettävissä olevat verkot"</string>
+	<string name="load_networks_progress">"Etsii\u2026"</string>
+	<string name="empty_networks_list">"Ei verkkoa."</string>
+	<string name="search_networks">"Etsi verkkoja"</string>
+	<string name="network_query_error">"Virhe etsittäessä verkkoja."</string>
+	<string name="register_on_network">"Rekisteröidään kohteeseen <xliff:g id="network">%s</xliff:g>\u2026"</string>
+	<string name="not_allowed">"SIM-kortti ei salli yhteyttä tähän verkkoon."</string>
+	<string name="connect_later">"Tähän verkkoon ei voi muodostaa yhteyttä tällä hetkellä. Yritä myöhemmin uudelleen."</string>
+	<string name="registration_done">"Rekisteröity verkkoon."</string>
+	<string name="sum_carrier_select">"Valitse verkko-operaattori"</string>
+	<string name="sum_search_networks">"Etsi kaikkia käytettävissä olevia verkkoja"</string>
+	<string name="select_automatically">"Valitse automaattisesti"</string>
+	<string name="sum_select_automatically">"Valitse haluttu verkko automaattisesti"</string>
+	<string name="register_automatically">"Automaattinen rekisteröinti..."</string>
+	<string name="preferred_network_mode_title">"Verkon tila"</string>
+	<string name="preferred_network_mode_summary">"Vaihda verkon käyttötila"</string>
+	<string name="preferred_network_mode_dialogtitle">"Ensisijainen verkon tila"</string>
+	<string name="menu_search_networks">"Etsi verkkoja"</string>
+	<string name="menu_select_automatically">"Valitse automaattisesti"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Kansainvälinen"</item>
+		<item>"Vain EvDo"</item>
+		<item>"Automaattinen CDMA / EvDo"</item>
+		<item>"CDMA/EvDo auto"</item>
+		<item>"automaattinen GSM/WCDMA"</item>
+		<item>"Vain WCDMA"</item>
+		<item>"Vain GSM"</item>
+		<item>"ensisijainen GSM/WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Tietoyhteys sallittu"</string>
+	<string name="data_enable_summary">"Salli tietoyhteys matkapuhelinverkkoon"</string>
+	<string name="roaming">"Tiedonsiirto verkkovierailussa"</string>
+	<string name="roaming_enable">"Yhteys tietopalveluihin verkkovierailussa"</string>
+	<string name="roaming_disable">"Yhteys tietopalveluihin verkkovierailussa"</string>
+	<string name="roaming_reenable_message">"Tietoliikenneyhteys on katkennut, sillä poistut oman operaattorin verkosta ottamatta verkkovierailumahdollisuutta käyttöön."</string>
+	<string name="roaming_warning">"Sallitaanko verkkovierailut? Muissa verkoissa soitetut puhelut voivat olla kalliita!"</string>
+	<string name="data_mode_ok">"Kyllä"</string>
+	<string name="data_mode_cancel">"Ei"</string>
+	<string name="gsm_umts_options">"GSM/UMTS-valinnat"</string>
+	<string name="cdma_options">"CDMA Options"</string>
+	<string name="throttle_data_usage">"Tiedonsiirto"</string>
+	<string name="throttle_settings_title">"Operaattorin tiedonsiirtokäytännöt"</string>
+	<string name="throttle_current_usage">"Tiedonsiirto tällä hetkellä"</string>
+	<string name="throttle_time_frame">"Tiedonsiirtojakso"</string>
+	<string name="throttle_rate">"Tiedonsiirtonopeuden käytännöt"</string>
+	<string name="throttle_help">"Lisätietoja"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) / <xliff:g id="used">%3$s</xliff:g> kauden maksimi\nSeuraava kausi alkaa <xliff:g id="used">%4$d</xliff:g> päivän kuluttua (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) / <xliff:g id="used">%3$s</xliff:g> kauden maksimi\nSeuraava kausi alkaa <xliff:g id="used">%4$d</xliff:g> päivän kuluttua (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_rate_reduced_subtext">"<xliff:g id="used">%1$s</xliff:g> enimmäismäärä ylitetty\nTiedonsiirtonopeus laskettu tasolle <xliff:g id="used">%2$d</xliff:g> kt/s"</string>
+	<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>% jaksosta kulunut\nSeuraava kausi alkaa <xliff:g id="used">%2$d</xliff:g> päivän kuluttua (<xliff:g id="used">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Tiedonsiirtonopeus lasketaan tasolle <xliff:g id="used">%1$d</xliff:g> kt/s, jos tiedonsiirron enimmäisraja ylitetään"</string>
+	<string name="throttle_help_subtext">"Lisätietoja operaattorin matkapuhelinverkon tiedonsiirtokäytännöistä"</string>
+	<string name="cdma_cell_broadcast_sms">"Tekstiviestin solulähetys"</string>
+	<string name="cell_broadcast_sms">"Tekstiviestin solulähetys"</string>
+	<string name="enable_disable_cell_bc_sms">"Tekstiviestin solulähetys"</string>
+	<string name="cell_bc_sms_enable">"Tekstiviestin solulähetys käytössä"</string>
+	<string name="cell_bc_sms_disable">"Tekstiviestin solulähetys pois käytöstä"</string>
+	<string name="cb_sms_settings">"Tekstiviestin solulähetyksen asetukset"</string>
+	<string name="enable_disable_emergency_broadcast">"Hätäviesti"</string>
+	<string name="emergency_broadcast_enable">"Hätäviesti käytössä"</string>
+	<string name="emergency_broadcast_disable">"Hätäviesti pois käytöstä"</string>
+	<string name="enable_disable_administrative">"Järjestelmänvalvonta"</string>
+	<string name="administrative_enable">"Järjestelmänvalvonta käytössä"</string>
+	<string name="administrative_disable">"Järjestelmänvalvonta pois käytöstä"</string>
+	<string name="enable_disable_maintenance">"Ylläpito"</string>
+	<string name="maintenance_enable">"Ylläpito käytössä"</string>
+	<string name="maintenance_disable">"Ylläpito ei käytössä"</string>
+	<string name="general_news_settings">"Uutiset"</string>
+	<string name="bf_news_settings">"Talousuutiset"</string>
+	<string name="sports_news_settings">"Urheilu-uutiset"</string>
+	<string name="entertainment_news_settings">"Viihdeuutiset"</string>
+	<string name="enable_disable_local">"Paikallinen "</string>
+	<string name="local_enable">"Paikallisuutiset käytössä"</string>
+	<string name="local_disable">"Paikallisuutiset pois käytöstä"</string>
+	<string name="enable_disable_regional">"Alueelliset"</string>
+	<string name="regional_enable">"Alueelliset uutiset käytössä"</string>
+	<string name="regional_disable">"Alueelliset uutiset pois käytöstä"</string>
+	<string name="enable_disable_national">"Kotimaa"</string>
+	<string name="national_enable">"Ei yhteystietoja."</string>
+	<string name="national_disable">"Lempinimi"</string>
+	<string name="enable_disable_international">"Ulkomaat"</string>
+	<string name="international_enable">"Ulkomaanuutiset käytössä"</string>
+	<string name="international_disable">"Ulkomaanuutiset pois käytöstä"</string>
+	<string name="list_language_title">"Kieli"</string>
+	<string name="list_language_summary">"Valitse uutisten kieli"</string>
+	<string-array name="list_language_entries">
+		<item>"englanti"</item>
+		<item>"ranska"</item>
+		<item>"espanja"</item>
+		<item>"japani"</item>
+		<item>"korea"</item>
+		<item>"kiina"</item>
+		<item>"heprea"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Kielet"</string>
+	<string name="enable_disable_local_weather">"Paikallissää"</string>
+	<string name="local_weather_enable">"Paikallissää käytössä"</string>
+	<string name="local_weather_disable">"Paikallissää ei käytössä"</string>
+	<string name="enable_disable_atr">"Alueelliset liikennetiedot"</string>
+	<string name="atr_enable">"Alueelliset liikennetiedot käytössä"</string>
+	<string name="atr_disable">"Alueelliset liikennetiedot pois käytöstä"</string>
+	<string name="enable_disable_lafs">"Paikallisen lentoaseman aikataulut"</string>
+	<string name="lafs_enable">"Paikallisen lentoaseman aikataulut käytössä"</string>
+	<string name="lafs_disable">"Paikallisen lentoaseman aikataulut pois käytöstä"</string>
+	<string name="enable_disable_restaurants">"Ravintolat"</string>
+	<string name="restaurants_enable">"Ravintolat käytössä"</string>
+	<string name="restaurants_disable">"Ravintolat pois käytöstä"</string>
+	<string name="enable_disable_lodgings">"Majoitus"</string>
+	<string name="lodgings_enable">"Majoitus käytössä"</string>
+	<string name="lodgings_disable">"Majoitus ei käytössä"</string>
+	<string name="enable_disable_retail_directory">"Liikehakemisto"</string>
+	<string name="retail_directory_enable">"Liikehakemisto käytössä"</string>
+	<string name="retail_directory_disable">"Liikehakemisto ei käytössä"</string>
+	<string name="enable_disable_advertisements">"Mainokset"</string>
+	<string name="advertisements_enable">"Mainokset käytössä"</string>
+	<string name="advertisements_disable">"Mainokset pois käytöstä"</string>
+	<string name="enable_disable_stock_quotes">"Pörssikurssit"</string>
+	<string name="stock_quotes_enable">"Pörssikurssit käytössä"</string>
+	<string name="stock_quotes_disable">"Pörssikurssit pois käytöstä"</string>
+	<string name="enable_disable_eo">"Työpaikat"</string>
+	<string name="eo_enable">"Työpaikat käytössä"</string>
+	<string name="eo_disable">"Työpaikat pois käytöstä"</string>
+	<string name="enable_disable_mhh">"Terveys"</string>
+	<string name="mhh_enable">"Terveys käytössä"</string>
+	<string name="mhh_disable">"Terveys ei käytössä"</string>
+	<string name="enable_disable_technology_news">"Teknologiauutiset"</string>
+	<string name="technology_news_enable">"Teknologiauutiset käytössä"</string>
+	<string name="technology_news_disable">"Teknologiauutiset pois käytöstä"</string>
+	<string name="enable_disable_multi_category">"Useat luokat"</string>
+	<string name="multi_category_enable">"Useat luokat käytössä"</string>
+	<string name="multi_category_disable">"Useat luokat pois käytöstä"</string>
+	<string name="gsm_umts_network_preferences_title">"GSM/UMTS-verkkoasetukset"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Ei vielä käytössä."</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"GSM/UMTS-verkkoasetukset"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"GSM/WCDMA (autom. tila)"</item>
+		<item>"Vain WCDMA"</item>
+		<item>"Vain GSM"</item>
+		<item>"GSM/WCDA (WCDMA ensisijainen)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Käytä vain 2G-verkkoja"</string>
+	<string name="prefer_2g_summary">"Säästää virtaa"</string>
+	<string name="cdma_system_select_title">"Järjestelmän valinta"</string>
+	<string name="cdma_system_select_summary">"Vaihda CDMA-verkkovierailutila"</string>
+	<string name="cdma_system_select_dialogtitle">"Järjestelmän valinta"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Vain kotiverkko"</item>
+		<item>"Automaattinen"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA Roaming Mode"</string>
+	<string name="cdma_roaming_mode_summary">"Vaihda CDMA-verkkovierailutila"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA roaming mode"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Vain kotiverkot"</item>
+		<item>"Kumppaniverkot"</item>
+		<item>"Mikä tahansa verkko"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"CDMA Network Preferences"</string>
+	<string name="cdma_network_preferneces_summary">"Ei vielä käytössä."</string>
+	<string name="cdma_network_preferences_dialogtitle">"CDMA network preferences"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Vain CDMA"</item>
+		<item>"Vain EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"CDMA-tilauksen TESTI"</string>
+	<string name="subscription_summary">"Vaihda RUIM tai NV"</string>
+	<string name="subscription_dialogtitle">"tilaus"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Kiinteän valinnan numerot"</string>
+	<string name="manage_fdn_list">"FDN-luettelo"</string>
+	<string name="fdn_activation">"FDN-aktivointi"</string>
+	<string name="fdn_enabled">"Kiinteän valinnan numerot on otettu käyttöön"</string>
+	<string name="fdn_disabled">"Kiinteän valinnan numerot on poistettu käytöstä"</string>
+	<string name="enable_fdn">"Ota FDN käyttöön"</string>
+	<string name="disable_fdn">"Poista FDN käytöstä"</string>
+	<string name="change_pin2">"Vaihda PIN2"</string>
+	<string name="enable_fdn_ok">"Poista FDN käytöstä"</string>
+	<string name="disable_fdn_ok">"Ota FDN käyttöön"</string>
+	<string name="sum_fdn">"Kiinteän valinnan numeroiden hallinta"</string>
+	<string name="sum_fdn_change_pin">"Vaihda PIN-koodi FDN-käyttöä varten"</string>
+	<string name="sum_fdn_manage_list">"Puhelinnumeroluettelon hallinta"</string>
+	<string name="voice_privacy">"Äänipuheluiden yksityisyyden suoja"</string>
+	<string name="voice_privacy_summary">"Ota parannettu yksityisyyden suojaustila käyttöön"</string>
+	<string name="tty_mode_title">"TTY-tila"</string>
+	<string name="tty_mode_summary">"Ota TTY-tila käyttöön"</string>
+	<string name="tty_mode_option_title">"TTY-tila"</string>
+	<string name="tty_mode_option_summary">"Aseta TTY-tila"</string>
+	<string name="auto_retry_mode_title">"Automaattinen uudelleensoitto"</string>
+	<string name="auto_retry_mode_summary">"Ota käyttöön automaattinen uudelleensoittotila"</string>
+	<string name="menu_add">"Lisää yhteystieto"</string>
+	<string name="menu_edit">"Muokkaa yhteyshenkilöä"</string>
+	<string name="menu_delete">"Poista yhteystieto"</string>
+	<string name="get_pin2">"Syötä PIN2"</string>
+	<string name="name">"Nimi"</string>
+	<string name="number">"Numero"</string>
+	<string name="save">"Tallenna"</string>
+	<string name="add_fdn_contact">"Lisää kiinteän valinnan yhteystieto"</string>
+	<string name="adding_fdn_contact">"Lisätään kiinteä numero…"</string>
+	<string name="fdn_contact_added">"Kiinteä numero lisättiin."</string>
+	<string name="edit_fdn_contact">"Muokkaa kiinteää numeroa"</string>
+	<string name="updating_fdn_contact">"Päivitetään kiinteää numeroa…"</string>
+	<string name="fdn_contact_updated">"Kiinteä numero päivitettiin."</string>
+	<string name="delete_fdn_contact">"Poista kiinteä numero"</string>
+	<string name="deleting_fdn_contact">"Poistetaan kiinteä numero…"</string>
+	<string name="fdn_contact_deleted">"Kiinteä numero poistettiin."</string>
+	<string name="pin2_invalid">"FDN ei päivitetty: annettu PIN-koodi on virheellinen."</string>
+	<string name="fdn_invalid_number">"FDN ei päivitetty: numero ei voi olla yli 20 merkkiä pitkä."</string>
+	<string name="simContacts_emptyLoading">"Luetaan SIM-kortista\u2026"</string>
+	<string name="simContacts_empty">"SIM-kortissa ei ole yhteystietoja."</string>
+	<string name="simContacts_title">"Valitse tuotavat yhteystiedot"</string>
+	<string name="enable_pin">"Poista SIM-kortin PIN käytöstä tai ota se käyttöön"</string>
+	<string name="change_pin">"Vaihda SIM-kortin PIN-koodi"</string>
+	<string name="enter_pin_text">"SIM-kortin PIN:"</string>
+	<string name="oldPinLabel">"Vanha PIN"</string>
+	<string name="newPinLabel">"Uusi PIN-koodi"</string>
+	<string name="confirmPinLabel">"Vahvista uusi PIN"</string>
+	<string name="badPin">"Syöttämäsi vanha PIN on virheellinen. Yritä uudestaan."</string>
+	<string name="mismatchPin">"Antamasi PIN-koodit eivät vastaa toisiaan. Yritä uudestaan."</string>
+	<string name="invalidPin">"Syötä PIN-koodi, jossa on 4–8 numeroa."</string>
+	<string name="disable_sim_pin">"Poista SIM-kortin PIN käytöstä"</string>
+	<string name="enable_sim_pin">"Ota SIM-kortin PIN käyttöön"</string>
+	<string name="enable_in_progress">"Odota hetki\u2026"</string>
+	<string name="enable_pin_ok">"SIM-kortin PIN käytössä"</string>
+	<string name="disable_pin_ok">"SIM-kortin PIN pois käytöstä"</string>
+	<string name="pin_failed">"Syöttämäsi PIN-koodi on virheellinen."</string>
+	<string name="pin_changed">"SIM-kortin PIN-koodin vaihtaminen onnistui."</string>
+	<string name="puk_requested">"Virheellinen salasana. SIM on lukittu. PUK2-koodia on pyydetty."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Vanha PIN2"</string>
+	<string name="newPin2Label">"Uusi PIN2"</string>
+	<string name="confirmPin2Label">"Vahvista uusi PIN2"</string>
+	<string name="badPuk2">"Syöttämäsi vanha PUK2 on virheellinen. Yritä uudestaan."</string>
+	<string name="badPin2">"Antamasi vanha PIN2-koodi on virheellinen. Yritä uudelleen."</string>
+	<string name="mismatchPin2">"Antamasi PIN2-koodit eivät vastaa toisiaan. Yritä uudestaan."</string>
+	<string name="invalidPin2">"Syötä PIN2-koodi, jossa on 4–8 numeroa."</string>
+	<string name="invalidPuk2">"Syötä PUK2-koodi, jossa on 8 numeroa."</string>
+	<string name="pin2_changed">"PIN2-koodin vaihtaminen onnistui."</string>
+	<string name="label_puk2_code">"Syötä PUK2-koodi"</string>
+	<string name="fdn_enable_puk2_requested">"Virheellinen salasana. Vaihda PIN2 ja yritä uudelleen."</string>
+	<string name="puk2_requested">"Virheellinen salasana. SIM on lukittu. PUK2-koodia on pyydetty."</string>
+	<string name="doneButton">"Valmis"</string>
+	<string name="caller_manage_header">"Puhelinneuvottelu <xliff:g id="conf_call_time">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Paluu puheluun"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Saapuvan puhelun numero"</string>
+	<string name="fake_phone_activity_placeCall_text">"Saapuva valepuhelu"</string>
+	<string name="sim_missing_continueView_text">"Jatka ilman SIM-korttia"</string>
+	<string name="sim_missing_msg_text">"Ei SIM-korttia tai SIM-korttivirhe"</string>
+	<string name="sim_unlock_dismiss_text">"Hylkää"</string>
+	<string name="sim_unlock_unlock_text">"Poista lukitus"</string>
+	<string name="sim_unlock_status_text">"Todennetaan PIN\u2026"</string>
+	<string name="voicemail_settings_number_label">"Vastaajan numero"</string>
+	<string name="card_title_dialing">"Valitaan"</string>
+	<string name="card_title_redialing">"Yritetään uudelleen"</string>
+	<string name="card_title_in_progress">"Nykyinen puhelu"</string>
+	<string name="card_title_conf_call">"Neuvottelupuhelu"</string>
+	<string name="card_title_incoming_call">"Saapuva puhelu"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA Koputus"</string>
+	<string name="card_title_call_ended">"Puhelu katkaistiin"</string>
+	<string name="card_title_on_hold">"Pidossa"</string>
+	<string name="card_title_hanging_up">"Katkaistaan"</string>
+	<string name="card_title_in_call">"Puhelun aikana"</string>
+	<string name="card_title_mo_3">"Koputus"</string>
+	<string name="card_title_mo_5">"Puhelu estetty"</string>
+	<string name="card_title_mo_6">"Puhelu estetty"</string>
+	<string name="redial_radio_dialog_wait">"Odota"</string>
+	<string name="notification_missedCallTitle">"Vastaamaton puhelu"</string>
+	<string name="notification_missedCallsTitle">"Vastaamattomat puhelut "</string>
+	<string name="notification_missedCallsMsg">"<xliff:g id="num_missed_calls">%s</xliff:g> vastaamatonta puhelua"</string>
+	<string name="notification_missedCallTicker">"Vastaamaton puhelu kohteesta <xliff:g id="missed_call_from">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Nykyinen puhelu (<xliff:g id="duration">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"Pidossa"</string>
+	<string name="notification_voicemail_title">"Uusi ääniviesti"</string>
+	<string name="notification_voicemail_title_count">"Uusi vastaajaviesti (<xliff:g id="count">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"Valitse <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+	<string name="notification_voicemail_no_vm_number">"Tuntematon vastaajan numero"</string>
+	<string name="notification_network_selection_title">"Ei palvelua"</string>
+	<string name="notification_network_selection_text">"Valittu verkko (<xliff:g id="operator_name">%s</xliff:g>) ei ole käytettävissä"</string>
+	<string name="incall_error_power_off">"Voit soittaa puhelun poistamalla ensin lentokonetilan käytöstä."</string>
+	<string name="incall_error_emergency_only">"Ei rekisteröity verkkoon."</string>
+	<string name="incall_error_out_of_service">"Matkapuhelinverkko ei ole käytettävissä."</string>
+	<string name="incall_error_no_phone_number_supplied">"Puhelua ei lähetetty. Kelvollista numeroa ei syötetty."</string>
+	<string name="incall_error_call_failed">"Puhelua ei lähetetty."</string>
+	<string name="incall_status_dialed_mmi">"Aloitetaan MMI-vaihe\u2026"</string>
+	<string name="incall_status_dialed_fc">"Käynnistää toiminnon koodijakson\u2026"</string>
+	<string name="incall_error_supp_service_unknown">"Palvelua ei tueta."</string>
+	<string name="incall_error_supp_service_switch">"Puhelua ei voi vaihtaa."</string>
+	<string name="incall_error_supp_service_separate">"Puhelua ei voi erottaa."</string>
+	<string name="incall_error_supp_service_conference">"Neuvottelupuheluja ei voi muodostaa."</string>
+	<string name="incall_error_supp_service_reject">"Puhelua ei voi hylätä."</string>
+	<string name="incall_error_supp_service_hangup">"Puheluja ei voi vapauttaa."</string>
+	<string name="emergency_enable_radio_dialog_title">"Hätäpuhelu"</string>
+	<string name="emergency_enable_radio_dialog_message">"Käynnistä radio\u2026"</string>
+	<string name="emergency_enable_radio_dialog_retry">"Ei verkkoa, yritetään uudelleen\u2026"</string>
+	<string name="dial_emergency_error">"Puhelu ei muodostunut. <xliff:g id="non_emergency_number">%s</xliff:g> ei ole hätänumero."</string>
+	<string name="dial_emergency_empty_error">"Puhelu ei muodostunut. Soita hätänumeroon."</string>
+	<string name="dialerKeyboardHintText">"Valitse näppäimistön avulla"</string>
+	<string name="dtmfDialpadHintText">"Näppäimistön kosketusääni"</string>
+	<string name="dtmfDialpadHandleLabel">"Valintalevy"</string>
+	<string name="touchLockText">"Poista lukitus napauttamalla\nkaksi kertaa"</string>
+	<string name="onscreenAnswerText">"Kaksi napautusta\nvastaa"</string>
+	<string name="onscreenRejectText">"Hylkää\nnapauttamalla kahdesti"</string>
+	<string name="onscreenHoldText">"Pidossa"</string>
+	<string name="onscreenUnholdText">"Ei pidossa"</string>
+	<string name="onscreenSendCallText">"Lähetä"</string>
+	<string name="onscreenEndCallText">"Loppu"</string>
+	<string name="onscreenShowDialpadText">"Valintalevy"</string>
+	<string name="onscreenHideDialpadText">"Piilota"</string>
+	<string name="onscreenSpeakerText">"Kaiutin"</string>
+	<string name="onscreenMuteText">"Mykistä"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Lisää puhelu "</string>
+	<string name="onscreenMergeCallsText">"Yhdistä puhelut"</string>
+	<string name="onscreenSwapCallsText">"Vaihda"</string>
+	<string name="onscreenManageCallsText">"Puhelunhallinta"</string>
+	<string name="onscreenManageConferenceText">"Hallitse"</string>
+	<string name="importSimEntry">"Tuo"</string>
+	<string name="importAllSimEntries">"Tuo kaikki"</string>
+	<string name="default_group">"Oletus"</string>
+	<string name="selectAllSimEntries">"Valitse kaikki"</string>
+	<string name="attention">"Huomio"</string>
+	<string name="importingSimContacts">"Tuodaan yhteystietoja SIM-kortista"</string>
+	<string name="importToFDNfromContacts">"Tuo yhteystiedoista"</string>
+	<string name="hac_mode_title">"Kuulolaitteet"</string>
+	<string name="hac_mode_summary">"Ota käyttöön yhteensopivuus kuulolaitteen kanssa"</string>
+	<string-array name="tty_mode_entries">
+		<item>"TTY pois käytöstä"</item>
+		<item>"TTY täynnä"</item>
+		<item>"TTY HCO"</item>
+		<item>"TTY VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"ERI-teksti"</string>
+	<string name="dtmf_tones_title">"Äänitaajuusvalinta"</string>
+	<string name="dtmf_tones_summary">"Aseta äänitaajuusvalinnan pituus"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Normaali"</item>
+		<item>"Pitkä"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Verkon viesti"</string>
+	<string name="ota_title_activate">"Ota puhelin käyttöön"</string>
+	<string name="ota_touch_activate">"Puhelupalvelu on otettava käyttöön soittamalla puhelu.\n\nPaina ensin \u201Cja ota käyttöön\u201D. Aktivoi sitten puhelin kuulemiesi ohjeiden mukaan."</string>
+	<string name="ota_touch_activate_new">"Kun kosketat Aktivoi, puhelin aktivoidaan operaattorin matkapuhelinverkossa. Tämän jälkeen voit soittaa puheluita ja muodostaa yhteyden mobiilidataverkkoihin."</string>
+	<string name="ota_skip_activation_dialog_title">"Ohitetaanko aktivointi?"</string>
+	<string name="ota_skip_activation_dialog_message">"Jos ohitat aktivoinnin, et voi soittaa puheluita tai kytkeä puhelinta mobiilidataverkkoon (voit kuitenkin kytkeä puhelimen Wi-Fi-verkkoon). Puhelin pyytää aktivointia aina käynnistettäessä, kunnes aktivoit puhelimen."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Ohita"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Aktivoi"</string>
+	<string name="ota_activate">"Aktivoi"</string>
+	<string name="ota_title_activate_success">"Puhelin on aktivoitu!"</string>
+	<string name="ota_title_problem_with_activation">"Ongelma aktivoinnissa"</string>
+	<string name="ota_listen">"Noudata ohjeita, kunnes kuulet, että aktivointi onnistui."</string>
+	<string name="ota_dialpad">"Näppäimistö"</string>
+	<string name="ota_speaker">"Kaiutin"</string>
+	<string name="ota_progress">"Odota hetki. Puhelintasi ohjelmoidaan."</string>
+	<string name="ota_failure">"Ohjelmointi epäonnistui"</string>
+	<string name="ota_successful">"Puhelimesi on nyt aktivoitu. Palvelun käyttöönotto voi kestää jopa 15 minuuttia."</string>
+	<string name="ota_unsuccessful">"Puhelin ei aktivoitunut.\nEtsi parempi kuuluvuusalue (lähellä ikkunaa tai ulkona).\n\nYritä uudelleen tai soita asiakaspalveluun saadaksesi lisäohjeita."</string>
+	<string name="ota_spc_failure">"YLIMÄÄRÄISET SPC-VIRHEET"</string>
+	<string name="ota_call_end">"Edellinen"</string>
+	<string name="ota_try_again">"Yritä uudelleen"</string>
+	<string name="ota_next">"Seuraava"</string>
+	<string name="ota_back">"Edellinen"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Siirtyi hätäpuhelun takaisinsoittotilaan"</string>
+	<string name="phone_in_ecm_notification_title">"Hätäpuhelun takaisinsoittotila"</string>
+	<string name="phone_in_ecm_call_notification_text">"Datayhteys ei ole käytössä"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Ei tietoyhteyttä <xliff:g id="count">%s</xliff:g> minuuttiin"</item>
+		<item quantity="other">"Ei tietoyhteyttä <xliff:g id="count">%s</xliff:g> minuuttiin"</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"Puhelin on hätäpuhelun takaisinsoittotilassa <xliff:g id="count">%s</xliff:g> minuutin. Tässä tilassa datayhteyttä käyttäviä sovelluksia ei voi käyttää. Haluatko poistua?"</item>
+		<item quantity="other">"Puhelin on hätäpuhelun takaisinsoittotilassa <xliff:g id="count">%s</xliff:g> minuuttia. Tässä tilassa datayhteyttä käyttäviä sovelluksia ei voi käyttää. Haluatko poistua?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"Valittu toiminto ei ole käytettävissä hätäpuhelun takaisinsoittotilassa <xliff:g id="count">%s</xliff:g> minuuttiin. Haluatko poistua?"</item>
+		<item quantity="other">"Valittu toiminto ei ole käytettävissä hätäpuhelun takaisinsoittotilassa <xliff:g id="count">%s</xliff:g> minuuttiin. Haluatko poistua?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"Valittu toiminto ei ole käytettävissä hätäpuhelun aikana"</string>
+	<string name="progress_dialog_exiting_ecm">"Poistutaan hätäpuhelun takaisinsoittotilasta"</string>
+	<string name="alert_dialog_yes">"Kyllä"</string>
+	<string name="alert_dialog_no">"Ei"</string>
+	<string name="alert_dialog_dismiss">"Hylkää"</string>
+	<string name="absent_num">"POISSAOLEVA NUMERO"</string>
+	<string name="voicemail_settings">"Vastaajan asetukset"</string>
+	<string name="voicemail_number_not_set">"&lt;ei määritetty&gt;"</string>
+	<string name="network_preference">"Verkon tila"</string>
+	<string name="menu_preferred_network_edit">"Muokkaa"</string>
+	<string name="menu_preferred_network_delete">"Poista"</string>
+	<string name="label_cb">"Puheluesto"</string>
+	<string name="label_cb_incom">"Saapuvat puhelut"</string>
+	<string name="pass_dialog_title">"Salasana"</string>
+	<string name="summ_cb_enable">"Ota käyttöön"</string>
+	<string name="summ_cb_disable">"Poista käytöstä"</string>
+	<string name="confirm_button">"Vahvista"</string>
+	<string name="cancel_button">"Peruuta"</string>
+	<string name="call_cost_settings">"Asetukset"</string>
+	<string name="call_cost_activation_settings">"Rajoittamaton"</string>
+	<string name="call_cost_pin2_err">"Virheellinen salasana. Vaihda PIN2 ja yritä uudelleen."</string>
+	<string name="call_cost_unit">"Yksikkö"</string>
+	<string name="call_cost_set_limit_off">"Pois"</string>
+	<string name="call_cost_set_call_cost_empty">"Tyhjä"</string>
+	<string name="revertButton">"Palauta"</string>
+	<string name="call_cost_reset_msg">"Nollaa"</string>
+	<string name="cb_set_passwd_title">"Aseta salasana"</string>
+	<string name="cb_set_passwd_dialog_title">"Aseta salasana"</string>
+	<string name="cb_old_password">"Nykyinen salasana:"</string>
+	<string name="cb_new_password">"Uusi salasana:"</string>
+	<string name="cb_confirm_password">"Vahvista uusi salasana:"</string>
+	<string name="cb_password_error">"Anna oikea salasana."</string>
+	<string name="cb_passwords_error">"Salasanat eivät täsmää."</string>
+	<string name="cb_passwords_empty_error">"Salasana on annettava ja vahvistettava."</string>
+	<string name="cb_password_empty_error">"Anna salasana."</string>
+	<string name="barring_pass_cancel">"Peruuta"</string>
+	<string name="barring_pass_ok">"OK"</string>
+	<string name="voicemail_provider">"Vastaajapalvelu"</string>
+	<string name="voicemail_settings_for">"Asetukset: <xliff:g id="provider_name">%s</xliff:g>"</string>
+	<string name="other_settings">"Muut puheluasetukset"</string>
+	<string name="dial_button_label">"Soita"</string>
+	<string name="calling_via_template">"Soittaa seuraavan kautta: ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Vastaa vetämällä oikealle"</string>
+	<string name="slide_to_silence">"Mykistä vetämällä vasemmalle"</string>
+	<string name="slide_to_decline">"Hylkää vetämällä vasemmalle"</string>
+	<string name="slide_to_answer_and_hold">"Vastaa puheluun ja siirrä se\npitoon vetämällä oikealle"</string>
+	<string name="slide_to_answer_and_end_active">"Vastaa ja lopeta aktiivinen puhelu vetämällä oikealle"</string>
+	<string name="slide_to_answer_and_end_onhold">"Vastaa ja lopeta pidossa oleva puhelu vetämällä oikealle"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"OK"</string>
+	<string name="messageCancel">"Peruuta"</string>
+	<string name="slide_to_answer_hint">"Vastaus"</string>
+	<string name="slide_to_decline_hint">"Hylkää"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Kirjoita PUK-koodi"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Virheellinen PUK-koodi.\nJäljellä: <xliff:g id="NUMBER_0">%d</xliff:g> kerta(a)"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Uusi PIN-koodi"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Vahvista uusi PIN"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"Antamasi PIN-koodit eivät vastaa toisiaan."</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Jäljellä: "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"PUK estetty"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Virheellinen PIN-koodi.\nJäljellä: <xliff:g id="NUMBER_0">%d</xliff:g> kerta(a)"</string>
+	<string name="unlock_accept">"Hyväksy"</string>
+	<string name="unlock_send_sms">"Lähetä tekstiviesti"</string>
+	<string name="silent_silent">"Äänetön"</string>
+	<string name="str_save">"Tallenna"</string>
+	<string name="str_delete">"Poista"</string>
+	<string name="str_cancel">"Peruuta"</string>
+	<string name="str_no_messages">"Ei viestejä"</string>
+	<string name="str_new_message">"Uusi viesti"</string>
+	<string name="send_sms">"Lähetä tekstiviesti"</string>
+	<string name="str_send">"Lähetä"</string>
+	<string name="menu_item1">"Uusi viesti"</string>
+	<string name="menu_item2">"Monivalinta"</string>
+	<string name="menu_item3">"Poista kaikki"</string>
+	<string name="str_delete_q">"Poista?"</string>
+	<string name="excuse_messages_select_all">"Valitse kaikki"</string>
+	<string name="excuse_messages_deselect_all">"Poista kaikkien valinta"</string>
+	<string name="excuse_messages_btn_delete">"Poista"</string>
+	<string name="excuse_messages_multi_select">"Monivalinta"</string>
+	<string name="excuse_messages_delete_all">"Poista kaikki"</string>
+	<string name="excuse_messages_new_message">"Uusi viesti"</string>
+	<string name="excuse_messages_btn_cancel">"Peruuta"</string>
+	<string name="excuse_messages_delete_question">"Poista?"</string>
+	<string name="excuse_messages_saved">"Tallennettu"</string>
+	<string name="excuse_messages_delete">"Poista"</string>
+	<string name="excuse_messages_len_btn">"Vahvista"</string>
+	<string name="yes">"Kyllä"</string>
+	<string name="no">"Ei"</string>
+	<string name="call_barring_title">"Puheluesto"</string>
+	<string name="camera_bright_key">"Kirkkaus"</string>
+	<string name="camera_zoom_key">"Zoom"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Yhteyshenkilöt"</string>
+	<string name="incallmenu_memo">"Muistio"</string>
+	<string name="incallmenu_Sms">"Viesti"</string>
+	<string name="CALLSTR_CALLREJECTING">"Äänetön"</string>
+	<string name="CALLSTR_CALLERID">"Soittajan numero"</string>
+	<string name="CALLSTR_INCOMCALL">"Saapuva puhelu"</string>
+	<string name="CALLSTR_CALLTO">"Vastaanottaja"</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Kirjoita viesti"</string>
+	<string name="CALLSTR_REJECT_SEND">"Lähetä"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Muokkaa"</string>
+	<string name="custom_roaming_button">"OK"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Nimi"</string>
+	<string name="label_ve">"Nimike"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>

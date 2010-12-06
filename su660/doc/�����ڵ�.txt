@@ -1,0 +1,91 @@
+안녕하세요. 김수미입니다.
+ 
+VE player에서의 통화수락 등으로 통화중 화면으로 직접 진입이 필요할 경우 
+아래와 같이 처리하시면됩니다.
+ 
+수고하십시오.
+ 
+InCallScreen.java
+protected void onSubResume(){
+ 
+...
+         if (mPhone.getState() == Phone.State.RINGING) {
+      .....
+            // (In principle we shouldn't do this until after our first
+            // layout/draw pass.  But in practice, the delay caused by
+            // simply waiting for the end of the message queue is long
+            // enough to avoid any flickering of the lock screen before
+            // the InCallScreen comes up.)
+            if (VDBG) log("- posting ALLOW_SCREEN_ON message...");
+            mHandler.removeMessages(ALLOW_SCREEN_ON);
+            mHandler.sendEmptyMessage(ALLOW_SCREEN_ON);
+    //sumi920.kim : VE Test  ==> VE player에서의 진입 여부를 확인 후 수락을 선택하였을 경우에 아래 코드를 실행.
+          internalAnswerCall();   
+ 
+            // TODO: There ought to be a more elegant way of doing this,
+            // probably by having the PowerManager and ActivityManager
+            // work together to let apps request that the screen on/off
+            // state be synchronized with the Activity lifecycle.
+            // (See bug 1648751.)
+        } 
+}
+
+
+기능 구현
+1.     VE App 구동 (완료 9/28)
+2.     전화 수신 기능 구현
+3.     전화 수신 후 다음 화면을 띄우는 작업 (off-hook 화면)
+4.     전화 거절 기능 구현
+5.     전화 거절 후 다음 화면을 띄우는 작업 (통화 종료 화면)
+6.     수신 거절 후 메시지 전송 기능 구현
+7.     전화 수신 신호가 끊어진 경우 기능 구현
+8.     Call Log 쓰기 기능 구현
+9.     RIL 에서 받은 정보와의 연동 작업
+
+UI 구현 (이 부분은 제가 작업해야 하는 부분입니다. 단순 참조용으로 보시면 됩니다)
+1.     화면이 잠긴 상태의 UI 구성 (50%)
+2.     화면이 풀린 상태의 UI 구성 (완료 9/14)
+
+
+
+
+        /*
+         * jundj@mo2.co.kr
+         */
+        IntentFilter veIntentFilter = new IntentFilter();
+        veIntentFilter.addAction(ACTION_VLTR_ANSWER_THE_PHONE);
+        veIntentFilter.addAction(ACTION_VLTR_REJECTION_THE_PHONE);
+        registerReceiver(mVEReceiver, veIntentFilter);
+
+
+
+
+	// [NEOTOUCH_20101001_JDJ_Begin(test)
+	/*
+	 * 2010-09-06 jundj@mo2.co.kr : offhook screen caller(receiver).
+	 * jundj@mo2.co.kr
+	 */
+    public final static String ACTION_VLTR_ANSWER_THE_PHONE = "com.mtelo.visualexpression.VLTR_ANSWER_THE_PHONE";
+    public final static String ACTION_VLTR_REJECTION_THE_PHONE = "com.mtelo.visualexpression.VLTR_REJECTION_THE_PHONE";
+    
+	private final BroadcastReceiver mVEReceiver = new BroadcastReceiver() {
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			String action = intent.getAction();
+			// answer Call
+			if (action.equals(ACTION_VLTR_ANSWER_THE_PHONE)) {
+				// TODO : 수신중 인지 확인 
+				Log.w(LOG_TAG, "ACTION_VLTR_ANSWER_THE_PHONE");
+				internalAnswerCall();
+			// reject Call
+			}else if(action.equals(ACTION_VLTR_REJECTION_THE_PHONE)){
+				// TODO : 수신중 상태인지 확인
+				Log.w(LOG_TAG, "ACTION_VLTR_REJECTION_THE_PHONE");
+				internalHangupRingingCall();
+			}
+		}
+	};
+	// [NEOTOUCH_20101001_JDJ_Begin(test)
+	
+
+        unregisterReceiver(mVEReceiver);

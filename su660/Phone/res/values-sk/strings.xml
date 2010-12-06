@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="contactsIconLabel">"Kontakty"</string>
+	<string name="contactsFavoritesLabel">"Obľúbené"</string>
+	<string name="dialerIconLabel">"Vytáčanie"</string>
+	<string name="emergencyDialerIconLabel">"Núdzové vytáčanie"</string>
+	<string name="phoneIconLabel">"Telefón"</string>
+	<string name="recentCallsIconLabel">"Záznam hovorov"</string>
+	<string name="fdnListLabel">"Zoznam FDN"</string>
+	<string name="transfer">"Prenos"</string>
+	<string name="incall_error_supp_service_transfer">"Nemožno preniesť hovor."</string>
+	<string name="menu_transfer">"Prenos"</string>
+	<string name="unknown">"Neznáme"</string>
+	<string name="private_num">"Súkromné číslo"</string>
+	<string name="payphone">"Telefónny automat"</string>
+	<string name="onHold">"Podržaný"</string>
+	<string name="ongoing">"Aktuálny hovor"</string>
+	<string name="callFailed_userBusy">"Linka je obsadená"</string>
+	<string name="callFailed_congestion">"Sieť preťažená"</string>
+	<string name="callFailed_noSignal">"Žiadny signál"</string>
+	<string name="callFailed_limitExceeded">"Bol prekročený limit ACM"</string>
+	<string name="callFailed_powerOff">"Rádio vyp."</string>
+	<string name="callFailed_simError">"Žiadna karta SIM alebo chyba karty SIM"</string>
+	<string name="callFailed_outOfService">"Mimo oblasti služby"</string>
+	<string name="callFailed_fdn_only">"Odchádzajúce hovory sú obmedzené číslami FDN."</string>
+	<string name="callFailed_cb_enabled">"Nemôžete uskutočňovať odchádzajúce hovory, keď je zapnuté blokovanie hovorov."</string>
+	<string name="callFailed_dsac_restricted">"Všetky hovory sú obmedzené riadením prístupu."</string>
+	<string name="callFailed_dsac_restricted_emergency">"Tiesňové volania sú obmedzené riadením prístupu."</string>
+	<string name="callFailed_dsac_restricted_normal">"Bežné hovory sú obmedzené riadením prístupu."</string>
+	<string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Phone locked until power cycle."</string>
+	<string name="callFailed_cdma_drop">"CDMA: Call dropped."</string>
+	<string name="callFailed_cdma_intercept">"CDMA: Call intercepted."</string>
+	<string name="callFailed_cdma_reorder">"CDMA: reorder."</string>
+	<string name="callFailed_cdma_SO_reject">"CDMA: Service Option Reject."</string>
+	<string name="callFailed_cdma_retryOrder">"CDMA: retry order."</string>
+	<string name="callFailed_cdma_accessFailure">"CDMA: Access failure."</string>
+	<string name="callFailed_cdma_preempted">"CDMA: Preempted."</string>
+	<string name="callFailed_cdma_notEmergency">"Je možné uskutočniť len tiesňové volania."</string>
+	<string name="confCall">"Konferenčný hovor"</string>
+	<string name="call_lost">"Hovor sa prerušil."</string>
+	<string name="retry">"Znovu"</string>
+	<string name="call_lost_title">"Prerušený hovor"</string>
+	<string name="mmiStarted">"Kód MMI spustený"</string>
+	<string name="ussdRunning">"Spustený kód USSD\u2026"</string>
+	<string name="mmiCancelled">"Kód MMI zrušený"</string>
+	<string name="cancel">"Zrušiť"</string>
+	<string name="menu_speaker">"Reproduktor"</string>
+	<string name="menu_bluetooth">"MIC - Bluetooth"</string>
+	<string name="menu_mute">"Stlmiť"</string>
+	<string name="menu_hold">"Podržať"</string>
+	<string name="menu_unhold">"Uvoľniť"</string>
+	<string name="menu_endCall">"Skončiť hovor"</string>
+	<string name="menu_swapCalls">"Vymeniť hovory"</string>
+	<string name="menu_mergeCalls">"Zlúčiť hovory"</string>
+	<string name="menu_addCall">"Pridať hovor"</string>
+	<string name="menu_manageConference">"Spravovať konferenčný hovor"</string>
+	<string name="menu_showDialpad">"Zobraziť panel vytáčania"</string>
+	<string name="menu_hideDialpad">"Skryť panel vytáčania"</string>
+	<string name="menu_addAccount">"Pridať profil"</string>
+	<string name="menu_vocieCall">"Hlasové hovory"</string>
+	<string name="menu_videoCall">"VIDEOHOVOR"</string>
+	<string name="menu_message">"Správa"</string>
+	<string name="menu_answerAndHold">"Podržať aktuálny hovor\na odpovedať"</string>
+	<string name="menu_answerAndEnd">"Ukončiť aktuálny hovor\na odpovedať"</string>
+	<string name="ok">"Ok"</string>
+	<string name="menuButtonHint">"Stlačte tlačidlo Ponuka pre možnosti hovoru."</string>
+	<string name="menuButtonKeyboardDialHint">"Stlačte tlačidlo Ponuka pre možnosti hovoru  \u2022  Vytáčajte pomocou klávesnice"</string>
+	<string name="menu_answer">"Odpovedať"</string>
+	<string name="menu_ignore">"Ignorovať"</string>
+	<string name="wait_prompt_str">"Odoslať nasledujúce tóny?\n"</string>
+	<string name="pause_prompt_str">"Odosielajú sa tóny\n"</string>
+	<string name="send_button">"Odoslať"</string>
+	<string name="pause_prompt_yes">"Áno"</string>
+	<string name="pause_prompt_no">"Nie"</string>
+	<string name="wild_prompt_str">"Nahradiť zástupný znak textom"</string>
+	<string name="no_vm_number">"Chýbajúce číslo hlasovej pošty"</string>
+	<string name="no_vm_number_msg">"Na karte SIM nie je uložené žiadne číslo hlasovej pošty."</string>
+	<string name="add_vm_number_str">"Pridať číslo"</string>
+	<string name="dialer_emptyListWorking">"Načítava sa\\n2026"</string>
+	<string name="enterPin">"Zadajte kód PIN na odomknutie karty SIM."</string>
+	<string name="pinUnlocked">"Karta SIM odomknutá"</string>
+	<string name="enterNewPin">"Nový kód PIN karty SIM"</string>
+	<string name="verifyNewPin">"Znova zadajte nový kód PIN karty SIM na potvrdenie"</string>
+	<string name="verifyFailed">"Zadané kódy PIN karty SIM sa nezhodujú. Skúste to znova."</string>
+	<string name="enterPuk">"Zadajte kód PUK na odomknutie karty SIM"</string>
+	<string name="badPuk">"Nesprávny kód PUK!"</string>
+	<string name="buttonTxtContinue">"Pokračovať"</string>
+	<string name="puk_unlocked">"Karta SIM bola odblokovaná. Telefón sa odomkýna\u2026"</string>
+	<string name="label_ndp">"Kód PIN na odomknutie siete karty SIM"</string>
+	<string name="sim_ndp_unlock_text">"Odblokovať"</string>
+	<string name="sim_ndp_dismiss_text">"Odmietnuť"</string>
+	<string name="requesting_unlock">"Požaduje sa odomknutie siete\u2026"</string>
+	<string name="unlock_failed">"Požiadavka na odomknutie siete nebola úspešná."</string>
+	<string name="unlock_success">"Sieť úspešne odomknutá."</string>
+	<string name="imei">"IMEI"</string>
+	<string name="meid">"MEID"</string>
+	<string name="labelGSMMore">"Nastavenia hovoru GSM"</string>
+	<string name="labelCDMAMore">"CDMA Nastavenia hovorov"</string>
+	<string name="apn_settings">"Názvy prístupových bodov"</string>
+	<string name="settings_label">"Nastavenia"</string>
+	<string name="voicemail">"hlasová pošta"</string>
+	<string name="voicemail_abbreviated">"VM:"</string>
+	<string name="networks">"Nemáte žiadne obľúbené kontakty.\n\nAk chcete pridať kontakt do zoznamu obľúbených kontaktov:\n<li>Dotykom stlačte kartu <b>Kontakty</b> n</li>\n<li>Dotykom stlačte kontakt, ktorý chcete pridať do zoznamu obľúbených kontaktov\n</li>\n<li>Dotykom stlačte hviezdičku pri mene kontaktu\n</li>"</string>
+	<string name="call_settings">"Nastavenia hovorov"</string>
+	<string name="additional_gsm_call_settings">"Ďalšie nastavenia hovorov"</string>
+	<string name="sum_gsm_call_settings">"Ďalšie nastavenia len pre hovory GSM"</string>
+	<string name="additional_cdma_call_settings">"Ďalšie nastavenia hovorov CDMA"</string>
+	<string name="sum_cdma_call_settings">"Ďalšie nastavenia len pre hovory CDMA"</string>
+	<string name="labelNwService">"Nastavenia sieťových služieb"</string>
+	<string name="labelCallerId">"ID volajúceho"</string>
+	<string name="sum_hide_caller_id">"Počet skrytý pri odchádzajúcich hovoroch"</string>
+	<string name="sum_show_caller_id">"Počet zobrazený pri odchádzajúcich hovoroch"</string>
+	<string name="sum_default_caller_id">"Používať predvolené nastavenie operátora na zobrazenie môjho čísla pri odchádzajúcich hovoroch"</string>
+	<string name="labelCW">"Čakajúci hovor"</string>
+	<string name="sum_cw_enabled">"Počas hovoru upozorňovať na prichádzajúce hovory"</string>
+	<string name="sum_cw_disabled">"Počas hovoru upozorňovať na prichádzajúce hovory"</string>
+	<string name="call_forwarding_settings">"Nastavenia presmerovania hovorov"</string>
+	<string name="labelCF">"Presmerovanie hovoru"</string>
+	<string name="labelCFU">"Vždy presmerovať"</string>
+	<string name="messageCFU">"Vždy používať toto číslo"</string>
+	<string name="sum_cfu_enabled_indicator">"Všetky hovory sa presmerujú"</string>
+	<string name="sum_cfu_enabled">"Všetky hovory sa presmerujú na {0}"</string>
+	<string name="sum_cfu_enabled_no_number">"Číslo je nedostupné"</string>
+	<string name="sum_cfu_disabled">"Zakázané"</string>
+	<string name="labelCFB">"Presmerovať, ak je obsadené"</string>
+	<string name="messageCFB">"Číslo, ak je obsadené"</string>
+	<string name="sum_cfb_enabled">"Presmerovanie na {0}"</string>
+	<string name="sum_cfb_disabled">"Blokované"</string>
+	<string name="disable_cfb_forbidden">"Vaša prenosová služba nepodporuje vypnutie presmerovania hovorov, keď je telefón zaneprázdnený."</string>
+	<string name="labelCFNRy">"Presmerovať, ak neodpovedá"</string>
+	<string name="messageCFNRy">"Číslo, ak neodpovedá"</string>
+	<string name="sum_cfnry_enabled">"Presmerovanie na {0}"</string>
+	<string name="sum_cfnry_disabled">"Blokované"</string>
+	<string name="disable_cfnry_forbidden">"Vaša prenosová služba nepodporuje vypnutie presmerovania hovorov, keď telefón neodpovedá."</string>
+	<string name="labelCFNRc">"Presmerovať, ak nie je dostupný"</string>
+	<string name="messageCFNRc">"Číslo, ak nie je dostupný"</string>
+	<string name="sum_cfnrc_enabled">"Presmerovanie na {0}"</string>
+	<string name="sum_cfnrc_disabled">"Blokované"</string>
+	<string name="labelCB">"Blokovanie hovorov"</string>
+	<string name="labelCBPWD">"Zmeniť heslo"</string>
+	<string name="sum_cb_enabled">"Povoliť"</string>
+	<string name="sum_cb_disabled">"Blokované"</string>
+	<string name="messageCallBarring">"Heslo"</string>
+	<string name="newCBPwdLabel">"Nové heslo"</string>
+	<string name="disable_cfnrc_forbidden">"Vaša prenosová služba nepodporuje vypnutie presmerovania hovorov, keď je telefón nedostupný."</string>
+	<string name="updating_title">"Nastavenia hovorov"</string>
+	<string name="error_updating_title">"Chyba nastavení hovorov"</string>
+	<string name="reading_settings">"Načítavajú sa nastavenia\u2026"</string>
+	<string name="updating_settings">"Aktualizujú sa nastavenia\u2026"</string>
+	<string name="reverting_settings">"Rušia sa nastavenia\u2026"</string>
+	<string name="response_error">"Neočakávaná odpoveď od siete."</string>
+	<string name="exception_error">"Chyba siete alebo karty SIM."</string>
+	<string name="radio_off_error">"Pred zobrazením týchto nastavení zapnite rádio."</string>
+	<string name="close_dialog">"OK"</string>
+	<string name="enable">"Zapnúť"</string>
+	<string name="disable">"Blokovať"</string>
+	<string name="change_num">"Aktualizovať"</string>
+	<string-array name="clir_display_values">
+		<item>"Predvolená sieť"</item>
+		<item>"Skryť číslo"</item>
+		<item>"Zobraziť číslo"</item>
+	</string-array>
+	<string-array name="clir_values">
+		<item>"<xliff:g>Pôvodné</xliff:g>"</item>
+		<item>"<xliff:g>Skryť</xliff:g>"</item>
+		<item>"<xliff:g>Zobraziť</xliff:g>"</item>
+	</string-array>
+	<string name="vm_save_number">"Vyhľadať všetky dostupné siete"</string>
+	<string name="vm_changed">"Číslo hlasovej pošty zmenené."</string>
+	<string name="vm_change_failed">"Zmena čísla hlasovej schránky nebola úspešná.\nAk problém pretrváva, obráťte sa na prenosovú službu."</string>
+	<string name="fw_change_failed">"Zmena čísla presmerovania nebola úspešná.\nAk problém pretrváva, obráťte sa na prenosovú službu."</string>
+	<string name="fw_get_in_vm_failed">"Nepodarilo sa načítať a uložiť nastavenia aktuálneho čísla presmerovania.\nChcete aj napriek tomu prepnúť na nového poskytovateľa?"</string>
+	<string name="no_change">"Nevykonali sa žiadne zmeny."</string>
+	<string name="sum_voicemail_choose_provider">"Výber služby hlasovej schránky"</string>
+	<string name="voicemail_default">"Moja prenosová služba"</string>
+	<string name="mobile_networks">"Nastavenia mobilnej siete"</string>
+	<string name="label_available">"Dostupné siete"</string>
+	<string name="load_networks_progress">"Hľadá sa\u2026"</string>
+	<string name="empty_networks_list">"Nenašli sa žiadne siete."</string>
+	<string name="search_networks">"Vyhľadať siete"</string>
+	<string name="network_query_error">"Chyba pri hľadaní sietí."</string>
+	<string name="register_on_network">"Registrácia v sieti <xliff:g id="network">%s</xliff:g>\u2026"</string>
+	<string name="not_allowed">"Karta SIM nepovoľuje pripojenie na túto sieť."</string>
+	<string name="connect_later">"Momentálne sa nemožno pripojiť k tejto sieti. Skúste to znova neskôr."</string>
+	<string name="registration_done">"Zaregistrované v sieti."</string>
+	<string name="sum_carrier_select">"Vybrať sieťového operátora"</string>
+	<string name="sum_search_networks">"Vyhľadať všetky dostupné siete"</string>
+	<string name="select_automatically">"Vybrať automaticky"</string>
+	<string name="sum_select_automatically">"Automaticky vybrať preferovanú sieť"</string>
+	<string name="register_automatically">"Automatická registrácia..."</string>
+	<string name="preferred_network_mode_title">"Režim siete"</string>
+	<string name="preferred_network_mode_summary">"Zmeniť prevádzkový režim siete"</string>
+	<string name="preferred_network_mode_dialogtitle">"Preferovaný režim siete"</string>
+	<string name="menu_search_networks">"Vyhľadať siete"</string>
+	<string name="menu_select_automatically">"Vybrať automaticky"</string>
+	<string-array name="preferred_network_mode_choices">
+		<item>"Globálne"</item>
+		<item>"Len EvDo"</item>
+		<item>"Autom. CDMA/EvDo"</item>
+		<item>"CDMA/EvDo auto"</item>
+		<item>"Automatické GSM/WCDMA"</item>
+		<item>"Len WCDMA"</item>
+		<item>"Len GSM"</item>
+		<item>"Preferované GSM/WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_values">
+		<item>"7"</item>
+		<item>"6"</item>
+		<item>"5"</item>
+		<item>"4"</item>
+		<item>"3"</item>
+		<item>"2"</item>
+		<item>"1"</item>
+		<item>"0"</item>
+	</string-array>
+	<string name="data_enabled">"Údaje povolené"</string>
+	<string name="data_enable_summary">"Povoliť prístup k údajom cez mobilnú sieť"</string>
+	<string name="roaming">"Prenos dát v roamingu"</string>
+	<string name="roaming_enable">"Pripájať sa k údajovým službám pri roamingu"</string>
+	<string name="roaming_disable">"Pripájať sa k údajovým službám pri roamingu"</string>
+	<string name="roaming_reenable_message">"Stratili ste údajové pripojenie, pretože ste opustili domácu sieť pri vypnutom prenose údajov v roamingu."</string>
+	<string name="roaming_warning">"Povoliť prenos údajov v roamingu? Môžu s tým byť spojené vysoké poplatky za roaming!"</string>
+	<string name="data_mode_ok">"Áno"</string>
+	<string name="data_mode_cancel">"Nie"</string>
+	<string name="gsm_umts_options">"Možnosti siete GSM/UMTS"</string>
+	<string name="cdma_options">"CDMA Options"</string>
+	<string name="throttle_data_usage">"Používanie údajov"</string>
+	<string name="throttle_settings_title">"Zásady týkajúce sa údajov prenosovej služby"</string>
+	<string name="throttle_current_usage">"Údaje použité v súčasnom období"</string>
+	<string name="throttle_time_frame">"Obdobie používania údajov"</string>
+	<string name="throttle_rate">"Zásady rýchlosti prenosu údajov"</string>
+	<string name="throttle_help">"Ďalšie informácie"</string>
+	<string name="throttle_status_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) z <xliff:g id="used">%3$s</xliff:g> maximálne za obdobie\nĎalšie obdobie začína o <xliff:g id="used">%4$d</xliff:g> dni/dní (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_usage_subtext">"<xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>%) z <xliff:g id="used">%3$s</xliff:g> maximálne za obdobie\nĎalšie obdobie začína o <xliff:g id="used">%4$d</xliff:g> dni/dní (<xliff:g id="used">%5$s</xliff:g>)"</string>
+	<string name="throttle_data_rate_reduced_subtext">"<xliff:g id="used">%1$s</xliff:g> maximum prekročené\nRýchlosť prenosu údajov znížená na <xliff:g id="used">%2$d</xliff:g> Kb/s"</string>
+	<string name="throttle_time_frame_subtext">"<xliff:g id="used">%1$d</xliff:g>% z cyklu uplynulo\nĎalšie obdobie začína o <xliff:g id="used">%2$d</xliff:g> dni/dní (<xliff:g id="used">%3$s</xliff:g>)"</string>
+	<string name="throttle_rate_subtext">"Rýchlosť prenosu údajov znížená na <xliff:g id="used">%1$d</xliff:g> Kb/s, ak sa prekročí limit použitia údajov"</string>
+	<string name="throttle_help_subtext">"Ďalšie informácie o zásadách používania údajov mobilnej siete vašej prenosovej služby"</string>
+	<string name="cdma_cell_broadcast_sms">"Bunkové vysielanie správ SMS"</string>
+	<string name="cell_broadcast_sms">"Bunkové vysielanie správ SMS"</string>
+	<string name="enable_disable_cell_bc_sms">"Bunkové vysielanie správ SMS"</string>
+	<string name="cell_bc_sms_enable">"Bunkové vysielanie správ SMS povolené"</string>
+	<string name="cell_bc_sms_disable">"Bunkové vysielanie správ SMS zakázané"</string>
+	<string name="cb_sms_settings">"Nastavenia bunkového vysielania správ SMS"</string>
+	<string name="enable_disable_emergency_broadcast">"Núdzové vysielanie"</string>
+	<string name="emergency_broadcast_enable">"Núdzové vysielanie povolené"</string>
+	<string name="emergency_broadcast_disable">"Núdzové vysielanie zakázané"</string>
+	<string name="enable_disable_administrative">"Administratívne"</string>
+	<string name="administrative_enable">"Administratívne povolené"</string>
+	<string name="administrative_disable">"Administratívne zakázané"</string>
+	<string name="enable_disable_maintenance">"Údržba"</string>
+	<string name="maintenance_enable">"Údržba povolená"</string>
+	<string name="maintenance_disable">"Údržba zakázaná"</string>
+	<string name="general_news_settings">"Všeobecné správy"</string>
+	<string name="bf_news_settings">"Obchodné a finančné správy"</string>
+	<string name="sports_news_settings">"Športové správy"</string>
+	<string name="entertainment_news_settings">"Zábavné správy"</string>
+	<string name="enable_disable_local">"Lokálne"</string>
+	<string name="local_enable">"Miestne správy povolené"</string>
+	<string name="local_disable">"Miestne správy zakázané"</string>
+	<string name="enable_disable_regional">"Oblastné"</string>
+	<string name="regional_enable">"Oblastné správy povolené"</string>
+	<string name="regional_disable">"Oblastné správy zakázané"</string>
+	<string name="enable_disable_national">"Národné"</string>
+	<string name="national_enable">"Žiadne kontakty."</string>
+	<string name="national_disable">"Prezývka"</string>
+	<string name="enable_disable_international">"Medzinárodné"</string>
+	<string name="international_enable">"Medzinárodné správy povolené"</string>
+	<string name="international_disable">"Medzinárodné správy zakázané"</string>
+	<string name="list_language_title">"Jazyk"</string>
+	<string name="list_language_summary">"Vybrať jazyk správ"</string>
+	<string-array name="list_language_entries">
+		<item>"Francúzština"</item>
+		<item>"Španielčina"</item>
+		<item>"Japončina"</item>
+		<item>"Kórejčina"</item>
+		<item>"Čínština"</item>
+		<item>"Hebrejčina"</item>
+		<item>"Hebrejčina"</item>
+	</string-array>
+	<string-array name="list_language_values">
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+	</string-array>
+	<string name="list_language_dtitle">"Jazyky"</string>
+	<string name="enable_disable_local_weather">"Miestne počasie"</string>
+	<string name="local_weather_enable">"Miestne počasie povolené"</string>
+	<string name="local_weather_disable">"Miestne počasie zakázané"</string>
+	<string name="enable_disable_atr">"Miestne dopravné správy"</string>
+	<string name="atr_enable">"Miestne dopravné správy povolené"</string>
+	<string name="atr_disable">"Miestne dopravné správy zakázané"</string>
+	<string name="enable_disable_lafs">"Letové poriadky miestnych letísk"</string>
+	<string name="lafs_enable">"Letové poriadky miestnych letísk povolené"</string>
+	<string name="lafs_disable">"Letové poriadky miestnych letísk zakázané"</string>
+	<string name="enable_disable_restaurants">"Reštaurácie"</string>
+	<string name="restaurants_enable">"Reštaurácie povolené"</string>
+	<string name="restaurants_disable">"Reštaurácie zakázané"</string>
+	<string name="enable_disable_lodgings">"Ubytovanie"</string>
+	<string name="lodgings_enable">"Ubytovanie povolené"</string>
+	<string name="lodgings_disable">"Ubytovanie zakázané"</string>
+	<string name="enable_disable_retail_directory">"Adresár predajní"</string>
+	<string name="retail_directory_enable">"Adresár predajní povolený"</string>
+	<string name="retail_directory_disable">"Adresár predajní zakázaný"</string>
+	<string name="enable_disable_advertisements">"Reklamy"</string>
+	<string name="advertisements_enable">"Reklamy povolené"</string>
+	<string name="advertisements_disable">"Reklamy zakázané"</string>
+	<string name="enable_disable_stock_quotes">"Ceny akcií"</string>
+	<string name="stock_quotes_enable">"Ceny akcií povolené"</string>
+	<string name="stock_quotes_disable">"Ceny akcií zakázané"</string>
+	<string name="enable_disable_eo">"Pracovné príležitosti"</string>
+	<string name="eo_enable">"Pracovné príležitosti povolené"</string>
+	<string name="eo_disable">"Pracovné príležitosti zakázané"</string>
+	<string name="enable_disable_mhh">"Medicínske, zdravotné a nemocničné informácie"</string>
+	<string name="mhh_enable">"Medicínske, zdravotné a nemocničné informácie povolené"</string>
+	<string name="mhh_disable">"Medicínske, zdravotné a nemocničné informácie zakázané"</string>
+	<string name="enable_disable_technology_news">"Technologické správy"</string>
+	<string name="technology_news_enable">"Technologické správy povolené"</string>
+	<string name="technology_news_disable">"Technologické správy zakázané"</string>
+	<string name="enable_disable_multi_category">"Rôzne kategórie"</string>
+	<string name="multi_category_enable">"Rôzne kategórie povolené"</string>
+	<string name="multi_category_disable">"Rôzne kategórie zakázané"</string>
+	<string name="gsm_umts_network_preferences_title">"Preferencie siete GSM/UMTS"</string>
+	<string name="gsm_umts_network_preferneces_summary">"Zatiaľ neimplementované!"</string>
+	<string name="gsm_umts_network_preferences_dialogtitle">"Preferencie siete GSM/UMTS"</string>
+	<string-array name="gsm_umts_network_preferences_choices">
+		<item>"GSM/WCDMA (automatický režim)"</item>
+		<item>"Len WCDMA"</item>
+		<item>"Len GSM"</item>
+		<item>"GSM/WCDA (preferované WCDMA)"</item>
+	</string-array>
+	<string-array name="gsm_umts_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+	</string-array>
+	<string name="prefer_2g">"Používať iba siete 2G"</string>
+	<string name="prefer_2g_summary">"Šetrí batériu"</string>
+	<string name="cdma_system_select_title">"Výber systému"</string>
+	<string name="cdma_system_select_summary">"Zmeniť režim siete CDMA v roamingu"</string>
+	<string name="cdma_system_select_dialogtitle">"Výber systému"</string>
+	<string-array name="cdma_system_select_choices">
+		<item>"Len domáce"</item>
+		<item>"Automatický"</item>
+	</string-array>
+	<string name="cdma_roaming_mode_title">"CDMA Roaming Mode"</string>
+	<string name="cdma_roaming_mode_summary">"Zmeniť režim siete CDMA v roamingu"</string>
+	<string name="cdma_roaming_mode_dialogtitle">"CDMA roaming mode"</string>
+	<string-array name="cdma_roaming_mode_choices">
+		<item>"Len domáce siete"</item>
+		<item>"Pridružené siete"</item>
+		<item>"Ktorákoľvek sieť"</item>
+	</string-array>
+	<string-array name="cdma_roaming_mode_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="cdma_network_preferences_title">"CDMA Network Preferences"</string>
+	<string name="cdma_network_preferneces_summary">"Zatiaľ neimplementované!"</string>
+	<string name="cdma_network_preferences_dialogtitle">"CDMA network preferences"</string>
+	<string-array name="cdma_network_preferences_choices">
+		<item>"CDMA/EvDo"</item>
+		<item>"Len CDMA"</item>
+		<item>"Len EvDo"</item>
+	</string-array>
+	<string-array name="cdma_network_preferences_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	<string name="subscription_title">"TEST predplatného CDMA"</string>
+	<string name="subscription_summary">"Zmena medzi RUIM a NV"</string>
+	<string name="subscription_dialogtitle">"Predplatenie"</string>
+	<string-array name="subscription_choices">
+		<item>"RUIM/SIM"</item>
+		<item>"NV"</item>
+	</string-array>
+	<string-array name="subscription_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="fdn">"Pevne vytáčané čísla"</string>
+	<string name="manage_fdn_list">"Zoznam FDN"</string>
+	<string name="fdn_activation">"Aktivácia FDN"</string>
+	<string name="fdn_enabled">"Pevne vytáčané čísla sú povolené"</string>
+	<string name="fdn_disabled">"Pevne vytáčané čísla sú zakázané"</string>
+	<string name="enable_fdn">"Zapnúť FDN"</string>
+	<string name="disable_fdn">"Zakázať FDN (pevné vytáčanie)"</string>
+	<string name="change_pin2">"Zmeniť kód PIN2"</string>
+	<string name="enable_fdn_ok">"Zakázať FDN (pevné vytáčanie)"</string>
+	<string name="disable_fdn_ok">"Zapnúť FDN"</string>
+	<string name="sum_fdn">"Spravovať pevne vytáčané čísla"</string>
+	<string name="sum_fdn_change_pin">"Zmeniť kód PIN pre prístup FDN"</string>
+	<string name="sum_fdn_manage_list">"Spravovať zoznam telefónnych čísel"</string>
+	<string name="voice_privacy">"Šifrovanie hlasových hovorov"</string>
+	<string name="voice_privacy_summary">"Povoliť režim zvýšenej ochrany súkromia"</string>
+	<string name="tty_mode_title">"Režim TTY"</string>
+	<string name="tty_mode_summary">"Povoliť režim TTY"</string>
+	<string name="tty_mode_option_title">"Režim TTY"</string>
+	<string name="tty_mode_option_summary">"Nastaviť režim TTY"</string>
+	<string name="auto_retry_mode_title">"Automatické opakovanie"</string>
+	<string name="auto_retry_mode_summary">"Povoliť režim automatického opakovania"</string>
+	<string name="menu_add">"Pridať kontakt"</string>
+	<string name="menu_edit">"Upraviť kontakt"</string>
+	<string name="menu_delete">"Zmazať kontakt"</string>
+	<string name="get_pin2">"Zadajte kód PIN2"</string>
+	<string name="name">"Názov"</string>
+	<string name="number">"Číslo"</string>
+	<string name="save">"Uložiť"</string>
+	<string name="add_fdn_contact">"Pridať kontakt s pevným vytáčaním"</string>
+	<string name="adding_fdn_contact">"Pridáva sa pevne vytáčané číslo..."</string>
+	<string name="fdn_contact_added">"Pevne vytáčané číslo pridané."</string>
+	<string name="edit_fdn_contact">"Upraviť pevne vytáčané číslo"</string>
+	<string name="updating_fdn_contact">"Aktualizuje sa pevne vytáčané číslo..."</string>
+	<string name="fdn_contact_updated">"Pevne vytáčané číslo aktualizované."</string>
+	<string name="delete_fdn_contact">"Odstrániť pevne vytáčané číslo"</string>
+	<string name="deleting_fdn_contact">"Odstraňuje sa pevne vytáčané číslo..."</string>
+	<string name="fdn_contact_deleted">"Pevne vytáčané číslo odstránené."</string>
+	<string name="pin2_invalid">"FDN nie je aktualizované: zadali ste nesprávny kód PIN."</string>
+	<string name="fdn_invalid_number">"FDN nie je aktualizované: číslo nesmie obsahovať viac ako 20 číslic."</string>
+	<string name="simContacts_emptyLoading">"Načítava sa z karty SIM\u2026"</string>
+	<string name="simContacts_empty">"Na karte SIM nie sú žiadne kontakty."</string>
+	<string name="simContacts_title">"Výber kontaktov na import"</string>
+	<string name="enable_pin">"Povoliť/zakázať kód PIN karty SIM"</string>
+	<string name="change_pin">"Zmeniť kód PIN karty SIM"</string>
+	<string name="enter_pin_text">"SIM PIN:"</string>
+	<string name="oldPinLabel">"Starý kód PIN"</string>
+	<string name="newPinLabel">"Nový kód PIN"</string>
+	<string name="confirmPinLabel">"Confirm new PIN"</string>
+	<string name="badPin">"Zadaný starý kód PIN nie je správny. Skúste to znova."</string>
+	<string name="mismatchPin">"Zadané kódy PIN sa nezhodujú. Skúste to znova."</string>
+	<string name="invalidPin">"Zadajte kód PIN obsahujúci 4 až 8 číslic."</string>
+	<string name="disable_sim_pin">"Zakázať kód PIN karty SIM"</string>
+	<string name="enable_sim_pin">"Povoliť kód PIN karty SIM"</string>
+	<string name="enable_in_progress">"Čakajte, prosím\u2026"</string>
+	<string name="enable_pin_ok">"Kód PIN karty SIM zapnutý"</string>
+	<string name="disable_pin_ok">"Kód PIN karty SIM vypnutý"</string>
+	<string name="pin_failed">"Zadaný kód PIN nie je správny"</string>
+	<string name="pin_changed">"Kód PIN karty SIM úspešne zmenený"</string>
+	<string name="puk_requested">"Heslo je nesprávne, karta SIM je uzamknutá! Vyžaduje sa kód PUK2."</string>
+	<string name="enter_pin2_text">"PIN2"</string>
+	<string name="oldPin2Label">"Starý kód PIN2"</string>
+	<string name="newPin2Label">"Nový kód PIN2"</string>
+	<string name="confirmPin2Label">"Confirm new PIN2"</string>
+	<string name="badPuk2">"Zadaný kód PUK2 nie je správny. Skúste to znova."</string>
+	<string name="badPin2">"Zadaný starý kód PIN2 nie je správny. Skúste to znova."</string>
+	<string name="mismatchPin2">"Zadané kódy PIN2 sa nezhodujú. Skúste to znova."</string>
+	<string name="invalidPin2">"Zadajte kód PIN2 obsahujúci 4 až 8 číslic."</string>
+	<string name="invalidPuk2">"Zadajte kód PUK2 obsahujúci 8 číslic."</string>
+	<string name="pin2_changed">"Kód PIN2 bol úspešne zmenený"</string>
+	<string name="label_puk2_code">"Zadajte kód PUK2"</string>
+	<string name="fdn_enable_puk2_requested">"Heslo je nesprávne, zmeňte kód PIN2 a skúste to znova!"</string>
+	<string name="puk2_requested">"Heslo je nesprávne, karta SIM je uzamknutá! Vyžaduje sa kód PUK2."</string>
+	<string name="doneButton">"Hotovo"</string>
+	<string name="caller_manage_header">"Konferenčný hovor <xliff:g id="conf_call_time">%s</xliff:g>"</string>
+	<string name="caller_manage_manage_done_text">"Späť na hovor"</string>
+	<string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+	<string name="fake_phone_activity_infoText_text">"Telefónne číslo prichádzajúceho hovoru"</string>
+	<string name="fake_phone_activity_placeCall_text">"Falošný prichádzajúci hovor"</string>
+	<string name="sim_missing_continueView_text">"Pokračovať bez karty SIM"</string>
+	<string name="sim_missing_msg_text">"Žiadna karta SIM alebo chyba karty SIM"</string>
+	<string name="sim_unlock_dismiss_text">"Odmietnuť"</string>
+	<string name="sim_unlock_unlock_text">"Odblokovať"</string>
+	<string name="sim_unlock_status_text">"Overuje sa kód PIN\u2026"</string>
+	<string name="voicemail_settings_number_label">"Číslo hlasovej pošty"</string>
+	<string name="card_title_dialing">"Vytáča sa"</string>
+	<string name="card_title_redialing">"Opakuje sa"</string>
+	<string name="card_title_in_progress">"Aktuálny hovor"</string>
+	<string name="card_title_conf_call">"Konferenčný hovor"</string>
+	<string name="card_title_incoming_call">"Prichádzajúci hovor"</string>
+	<string name="card_title_cdma_call_waiting">"CDMA Čakajúci hovor"</string>
+	<string name="card_title_call_ended">"CALL ENDED"</string>
+	<string name="card_title_on_hold">"Podržaný"</string>
+	<string name="card_title_hanging_up">"Zavesenie"</string>
+	<string name="card_title_in_call">"Počas hovoru"</string>
+	<string name="card_title_mo_3">"Čakajúci hovor"</string>
+	<string name="card_title_mo_5">"Hovor blokovaný"</string>
+	<string name="card_title_mo_6">"Hovor blokovaný"</string>
+	<string name="redial_radio_dialog_wait">"Čakať"</string>
+	<string name="notification_missedCallTitle">"Neprijatý hovor"</string>
+	<string name="notification_missedCallsTitle">"Neprijaté hovory"</string>
+	<string name="notification_missedCallsMsg">"Počet zmeškaných hovorov: <xliff:g id="num_missed_calls">%s</xliff:g>"</string>
+	<string name="notification_missedCallTicker">"Zmeškaný hovor od <xliff:g id="missed_call_from">%s</xliff:g>"</string>
+	<string name="notification_ongoing_call_format">"Aktuálny hovor (<xliff:g id="duration">%s</xliff:g>)"</string>
+	<string name="notification_on_hold">"Podržaný"</string>
+	<string name="notification_voicemail_title">"Nová hlasová pošta"</string>
+	<string name="notification_voicemail_title_count">"Nová hlasová pošta  (<xliff:g id="count">%d</xliff:g>)"</string>
+	<string name="notification_voicemail_text_format">"Vytočiť <xliff:g id="voicemail_number">%s</xliff:g>"</string>
+	<string name="notification_voicemail_no_vm_number">"Neznáme číslo hlasovej pošty"</string>
+	<string name="notification_network_selection_title">"Žiadna služba"</string>
+	<string name="notification_network_selection_text">"Vybratá sieť (<xliff:g id="operator_name">%s</xliff:g>) je nedostupná"</string>
+	<string name="incall_error_power_off">"Ak chcete uskutočniť hovor, najprv vypnite režim za letu."</string>
+	<string name="incall_error_emergency_only">"Nezaregistrované v sieti."</string>
+	<string name="incall_error_out_of_service">"Mobilná sieť nie je dostupná."</string>
+	<string name="incall_error_no_phone_number_supplied">"Hovor sa neuskutočnil, nie je zadané platné číslo."</string>
+	<string name="incall_error_call_failed">"Hovor sa neuskutočnil."</string>
+	<string name="incall_status_dialed_mmi">"Spúšťa sa sekvencia MMI\u2026"</string>
+	<string name="incall_status_dialed_fc">"Spúšťa sa sekvencia kódu funkcie\u2026"</string>
+	<string name="incall_error_supp_service_unknown">"Nepodporovaná služba."</string>
+	<string name="incall_error_supp_service_switch">"Nemožno vymeniť hovory."</string>
+	<string name="incall_error_supp_service_separate">"Nemožno oddeliť hovor."</string>
+	<string name="incall_error_supp_service_conference">"Nemožno uskutočniť konferenčný hovor."</string>
+	<string name="incall_error_supp_service_reject">"Nemožno odmietnuť hovor."</string>
+	<string name="incall_error_supp_service_hangup">"Nemožno uvoľniť hovor(y)."</string>
+	<string name="emergency_enable_radio_dialog_title">"Núdzové volanie"</string>
+	<string name="emergency_enable_radio_dialog_message">"Zapína sa rádio\u2026"</string>
+	<string name="emergency_enable_radio_dialog_retry">"Mimo oblasti služby, opakovaný pokus\u2026"</string>
+	<string name="dial_emergency_error">"Hovor sa neuskutočnil, <xliff:g id="non_emergency_number">%s</xliff:g> nie je číslo tiesňového volania!"</string>
+	<string name="dial_emergency_empty_error">"Hovor sa neuskutočnil, vytočte číslo tiesňového volania!"</string>
+	<string name="dialerKeyboardHintText">"Vytáčať pomocou klávesnice"</string>
+	<string name="dtmfDialpadHintText">"Klávesnica s tónmi pri dotyku"</string>
+	<string name="dtmfDialpadHandleLabel">"Kláves."</string>
+	<string name="touchLockText">"Odomknite\ndvojitým ťuknutím"</string>
+	<string name="onscreenAnswerText">"Dvojitým ťuknutím\nodpovedajte"</string>
+	<string name="onscreenRejectText">"Odmietnite\ndvojitým ťuknutím"</string>
+	<string name="onscreenHoldText">"Podržaný"</string>
+	<string name="onscreenUnholdText">"Uvoľniť"</string>
+	<string name="onscreenSendCallText">"Odoslať"</string>
+	<string name="onscreenEndCallText">"Koniec"</string>
+	<string name="onscreenShowDialpadText">"Kláves."</string>
+	<string name="onscreenHideDialpadText">"Skryť"</string>
+	<string name="onscreenSpeakerText">"Reproduktor"</string>
+	<string name="onscreenMuteText">"Stlmiť"</string>
+	<string name="onscreenBluetoothText">"Bluetooth"</string>
+	<string name="onscreenAddCallText">"Pridať hovor"</string>
+	<string name="onscreenMergeCallsText">"Zlúčiť hovory"</string>
+	<string name="onscreenSwapCallsText">"Vymeniť"</string>
+	<string name="onscreenManageCallsText">"Správa hovorov"</string>
+	<string name="onscreenManageConferenceText">"Spravovať"</string>
+	<string name="importSimEntry">"Importovať"</string>
+	<string name="importAllSimEntries">"Importovať všetko"</string>
+	<string name="default_group">"Predvolené"</string>
+	<string name="selectAllSimEntries">"Vybrať všetky"</string>
+	<string name="attention">"Pozor"</string>
+	<string name="importingSimContacts">"Importujú sa kontakty z karty SIM"</string>
+	<string name="importToFDNfromContacts">"Importovať z kontaktov"</string>
+	<string name="hac_mode_title">"Načúvacie pomôcky"</string>
+	<string name="hac_mode_summary">"Zapnúť kompatibilitu načúvacích pomôcok"</string>
+	<string-array name="tty_mode_entries">
+		<item>"TTY vypnuté"</item>
+		<item>"TTY plné"</item>
+		<item>"TTY HCO"</item>
+		<item>"TTY VCO"</item>
+	</string-array>
+	<string name="eri_text_label">"Text ERI"</string>
+	<string name="dtmf_tones_title">"Tóny DTMF"</string>
+	<string name="dtmf_tones_summary">"Nastaviť dĺžku tónov DTMF"</string>
+	<string-array name="dtmf_tone_entries">
+		<item>"Normálne"</item>
+		<item>"Dlhé"</item>
+	</string-array>
+	<string-array name="dtmf_tone_values">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	<string name="network_message">"Sieťová správa"</string>
+	<string name="ota_title_activate">"Aktivujte svoj telefón"</string>
+	<string name="ota_touch_activate">"Na aktiváciu telefónnej služby je potrebné uskutočniť špeciálny hovor.\n\nPo stlačení tlačidla \u201CAktivovať\u201D počúvajte pokyny a aktivujte podľa nich telefón."</string>
+	<string name="ota_touch_activate_new">"Dotykom stlačte tlačidlo „Aktivovať“, čím vykonáte špeciálny hovor, ktorým sa aktivuje telefón v mobilnej sieti vašej prenosovej služby, aby ste mohli uskutočňovať hovory a pripájať sa k mobilným dátovým sieťam."</string>
+	<string name="ota_skip_activation_dialog_title">"Vynechať aktiváciu?"</string>
+	<string name="ota_skip_activation_dialog_message">"Ak vynecháte aktiváciu, nemôžete uskutočňovať hovory ani sa pripájať k mobilným dátovým sieťam (môžete sa však pripájať k sieťam Wi-Fi). Kým neaktivujete svoj telefón, ste vyzvaní na jeho aktiváciu vždy, keď ho zapnete."</string>
+	<string name="ota_skip_activation_dialog_skip_label">"Vynechať"</string>
+	<string name="ota_skip_activation_dialog_continue_label">"Aktivovať"</string>
+	<string name="ota_activate">"Aktivovať"</string>
+	<string name="ota_title_activate_success">"Telefón je aktivovaný!"</string>
+	<string name="ota_title_problem_with_activation">"Problém s aktiváciou"</string>
+	<string name="ota_listen">"Riaďte sa hovorenými pokynmi, až kým nebudete počuť, že aktivácia je dokončená."</string>
+	<string name="ota_dialpad">"Klávesnica"</string>
+	<string name="ota_speaker">"Reproduktor"</string>
+	<string name="ota_progress">"Počkajte na naprogramovanie telefónu."</string>
+	<string name="ota_failure">"Programovanie bolo neúspešné"</string>
+	<string name="ota_successful">"Telefón je teraz aktivovaný. Spustenie služby môže trvať až 15 minút."</string>
+	<string name="ota_unsuccessful">"Telefón sa neaktivoval.\nPravdepodobne je potrebné vyhľadať oblasť s lepším pokrytím (v blízkosti okna alebo vonku).\n\nSkúste to znova alebo sa obráťte na oddelenie služieb pre zákazníkov."</string>
+	<string name="ota_spc_failure">"PRÍLIŠ MNOHO ZLYHANÍ SPC"</string>
+	<string name="ota_call_end">"Späť"</string>
+	<string name="ota_try_again">"Skúsiť znova"</string>
+	<string name="ota_next">"Ďalej"</string>
+	<string name="ota_back">"Späť"</string>
+	<string name="ecm_exit_dialog">"EcmExitDialog"</string>
+	<string name="phone_entered_ecm_text">"Vstúpili ste do režimu núdzového spätného volania"</string>
+	<string name="phone_in_ecm_notification_title">"Režim núdzového spätného volania"</string>
+	<string name="phone_in_ecm_call_notification_text">"Údajové pripojenie je zakázané"</string>
+	<plurals name="phone_in_ecm_notification_time">
+		<item quantity="one">"Žiadne údajové pripojenie počas <xliff:g id="count">%s</xliff:g> min."</item>
+		<item quantity="other">"Žiadne údajové pripojenie počas <xliff:g id="count">%s</xliff:g> min."</item>
+	</plurals>
+	<plurals name="alert_dialog_exit_ecm">
+		<item quantity="one">"Telefón bude v režime núdzového spätného volania po dobu <xliff:g id="count">%s</xliff:g> min. V priebehu tejto doby nie je možné používať žiadne aplikácie s údajovým pripojením. Chcete teraz skončiť?"</item>
+		<item quantity="other">"Telefón bude v režime núdzového spätného volania po dobu <xliff:g id="count">%s</xliff:g> min. V priebehu tejto doby nie je možné používať žiadne aplikácie s údajovým pripojením. Chcete teraz skončiť?"</item>
+	</plurals>
+	<plurals name="alert_dialog_not_avaialble_in_ecm">
+		<item quantity="one">"Vybratá akcia nie je dostupná v režime núdzového spätného volania. Telefón sa bude nachádzať v tomto režime po dobu <xliff:g id="count">%s</xliff:g> min. Chcete teraz skončiť?"</item>
+		<item quantity="other">"Vybratá akcia nie je dostupná v režime núdzového spätného volania. Telefón sa bude nachádzať v tomto režime po dobu <xliff:g id="count">%s</xliff:g> min. Chcete teraz skončiť?"</item>
+	</plurals>
+	<string name="alert_dialog_in_ecm_call">"Vybratá akcia nie je dostupná v režime núdzového volania"</string>
+	<string name="progress_dialog_exiting_ecm">"Ukončuje sa režim núdzového spätného volania"</string>
+	<string name="alert_dialog_yes">"Áno"</string>
+	<string name="alert_dialog_no">"Nie"</string>
+	<string name="alert_dialog_dismiss">"Odmietnuť"</string>
+	<string name="absent_num">"CHÝBAJÚCE ČÍSLO"</string>
+	<string name="voicemail_settings">"Nastavenia hlasovej schránky"</string>
+	<string name="voicemail_number_not_set">"&lt;nenastavené&gt;"</string>
+	<string name="network_preference">"Režim siete"</string>
+	<string name="menu_preferred_network_edit">"Upraviť"</string>
+	<string name="menu_preferred_network_delete">"Odstrániť"</string>
+	<string name="label_cb">"Blokovanie hovorov"</string>
+	<string name="label_cb_incom">"Prichádzajúce hovory"</string>
+	<string name="pass_dialog_title">"Heslo"</string>
+	<string name="summ_cb_enable">"Zapnúť"</string>
+	<string name="summ_cb_disable">"Blokovať"</string>
+	<string name="confirm_button">"Potvrdiť"</string>
+	<string name="cancel_button">"Zrušiť"</string>
+	<string name="call_cost_settings">"Nastavenia"</string>
+	<string name="call_cost_activation_settings">"Neobmedzené"</string>
+	<string name="call_cost_pin2_err">"Heslo je nesprávne, zmeňte kód PIN2 a skúste to znova!"</string>
+	<string name="call_cost_unit">"Jednotka"</string>
+	<string name="call_cost_set_limit_off">"Vyp."</string>
+	<string name="call_cost_set_call_cost_empty">"Prázdne"</string>
+	<string name="revertButton">"Vrátiť"</string>
+	<string name="call_cost_reset_msg">"Obnoviť"</string>
+	<string name="cb_set_passwd_title">"Nastaviť heslo"</string>
+	<string name="cb_set_passwd_dialog_title">"Nastaviť heslo"</string>
+	<string name="cb_old_password">"Aktuálne heslo:"</string>
+	<string name="cb_new_password">"Nové heslo"</string>
+	<string name="cb_confirm_password">"Potvrdiť nové heslo:"</string>
+	<string name="cb_password_error">"Zadajte správne heslo."</string>
+	<string name="cb_passwords_error">"Heslá sa nezhodujú."</string>
+	<string name="cb_passwords_empty_error">"Musíte zadať a potvrdiť heslo."</string>
+	<string name="cb_password_empty_error">"Zadajte heslo, prosím."</string>
+	<string name="barring_pass_cancel">"Zrušiť"</string>
+	<string name="barring_pass_ok">"Ok"</string>
+	<string name="voicemail_provider">"Služba hlasovej schránky"</string>
+	<string name="voicemail_settings_for">"Nastavenia pre <xliff:g id="provider_name">%s</xliff:g>"</string>
+	<string name="other_settings">"Ďalšie nastavenia hovorov"</string>
+	<string name="dial_button_label">"Vytočiť"</string>
+	<string name="calling_via_template">"Volanie cez ^1\n<b>^2</b>"</string>
+	<string name="slide_to_answer">"Potiahnutím doprava odpoviete"</string>
+	<string name="slide_to_silence">"Potiahnutím doľava stíšite vyzváňanie"</string>
+	<string name="slide_to_decline">"Potiahnutím doľava odmietnete"</string>
+	<string name="slide_to_answer_and_hold">"Potiahnutím doprava odpovedzte a\npodržte aktívny hovor"</string>
+	<string name="slide_to_answer_and_end_active">"Potiahnutím doprava odpovedzte a ukončite aktívny hovor"</string>
+	<string name="slide_to_answer_and_end_onhold">"Potiahnutím doprava odpovedzte a ukončite podržaný hovor"</string>
+	<string name="summaryCallDuration">"\'00:00:00"</string>
+	<string name="messageOK">"Ok"</string>
+	<string name="messageCancel">"Zrušiť"</string>
+	<string name="slide_to_answer_hint">"Odpovedať"</string>
+	<string name="slide_to_decline_hint">"Odmietnuť"</string>
+	<string name="STR_TITLETEXT_UICC_TYPEPUK_COMMON_SHORT">"Zadajte kód PUK"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPUK_COMMON_SHORT">"Nesprávny kód PUK!\nZostávajúci počet pokusov: <xliff:g id="NUMBER_0">%d</xliff:g>"</string>
+	<string name="STR_TITLETEXT_UICC_NEWPIN_COMMON_SHORT">"Nový kód PIN"</string>
+	<string name="STR_TITLETEXT_UICC_VERIFYPIN_COMMON_SHORT">"Confirm new PIN"</string>
+	<string name="STR_TITLETEXT_UICC_MISMATCHPINS_COMMON_SHORT">"Zadané kódy PIN sa nezhodujú."</string>
+	<string name="STR_TITLETEXT_UICC_REMAINING_COMMON_SHORT">"Zostáva: "</string>
+	<string name="STR_TITLETEXT_UICC_PERMBLOCK_COMMON_SHORT">"Kód PUK zablokovaný"</string>
+	<string name="STR_TITLETEXT_UICC_INVAILDPIN_COMMON_SHORT">"Nesprávny kód PIN!\nZostávajúci počet pokusov: <xliff:g id="NUMBER_0">%d</xliff:g>"</string>
+	<string name="unlock_accept">"Prijať"</string>
+	<string name="unlock_send_sms">"Odoslať SMS"</string>
+	<string name="silent_silent">"Tichý"</string>
+	<string name="str_save">"Uložiť"</string>
+	<string name="str_delete">"Odstrániť"</string>
+	<string name="str_cancel">"Zrušiť"</string>
+	<string name="str_no_messages">"Žiadne správy"</string>
+	<string name="str_new_message">"Nová správa"</string>
+	<string name="send_sms">"Odoslať SMS"</string>
+	<string name="str_send">"Odoslať"</string>
+	<string name="menu_item1">"Nová správa"</string>
+	<string name="menu_item2">"Viacnás. výber"</string>
+	<string name="menu_item3">"Odstrániť všetky"</string>
+	<string name="str_delete_q">"Odstrániť?"</string>
+	<string name="excuse_messages_select_all">"Vybrať všetky"</string>
+	<string name="excuse_messages_deselect_all">"Zrušiť výber všetkých"</string>
+	<string name="excuse_messages_btn_delete">"Odstrániť"</string>
+	<string name="excuse_messages_multi_select">"Viacnás. výber"</string>
+	<string name="excuse_messages_delete_all">"Odstrániť všetky"</string>
+	<string name="excuse_messages_new_message">"Nová správa"</string>
+	<string name="excuse_messages_btn_cancel">"Zrušiť"</string>
+	<string name="excuse_messages_delete_question">"Odstrániť?"</string>
+	<string name="excuse_messages_saved">"Uložené"</string>
+	<string name="excuse_messages_delete">"Odstrániť"</string>
+	<string name="excuse_messages_len_btn">"Potvrdiť"</string>
+	<string name="yes">"Áno"</string>
+	<string name="no">"Nie"</string>
+	<string name="call_barring_title">"Blokovanie hovorov"</string>
+	<string name="camera_bright_key">"Jas"</string>
+	<string name="camera_zoom_key">"Priblíženie"</string>
+	<string name="pref_camera_zoom_entry_1x">"1x"</string>
+	<string name="pref_camera_zoom_entry_2x">"2x"</string>
+	<string name="incallmenu_Contact">"Kontakty"</string>
+	<string name="incallmenu_memo">"Poznámka"</string>
+	<string name="incallmenu_Sms">"Správa"</string>
+	<string name="CALLSTR_CALLREJECTING">"Tichý"</string>
+	<string name="CALLSTR_CALLERID">"ID volajúceho"</string>
+	<string name="CALLSTR_INCOMCALL">"Prichádzajúci hovor"</string>
+	<string name="CALLSTR_CALLTO">"Do"</string>
+	<string name="CALLSTR_REJECT_MEW_MSG">"Napísať správu"</string>
+	<string name="CALLSTR_REJECT_SEND">"Odoslať"</string>
+	<string name="CALLSTR_REJECT_EDIT">"Upraviť"</string>
+	<string name="custom_roaming_button">"Ok"</string>
+	<string name="kt_rad_plus">"+"</string>
+	<string name="name_ve">"Názov"</string>
+	<string name="label_ve">"Označenie"</string>
+	<string name="phone_number_ve">"01020573545"</string>
+</resources>
